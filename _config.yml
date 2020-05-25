@@ -1,3 +1,8 @@
 theme: jekyll-theme-minimal
-title: [Thomas Serre's personal website]
-description: [Thomas Serre is an Associate Professor in the Cognitive, Linguistic & Psychological Sciences at Brown University, Faculty Director of the Center for Computation & Visualization, and Associate Director of the Center for Computational Brain Sciences.]
+title: [Thomas Serre]
+description: []
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      logo: logo.gif
