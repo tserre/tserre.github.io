@@ -29,8 +29,10 @@
           <a href="/assets/serre_cv.pdf" title="Download CV">CV</a><br><br>
           <a href="https://x.com/tserre" title="X (Twitter): @tserre">𝕏</a> &nbsp;
           <a href="https://bsky.app/profile/thomasserre.bsky.social" title="Bluesky: @thomasserre.bsky.social">🦋</a> &nbsp;
-          <a href="https://www.linkedin.com/in/thomasserre/" title="LinkedIn">in</a> &nbsp;
-          <a href="https://vivo.brown.edu/display/tserre" title="Brown VIVO Profile">VIVO</a>
+          <a href="https://www.linkedin.com/in/thomasserre/" title="LinkedIn">in</a>
+          {% if site.github.is_user_page %} &nbsp;
+          <a href="{{ site.github.owner_url }}" title="View My GitHub Profile"><img src="/assets/img/github-mark.png" alt="GitHub" style="width: 20px; height: 20px; vertical-align: middle;"></a>
+          {% endif %}
         </p>
 
         {% if site.github.is_project_page %}
