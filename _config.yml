@@ -6,3 +6,4 @@ defaults:
       path: "assets/img"
     values:
       logo: logo.gif
+# Force rebuild - updated $(date)
