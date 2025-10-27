@@ -1,5 +1,5 @@
 ---
-layout: default
+# layout: default
 title: Thomas Serre - Computational Neuroscience & AI Research
 ---
 <head>
@@ -10,6 +10,7 @@ title: Thomas Serre - Computational Neuroscience & AI Research
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <link rel="canonical" href="https://tserre.github.io">
     
     <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="ejJP3EzEPiiDAocOP7Xx5FmgCY4Mvhki3BOGf8_NjE0">
@@ -91,7 +92,37 @@ title: Thomas Serre - Computational Neuroscience & AI Research
     }
     </script>
 </head>
-<img src="https://vivo.brown.edu/profile-images/a20/107/457/8fe/466/2b8/4d3/698/9fd/411/55/tserre_photo_.jpeg" alt="Thomas Serre" style="float: right; margin: 0 0 20px 20px; max-width: 200px; border-radius: 8px;">
+
+<div class="wrapper">
+  <header>
+    <h1><a href="/">Thomas Serre</a></h1>
+    
+    <p></p>
+    
+    <p>
+      Brown University<br>
+      Providence, RI 02912<br>
+      Email: <button onclick="this.innerHTML=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ==')" style="background:none;border:none;color:inherit;text-decoration:underline;cursor:pointer;padding:0;font:inherit;">Click to reveal</button><br>
+      - <a href="https://serre-lab.clps.brown.edu/">Lab website</a><br>
+      - <a href="https://github.com/serre-lab">Lab github</a><br>
+      <hr style="margin: 10px 0; border: none; border-top: 1px solid #ccc; width: 80%;">
+      - <a href="/assets/serre_cv.pdf" title="Download CV">CV</a><br>
+      - <a href="https://vivo.brown.edu/display/tserre">Brown profile</a><br><br>
+      <a href="https://x.com/tserre" title="X (Twitter): @tserre">𝕏</a> &nbsp;
+      <a href="https://bsky.app/profile/thomasserre.bsky.social" title="Bluesky: @thomasserre.bsky.social" style="text-decoration: none;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Bluesky_logo_%28black%29.svg/869px-Bluesky_logo_%28black%29.svg.png" alt="Bluesky" style="width: 20px; height: 20px; vertical-align: middle;">
+      </a> &nbsp;
+      <a href="https://www.linkedin.com/in/thomasserre/" title="LinkedIn">in</a> &nbsp;
+      <a href="https://orcid.org/0000-0003-0846-0039" title="ORCID Profile"><i class="fab fa-orcid"></i></a> &nbsp;
+      <a href="https://scholar.google.com/citations?user=kZlPW4wAAAAJ&hl=en&oi=ao" title="Google Scholar Profile" style="text-decoration: none;">
+        <img src="/assets/img/google-scholar.svg" alt="Google Scholar" style="width: 20px; height: 20px; vertical-align: middle; opacity: 0.7; transition: opacity 0.3s ease;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.7'">
+      </a> &nbsp;
+      <a href="https://github.com/tserre" title="View My GitHub Profile"><img src="/assets/img/github-mark.png" alt="GitHub" style="width: 20px; height: 20px; vertical-align: middle;"></a>
+    </p>
+  </header>
+  
+  <section>
+    <img src="https://vivo.brown.edu/profile-images/a20/107/457/8fe/466/2b8/4d3/698/9fd/411/55/tserre_photo_.jpeg" alt="Thomas Serre" style="float: right; margin: 0 0 20px 20px; max-width: 200px; border-radius: 8px;">
 
 Thomas Serre is the Thomas J. Watson, Sr. Professor of Science and Professor of <a href="https://brown.edu/academics/cognitive-linguistic-psychological-sciences">Cognitive & Psychological Sciences</a> and <a href="https://cs.brown.edu/">Computer Science</a> at Brown University.<br>
 
@@ -136,7 +167,7 @@ A seminar-style exploration of cutting-edge research at the intersection of natu
 
 <h2>Selected Recent Publications</h2>
 
-- T. Serre & E. Pavlick (2025). <a href="https://www.sciencedirect.com/science/article/abs/pii/S0896627325007524">From Prediction to Understanding: Will AI Foundation Models Transform Brain Science?</a> <i>Neuron</i>.<br>
+- T. Serre & E. Pavlick (2025). <a href="https://arxiv.org/abs/2509.17280">From Prediction to Understanding: Will AI Foundation Models Transform Brain Science?</a> <i>Neuron</i>.<br>
 - P. Roelfsema & T. Serre (2025). <a href="https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(25)00232-3">Feature binding in biological and artificial vision</a>. <i>Trends in Cognitive Sciences</i>.<br>
 - D. Linsley et al. (2025). <a href="https://openreview.net/forum?id=UIFAJZ22ZF">The 3D-PC: A benchmark for visual perspective taking in humans and machines</a>. <i>ICLR</i>.<br>
 - D. Linsley, P. Feng & T. Serre (2025). <a href="https://arxiv.org/abs/2504.16940">Better artificial intelligence does not mean better models of biology</a>. <i>arXiv preprint</i>.<br>
@@ -144,3 +175,14 @@ A seminar-style exploration of cutting-edge research at the intersection of natu
 
 
 <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+  </section>
+  
+  <footer>
+  </footer>
+</div>
+
+<!-- Font Awesome for social icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</body>
+</html>
