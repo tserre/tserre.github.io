@@ -36,18 +36,29 @@ make failed, exit code 2
 ```
 
 **Root Cause:** 
-- The old `github-pages` gem (version 232) uses Jekyll 3.10.0
-- Jekyll 3.10.0 depends on `em-websocket` which needs `eventmachine 1.2.7`
-- `eventmachine 1.2.7` is very old and incompatible with Ruby 3.4.7's C++ toolchain
+- The C++ headers from Xcode Command Line Tools are incomplete in `/Library/Developer/CommandLineTools/usr/include/c++/v1/` (only ~11 files instead of 200+)
+- The proper headers exist in `/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/` but the symlink is broken
+- This affects ALL C++ compilation on the system, not just Ruby gems
+- Requires fixing the Command Line Tools installation (user intervention needed)
 
 **System Info:**
-- ✅ Xcode Command Line Tools: Installed
+- ⚠️ Xcode Command Line Tools: Installed but incomplete C++ headers
 - ✅ Conda: Available
-- ✅ Homebrew Ruby: 3.4.7 (latest)
+- ✅ rbenv: Installed with Ruby 2.7.8 and 3.4.7
 
 ---
 
 ## Options to Fix (For Future Agent)
+
+### Option 0: Fix C++ Headers (Recommended First Step)
+The Command Line Tools installation has incomplete C++ headers. Fix this first:
+
+```bash
+sudo rm -rf /Library/Developer/CommandLineTools/usr/include/c++
+sudo ln -s /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++ /Library/Developer/CommandLineTools/usr/include/c++
+```
+
+Then retry bundle install with either Ruby version.
 
 ### Option 1: Use Conda Environment (User's Preference)
 Create an isolated conda environment with an older Ruby version that's compatible with `github-pages`:
@@ -108,16 +119,39 @@ bundle exec jekyll serve
 
 ---
 
-## Next Steps
+## ✅ SETUP COMPLETE!
 
-1. **Choose an option above** (recommend Option 1 - Conda, per user preference)
-2. **Complete the installation**
-3. **Test local server:**
-   ```bash
-   bundle exec jekyll serve
-   # Should open at http://localhost:4000
-   ```
-4. **Test changes on dev branch** before merging to master
+**Date:** October 31, 2025, Evening
+
+**Final Solution:**
+1. ✅ Fixed C++ headers by creating proper symlink (user action)
+2. ✅ Installed Ruby 3.3.0 via rbenv (compatible with eventmachine)
+3. ✅ Installed Jekyll 4.4.1 with all dependencies
+4. ✅ Server running successfully at http://localhost:4000
+
+**Lessons Learned:**
+- Ruby 3.4.7 is too new for `eventmachine 1.2.7` (has C++ compiler detection bug)
+- Ruby 3.3.0 works perfectly
+- The C++ header fix was essential for any native extension compilation
+- Modern Jekyll (4.x) is much easier to set up than old github-pages
+
+## How to Use
+
+**Start the server:**
+```bash
+cd /Users/tserre/Projects/tserre.github.io
+eval "$(rbenv init - zsh)"  # Make sure rbenv is active
+bundle exec jekyll serve
+# Opens at http://localhost:4000
+```
+
+**Make changes:**
+- Edit files in the project
+- Jekyll auto-rebuilds
+- Refresh browser to see changes
+
+**Stop the server:**
+- Press Ctrl+C in terminal
 
 ---
 
