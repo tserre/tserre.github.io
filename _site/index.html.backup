@@ -1,0 +1,184 @@
+<head>
+    <!-- Basic Meta Tags -->
+    <meta name="description" content="Thomas Serre is the Thomas J. Watson, Sr. Professor of Science at Brown University. Research in computational neuroscience, AI, brain-inspired vision models, visual perception, and explainable AI.">
+    <meta name="keywords" content="Thomas Serre, Brown University, computational neuroscience, artificial intelligence, AI, NeuroAI, computer vision, deep learning, explainable AI, visual perception, CRAFT, MACO, Xplique, brain-inspired AI, visual reasoning, cognitive science, machine learning, neural networks, MIT, ANITI, CVPR, ICML, ICLR, NeurIPS, PLOS Computational Biology, NSF, DARPA, IEEE PAMI, vision, RNNs, recurrent neural networks, visual cortex, modelling, modeling, visual processing">
+    <meta name="author" content="Thomas Serre">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="canonical" href="https://tserre.github.io">
+    
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="ejJP3EzEPiiDAocOP7Xx5FmgCY4Mvhki3BOGf8_NjE0">
+    
+    
+    <!-- Open Graph Meta Tags (for social media sharing) -->
+    <meta property="og:title" content="Thomas Serre - Computational Neuroscience & AI">
+    <meta property="og:description" content="Professor of Cognitive & Psychological Sciences and Computer Science at Brown University. Research at the intersection of neuroscience and AI.">
+    <meta property="og:image" content="https://vivo.brown.edu/profile-images/a20/107/457/8fe/466/2b8/4d3/698/9fd/411/55/tserre_photo_.jpeg">
+    <meta property="og:url" content="https://tserre.github.io">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Thomas Serre - Brown University">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@tserre">
+    <meta name="twitter:creator" content="@tserre">
+    <meta name="twitter:title" content="Thomas Serre - Brown University">
+    <meta name="twitter:description" content="Research in computational neuroscience and brain-inspired AI at Brown University">
+    
+    <!-- Structured Data (JSON-LD) for Google -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Thomas Serre",
+        "jobTitle": "Thomas J. Watson, Sr. Professor of Science",
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Brown University"
+            },
+            {
+                "@type": "Organization", 
+                "name": "Artificial and Natural Intelligence Toulouse Institute (ANITI)"
+            }
+        ],
+        "url": "https://tserre.github.io",
+        "description": "Thomas Serre is the Thomas J. Watson, Sr. Professor of Science at Brown University. Research in computational neuroscience, AI, brain-inspired vision models, visual perception, and explainable AI.",
+        "image": "https://vivo.brown.edu/profile-images/a20/107/457/8fe/466/2b8/4d3/698/9fd/411/55/tserre_photo_.jpeg",
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Brown University",
+                "department": "Cognitive & Psychological Sciences and Computer Science"
+            }
+        ],
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Professor",
+            "occupationLocation": {
+                "@type": "Place",
+                "name": "Brown University"
+            }
+        },
+        "knowsAbout": [
+            "Computational Neuroscience",
+            "Artificial Intelligence", 
+            "Computer Vision",
+            "Deep Learning",
+            "Explainable AI",
+            "Visual Perception",
+            "Cognitive Science",
+            "Machine Learning",
+            "Neural Networks"
+        ],
+        "sameAs": [
+            "https://scholar.google.com/citations?user=kZlPW4wAAAAJ",
+            "https://github.com/serre-lab",
+            "https://serre-lab.clps.brown.edu/",
+            "https://x.com/tserre",
+            "https://bsky.app/profile/thomasserre.bsky.social",
+            "https://www.linkedin.com/in/thomasserre/"
+        ],
+        "alumniOf": {
+            "@type": "Organization",
+            "name": "MIT"
+        }
+    }
+    </script>
+</head>
+
+<div class="wrapper">
+  <header>
+    <h1><a href="/">Thomas Serre</a></h1>
+    
+    <p></p>
+    
+    <p>
+      Brown University<br>
+      Providence, RI 02912<br>
+      Email: <button onclick="this.innerHTML=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ==')" style="background:none;border:none;color:inherit;text-decoration:underline;cursor:pointer;padding:0;font:inherit;">Click to reveal</button><br>
+      - <a href="https://serre-lab.clps.brown.edu/">Lab website</a><br>
+      - <a href="https://github.com/serre-lab">Lab github</a><br>
+      <hr style="margin: 10px 0; border: none; border-top: 1px solid #ccc; width: 80%;">
+      - <a href="/assets/serre_cv.pdf" title="Download CV">CV</a><br>
+      - <a href="https://vivo.brown.edu/display/tserre">Brown profile</a><br><br>
+      <a href="https://x.com/tserre" title="X (Twitter): @tserre">𝕏</a> &nbsp;
+      <a href="https://bsky.app/profile/thomasserre.bsky.social" title="Bluesky: @thomasserre.bsky.social" style="text-decoration: none;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Bluesky_logo_%28black%29.svg/869px-Bluesky_logo_%28black%29.svg.png" alt="Bluesky" style="width: 20px; height: 20px; vertical-align: middle;">
+      </a> &nbsp;
+      <a href="https://www.linkedin.com/in/thomasserre/" title="LinkedIn">in</a> &nbsp;
+      <a href="https://orcid.org/0000-0003-0846-0039" title="ORCID Profile"><i class="fab fa-orcid"></i></a> &nbsp;
+      <a href="https://scholar.google.com/citations?user=kZlPW4wAAAAJ&hl=en&oi=ao" title="Google Scholar Profile" style="text-decoration: none;">
+        <img src="/assets/img/google-scholar.svg" alt="Google Scholar" style="width: 20px; height: 20px; vertical-align: middle; opacity: 0.7; transition: opacity 0.3s ease;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.7'">
+      </a> &nbsp;
+      <a href="https://github.com/tserre" title="View My GitHub Profile"><img src="/assets/img/github-mark.png" alt="GitHub" style="width: 20px; height: 20px; vertical-align: middle;"></a>
+    </p>
+  </header>
+  
+  <section>
+    <img src="https://vivo.brown.edu/profile-images/a20/107/457/8fe/466/2b8/4d3/698/9fd/411/55/tserre_photo_.jpeg" alt="Thomas Serre" style="float: right; margin: 0 0 20px 20px; max-width: 200px; border-radius: 8px;">
+
+Thomas Serre is the Thomas J. Watson, Sr. Professor of Science and Professor of <a href="https://brown.edu/academics/cognitive-linguistic-psychological-sciences">Cognitive & Psychological Sciences</a> and <a href="https://cs.brown.edu/">Computer Science</a> at Brown University.<br>
+
+He is the Faculty Director of the <a href="https://ccv.brown.edu/">Center for Computation and Visualization</a> and Associate Director of the <a href="https://ccbs.carney.brown.edu/">Center for Computational Brain Science</a>. He also holds an International Chair in AI within the <a href="https://aniti.univ-toulouse.fr/">Artificial and Natural Intelligence Toulouse Institute (ANITI)</a> (France).<br>
+Dr. Serre received his Ph.D. in Neuroscience from MIT (2006) and MSc in EECS from Télécom Bretagne, France (2000).<br>
+
+His research focuses on understanding neural computations supporting visual perception, with particular emphasis on the role of recurrent and feedback processes in visual reasoning. His work bridges neuroscience and artificial intelligence, developing brain-inspired computational models that have been featured in outlets including BBC, The Economist, New Scientist, and Scientific American.<br>
+
+Dr. Serre serves as area chair for top-tier conferences including CVPR, ICML, ICLR, and NeurIPS, and as Neuroscience section editor for PLOS Computational Biology.<br>
+
+He received an NSF Early Career Award and DARPA Young Faculty Award. His team's work on human action recognition earned the IEEE PAMI Helmholtz Prize (2021) and Mark Everingham Prize (2022). <br><br>
+
+<h2>Research</h2>
+
+My research investigates the computational principles of biological vision to understand how the brain works and to build more human-like AI systems. I work at the intersection of neuroscience, cognitive science, and artificial intelligence.<br><br>
+
+<h3>Current Research Directions</h3>
+
+<b>Human-AI Alignment in Vision</b><br>
+We are developing methods to quantify and improve the alignment between deep neural networks and human visual processing. Our <a href="https://arxiv.org/abs/2504.16940">recent work</a> reveals that despite impressive performance, current vision models process information fundamentally differently from humans—a gap crucial to understanding both for building more robust AI systems and for revealing brain mechanisms that support human vision. Our harmonization procedure demonstrates that alignment can be dramatically improved without changing network architectures, suggesting the misalignment stems not from structural limitations but from how these models are trained. This insight has led us to adopt a <a href="https://openreview.net/forum?id=KeiQNpb7sv">developmental psychology approach</a>, identifying the learning principles and developmental trajectories that shape human vision—principles we can incorporate into AI training to create models that not only perform well but genuinely see the world as humans do. <i>Funded by NSF</i><br><br>
+
+<b>Cognitive Benchmarks for AI Visual Reasoning</b><br>
+We develop rigorous cognitive-psychology-inspired tests to evaluate fundamental gaps between human and machine vision. Our benchmarks reveal systematic failures in modern AI: the <a href="https://proceedings.neurips.cc/paper/2018/hash/ec8956637a99787bd197eacd77acce5e-Abstract.html">Pathfinder challenge</a> shows feedforward networks fail at contour integration that humans solve effortlessly—a test later adopted by <a href="https://arxiv.org/pdf/2011.04006">Google DeepMind</a>, who confirmed that even state-of-the-art transformers fail while our brain-inspired recurrent models succeed. Our <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/c08ee8fe3d19521f3bfa4102898329fd-Abstract-Datasets_and_Benchmarks.html">compositional reasoning benchmark</a> reveals AI's inability to flexibly combine visual concepts, while the <a href="https://openreview.net/forum?id=UIFAJZ22ZF">3D-PC benchmark</a> demonstrates failure at visual perspective-taking—a key signature of theory of mind. Even seemingly simple <a href="https://royalsocietypublishing.org/doi/10.1098/rsfs.2018.0011">same-different judgments</a> expose how neural networks struggle with basic visual relationships—work that also helps identify <a href="https://www.eneuro.org/content/8/1/ENEURO.0267-20.2020">brain mechanisms underlying relational processing</a>. <i>Funded by ONR</i><br><br>
+
+<b>Cortical Feedback and Visual Reasoning</b><br>
+We are reverse-engineering how feedback connections in the brain enable complex visual reasoning and mental simulation. Our cognitive benchmarks reveal systematic failures of feedforward networks—from contour integration to relational judgments—suggesting precisely which computations require recurrent processing. These insights guide our experimental design: our <a href="https://www.eneuro.org/content/8/1/ENEURO.0267-20.2020">neurophysiology work</a> shows that same-different tasks that strain feedforward AI engage distinct neural dynamics in primates, while our <a href="https://www.cell.com/current-biology/fulltext/S0960-9822(24)01380-0">recent studies</a> reveal that both monkeys and recurrent neural networks use internal "mental simulations" to solve challenging visual tasks. By identifying where feedforward processing fails, we can pinpoint the computational role of cortical feedback—work that is reshaping our understanding of how biological vision achieves robust reasoning through recurrence. <i>Funded by ONR</i><br><br>
+
+<b>Explainable AI for Scientific Discovery</b><br>
+In collaboration with the Artificial and Natural Intelligence Toulouse Institute, we're creating tools to understand and interpret deep learning models. Our <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Fel_CRAFT_Concept_Recursive_Activation_FacTorization_for_Explainability_CVPR_2023_paper.pdf">CRAFT framework</a> (Fel et al., CVPR 2023) and <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/76d2f8e328e1081c22a77ca0fa330ca5-Abstract-Conference.html">MACO approach</a> (Fel et al., NeurIPS 2023) help researchers peek inside the "black box" of AI. CRAFT provides concept-based explanations that reveal both "what" and "where" models look, while MACO unlocks feature visualization for state-of-the-art deep networks. These methods are implemented in our open-source <a href="https://github.com/deel-ai/xplique">Xplique toolbox</a>, making explainability accessible to the broader research community. Critically, our explainability tools reveal when AI learns <a href="https://onlinelibrary.wiley.com/doi/10.1111/his.15180">deceptive strategies</a>—as we demonstrated in histopathology, where models claiming superhuman cancer diagnosis actually relied on spurious correlations rather than meaningful biological features. See these tools in action: <a href="https://serre-lab.github.io/Lens/">LENS</a> explains what ImageNet models really see, and <a href="https://serre-lab.github.io/LeafLens/">LeafLens</a> reveals how AI identifies plant species from cleared leaves. We're now developing methods to identify the computational mechanisms learned by foundation models—work outlined in our perspective on <a href="https://arxiv.org/abs/2509.17280">moving from prediction to understanding in brain science</a>. <i>Funded by ANR and NSF</i><br><br>
+
+<h2>Teaching</h2>
+
+I teach computational courses at the interface between natural and artificial intelligence, bridging neuroscience, cognitive science, and AI.<br><br>
+
+<b>CPSY 1291: Computational Methods for Mind, Brain & Behavior</b><br>
+<i>Advanced Undergraduate/Graduate, Fall Semester</i><br>
+A broad introduction to NeuroAI combining lectures with hands-on programming assignments. Students explore computational models of brain and cognition, classical machine learning algorithms, and modern deep learning architectures.<br><br>
+
+<b>CPSY 1950: Deep Learning in Brains, Minds & Machines</b><br>
+<i>Advanced Undergraduate/Graduate, Spring Semester</i><br>
+A seminar-style exploration of cutting-edge research at the intersection of natural and artificial intelligence. Students engage with recent papers and develop critical perspectives on how biological and artificial systems process information.<br><br>
+
+<h2>Selected Recent Publications</h2>
+
+- T. Serre & E. Pavlick (2025). <a href="https://arxiv.org/abs/2509.17280">From Prediction to Understanding: Will AI Foundation Models Transform Brain Science?</a> <i>Neuron</i>.<br>
+- P. Roelfsema & T. Serre (2025). <a href="https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(25)00232-3">Feature binding in biological and artificial vision</a>. <i>Trends in Cognitive Sciences</i>.<br>
+- D. Linsley et al. (2025). <a href="https://openreview.net/forum?id=UIFAJZ22ZF">The 3D-PC: A benchmark for visual perspective taking in humans and machines</a>. <i>ICLR</i>.<br>
+- D. Linsley, P. Feng & T. Serre (2025). <a href="https://arxiv.org/abs/2504.16940">Better artificial intelligence does not mean better models of biology</a>. <i>arXiv preprint</i>.<br>
+- A. Ahuja et al. (2024). <a href="https://www.cell.com/current-biology/fulltext/S0960-9822(24)01380-0">Monkeys engage in visual simulation to solve complex problems</a>. <i>Current Biology</i>.<br><br>
+
+
+<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+  </section>
+  
+  <footer>
+  </footer>
+</div>
+
+<!-- Font Awesome for social icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</body>
+</html>
