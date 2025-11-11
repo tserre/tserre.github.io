@@ -1,39 +1,44 @@
----
-layout: null
-sitemap:
-  exclude: 'yes'
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% comment %} Homepage {% endcomment %}
   <url>
-    <loc>{{ site.url }}/</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <loc>https://thomas-serre.com/</loc>
+    <lastmod>2025-11-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
-  {% comment %} Blog Posts {% endcomment %}
-  {% for post in site.posts %}
   <url>
-    <loc>{{ site.url }}{{ post.url }}</loc>
-    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    <loc>https://thomas-serre.com/about</loc>
+    <lastmod>2025-11-11T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  {% endfor %}
   
-  {% comment %} Static Pages {% endcomment %}
-  {% for page in site.pages %}
-    {% if page.url != '/sitemap.xml' and page.url != '/404.html' and page.url != '/robots.txt' and page.url != '/index.html.backup' %}
-      {% unless page.url contains '/_' or page.url contains '/assets/' or page.url contains '/font/' or page.url contains '/img/' or page.url contains '/js/' or page.url contains '.sh' or page.url contains 'AGENT_TASK' or page.url contains 'JEKYLL_SETUP' or page.url contains 'INDEXING_FIX' or page.url contains 'CUSTOM_DOMAIN' %}
   <url>
-    <loc>{{ site.url }}{{ page.url | remove: 'index.html' }}</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <loc>https://thomas-serre.com/blog</loc>
+    <lastmod>2025-11-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://thomas-serre.com/2020/05/23/GAN</loc>
+    <lastmod>2020-05-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-      {% endunless %}
-    {% endif %}
-  {% endfor %}
+  
+  <url>
+    <loc>https://thomas-serre.com/2020/05/24/deep-learning</loc>
+    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://thomas-serre.com/2020/05/24/test2</loc>
+    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
