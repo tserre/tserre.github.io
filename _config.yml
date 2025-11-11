@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 url: https://thomas-serre.com
 title: Thomas Serre
-description: "Thomas Serre is the Thomas J. Watson, Sr. Professor of Science at Brown University. Research in computational neuroscience, AI, brain-inspired vision models, visual perception, and explainable AI."
+description: "Computational neuroscience, AI, brain-inspired vision models, visual perception, and explainable AI."
 defaults:
   - scope:
       path: "assets/img"
