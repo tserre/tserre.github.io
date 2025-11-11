@@ -1,9 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
   <url>
-    <loc>https://tserre.github.io/</loc>
-    <lastmod>2025-10-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://thomas-serre.com/</loc>
+    <lastmod>2025-11-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  
+  <!-- About Page -->
+  <url>
+    <loc>https://thomas-serre.com/about</loc>
+    <lastmod>2025-11-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Blog Page -->
+  <url>
+    <loc>https://thomas-serre.com/blog</loc>
+    <lastmod>2025-11-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://thomas-serre.com/2020/05/23/GAN</loc>
+    <lastmod>2020-05-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://thomas-serre.com/2020/05/24/deep-learning</loc>
+    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://thomas-serre.com/2020/05/24/test2</loc>
+    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
