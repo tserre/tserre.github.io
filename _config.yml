@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 url: https://thomas-serre.com
 title: Thomas Serre
-description: "Computational neuroscience • AI • brain-inspired vision models • visual perception • explainable AI"
+description: "Vision • Computational Neuroscience • AI • NeuroAI • XAI"
 defaults:
   - scope:
       path: "assets/img"
