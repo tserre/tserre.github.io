@@ -11,35 +11,35 @@ layout: null
   </url>
   
   <url>
-    <loc>https://thomas-serre.com/about</loc>
+    <loc>https://thomas-serre.com/about.html</loc>
     <lastmod>2025-11-11T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://thomas-serre.com/blog</loc>
+    <loc>https://thomas-serre.com/blog.html</loc>
     <lastmod>2025-11-11T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://thomas-serre.com/2020/05/23/GAN</loc>
+    <loc>https://thomas-serre.com/2020/05/23/GAN.html</loc>
     <lastmod>2020-05-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://thomas-serre.com/2020/05/24/deep-learning</loc>
+    <loc>https://thomas-serre.com/2020/05/24/deep-learning.html</loc>
     <lastmod>2020-05-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://thomas-serre.com/2020/05/24/test2</loc>
+    <loc>https://thomas-serre.com/2020/05/24/test2.html</loc>
     <lastmod>2020-05-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
