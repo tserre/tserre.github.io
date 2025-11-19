@@ -24,7 +24,7 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p style="font-style: italic; color: #666; font-size: 14px; line-height: 1.5;">{{ site.description | default: site.github.project_tagline }}</p>
+        <p style="font-style: italic; color: #666; font-size: 14px; line-height: 1.5;">{{ site.description | default: site.github.project_tagline | newline_to_br }}</p>
         
         <p style="font-weight: 500; color: #333; font-size: 13px; line-height: 1.6;">
           Brown University<br>

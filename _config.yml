@@ -1,7 +1,8 @@
 theme: jekyll-theme-minimal
 url: https://thomas-serre.com
 title: Thomas Serre
-description: "Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI"
+description: "Machine and Biological Vision • Computational Neuroscience
+AI • NeuroAI • XAI"
 defaults:
   - scope:
       path: "assets/img"
