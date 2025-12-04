@@ -4,9 +4,9 @@
 
 You're seeing **"Page with redirect"** errors in Google Search Console for `https://tserre.github.io/`. This is happening because:
 
-1. ✅ **Your site is correctly configured** with custom domain `thomas-serre.com`
-2. ✅ **GitHub Pages automatically redirects** `tserre.github.io` → `thomas-serre.com`
-3. ⚠️ **Google Search Console tracks both domains** and flags the redirects as "errors"
+1. Your site is correctly configured with custom domain `thomas-serre.com`
+2. GitHub Pages automatically redirects `tserre.github.io` → `thomas-serre.com`
+3. Google Search Console tracks both domains and flags the redirects as "errors"
 
 ## Why This Happens
 
@@ -46,13 +46,13 @@ If you want to keep both properties:
 
 ## Current Configuration Status
 
-✅ **All correct settings are in place:**
+All settings are correctly configured:
 
-- **`_config.yml`**: `url: https://thomas-serre.com` ✓
-- **`CNAME` file**: Points to `thomas-serre.com` ✓
-- **Canonical tags**: Using `{{ page.url | prepend: site.url }}` → `thomas-serre.com` ✓
-- **Sitemap**: Lists only `thomas-serre.com` URLs ✓
-- **Robots.txt**: References `thomas-serre.com/sitemap.xml` ✓
+- `_config.yml`: `url: https://thomas-serre.com`
+- `CNAME` file: Points to `thomas-serre.com`
+- Canonical tags: Using `{{ page.url | prepend: site.url }}` → `thomas-serre.com`
+- Sitemap: Lists only `thomas-serre.com` URLs
+- Robots.txt: References `thomas-serre.com/sitemap.xml`
 
 ## What You Should Do
 
@@ -75,10 +75,10 @@ If you want to keep both properties:
 
 ### Why Redirects Are Good:
 
-- ✅ **SEO Value**: 301 redirects pass link equity from old domain to new domain
-- ✅ **User Experience**: Old bookmarks and links still work
-- ✅ **Domain Authority**: Consolidates all traffic and authority to one domain
-- ✅ **Professional**: Redirects show proper domain migration
+- SEO Value: 301 redirects pass link equity from old domain to new domain
+- User Experience: Old bookmarks and links still work
+- Domain Authority: Consolidates all traffic and authority to one domain
+- Professional: Redirects show proper domain migration
 
 ## Expected Timeline
 
@@ -97,12 +97,8 @@ If you want to keep both properties:
 
 ## Summary
 
-**The redirect errors are not actual problems** - they're Google Search Console reporting on expected behavior. Your site is correctly configured. The redirects from `tserre.github.io` to `thomas-serre.com` are:
+The redirect errors are not actual problems - they're Google Search Console reporting on expected behavior. Your site is correctly configured. The redirects from `tserre.github.io` to `thomas-serre.com` are automatic (GitHub Pages), correct (301 permanent redirects), intentional (custom domain setup), and SEO-friendly (pass link equity).
 
-- ✅ Automatic (GitHub Pages)
-- ✅ Correct (301 permanent redirects)
-- ✅ Intentional (custom domain setup)
-- ✅ SEO-friendly (pass link equity)
+Focus on monitoring `thomas-serre.com` in Google Search Console and either remove or ignore the `tserre.github.io` property. The redirect errors will resolve as Google understands the redirects are permanent and intentional.
 
-**Action**: Focus on monitoring `thomas-serre.com` in Google Search Console and either remove or ignore the `tserre.github.io` property. The redirect errors will resolve as Google understands the redirects are permanent and intentional.
 
