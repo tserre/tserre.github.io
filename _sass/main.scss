@@ -1,3 +1,76 @@
 .current {
     color: green;
-  }
+}
+
+/* Goodfire-inspired font scheme */
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("/assets/fonts/suisse-intl/SuisseIntl-Book.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("/assets/fonts/suisse-intl/SuisseIntl-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("/assets/fonts/suisse-intl/SuisseIntl-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("/assets/fonts/suisse-intl/SuisseIntl-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Suisse Works";
+  src: url("/assets/fonts/suisse-works/SuisseWorks-Book.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Apply fonts globally */
+body {
+  font-family: "Suisse Intl", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+
+/* Headings use Suisse Intl with appropriate weights */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Suisse Intl", serif !important;
+  font-weight: 600;
+}
+
+/* Monospace for code */
+code, pre, kbd, samp {
+  font-family: "IBM Plex Mono", monospace !important;
+}
+
+/* UI elements can use Suisse Works */
+button, input, select, textarea {
+  font-family: "Suisse Works", sans-serif !important;
+}
