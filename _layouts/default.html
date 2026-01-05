@@ -10,6 +10,67 @@
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!-- Font Awesome for social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- Goodfire font scheme -->
+    <style>
+      @font-face {
+        font-family: "IBM Plex Mono";
+        src: url("{{ '/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.ttf' | relative_url }}") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("{{ '/assets/fonts/suisse-intl/SuisseIntl-Book.otf' | relative_url }}") format("opentype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("{{ '/assets/fonts/suisse-intl/SuisseIntl-Medium.otf' | relative_url }}") format("opentype");
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("{{ '/assets/fonts/suisse-intl/SuisseIntl-SemiBold.otf' | relative_url }}") format("opentype");
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("{{ '/assets/fonts/suisse-intl/SuisseIntl-Bold.otf' | relative_url }}") format("opentype");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Works";
+        src: url("{{ '/assets/fonts/suisse-works/SuisseWorks-Book.otf' | relative_url }}") format("opentype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      body, body * {
+        font-family: "Suisse Intl", serif !important;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-smoothing: antialiased;
+      }
+      h1, h2, h3, h4, h5, h6, header h1, header h1 a {
+        font-family: "Suisse Intl", serif !important;
+        font-weight: 600 !important;
+      }
+      code, pre, kbd, samp {
+        font-family: "IBM Plex Mono", monospace !important;
+      }
+      button, input, select, textarea {
+        font-family: "Suisse Works", sans-serif !important;
+      }
+    </style>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
