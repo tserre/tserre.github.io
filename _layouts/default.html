@@ -67,11 +67,24 @@
       h1, h2, h3, h4, h5, h6, header h1, header h1 a {
         font-family: "Suisse Intl", serif !important;
         font-weight: 600 !important;
+        color: #0366d6 !important;
       }
       /* Small caps for section headers */
       h2, h3 {
         font-variant: small-caps !important;
         letter-spacing: 0.05em;
+      }
+      /* Standardize all links to use the same blue */
+      a, a:link, a:visited {
+        color: #0366d6 !important;
+      }
+      a:hover, a:focus {
+        color: #0366d6 !important;
+        opacity: 0.8;
+      }
+      /* Social icons hover */
+      .social-icons a:hover, .social-icons button:hover {
+        color: #0366d6 !important;
       }
       code, pre, kbd, samp {
         font-family: "IBM Plex Mono", monospace !important;
@@ -111,7 +124,7 @@
               transition: color 0.3s ease;
             }
             .social-icons a:hover, .social-icons button:hover {
-              color: #0066cc;
+              color: #0366d6;
             }
             .social-icons i {
               font-size: 18px;
