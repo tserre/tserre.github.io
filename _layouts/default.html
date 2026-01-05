@@ -69,6 +69,13 @@
         font-weight: 600 !important;
         color: #0366d6 !important;
       }
+      /* Normalize first letter size in header */
+      header h1::first-letter, header h1 a::first-letter {
+        font-size: 1em !important;
+        line-height: 1em !important;
+        float: none !important;
+        initial-letter: normal !important;
+      }
       /* Small caps for section headers */
       h2, h3 {
         font-variant: small-caps !important;
