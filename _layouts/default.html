@@ -54,11 +54,15 @@
         font-style: normal;
         font-display: swap;
       }
-      body, body * {
+      body, p, span, div, a, li, ul, ol, section, article, header, footer {
         font-family: "Suisse Intl", serif !important;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         font-smoothing: antialiased;
+      }
+      /* Exclude icon fonts from font-family override */
+      .fa, .fas, .far, .fab, .fal, .fad, [class^="fa-"], [class*=" fa-"], i[class*="fa-"] {
+        font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands", "Font Awesome 6 Pro" !important;
       }
       h1, h2, h3, h4, h5, h6, header h1, header h1 a {
         font-family: "Suisse Intl", serif !important;
