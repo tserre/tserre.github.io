@@ -1,31 +1,28 @@
 #!/bin/bash
 
 # Script to start Jekyll server for local development
-# Handles bundler setup and starts the server
+# Uses rbenv Ruby if available
 
 set -e
 
-echo "🚀 Starting Jekyll development server..."
-echo ""
-
-# Check if bundle is installed
-if ! command -v bundle &> /dev/null; then
-    echo "❌ Bundler not found. Installing..."
-    gem install bundler
+# Initialize rbenv if available
+if command -v rbenv &> /dev/null; then
+    eval "$(rbenv init - bash)"
 fi
 
-# Update bundler if needed
-echo "📦 Checking bundler version..."
-bundle update --bundler 2>/dev/null || true
+echo "🚀 Starting Jekyll development server..."
+echo "   Ruby: $(ruby --version | cut -d' ' -f1-2)"
+echo "   Bundler: $(bundle --version)"
+echo ""
 
-# Install dependencies if needed
+# Install dependencies if needed (only first time)
 if [ ! -d "vendor/bundle" ]; then
-    echo "📚 Installing Jekyll dependencies..."
+    echo "📚 Installing Jekyll dependencies (first time only)..."
     bundle install --path vendor/bundle
+    echo ""
 fi
 
 # Start server with live reload
-echo ""
 echo "✅ Starting Jekyll server..."
 echo "   📍 Local site: http://localhost:4000"
 echo "   📍 CPSY 1950:  http://localhost:4000/cpsy1950/"
