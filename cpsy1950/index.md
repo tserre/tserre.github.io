@@ -1,26 +1,42 @@
 ---
 layout: course-sidebar
 title: CPSY 1950 - Deep Learning in Brains, Minds & Machines
-subtitle: Spring Semester • Advanced Undergraduate/Graduate
+subtitle: Spring 2026 • Advanced Undergraduate/Graduate
 ---
 
 A seminar-style exploration of cutting-edge research at the intersection of natural and artificial intelligence. Students engage with recent papers and develop critical perspectives on how biological and artificial systems process information.
+
+**Format:** Tuesday lectures + Thursday lightning mini-conferences • Project posters • Guest lectures
 
 ---
 
 ## Course Information
 
-**Instructor:** [Your Name]  
-**Semester:** Spring 2025  
-**Time:** TTh 2:30pm-3:50pm  
+**Instructor:** Thomas Serre  
+**Semester:** Spring 2026  
+**Time:** Tuesday & Thursday, 2:30pm-3:50pm  
 **Location:** Friedman Hall 108  
-**Office Hours:** [TBD]
+**Office Hours:** TBD
 
 ---
 
 ## Overview
 
-This course examines the computational principles shared between biological and artificial intelligence systems. Through reading and discussion of recent research papers, we explore how insights from neuroscience and cognitive science can inform the development of AI systems, and how AI models can help us understand the brain.
+This course uses an innovative **lecture + lightning mini-conference** format:
+
+- **Tuesdays (80 min):** Instructor lecture introducing the week's theme (figure-first, conceptual approach)
+- **Thursdays (80 min):** Student lightning talks (~15 presentations, 2 minutes each) + synthesis discussion
+
+Students work in rotating small groups throughout the semester, culminating in project poster presentations. The course covers modern AI capabilities, explainable AI, the AI-neuroscience bridge, and cognitive alignment.
+
+### Key Dates
+- **First Class:** Thursday, January 22, 2026
+- **Bootcamp:** Week 2 (async, conditional requirements)
+- **Lightning Talks:** Weeks 3-9
+- **Spring Break:** Week 10 (March 24-26)
+- **Project Posters:** Weeks 11-12 (April 7-9)
+- **Guest Lectures:** Weeks 13-14
+- **Final Exam:** Tuesday, May 12, 2026, 9:00am
 
 ---
 
