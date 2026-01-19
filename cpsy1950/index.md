@@ -1,7 +1,7 @@
 ---
 layout: course-sidebar
 title: CPSY 1950 - Deep Learning in Brains, Minds & Machines
-subtitle: Spring 2026 • Advanced Undergraduate/Graduate
+subtitle: Spring 2026 
 ---
 
 A seminar-style exploration of cutting-edge research at the intersection of natural and artificial intelligence. Students engage with recent papers and develop critical perspectives on how biological and artificial systems process information.

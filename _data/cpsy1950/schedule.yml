@@ -2,12 +2,14 @@ schedule:
 - date: '2026-01-22'
   topic: Course Kickoff
   type: kickoff
-  description: Course goals, logistics, lightning sessions & project posters
+  description: NeuroAI goals, course structure, and how we will simulate scientific
+    conferences (lightning talks and posters)
   finalized: true
 - date: '2026-01-27'
   topic: Bootcamp I (Async)
   type: async
-  description: Conditional videos and readings during class time
+  description: Deep learning intuition and neuroscience foundations (optional/conditional
+    refreshers to level-set backgrounds)
   finalized: true
   readings:
   - title: Doerig et al. (2023) - The neuroconnectionist research programme
@@ -21,74 +23,81 @@ schedule:
   - title: Cichy & Kaiser (2019) - Deep Neural Networks as Scientific Models
     url: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8
 - date: '2026-02-03'
-  topic: 'Lecture: Learning Objectives Debate'
+  topic: 'Lecture: The Three Levers of Deep Learning'
   type: lecture
-  description: Predictive/world-model vs masked reconstruction vs invariance/self-distillation
+  description: How architecture, learning objectives, and experience (data/scale)
+    shape representations, behavior, and generalization across modalities
   finalized: true
 - date: '2026-02-05'
-  topic: 'Lightning Mini-Conf 1: Objectives / SSL'
+  topic: 'Lightning Mini-Conf 1: Three Levers of DL'
   type: lightning
   description: Details TBD
   finalized: false
 - date: '2026-02-10'
-  topic: 'Lecture: Scaling Laws & Emergent Abilities'
+  topic: 'Lecture: Scaling and Emerging Capabilities'
   type: lecture
-  description: Scaling laws, emergent abilities, and critiques (figure-first, debate
-    framing)
+  description: Pretraining and fine-tuning/transfer; in-context learning and reasoning;
+    what 'emergence' claims mean and how to evaluate them critically
   finalized: true
 - date: '2026-02-12'
-  topic: 'Lightning Mini-Conf 2: Scaling / Emergence'
+  topic: 'Lightning Mini-Conf 2: Scaling & Emergence'
   type: lightning
   description: Details TBD
   finalized: false
 - date: '2026-02-17'
-  topic: 'Lecture: XAI-A (Features, Concepts, SAEs)'
+  topic: 'Lecture: Representation-Level Interpretability'
   type: lecture
-  description: Feature visualization, concepts, SAEs/dictionary learning
+  description: Feature visualization, concept-based methods, sparse/dictionary approaches
+    (incl. SAEs); what we can and can't reliably name in representations
   finalized: true
 - date: '2026-02-19'
-  topic: 'Lightning Mini-Conf 3: XAI-A'
+  topic: 'Lightning Mini-Conf 3: Representation Interpretability'
   type: lightning
   description: Details TBD
   finalized: false
 - date: '2026-02-24'
-  topic: 'Lecture: XAI-B (Mechanistic Interpretability)'
+  topic: 'Lecture: Mechanistic Interpretability'
   type: lecture
-  description: 'Mechanistic interpretability: circuits, causal interventions, evidence'
+  description: Circuits, causal interventions, and standards of evidence for mechanistic
+    claims
   finalized: true
 - date: '2026-02-26'
-  topic: 'Lightning Mini-Conf 4: XAI-B'
+  topic: 'Lightning Mini-Conf 4: Mechanistic Interpretability'
   type: lightning
   description: Details TBD
   finalized: false
 - date: '2026-03-03'
-  topic: 'Lecture: AI → Neuroscience / Alignment'
+  topic: 'Lecture: Neural Alignment and Model-to-Brain Mapping'
   type: lecture
-  description: What alignment claims mean, predicting neural/behavioral data
+  description: Predicting neural data across measurement modalities; encoding/decoding
+    and representational similarity; what alignment can and cannot justify
   finalized: true
 - date: '2026-03-05'
-  topic: 'Lightning Mini-Conf 5: Alignment / AI→Neuro'
+  topic: 'Lightning Mini-Conf 5: Neural Alignment'
   type: lightning
   description: Details TBD
   finalized: false
 - date: '2026-03-10'
-  topic: 'Lecture: Neuroscience → AI'
+  topic: 'Lecture: Behavioral and Cognitive Alignment'
   type: lecture
-  description: Development, curricula, robustness, recurrence, what biology details
-    matter
+  description: Treating models as participants in cognitive tasks; behavioral signatures
+    beyond accuracy (generalization, planning, decision making, cognitive control);
+    confounds and best practices
   finalized: true
 - date: '2026-03-12'
-  topic: 'Lightning Mini-Conf 6: Neuro→AI Inspirations'
+  topic: 'Lightning Mini-Conf 6: Behavioral Alignment'
   type: lightning
   description: Details TBD
   finalized: false
 - date: '2026-03-17'
-  topic: 'Lecture: What''s Missing + Cognitive Alignment'
+  topic: 'Lecture: Toward Brain-Like AI (Project Launch)'
   type: lecture
-  description: Cognitive signatures beyond accuracy, project motivation
+  description: Brain-like training (developmental curricula, data diet, objectives)
+    and brain-like mechanisms (recurrence/feedback, circuit motifs, robustness); translating
+    hypotheses into concrete evaluation plans
   finalized: true
 - date: '2026-03-19'
-  topic: 'Lightning Mini-Conf 7: Cognitive Alignment'
+  topic: 'Lightning Mini-Conf 7: Brain-Like AI + Project Launch'
   type: lightning
   description: Details TBD
   finalized: false
@@ -105,42 +114,47 @@ schedule:
 - date: '2026-03-31'
   topic: Project Studio I
   type: studio
-  description: Planning + pilot runs + figure selection
+  description: Project launch and evaluation design; in-class time for groups to plan,
+    run pilot tests, and produce first results/figures
   finalized: true
 - date: '2026-04-02'
   topic: Project Studio II
   type: studio
-  description: Complete runs + draft poster
+  description: 'Continue project work: complete runs and draft poster'
   finalized: true
 - date: '2026-04-07'
   topic: Project Poster Mini-Conf A
   type: poster
-  description: 17 student project posters
+  description: Students present project findings in posters (17 posters); structured
+    peer feedback and synthesis discussion
   finalized: true
 - date: '2026-04-09'
   topic: Project Poster Mini-Conf B
   type: poster
-  description: 17 student project posters
+  description: Students present project findings in posters (17 posters); structured
+    peer feedback and synthesis discussion
   finalized: true
 - date: '2026-04-14'
-  topic: Guest Lecture (TBD)
+  topic: Guest Lecture Series I (TBD)
   type: guest
   description: Details TBD
   finalized: false
 - date: '2026-04-16'
-  topic: Guest Lecture (TBD)
+  topic: Guest Lecture Series I (TBD)
   type: guest
   description: Details TBD
   finalized: false
 - date: '2026-04-21'
-  topic: 'Guest Lecture: Rufin VanRullen'
+  topic: 'Guest Lecture Series II: Rufin VanRullen'
   type: guest
-  description: Global workspace / consciousness & deep learning
+  description: 'Frontier topics in NeuroAI: global workspace / consciousness & deep
+    learning'
   finalized: true
 - date: '2026-04-23'
-  topic: 'Guest Lecture: Victor Boutin'
+  topic: 'Guest Lecture Series II: Victor Boutin + Course Wrap-Up'
   type: guest
-  description: Generative models, EBMs, cognitive science
+  description: 'Frontier topics in NeuroAI: generative models, EBMs, cognitive science.
+    Plus course wrap-up and final exam briefing'
   finalized: true
 - date: '2026-05-12'
   topic: Final Exam
