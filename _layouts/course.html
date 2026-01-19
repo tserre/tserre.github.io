@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- Font scheme -->
+    <style>
+      @font-face {
+        font-family: "IBM Plex Mono";
+        src: url("{{ '/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.ttf' | relative_url }}") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("{{ '/assets/fonts/suisse-intl/SuisseIntl-Book.otf' | relative_url }}") format("opentype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("{{ '/assets/fonts/suisse-intl/SuisseIntl-Medium.otf' | relative_url }}") format("opentype");
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("{{ '/assets/fonts/suisse-intl/SuisseIntl-SemiBold.otf' | relative_url }}") format("opentype");
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("{{ '/assets/fonts/suisse-intl/SuisseIntl-Bold.otf' | relative_url }}") format("opentype");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+      body, p, span, div, a, li, ul, ol, section, article {
+        font-family: "Suisse Intl", serif !important;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-smoothing: antialiased;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: "Suisse Intl", serif !important;
+        font-weight: 600 !important;
+        color: #0366d6 !important;
+      }
+      h2, h3 {
+        font-variant: small-caps !important;
+        letter-spacing: 0.05em;
+      }
+      a, a:link, a:visited {
+        color: #0366d6 !important;
+      }
+      a:hover, a:focus {
+        color: #0366d6 !important;
+        opacity: 0.8;
+      }
+      code, pre, kbd, samp {
+        font-family: "IBM Plex Mono", monospace !important;
+      }
+      .course-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 20px;
+      }
+      .course-header {
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #0366d6;
+      }
+      .course-header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        color: #0366d6;
+      }
+      .course-meta {
+        color: #666;
+        font-size: 1.1em;
+        margin-top: 10px;
+      }
+      .course-content {
+        line-height: 1.8;
+      }
+      .course-content h2 {
+        margin-top: 2em;
+        margin-bottom: 1em;
+        padding-bottom: 0.5em;
+        border-bottom: 2px solid #0366d6;
+      }
+      .course-content h3 {
+        margin-top: 1.5em;
+        margin-bottom: 0.8em;
+      }
+      .course-content ul, .course-content ol {
+        margin: 1em 0;
+        padding-left: 2em;
+      }
+      .course-content li {
+        margin: 0.5em 0;
+      }
+      .course-content table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5em 0;
+      }
+      .course-content table th,
+      .course-content table td {
+        padding: 0.75em;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      .course-content table th {
+        background-color: #f5f5f5;
+        font-weight: 600;
+        color: #0366d6;
+      }
+      .back-link {
+        margin-bottom: 20px;
+        font-size: 0.9em;
+      }
+      .back-link a {
+        color: #666;
+        text-decoration: none;
+      }
+      .back-link a:hover {
+        color: #0366d6;
+      }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="course-container">
+        <div class="back-link">
+          <a href="{{ "/" | absolute_url }}">← Back to homepage</a>
+        </div>
+        
+        <div class="course-header">
+          <h1>{{ page.title }}</h1>
+          {% if page.subtitle %}
+          <div class="course-meta">{{ page.subtitle }}</div>
+          {% endif %}
+        </div>
+
+        <div class="course-content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>

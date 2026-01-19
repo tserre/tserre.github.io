@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- Font scheme -->
+    <style>
+      @font-face {
+        font-family: "IBM Plex Mono";
+        src: url("{{ '/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.ttf' | relative_url }}") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("{{ '/assets/fonts/suisse-intl/SuisseIntl-Book.otf' | relative_url }}") format("opentype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("{{ '/assets/fonts/suisse-intl/SuisseIntl-Medium.otf' | relative_url }}") format("opentype");
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("{{ '/assets/fonts/suisse-intl/SuisseIntl-SemiBold.otf' | relative_url }}") format("opentype");
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("{{ '/assets/fonts/suisse-intl/SuisseIntl-Bold.otf' | relative_url }}") format("opentype");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+      body, p, span, div, a, li, ul, ol, section, article {
+        font-family: "Suisse Intl", serif !important;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-smoothing: antialiased;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: "Suisse Intl", serif !important;
+        font-weight: 600 !important;
+        color: #0366d6 !important;
+      }
+      h2, h3 {
+        font-variant: small-caps !important;
+        letter-spacing: 0.05em;
+      }
+      a, a:link, a:visited {
+        color: #0366d6 !important;
+      }
+      a:hover, a:focus {
+        color: #0366d6 !important;
+        opacity: 0.8;
+      }
+      code, pre, kbd, samp {
+        font-family: "IBM Plex Mono", monospace !important;
+      }
+      
+      /* Sidebar Layout */
+      .course-wrapper {
+        display: flex;
+        min-height: 100vh;
+      }
+      
+      .course-sidebar {
+        width: 280px;
+        background-color: #f8f9fa;
+        border-right: 1px solid #e1e4e8;
+        padding: 20px 0;
+        position: fixed;
+        height: 100vh;
+        overflow-y: auto;
+        top: 0;
+        left: 0;
+      }
+      
+      .course-sidebar-header {
+        padding: 20px;
+        border-bottom: 1px solid #e1e4e8;
+        margin-bottom: 20px;
+      }
+      
+      .course-sidebar-header h2 {
+        font-size: 1.2em;
+        margin: 0 0 5px 0;
+        color: #0366d6;
+      }
+      
+      .course-sidebar-header .subtitle {
+        font-size: 0.9em;
+        color: #666;
+        margin: 0;
+      }
+      
+      .course-sidebar-nav {
+        padding: 0 10px;
+      }
+      
+      .part-section {
+        margin-bottom: 25px;
+      }
+      
+      .part-title {
+        font-weight: 600;
+        font-size: 0.95em;
+        color: #24292e;
+        padding: 8px 10px;
+        margin-bottom: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .part-title:hover {
+        background-color: #e1e4e8;
+        border-radius: 3px;
+      }
+      
+      .part-title.active {
+        background-color: #e1e4e8;
+        border-radius: 3px;
+      }
+      
+      .part-description {
+        font-size: 0.85em;
+        color: #666;
+        padding: 0 10px 8px 10px;
+        margin-bottom: 5px;
+      }
+      
+      .lesson-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .lesson-item {
+        padding: 8px 10px 8px 25px;
+        margin: 2px 0;
+      }
+      
+      .lesson-item a {
+        color: #586069;
+        text-decoration: none;
+        font-size: 0.9em;
+        display: block;
+      }
+      
+      .lesson-item a:hover {
+        color: #0366d6;
+      }
+      
+      .lesson-item.active a {
+        color: #0366d6;
+        font-weight: 600;
+      }
+      
+      .lesson-number {
+        color: #959da5;
+        margin-right: 8px;
+      }
+      
+      .resources-section {
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid #e1e4e8;
+      }
+      
+      .resources-section .part-title {
+        font-size: 0.9em;
+        color: #586069;
+      }
+      
+      .course-main {
+        margin-left: 280px;
+        flex: 1;
+        padding: 40px 60px;
+        max-width: 900px;
+      }
+      
+      .course-header {
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #0366d6;
+      }
+      
+      .course-header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        color: #0366d6;
+      }
+      
+      .course-meta {
+        color: #666;
+        font-size: 1.1em;
+        margin-top: 10px;
+      }
+      
+      .course-content {
+        line-height: 1.8;
+      }
+      
+      .course-content h2 {
+        margin-top: 2em;
+        margin-bottom: 1em;
+        padding-bottom: 0.5em;
+        border-bottom: 2px solid #0366d6;
+      }
+      
+      .course-content h3 {
+        margin-top: 1.5em;
+        margin-bottom: 0.8em;
+      }
+      
+      .course-content ul, .course-content ol {
+        margin: 1em 0;
+        padding-left: 2em;
+      }
+      
+      .course-content li {
+        margin: 0.5em 0;
+      }
+      
+      .course-content table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5em 0;
+      }
+      
+      .course-content table th,
+      .course-content table td {
+        padding: 0.75em;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      
+      .course-content table th {
+        background-color: #f5f5f5;
+        font-weight: 600;
+        color: #0366d6;
+      }
+      
+      @media (max-width: 768px) {
+        .course-sidebar {
+          width: 100%;
+          position: relative;
+          height: auto;
+        }
+        .course-main {
+          margin-left: 0;
+          padding: 20px;
+        }
+      }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="course-wrapper">
+      <!-- Sidebar Navigation -->
+      <aside class="course-sidebar">
+        <div class="course-sidebar-header">
+          <h2>CPSY 1950</h2>
+          <p class="subtitle">Deep Learning in Brains, Minds & Machines</p>
+        </div>
+        
+        <nav class="course-sidebar-nav">
+          {% assign structure = site.data.cpsy1950.structure %}
+          
+          {% for part in structure.parts %}
+          <div class="part-section">
+            <div class="part-title">
+              <span>{{ part.title }}</span>
+            </div>
+            {% if part.description %}
+            <div class="part-description">{{ part.description }}</div>
+            {% endif %}
+            <ul class="lesson-list">
+              {% for lesson in part.lessons %}
+              <li class="lesson-item {% if page.url == lesson.url %}active{% endif %}">
+                <a href="{{ lesson.url }}">
+                  <span class="lesson-number">{{ lesson.number }}:</span>
+                  {{ lesson.title }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endfor %}
+          
+          {% if structure.resources %}
+          <div class="resources-section">
+            <div class="part-title">Resources</div>
+            <ul class="lesson-list">
+              {% for resource in structure.resources %}
+              <li class="lesson-item {% if page.url == resource.url %}active{% endif %}">
+                <a href="{{ resource.url }}" {% if resource.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                  {{ resource.title }}
+                  {% if resource.external %}
+                  <span style="font-size: 0.8em; color: #959da5; margin-left: 5px;">↗</span>
+                  {% endif %}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+        </nav>
+      </aside>
+      
+      <!-- Main Content -->
+      <main class="course-main">
+        <div class="course-header">
+          <h1>{{ page.title }}</h1>
+          {% if page.subtitle %}
+          <div class="course-meta">{{ page.subtitle }}</div>
+          {% endif %}
+        </div>
+
+        <div class="course-content">
+          {{ content }}
+        </div>
+      </main>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
