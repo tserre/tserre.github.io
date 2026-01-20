@@ -348,7 +348,6 @@
               {% for lesson in part.lessons %}
               <li class="lesson-item {% if page.url == lesson.url %}active{% endif %}">
                 <a href="{{ lesson.url }}">
-                  <span class="lesson-number">{{ lesson.number }}:</span>
                   {{ lesson.title }}
                 </a>
               </li>
