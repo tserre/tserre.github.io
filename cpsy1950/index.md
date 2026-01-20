@@ -56,50 +56,14 @@ Students work in rotating small groups throughout the semester, culminating in p
 
 ## Schedule {#schedule}
 
-### Quick Reference
-
-{% assign schedule = site.data.cpsy1950.schedule %}
-{% if schedule %}
-<table style="width: 100%; border-collapse: collapse; margin-top: 1em;">
-  <thead>
-    <tr style="border-bottom: 2px solid #0366d6;">
-      <th style="text-align: left; padding: 0.5em;">Date</th>
-      <th style="text-align: left; padding: 0.5em;">Topic</th>
-      <th style="text-align: left; padding: 0.5em;">Readings</th>
-    </tr>
-  </thead>
-  <tbody>
-{% for item in schedule %}
-    <tr style="border-bottom: 1px solid #ddd;">
-      <td style="padding: 0.5em;">{{ item.date }}</td>
-      <td style="padding: 0.5em;">{{ item.topic }}</td>
-      <td style="padding: 0.5em;">
-        {% if item.readings %}
-          {% for reading in item.readings %}
-            <a href="{{ reading.url | default: '#' }}">{{ reading.title }}</a>{% unless forloop.last %}, {% endunless %}
-          {% endfor %}
-        {% else %}
-          <em>TBD</em>
-        {% endif %}
-      </td>
-    </tr>
-{% endfor %}
-  </tbody>
-</table>
-{% else %}
-<p><em>Course schedule will be updated here.</em></p>
-{% endif %}
-
-### Detailed Week-by-Week Schedule
-
-## Week 1 — Course kickoff
+### Week 1 — Course kickoff
 <details>
 <summary><strong>Thu 1/22 — Course Kickoff</strong></summary>
 <p>NeuroAI goals, course structure, and how we will simulate scientific conferences (lightning talks and posters).</p>
 <p><em>No readings or pre-class activities for Week 1—this is the introductory session.</em></p>
 </details>
 
-## Week 2 — Async Bootcamp (no in-person class this week)
+### Week 2 — Async Bootcamp (no in-person class this week)
 
 **Goal:** Put everyone on a leveled playing field for Week 3. Complete the **Required Core** first (mandatory for all), then the **conditional tracks** that match your background. You do *not* need to do every track.
 
@@ -111,13 +75,11 @@ Students work in rotating small groups throughout the semester, culminating in p
 
 **⚠️ Complete both items below before moving on to any conditional tracks. Students with a strong background in cognitive neuroscience may skim, but should still review to ensure familiarity with the course's framing and terminology.**
 
-1) **Marr's Levels of Analysis (video)**
-Nancy Kanwisher: “How Can We Study the Human Mind and Brain? Marr’s Levels of Analysis”  
-https://nancysbraintalks.mit.edu/video_page/12-how-can-we-study-human-mind-and-brain-marrs-levels-analysis/
+1) **Marr's Levels of Analysis (video)**  
+[Nancy Kanwisher: "How Can We Study the Human Mind and Brain? Marr's Levels of Analysis"](https://nancysbraintalks.mit.edu/video_page/12-how-can-we-study-human-mind-and-brain-marrs-levels-analysis/)
 
-2) **Coarse brain organization (video; focus on gross organization + functions)**
-MIT OCW 9.13 (Spring 2019) Lecture 2: “Neuroanatomy”  
-https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-2-neuroanatomy/  
+2) **Coarse brain organization (video; focus on gross organization + functions)**  
+[MIT OCW 9.13 (Spring 2019) Lecture 2: "Neuroanatomy"](https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-2-neuroanatomy/)  
 **Viewing guidance:** Watch for the high-level tour of major brain divisions/structures and what they do. **Pay particular attention to concepts of receptive fields, neural tuning, and cortical maps** — these are fundamental for understanding how neural networks relate to biological systems. You do **not** need to know fine anatomical details.
 
 ---
@@ -126,27 +88,21 @@ https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-2
 **Complete this track if you have not taken at least 1–2 courses in neuroscience or cognitive neuroscience.**  
 Target time: up to ~180 min.
 
-A1) **Neurons, spikes, firing rate (high-level; no ion-channel deep dive)**
-BrainFacts: “How Neurons Communicate”  
-https://www.brainfacts.org/core-concepts/how-neurons-communicate
+A1) **Neurons, spikes, firing rate (high-level; no ion-channel deep dive)**  
+[BrainFacts: "How Neurons Communicate"](https://www.brainfacts.org/core-concepts/how-neurons-communicate)
 
-A2) **Quick map of structures + functions**
-NIH/NINDS: “Brain Basics — Know Your Brain”  
-  https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain
+A2) **Quick map of structures + functions**  
+[NIH/NINDS: "Brain Basics — Know Your Brain"](https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain)
 
 A3) **Methods lectures (videos)**
-- MIT OCW 9.13 Lecture 4: "Cognitive Neuroscience Methods I"  
-  https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-4-cognitive-neuroscience-methods-i/
-- MIT OCW 9.13 Lecture 5: "Cognitive Neuroscience Methods II"  
-  https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-5-cognitive-neuroscience-methods-ii/
+- [MIT OCW 9.13 Lecture 4: "Cognitive Neuroscience Methods I"](https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-4-cognitive-neuroscience-methods-i/)
+- [MIT OCW 9.13 Lecture 5: "Cognitive Neuroscience Methods II"](https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-5-cognitive-neuroscience-methods-ii/)
 
 **Note:** Don't worry if the jargon feels overwhelming — you don't need to memorize all the details right now, and you can always come back to these videos later when these concepts become needed. These lectures include a section on Marr's levels of analysis; you can skip it if redundant with the required core, though reviewing it twice may be helpful if you haven't taken cognitive science courses.
 
-A4) **Optional “what measures what?” cheat-sheets (short skims)**
-- BrainFacts: “Measuring Neural Physiology”  
-  https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-for-physiology-022723
-- BrainFacts: “Viewing the Human Brain Through Noninvasive Tools”  
-  https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-used-for-human-research-030923
+A4) **Optional "what measures what?" cheat-sheets (short skims)**
+- [BrainFacts: "Measuring Neural Physiology"](https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-for-physiology-022723)
+- [BrainFacts: "Viewing the Human Brain Through Noninvasive Tools"](https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-used-for-human-research-030923)
 
 ---
 
@@ -154,14 +110,10 @@ A4) **Optional “what measures what?” cheat-sheets (short skims)**
 **Complete this track if vectors/matrices feel rusty.**  
 Target time: ~60 min total.
 
-- 3Blue1Brown: “Vectors, what even are they?”  
-  https://www.3blue1brown.com/lessons/vectors
-- 3Blue1Brown: “Linear combinations, span, and basis vectors”  
-  https://www.3blue1brown.com/lessons/span
-- 3Blue1Brown: “Linear transformations and matrices”  
-  https://www.3blue1brown.com/lessons/linear-transformations
-- 3Blue1Brown: “Matrix multiplication as composition”  
-  https://www.3blue1brown.com/lessons/matrix-multiplication
+- [3Blue1Brown: "Vectors, what even are they?"](https://www.3blue1brown.com/lessons/vectors)
+- [3Blue1Brown: "Linear combinations, span, and basis vectors"](https://www.3blue1brown.com/lessons/span)
+- [3Blue1Brown: "Linear transformations and matrices"](https://www.3blue1brown.com/lessons/linear-transformations)
+- [3Blue1Brown: "Matrix multiplication as composition"](https://www.3blue1brown.com/lessons/matrix-multiplication)
 
 ---
 
@@ -169,40 +121,31 @@ Target time: ~60 min total.
 **Complete this track if backprop/gradient descent are unfamiliar.**  
 Target time: ~60 min total.
 
-- 3Blue1Brown: “What is a neural network?”  
-  https://www.3blue1brown.com/lessons/neural-networks
-- 3Blue1Brown: “Gradient descent”  
-  https://www.3blue1brown.com/lessons/gradient-descent
-- 3Blue1Brown: “Backpropagation”  
-  https://www.youtube.com/watch?v=Ilg3gGewQ5U
+- [3Blue1Brown: "What is a neural network?"](https://www.3blue1brown.com/lessons/neural-networks)
+- [3Blue1Brown: "Gradient descent"](https://www.3blue1brown.com/lessons/gradient-descent)
+- [3Blue1Brown: "Backpropagation"](https://www.youtube.com/watch?v=Ilg3gGewQ5U)
 
 ---
 
-## Bootcamp Checkpoint (all students; due Sunday 2:00pm)
+### Bootcamp Checkpoint (all students; due Sunday 2:00pm)
 
 **Purpose:** Make sure everyone can (i) separate Marr levels, (ii) describe a simple ANN learning setup in plain language, and (iii) connect claims to what neuroscience measurements could test.
 
-### Assigned paper (skim; focus on the main question + 1–2 key figures)
-Zipser & Andersen (1988) — Nature (Brown Library proxy link)  
-https://www-nature-com.revproxy.brown.edu/articles/331679a0
+### Assigned paper (skim; focus on the main question + 1–2 key figures)  
+[Zipser & Andersen (1988) — Nature](https://www-nature-com.revproxy.brown.edu/articles/331679a0) (Brown Library proxy link)
 
-### Submit responses (short; ~60 minutes total)
-1) **Marr tagging (3 bullets):** State the computational-level question, the algorithmic-level proposal, and what (if anything) is claimed about implementation.
-2) **Model essentials (2–3 sentences):** What are the inputs? What is the target output? What learning rule is used?
-3) **Evidence (2 sentences):** Pick one figure/result. What does it support? What does it *not* establish?
-4) **Neuroscience evaluation (3–5 sentences):** Choose **two** measurement methods from the Methods lectures (Lecture 4/5). For each: what would it measure, and would it actually test the paper’s claim?
-5) **Limitation (1–2 sentences):** Name one key assumption/limitation and why it matters.
+### Submit responses
+This assignment has been set up in Canvas/Gradescope. Please submit your responses there (~60 minutes total).
+
+**[📝 Submit on Canvas](https://canvas.brown.edu/courses/1101742/assignments/8098936)**
 
 ---
 
-## Optional background papers (only if you want extra framing)
-Cichy & Kaiser (2019) — Trends in Cognitive Sciences (Brown Library proxy link)  
-https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661319300348
+### Optional background papers (only if you want extra framing)
+- [Cichy & Kaiser (2019) — Trends in Cognitive Sciences](https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661319300348) (Brown Library proxy link)
+- [Doerig et al. (2023) — Nature Reviews Neuroscience](https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w) (Brown Library proxy link)
 
-Doerig et al. (2023) — Nature Reviews Neuroscience (Brown Library proxy link)  
-https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w</details>
-
-## Week 3 — The three levers of deep learning
+### Week 3 — The three levers of deep learning
 <details>
 <summary><strong>Tue 2/3 — Lecture: The Three Levers of Deep Learning</strong></summary>
 <p>Details TBD</p>
@@ -213,7 +156,7 @@ https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w</details>
 <p>Details TBD</p>
 </details>
 
-## Week 4 — Scaling and emerging capabilities
+### Week 4 — Scaling and emerging capabilities
 <details>
 <summary><strong>Tue 2/10 — Lecture: Scaling and Emerging Capabilities</strong></summary>
 <p>Details TBD</p>
@@ -224,7 +167,7 @@ https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w</details>
 <p>Details TBD</p>
 </details>
 
-## Week 5 — Representation-level interpretability
+### Week 5 — Representation-level interpretability
 <details>
 <summary><strong>Tue 2/17 — Lecture: Representation-Level Interpretability</strong></summary>
 <p>Details TBD</p>
@@ -235,7 +178,7 @@ https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w</details>
 <p>Details TBD</p>
 </details>
 
-## Week 6 — Mechanistic interpretability
+### Week 6 — Mechanistic interpretability
 <details>
 <summary><strong>Tue 2/24 — Lecture: Mechanistic Interpretability</strong></summary>
 <p>Details TBD</p>
@@ -246,7 +189,7 @@ https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w</details>
 <p>Details TBD</p>
 </details>
 
-## Week 7 — Neural alignment
+### Week 7 — Neural alignment
 <details>
 <summary><strong>Tue 3/3 — Lecture: Neural Alignment and Model-to-Brain Mapping</strong></summary>
 <p>Details TBD</p>
@@ -257,7 +200,7 @@ https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w</details>
 <p>Details TBD</p>
 </details>
 
-## Week 8 — Behavioral and cognitive alignment
+### Week 8 — Behavioral and cognitive alignment
 <details>
 <summary><strong>Tue 3/10 — Lecture: Behavioral and Cognitive Alignment</strong></summary>
 <p>Details TBD</p>
@@ -268,7 +211,7 @@ https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w</details>
 <p>Details TBD</p>
 </details>
 
-## Week 9 — Toward Brain-Like AI
+### Week 9 — Toward Brain-Like AI
 <details>
 <summary><strong>Tue 3/17 — Lecture: Toward Brain-Like AI (Project Launch)</strong></summary>
 <p>Details TBD</p>
@@ -279,7 +222,7 @@ https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w</details>
 <p>Details TBD</p>
 </details>
 
-## Week 10 — Spring Break
+### Week 10 — Spring Break
 <details>
 <summary><strong>Tue 3/24 — Spring Break</strong></summary>
 <p>No class</p>
@@ -290,7 +233,7 @@ https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w</details>
 <p>No class</p>
 </details>
 
-## Week 11 — Project studio
+### Week 11 — Project studio
 <details>
 <summary><strong>Tue 3/31 — Project Studio I</strong></summary>
 <p>Project launch and evaluation design; in-class time for groups to plan, run pilot tests, and produce first results/figures.</p>
@@ -301,7 +244,7 @@ https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w</details>
 <p>Continue project work: complete runs and draft poster.</p>
 </details>
 
-## Week 12 — Project poster presentations
+### Week 12 — Project poster presentations
 <details>
 <summary><strong>Tue 4/7 — Project Poster Mini-Conf A</strong></summary>
 <p>Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion.</p>
@@ -312,7 +255,7 @@ https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w</details>
 <p>Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion.</p>
 </details>
 
-## Week 13 — Guest lecture series
+### Week 13 — Guest lecture series
 <details>
 <summary><strong>Tue 4/14 — Guest Lecture Series I (TBD)</strong></summary>
 <p>Details TBD</p>
@@ -323,7 +266,7 @@ https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w</details>
 <p>Details TBD</p>
 </details>
 
-## Week 14 — Guest lecture series (continued)
+### Week 14 — Guest lecture series (continued)
 <details>
 <summary><strong>Tue 4/21 — Guest Lecture Series II: Rufin VanRullen</strong></summary>
 <p>Frontier topics in NeuroAI: global workspace / consciousness & deep learning.</p>
@@ -334,7 +277,7 @@ https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w</details>
 <p>Frontier topics in NeuroAI: generative models, EBMs, cognitive science. Plus course wrap-up and final exam briefing.</p>
 </details>
 
-## Week 15 — Final exam
+### Week 15 — Final exam
 <details>
 <summary><strong>Tue 5/12 — Final Exam</strong></summary>
 <p>Final exam, 9:00am</p>
