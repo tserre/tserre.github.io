@@ -97,6 +97,14 @@
         margin-bottom: 20px;
       }
       
+      .course-sidebar-header .brown-logo {
+        width: 120px;
+        height: auto;
+        margin-bottom: 15px;
+        display: block;
+        filter: brightness(0) saturate(100%) invert(27%) sepia(95%) saturate(3000%) hue-rotate(230deg) brightness(0.9) contrast(1.1);
+      }
+      
       .course-sidebar-header h2 {
         font-size: 1.2em;
         margin: 0 0 5px 0;
@@ -105,7 +113,7 @@
       
       .course-sidebar-header .subtitle {
         font-size: 0.9em;
-        color: #666;
+        color: #475569;
         margin: 0;
       }
       
@@ -329,6 +337,7 @@
       <!-- Sidebar Navigation -->
       <aside class="course-sidebar">
         <div class="course-sidebar-header">
+          <img src="{{ '/assets/img/brown-logo.webp' | relative_url }}" alt="Brown University" class="brown-logo">
           <h2>CPSY 1950</h2>
           <p class="subtitle">Deep Learning in Brains, Minds & Machines</p>
         </div>
