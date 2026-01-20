@@ -122,7 +122,7 @@ Target time: ~60 min total.
 
 #### Bootcamp Checkpoint (all students; due Sunday 2:00pm)
 
-Purpose: Make sure everyone can (i) separate Marr levels, (ii) describe a simple ANN learning setup in plain language, and (iii) connect claims to what neuroscience measurements could test.
+Purpose: Ensure everyone can (i) understand Marr’s Levels of Analysis, (ii) explain—in plain language—how an artificial neural network (ANN) learns from data, and (iii) identify how specific claims about brain or ANN function could be tested using neuroscience measurement techniques (e.g., what a method can or cannot reveal, and how experimental evidence could evaluate a model’s predictions).
 
 **Assigned paper** (skim; focus on the main question + 1–2 key figures):  
 <a href="https://www-nature-com.revproxy.brown.edu/articles/331679a0" target="_blank">Zipser & Andersen (1988) — Nature</a> (Brown Library proxy link)
