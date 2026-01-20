@@ -1,6 +1,6 @@
 ---
 layout: course-sidebar
-title: CPSY 1950 - Deep Learning in Brains, Minds & Machines
+title: CPSY 1950 -<br>Deep Learning in Brains, Minds & Machines
 subtitle: Spring 2026 • Advanced Undergraduate/Graduate
 ---
 
