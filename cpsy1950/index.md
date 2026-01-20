@@ -64,50 +64,47 @@ Students work in rotating small groups throughout the semester, culminating in p
 </details>
 
 ### Week 2 — Async Bootcamp (no in-person class this week)
+<details>
+<summary><strong>Week 2 — Async Bootcamp</strong></summary>
 
-**Goal:** Put everyone on a leveled playing field for Week 3. Complete the **Required Core** first (mandatory for all), then the **conditional tracks** that match your background. You do *not* need to do every track.
+Goal: Put everyone on a leveled playing field for Week 3. Complete the Required Core first (mandatory for all), then the conditional tracks that match your background. You do *not* need to do every track.
 
-**Note on access to papers:** For any *paper* link below, please use the Brown Library proxy links (you may be prompted to log in with Brown credentials off campus).
+*Note on access to papers:* For any *paper* link below, please use the Brown Library proxy links (you may be prompted to log in with Brown credentials off campus).
 
----
+#### Required Core — Mandatory for all students
 
-### Required Core — MANDATORY FOR ALL STUDENTS (~90 min total)
+⚠️ Complete both items below before moving on to any conditional tracks. Students with a strong background in cognitive neuroscience may skim, but should still review to ensure familiarity with the course's framing and terminology.  
+*Expected time: ~90 min total*
 
-**⚠️ Complete both items below before moving on to any conditional tracks. Students with a strong background in cognitive neuroscience may skim, but should still review to ensure familiarity with the course's framing and terminology.**
-
-1) **Marr's Levels of Analysis (video)**  
+1. Marr's Levels of Analysis (video)  
 [Nancy Kanwisher: "How Can We Study the Human Mind and Brain? Marr's Levels of Analysis"](https://nancysbraintalks.mit.edu/video_page/12-how-can-we-study-human-mind-and-brain-marrs-levels-analysis/)
 
-2) **Coarse brain organization (video; focus on gross organization + functions)**  
+2. Coarse brain organization (video; focus on gross organization + functions)  
 [MIT OCW 9.13 (Spring 2019) Lecture 2: "Neuroanatomy"](https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-2-neuroanatomy/)  
-**Viewing guidance:** Watch for the high-level tour of major brain divisions/structures and what they do. **Pay particular attention to concepts of receptive fields, neural tuning, and cortical maps** — these are fundamental for understanding how neural networks relate to biological systems. You do **not** need to know fine anatomical details.
+*Viewing guidance:* Watch for the high-level tour of major brain divisions/structures and what they do. Pay particular attention to concepts of receptive fields, neural tuning, and cortical maps — these are fundamental for understanding how neural networks relate to biological systems. You do *not* need to know fine anatomical details.
 
----
-
-### Conditional Track A — Cognitive neuroscience foundations
-**Complete this track if you have not taken at least 1–2 courses in neuroscience or cognitive neuroscience.**  
+#### Conditional Track A — Cognitive neuroscience foundations
+Complete this track if you have not taken at least 1–2 courses in neuroscience or cognitive neuroscience.  
 Target time: up to ~180 min.
 
-A1) **Neurons, spikes, firing rate (high-level; no ion-channel deep dive)**  
+- **A1)** Neurons, spikes, firing rate (high-level; no ion-channel deep dive)  
 [BrainFacts: "How Neurons Communicate"](https://www.brainfacts.org/core-concepts/how-neurons-communicate)
 
-A2) **Quick map of structures + functions**  
+- **A2)** Quick map of structures + functions  
 [NIH/NINDS: "Brain Basics — Know Your Brain"](https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain)
 
-A3) **Methods lectures (videos)**
-- [MIT OCW 9.13 Lecture 4: "Cognitive Neuroscience Methods I"](https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-4-cognitive-neuroscience-methods-i/)
-- [MIT OCW 9.13 Lecture 5: "Cognitive Neuroscience Methods II"](https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-5-cognitive-neuroscience-methods-ii/)
+- **A3)** Methods lectures (videos)
+  - [MIT OCW 9.13 Lecture 4: "Cognitive Neuroscience Methods I"](https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-4-cognitive-neuroscience-methods-i/)
+  - [MIT OCW 9.13 Lecture 5: "Cognitive Neuroscience Methods II"](https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-5-cognitive-neuroscience-methods-ii/)
+  
+  *Note:* Don't worry if the jargon feels overwhelming — you don't need to memorize all the details right now, and you can always come back to these videos later when these concepts become needed. These lectures include a section on Marr's levels of analysis; you can skip it if redundant with the required core, though reviewing it twice may be helpful if you haven't taken cognitive science courses.
 
-**Note:** Don't worry if the jargon feels overwhelming — you don't need to memorize all the details right now, and you can always come back to these videos later when these concepts become needed. These lectures include a section on Marr's levels of analysis; you can skip it if redundant with the required core, though reviewing it twice may be helpful if you haven't taken cognitive science courses.
+- **A4)** Optional "what measures what?" cheat-sheets (short skims)
+  - [BrainFacts: "Measuring Neural Physiology"](https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-for-physiology-022723)
+  - [BrainFacts: "Viewing the Human Brain Through Noninvasive Tools"](https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-used-for-human-research-030923)
 
-A4) **Optional "what measures what?" cheat-sheets (short skims)**
-- [BrainFacts: "Measuring Neural Physiology"](https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-for-physiology-022723)
-- [BrainFacts: "Viewing the Human Brain Through Noninvasive Tools"](https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-used-for-human-research-030923)
-
----
-
-### Conditional Track B — Linear algebra intuition (refresher)
-**Complete this track if vectors/matrices feel rusty.**  
+#### Conditional Track B — Linear algebra intuition (refresher)
+Complete this track if vectors/matrices feel rusty.  
 Target time: ~60 min total.
 
 - [3Blue1Brown: "Vectors, what even are they?"](https://www.3blue1brown.com/lessons/vectors)
@@ -115,35 +112,31 @@ Target time: ~60 min total.
 - [3Blue1Brown: "Linear transformations and matrices"](https://www.3blue1brown.com/lessons/linear-transformations)
 - [3Blue1Brown: "Matrix multiplication as composition"](https://www.3blue1brown.com/lessons/matrix-multiplication)
 
----
-
-### Conditional Track C — Deep learning intuition (refresher)
-**Complete this track if backprop/gradient descent are unfamiliar.**  
+#### Conditional Track C — Deep learning intuition (refresher)
+Complete this track if backprop/gradient descent are unfamiliar.  
 Target time: ~60 min total.
 
 - [3Blue1Brown: "What is a neural network?"](https://www.3blue1brown.com/lessons/neural-networks)
 - [3Blue1Brown: "Gradient descent"](https://www.3blue1brown.com/lessons/gradient-descent)
 - [3Blue1Brown: "Backpropagation"](https://www.youtube.com/watch?v=Ilg3gGewQ5U)
 
----
+#### Bootcamp Checkpoint (all students; due Sunday 2:00pm)
 
-### Bootcamp Checkpoint (all students; due Sunday 2:00pm)
+Purpose: Make sure everyone can (i) separate Marr levels, (ii) describe a simple ANN learning setup in plain language, and (iii) connect claims to what neuroscience measurements could test.
 
-**Purpose:** Make sure everyone can (i) separate Marr levels, (ii) describe a simple ANN learning setup in plain language, and (iii) connect claims to what neuroscience measurements could test.
-
-### Assigned paper (skim; focus on the main question + 1–2 key figures)  
+**Assigned paper** (skim; focus on the main question + 1–2 key figures):  
 [Zipser & Andersen (1988) — Nature](https://www-nature-com.revproxy.brown.edu/articles/331679a0) (Brown Library proxy link)
 
-### Submit responses
+**Submit responses:**  
 This assignment has been set up in Canvas/Gradescope. Please submit your responses there (~60 minutes total).
 
-**[📝 Submit on Canvas](https://canvas.brown.edu/courses/1101742/assignments/8098936)**
+[📝 Submit on Canvas](https://canvas.brown.edu/courses/1101742/assignments/8098936)
 
----
-
-### Optional background papers (only if you want extra framing)
+#### Optional background papers (only if you want extra framing)
 - [Cichy & Kaiser (2019) — Trends in Cognitive Sciences](https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661319300348) (Brown Library proxy link)
 - [Doerig et al. (2023) — Nature Reviews Neuroscience](https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w) (Brown Library proxy link)
+
+</details>
 
 ### Week 3 — The three levers of deep learning
 <details>
@@ -283,119 +276,3 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 <p>Final exam, 9:00am</p>
 </details>
 
----
-
-## Reading Lists {#reading-lists}
-
-{% assign readings = site.data.cpsy1950.readings %}
-{% if readings %}
-{% for week in readings %}
-### Week {{ week.week }}: {{ week.topic }}
-
-{% if week.description %}
-<p>{{ week.description }}</p>
-{% endif %}
-
-<ul>
-{% for reading in week.papers %}
-  <li>
-    <strong>{{ reading.title }}</strong>
-    {% if reading.authors %}<br><i>{{ reading.authors }}</i>{% endif %}
-    {% if reading.journal %}<br>{{ reading.journal }}{% endif %}
-    {% if reading.year %}<span style="color: #888;"> • {{ reading.year }}</span>{% endif %}
-    {% if reading.pdf %}
-      <br><a href="{{ reading.pdf }}" target="_blank">📄 PDF</a>
-    {% endif %}
-    {% if reading.url %}
-      <br><a href="{{ reading.url }}" target="_blank">🔗 Link</a>
-    {% endif %}
-    {% if reading.notes %}
-      <br><small style="color: #666;">{{ reading.notes }}</small>
-    {% endif %}
-  </li>
-{% endfor %}
-</ul>
-{% endfor %}
-{% else %}
-<p><em>Reading list will be updated throughout the semester.</em></p>
-{% endif %}
-
----
-
-## Additional Materials
-
-### Videos & Lectures
-
-{% assign videos = site.data.cpsy1950.videos %}
-{% if videos %}
-{% for video in videos %}
-<div style="margin-bottom: 2em;">
-  <h3>{{ video.title }}</h3>
-  {% if video.description %}<p>{{ video.description }}</p>{% endif %}
-  {% if video.youtube_id %}
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-top: 1em;">
-    <iframe src="https://www.youtube.com/embed/{{ video.youtube_id }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-  </div>
-  {% endif %}
-  {% if video.url %}
-  <p><a href="{{ video.url }}" target="_blank">🔗 Watch Video</a></p>
-  {% endif %}
-</div>
-{% endfor %}
-{% else %}
-<p><em>Videos and lecture materials will be added here.</em></p>
-{% endif %}
-
-### Additional Resources
-
-{% assign resources = site.data.cpsy1950.resources %}
-{% if resources %}
-<ul>
-{% for resource in resources %}
-  <li>
-    <strong>{{ resource.title }}</strong>
-    {% if resource.description %}<br><small>{{ resource.description }}</small>{% endif %}
-    {% if resource.url %}<br><a href="{{ resource.url }}" target="_blank">🔗 Link</a>{% endif %}
-  </li>
-{% endfor %}
-</ul>
-{% else %}
-<p><em>Additional resources will be added here.</em></p>
-{% endif %}
-
----
-
-## Assignments {#assignments}
-
-{% assign assignments = site.data.cpsy1950.assignments %}
-{% if assignments %}
-{% for assignment in assignments %}
-### {{ assignment.title }}
-
-{% if assignment.due_date %}<p><strong>Due:</strong> {{ assignment.due_date }}</p>{% endif %}
-{% if assignment.description %}<p>{{ assignment.description }}</p>{% endif %}
-{% if assignment.materials %}
-<ul>
-{% for material in assignment.materials %}
-  <li>
-    {% if material.type == 'pdf' %}
-      <a href="{{ material.url }}" target="_blank">📄 {{ material.name }}</a>
-    {% elsif material.type == 'link' %}
-      <a href="{{ material.url }}" target="_blank">🔗 {{ material.name }}</a>
-    {% else %}
-      <a href="{{ material.url }}" target="_blank">{{ material.name }}</a>
-    {% endif %}
-  </li>
-{% endfor %}
-</ul>
-{% endif %}
-{% endfor %}
-{% else %}
-<p><em>Assignment information will be posted here.</em></p>
-{% endif %}
-
----
-
-## Contact
-
-For questions about the course, please contact [your email] or attend office hours.
