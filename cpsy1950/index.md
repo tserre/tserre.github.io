@@ -145,7 +145,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 </details>
 
 <details>
-<summary><strong>Thu 2/5 — Lightning Mini-Conf 1: Three Levers of DL</strong></summary>
+<summary><strong>Thu 2/5 — Lightning talks</strong></summary>
 <p>Details TBD</p>
 </details>
 
@@ -156,7 +156,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 </details>
 
 <details>
-<summary><strong>Thu 2/12 — Lightning Mini-Conf 2: Scaling & Emergence</strong></summary>
+<summary><strong>Thu 2/12 — Lightning talks</strong></summary>
 <p>Details TBD</p>
 </details>
 
@@ -167,7 +167,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 </details>
 
 <details>
-<summary><strong>Thu 2/19 — Lightning Mini-Conf 3: Representation Interpretability</strong></summary>
+<summary><strong>Thu 2/19 — Lightning talks</strong></summary>
 <p>Details TBD</p>
 </details>
 
@@ -178,7 +178,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 </details>
 
 <details>
-<summary><strong>Thu 2/26 — Lightning Mini-Conf 4: Mechanistic Interpretability</strong></summary>
+<summary><strong>Thu 2/26 — Lightning talks</strong></summary>
 <p>Details TBD</p>
 </details>
 
@@ -189,7 +189,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 </details>
 
 <details>
-<summary><strong>Thu 3/5 — Lightning Mini-Conf 5: Neural Alignment</strong></summary>
+<summary><strong>Thu 3/5 — Lightning talks</strong></summary>
 <p>Details TBD</p>
 </details>
 
@@ -200,7 +200,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 </details>
 
 <details>
-<summary><strong>Thu 3/12 — Lightning Mini-Conf 6: Behavioral Alignment</strong></summary>
+<summary><strong>Thu 3/12 — Lightning talks</strong></summary>
 <p>Details TBD</p>
 </details>
 
@@ -211,7 +211,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 </details>
 
 <details>
-<summary><strong>Thu 3/19 — Lightning Mini-Conf 7: Brain-Like AI + Project Launch</strong></summary>
+<summary><strong>Thu 3/19 — Lightning talks</strong></summary>
 <p>Details TBD</p>
 </details>
 
