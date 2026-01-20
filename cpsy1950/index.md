@@ -18,7 +18,7 @@ A seminar-style exploration of cutting-edge research at the intersection of natu
 **Time:** Tuesday & Thursday, 2:30pm-3:50pm  
 **Location:** Friedman Hall 108  
 **Office Hours:** Wednesdays, 1:00-2:00pm @ Carney Innovation Hub (Room 402)  
-**Communication:** [Ed Discussion](https://edstem.org/us/courses/93110/discussion)
+**Communication:** <a href="https://edstem.org/us/courses/93110/discussion" target="_blank">Ed Discussion</a>
 
 **[📄 View Full Syllabus](/cpsy1950/syllabus)**
 
@@ -63,9 +63,9 @@ Students work in rotating small groups throughout the semester, culminating in p
 <p><em>No readings or pre-class activities for Week 1—this is the introductory session.</em></p>
 </details>
 
-### Week 2 — Async Bootcamp (no in-person class this week)
+### Week 2 — Foundations of natural and artificial intelligence
 <details markdown="1">
-<summary><strong>Week 2 — Async Bootcamp</strong></summary>
+<summary><strong>Async Bootcamp (no in-person class this week)</strong></summary>
 
 Goal: Put everyone on a leveled playing field for Week 3. Complete the Required Core first (mandatory for all), then the conditional tracks that match your background. You do *not* need to do every track.
 
@@ -77,10 +77,10 @@ Goal: Put everyone on a leveled playing field for Week 3. Complete the Required 
 *Expected time: ~90 min total*
 
 1. Marr's Levels of Analysis (video)  
-[Nancy Kanwisher: "How Can We Study the Human Mind and Brain? Marr's Levels of Analysis"](https://nancysbraintalks.mit.edu/video_page/12-how-can-we-study-human-mind-and-brain-marrs-levels-analysis/)
+<a href="https://nancysbraintalks.mit.edu/video_page/12-how-can-we-study-human-mind-and-brain-marrs-levels-analysis/" target="_blank">Nancy Kanwisher: "How Can We Study the Human Mind and Brain? Marr's Levels of Analysis"</a>
 
 2. Coarse brain organization (video; focus on gross organization + functions)  
-[MIT OCW 9.13 (Spring 2019) Lecture 2: "Neuroanatomy"](https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-2-neuroanatomy/)  
+<a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-2-neuroanatomy/" target="_blank">MIT OCW 9.13 (Spring 2019) Lecture 2: "Neuroanatomy"</a>  
 *Viewing guidance:* Watch for the high-level tour of major brain divisions/structures and what they do. Pay particular attention to concepts of receptive fields, neural tuning, and cortical maps — these are fundamental for understanding how neural networks relate to biological systems. You do *not* need to know fine anatomical details.
 
 #### Conditional Track A — Cognitive neuroscience foundations
@@ -88,53 +88,53 @@ Complete this track if you have not taken at least 1–2 courses in neuroscience
 Target time: up to ~180 min.
 
 - **A1)** Neurons, spikes, firing rate (high-level; no ion-channel deep dive)  
-[BrainFacts: "How Neurons Communicate"](https://www.brainfacts.org/core-concepts/how-neurons-communicate)
+<a href="https://www.brainfacts.org/core-concepts/how-neurons-communicate" target="_blank">BrainFacts: "How Neurons Communicate"</a>
 
 - **A2)** Quick map of structures + functions  
-[NIH/NINDS: "Brain Basics — Know Your Brain"](https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain)
+<a href="https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain" target="_blank">NIH/NINDS: "Brain Basics — Know Your Brain"</a>
 
 - **A3)** Methods lectures (videos)
-  - [MIT OCW 9.13 Lecture 4: "Cognitive Neuroscience Methods I"](https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-4-cognitive-neuroscience-methods-i/)
-  - [MIT OCW 9.13 Lecture 5: "Cognitive Neuroscience Methods II"](https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-5-cognitive-neuroscience-methods-ii/)
+  - <a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-4-cognitive-neuroscience-methods-i/" target="_blank">MIT OCW 9.13 Lecture 4: "Cognitive Neuroscience Methods I"</a>
+  - <a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-5-cognitive-neuroscience-methods-ii/" target="_blank">MIT OCW 9.13 Lecture 5: "Cognitive Neuroscience Methods II"</a>
   
   *Note:* Don't worry if the jargon feels overwhelming — you don't need to memorize all the details right now, and you can always come back to these videos later when these concepts become needed. These lectures include a section on Marr's levels of analysis; you can skip it if redundant with the required core, though reviewing it twice may be helpful if you haven't taken cognitive science courses.
 
 - **A4)** Optional "what measures what?" cheat-sheets (short skims)
-  - [BrainFacts: "Measuring Neural Physiology"](https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-for-physiology-022723)
-  - [BrainFacts: "Viewing the Human Brain Through Noninvasive Tools"](https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-used-for-human-research-030923)
+  - <a href="https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-for-physiology-022723" target="_blank">BrainFacts: "Measuring Neural Physiology"</a>
+  - <a href="https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-used-for-human-research-030923" target="_blank">BrainFacts: "Viewing the Human Brain Through Noninvasive Tools"</a>
 
 #### Conditional Track B — Linear algebra intuition (refresher)
 Complete this track if vectors/matrices feel rusty.  
 Target time: ~60 min total.
 
-- [3Blue1Brown: "Vectors, what even are they?"](https://www.3blue1brown.com/lessons/vectors)
-- [3Blue1Brown: "Linear combinations, span, and basis vectors"](https://www.3blue1brown.com/lessons/span)
-- [3Blue1Brown: "Linear transformations and matrices"](https://www.3blue1brown.com/lessons/linear-transformations)
-- [3Blue1Brown: "Matrix multiplication as composition"](https://www.3blue1brown.com/lessons/matrix-multiplication)
+- <a href="https://www.3blue1brown.com/lessons/vectors" target="_blank">3Blue1Brown: "Vectors, what even are they?"</a>
+- <a href="https://www.3blue1brown.com/lessons/span" target="_blank">3Blue1Brown: "Linear combinations, span, and basis vectors"</a>
+- <a href="https://www.3blue1brown.com/lessons/linear-transformations" target="_blank">3Blue1Brown: "Linear transformations and matrices"</a>
+- <a href="https://www.3blue1brown.com/lessons/matrix-multiplication" target="_blank">3Blue1Brown: "Matrix multiplication as composition"</a>
 
 #### Conditional Track C — Deep learning intuition (refresher)
 Complete this track if backprop/gradient descent are unfamiliar.  
 Target time: ~60 min total.
 
-- [3Blue1Brown: "What is a neural network?"](https://www.3blue1brown.com/lessons/neural-networks)
-- [3Blue1Brown: "Gradient descent"](https://www.3blue1brown.com/lessons/gradient-descent)
-- [3Blue1Brown: "Backpropagation"](https://www.youtube.com/watch?v=Ilg3gGewQ5U)
+- <a href="https://www.3blue1brown.com/lessons/neural-networks" target="_blank">3Blue1Brown: "What is a neural network?"</a>
+- <a href="https://www.3blue1brown.com/lessons/gradient-descent" target="_blank">3Blue1Brown: "Gradient descent"</a>
+- <a href="https://www.youtube.com/watch?v=Ilg3gGewQ5U" target="_blank">3Blue1Brown: "Backpropagation"</a>
 
 #### Bootcamp Checkpoint (all students; due Sunday 2:00pm)
 
 Purpose: Make sure everyone can (i) separate Marr levels, (ii) describe a simple ANN learning setup in plain language, and (iii) connect claims to what neuroscience measurements could test.
 
 **Assigned paper** (skim; focus on the main question + 1–2 key figures):  
-[Zipser & Andersen (1988) — Nature](https://www-nature-com.revproxy.brown.edu/articles/331679a0) (Brown Library proxy link)
+<a href="https://www-nature-com.revproxy.brown.edu/articles/331679a0" target="_blank">Zipser & Andersen (1988) — Nature</a> (Brown Library proxy link)
 
 **Submit responses:**  
 This assignment has been set up in Canvas/Gradescope. Please submit your responses there (~60 minutes total).
 
-[📝 Submit on Canvas](https://canvas.brown.edu/courses/1101742/assignments/8098936)
+<a href="https://canvas.brown.edu/courses/1101742/assignments/8098936" target="_blank">📝 Submit on Canvas</a>
 
 #### Optional background papers (only if you want extra framing)
-- [Cichy & Kaiser (2019) — Trends in Cognitive Sciences](https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661319300348) (Brown Library proxy link)
-- [Doerig et al. (2023) — Nature Reviews Neuroscience](https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w) (Brown Library proxy link)
+- <a href="https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661319300348" target="_blank">Cichy & Kaiser (2019) — Trends in Cognitive Sciences</a> (Brown Library proxy link)
+- <a href="https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w" target="_blank">Doerig et al. (2023) — Nature Reviews Neuroscience</a> (Brown Library proxy link)
 
 </details>
 
