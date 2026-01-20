@@ -21,7 +21,7 @@ schedule:
   finalized: true
   readings:
   - title: Cichy & Kaiser (2019) - Deep Neural Networks as Scientific Models
-    url: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8
+    url: https://www-cell-com.revproxy.brown.edu/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8
 - date: '2026-02-03'
   topic: 'Lecture: The Three Levers of Deep Learning'
   type: lecture

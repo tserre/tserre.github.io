@@ -8,7 +8,7 @@ subtitle: CPSY 1950 - Spring 2026
 
 ## Course Information
 
-**Meeting times:** Tuesday & Thursday, 2:30-3:50pm  
+**Meeting times:** TTh 2:30-3:50 pm  
 **Classroom location:** Friedman Hall 108  
 **Course Website:** [https://thomas-serre.com/cpsy1950/](https://thomas-serre.com/cpsy1950/)  
 **Communication:** [Ed Discussion](https://edstem.org/us/courses/93110/discussion)
@@ -24,8 +24,8 @@ Associate Director, Center for Computational Brain Science
 ### Contact
 
 **Email:** [thomas_serre@brown.edu](mailto:thomas_serre@brown.edu)  
-**Office hours:** Wednesdays, 1:00-2:00pm (I also typically stay after class for questions)  
-**Location:** Carney Innovation Hub, Room 402 @ 164 Angell St
+**Office hours:** W 1:00-2:00 pm — I also typically stay after class for questions  
+**Location:** Carney Innovation Hub (room 402) @ 164 Angell St
 
 ---
 
@@ -49,7 +49,7 @@ The primary objective of this course is to provide an advanced introduction to N
 
 Students will develop professional-level familiarity with contemporary research questions, methods, and debates in AI, neuroscience, and cognitive science, and will practice core scientific skills through reading, discussion, and conference-style presentations. At the conclusion of the course, students should be able to:
 
-1. Explain major ideas and current debates in NeuroAI, including foundation-model-era approaches (objectives, scaling, interpretability/XAI, neural and cognitive alignment, and limitations).
+1. Explain major ideas and current debates in NeuroAI, including foundation-model era approaches (objectives, scaling, interpretability/XAI, neural and cognitive alignment, and limitations).
 2. Read and evaluate primary research papers critically, assessing whether the evidence supports the claims and identifying key assumptions, confounds, and limitations.
 3. Compare and synthesize approaches to studying intelligence across humans and machines, and articulate what would count as convincing evidence for "human-like" perception and cognition.
 4. Design evaluations at a conceptual level: propose appropriate measurements (behavioral, neural), metrics, controls, and falsifiable predictions to test a model's claims.
@@ -69,16 +69,16 @@ There are no hard prerequisites for this course. The goal is to identify concept
 
 Students will be best prepared if they have taken a course in machine learning and/or deep learning, and are comfortable with basic quantitative concepts: vectors and matrices, linear transformations, basic probability/statistics, and common ML terminology (e.g., training vs testing, overfitting, embeddings/representations, optimization). Familiarity with neural network fundamentals (layers, activations, backpropagation at a conceptual level) is also helpful. Prior coursework in neuroscience is useful but not required; strong quantitative preparation is generally more important for success.
 
-Courses such as **CPSY 1291** (Computational Cognitive Science), **CSCI 1470** (Deep Learning), **CSCI 1420** (Machine Learning), or **APMA 1655** (Statistical Inference) provide relevant preparation. If you have gaps in your background, the instructor is happy to help: I typically stay after class for questions and hold office hours (tentatively Wednesdays at 1pm). That said, you will need to take initiative, put in the work outside of class, and ask for help early.
+Courses such as CPSY 1291 (Computational Cognitive Science), CSCI 1470 (Deep Learning), CSCI 1420 (Machine Learning), or APMA 1655 (Statistical Inference) provide relevant preparation. If you have gaps in your background, the instructor is happy to help: I typically stay after class for questions and hold office hours (tentatively Wednesdays at 1 pm). That said, you will need to take initiative, put in the work outside of class, and ask for help early.
 
 ### Example Readings (to help you gauge fit)
 
-To help you decide whether this course is a good match, here are examples of the kinds of primary research papers we will read and discuss:
+To help you decide whether this course is a good match, here are examples of the kinds of primary research papers we will read and discuss (links use Brown Library proxy access when applicable):
 
-- Schrimpf et al. (2020), [Integrative benchmarking to advance neurally mechanistic models of human intelligence](https://www.sciencedirect.com/science/article/pii/S089662732030605X) (Neuron)
-- Caucheteux et al. (2022), [Deep language algorithms predict semantic comprehension from brain activity](https://www.nature.com/articles/s41598-022-20460-9) (Scientific Reports)
+- Schrimpf et al. (2020), [Integrative benchmarking to advance neurally mechanistic models of human intelligence](https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S089662732030605X) (Neuron)
+- Caucheteux et al. (2022), [Deep language algorithms predict semantic comprehension from brain activity](https://www-nature-com.revproxy.brown.edu/articles/s41598-022-20460-9) (Scientific Reports)
 - He et al. (2022), [Masked autoencoders are scalable vision learners](https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf) (CVPR)
-- Russin, Frank & Pavlick et al. (2025), [Parallel trade-offs in human cognition and neural networks](https://www.pnas.org/doi/10.1073/pnas.2510270122) (PNAS)
+- Russin et al. (2025), [Parallel trade-offs in human cognition and neural networks](https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.2510270122) (PNAS)
 
 ---
 
@@ -90,7 +90,7 @@ There are no textbooks. Materials will include online content and primary source
 
 ## List of Topics
 
-This course has been substantially redesigned for Spring 2026 in response to major recent advances in NeuroAI. While the overall weekly structure is fixed, specific readings, guest speakers, and activities may be refined as the semester progresses based on emerging research and class needs. All updates, readings, slides, and assignments will be posted on the course website.
+This course has been substantially redesigned for Spring 2026 in response to major recent advances in NeuroAI. While the overall weekly structure is fixed, specific readings, guest speakers, and activities may be refined as the semester progresses based on emerging research and class needs. All updates, readings, slides, and assignments will be posted on the course website: [https://thomas-serre.com/cpsy1950/](https://thomas-serre.com/cpsy1950/)
 
 ### Weekly Structure
 
@@ -114,7 +114,7 @@ This course has been substantially redesigned for Spring 2026 in response to maj
 - **Week 12:** Project poster presentations
 - **Week 13:** Guest lecture series – current trends in NeuroAI
 - **Week 14:** Guest lecture series – current trends in NeuroAI (continued)
-- **Final exam:** Tuesday, May 12 at 9:00am
+- **Final exam:** Tuesday, May 12, at 9:00 am
 
 ---
 
@@ -122,40 +122,77 @@ This course has been substantially redesigned for Spring 2026 in response to maj
 
 **[Total time: 180 hours]**
 
-### Attendance, Participation, and In-Class Checks (Required)
+### 1. Attendance, Participation, and In-Class Checks (Required)
 **[36 hours / 3 hours weekly]**
 
 Attendance is expected at all meetings (lectures, lightning mini-conferences, project studio, project poster mini-conference, and guest lectures). This course is discussion- and activity-based; your learning (and your peers') depends on active participation. Class meetings may also include brief in-class reading quizzes/checks to support consistent engagement with the assigned materials.
 
-### Weekly Preparation Outside of Class (Required)
+### 2. Weekly Preparation Outside of Class (Required)
 **[110 hours / 10 hours weekly]**
 
 Most weeks you will complete work outside of class that includes:
 
 - Reading usually 1-2 papers/week (up to 3)
-- Short response papers / pre-class activities (due Tuesdays 2pm)
-- Brief post-class follow-up activities (due Sundays 2pm)
+- Short response papers / pre-class activities (due Tuesdays 2:00 pm)
+- Brief post-class follow-up activities (due Sundays 2:00 pm)
 - Project work leading up to the project poster mini-conference (after spring break)
 
 Workload may shift across weeks (for example, reading volume may be lighter during project studio weeks). Students are strongly encouraged to form study groups and participate in course discussion threads on Ed/the course website.
 
-### Lightning Talks (Required)
+### 3. Lightning Talks (Required)
 **[12 hours / 4 hours per presentation]**
 
 Each student will prepare for **three** lightning talks over the semester (reading the assigned papers, preparing slides, rehearsing, and coordinating with your group of three). Lightning talk groups rotate across weeks; presentation equity is tracked at the individual level so each student presents the same number of times.
 
-### Final Exam (Required)
+### 4. Final Exam (Required)
 **[22 hours]**
 
 About 19 hours of preparation plus a 3-hour in-person exam.
 
-**Final exam: Tuesday, May 12 at 9:00am**
+**Final exam: Tuesday, May 12, at 9:00 am**
 
 ---
 
-## Attendance and Late Policy
+## Attendance (Required)
 
-All assignments are due by the stated deadline (posted on the course website). Unless otherwise noted, pre-class submissions are due Tuesday at 2pm (before Tuesday lecture) and follow-up activities are due after Thursday sessions (Sunday at 2pm). If you will miss class or need an extension, contact the instructor as early as possible; documentation (Dean's note/medical note) are requested for excused absences or extensions.
+Attendance is mandatory. Class meetings include interactive activities (discussion, synthesis, brief reading checks, and conference-style sessions) that cannot be replicated asynchronously. If you must miss class, contact the instructor as early as possible; documentation (Dean's note/medical note) is requested for excused absences when appropriate.
+
+---
+
+## Deadlines (Standard)
+
+Unless otherwise noted, deadlines are:
+
+- **Tuesday 2:00 pm:** Pre-class submissions (before Tuesday's lecture)
+- **Sunday 2:00 pm:** Follow-up activities after Thursday sessions
+
+All deadlines and any week-specific adjustments are posted on the course website.
+
+---
+
+## Late Work Policy
+
+Late work receives a 20% penalty per day (including weekends), unless an extension has been granted in advance.
+
+---
+
+## Lightning Talks (No Extensions)
+
+Lightning talks must be delivered on the scheduled date. There are no extensions for lightning presentations.
+
+To ensure the mini-conference runs smoothly, your slide must be added to the shared class deck by Thursday, 2:00 pm on the day you are scheduled to present.
+
+---
+
+## Regrading
+
+If you believe a grade is incorrect, submit a regrade request in Gradescope within the posted regrade window. Requests must be specific and include a brief justification.
+
+---
+
+## Extra Credit and Participation
+
+There is no extra credit. The main "wiggle room" in the course is the participation component—so please participate actively (in class and on Ed) throughout the semester.
 
 ---
 
@@ -232,5 +269,3 @@ Brown University is committed to the full inclusion of all students. Please info
 Lectures and other course materials are copyrighted. Students are prohibited from reproducing, making copies, publicly displaying, selling, or otherwise distributing slides, recordings, or transcripts of the materials. The only exception is that students with disabilities may have the right to record for their private use if that method is determined to be a reasonable accommodation by Student Accessibility Services. Disregarding the University's copyright policy and federal copyright law is a Student Code of Conduct violation.
 
 ---
-
-**Download:** [Full Syllabus (PDF)](#) (coming soon)

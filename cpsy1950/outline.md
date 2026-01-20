@@ -22,108 +22,207 @@ subtitle: Spring 2026
 # Schedule
 
 ## Week 1 — Course kickoff
-- Thu 1/22 — Kickoff  
-  Course goals, logistics, how lightning sessions & project posters work.
+<details>
+<summary><strong>Thu 1/22 — Course Kickoff</strong></summary>
+<p>NeuroAI goals, course structure, and how we will simulate scientific conferences (lightning talks and posters).</p>
+<p><em>No readings or pre-class activities for Week 1—this is the introductory session.</em></p>
+</details>
 
 ## Week 2 — Bootcamp (async; replaces Tue/Thu lectures)
 
-### Tue 1/27 — Bootcamp I (async; completed during normal Tue class time)
+<details>
+<summary><strong>Tue 1/27 — Bootcamp I (async; completed during normal Tue class time)</strong></summary>
 
-**Assigned reading (all students):**
-- Doerig et al. (2023), *The neuroconnectionist research programme*  
-  - Nature Reviews Neuroscience: https://www.nature.com/articles/s41583-023-00705-w  
-  - Open PDF (arXiv): https://arxiv.org/pdf/2209.03718
+<p><strong>Assigned reading (all students):</strong></p>
+<ul>
+<li><a href="https://arxiv.org/pdf/2209.03718">Doerig et al. (2023) - The neuroconnectionist research programme</a></li>
+</ul>
 
-**Lecture-replacement videos (completed during Tue class time; requirements depend on background):**
-- Deep learning intuition (conditional):
-  - Optional for everyone, but **MANDATORY** for students who have not taken a deep learning course.  
-  - 3Blue1Brown — Neural Networks series (selected chapters)  
-    - Playlist: https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi  
-    - Ch. 1 (What is a neural network?): https://www.3blue1brown.com/lessons/neural-networks  
-    - Ch. 2 (Gradient descent): https://www.3blue1brown.com/lessons/gradient-descent  
-    - Ch. 3 (Backprop, intuitively): https://www.youtube.com/watch?v=Ilg3gGewQ5U&vl=en
+<p><strong>Deep learning intuition (conditional):</strong></p>
+<p>Optional for everyone, but <strong>MANDATORY</strong> for students who have not taken a deep learning course.</p>
+<ul>
+<li><a href="https://www.3blue1brown.com/lessons/neural-networks">3Blue1Brown Ch.1: What is a neural network?</a></li>
+<li><a href="https://www.3blue1brown.com/lessons/gradient-descent">3Blue1Brown Ch.2: Gradient descent</a></li>
+<li><a href="https://www.youtube.com/watch?v=Ilg3gGewQ5U">3Blue1Brown Ch.3: Backpropagation</a></li>
+</ul>
 
-- Linear algebra bootcamp (conditional):
-  - Optional for everyone, but **MANDATORY** for students who have not taken linear algebra and have not taken any ML/AI course that used vectors/matrices seriously.  
-  - 3Blue1Brown "Essence of Linear Algebra" series (selected episodes)  
-    - Playlist: https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF2Wg3fH  
-    - Ep. 1 (Vectors, what even are they?): https://www.3blue1brown.com/lessons/vectors  
-    - Ep. 2 (Linear combinations, span, and basis vectors): https://www.3blue1brown.com/lessons/span  
-    - Ep. 3 (Linear transformations and matrices): https://www.3blue1brown.com/lessons/linear-transformations  
-    - Ep. 4 (Matrix multiplication as composition): https://www.3blue1brown.com/lessons/matrix-multiplication
+<p><strong>Linear algebra bootcamp (conditional):</strong></p>
+<p>Optional for everyone, but <strong>MANDATORY</strong> for students who have not taken linear algebra and have not taken any ML/AI course that used vectors/matrices seriously.</p>
+<ul>
+<li><a href="https://www.3blue1brown.com/lessons/vectors">3Blue1Brown: Vectors, what even are they?</a></li>
+<li><a href="https://www.3blue1brown.com/lessons/span">3Blue1Brown: Linear combinations, span, and basis vectors</a></li>
+<li><a href="https://www.3blue1brown.com/lessons/linear-transformations">3Blue1Brown: Linear transformations and matrices</a></li>
+<li><a href="https://www.3blue1brown.com/lessons/matrix-multiplication">3Blue1Brown: Matrix multiplication as composition</a></li>
+</ul>
 
-- Neuroscience intro video (conditional):
-  - Optional for everyone, but **MANDATORY** for students who have not taken an intro course in neuroscience and/or cognitive science and/or cognitive neuroscience.  
-  - Neuroscience intro video: https://www.youtube.com/watch?v=nlSL7Qg7-Po
-  - Neuromatch Academy W0D0 page: https://compneuro.neuromatch.io/tutorials/W0D0_NeuroVideoSeries/student/W0D0_Tutorial1.html  
-  - Lab tour / neural data context video: https://youtube.com/watch?v=HCx-sOp9R7M
+<p><strong>Neuroscience intro video (conditional):</strong></p>
+<p>Optional for everyone, but <strong>MANDATORY</strong> for students who have not taken an intro course in neuroscience and/or cognitive science and/or cognitive neuroscience.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=nlSL7Qg7-Po">Neuroscience Introduction</a></li>
+<li><a href="https://compneuro.neuromatch.io/tutorials/W0D0_NeuroVideoSeries/student/W0D0_Tutorial1.html">Neuromatch Academy W0D0</a></li>
+<li><a href="https://youtube.com/watch?v=HCx-sOp9R7M">Lab Tour: Neural Data Context</a></li>
+</ul>
 
-**Textbook-style foundations reading (conditional, skim):**
-- Optional for everyone, but **MANDATORY** for the same students who are required to watch the neuroscience intro video.  
-- Open Neuroscience Initiative (Pressbooks)  
-  - Chapter 2 (brain organization / anatomy): https://pressbooks.atlanticoer-relatlantique.ca/openneuroscience/chapter/chapter-2-anatomy-of-the-nervous-system/  
-  - Chapter 6 (methods overview): https://pressbooks.atlanticoer-relatlantique.ca/openneuroscience/chapter/chapter-6/
+<p><strong>Textbook-style foundations reading (conditional, skim):</strong></p>
+<p>Optional for everyone, but <strong>MANDATORY</strong> for the same students who are required to watch the neuroscience intro video.</p>
+<ul>
+<li><a href="https://pressbooks.atlanticoer-relatlantique.ca/openneuroscience/chapter/chapter-2-anatomy-of-the-nervous-system/">Chapter 2 (brain organization / anatomy)</a></li>
+<li><a href="https://pressbooks.atlanticoer-relatlantique.ca/openneuroscience/chapter/chapter-6/">Chapter 6 (methods overview)</a></li>
+</ul>
 
-*(Note: The conditional videos are intended to be completed during Tue class time; if a student needs multiple tracks, they should start during Tue class time and finish the remainder outside of class time.)*
+</details>
 
-### Thu 1/29 — Bootcamp II (async; completed during normal Thu class time)
+<details>
+<summary><strong>Thu 1/29 — Bootcamp II (async; completed during normal Thu class time)</strong></summary>
 
-**Assigned reading (all students):**
-- Cichy & Kaiser (2019), *Deep Neural Networks as Scientific Models* (Trends in Cognitive Sciences):  
-  https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8
+<p><strong>Assigned reading (all students):</strong></p>
+<ul>
+<li><a href="https://www-cell-com.revproxy.brown.edu/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8">Cichy & Kaiser (2019) - Deep Neural Networks as Scientific Models</a></li>
+</ul>
 
-## Week 3 — Modern capabilities: objectives
-- Tue 2/3 — Lecture: *Learning objectives debate* (predictive/world-model vs masked reconstruction vs invariance/self-distillation)  
-- Thu 2/5 — Lightning Mini-Conf 1: *Objectives / SSL* (scheduled subset of groups)
+<p><em>Note: Incorporate world models in reinforcement learning.</em></p>
 
-## Week 4 — Modern capabilities: scaling & emergence
-- Tue 2/10 — Lecture: *Scaling laws + "emergent abilities" + critiques* (figure-first, debate framing)  
-- Thu 2/12 — Lightning Mini-Conf 2: *Scaling / emergence* (scheduled subset of groups)
+</details>
 
-## Week 5 — XAI-A: features, concepts, SAEs
-- Tue 2/17 — Lecture: *XAI-A* (feature visualization, concepts, SAEs/dictionary learning, "what we can name/see")  
-- Thu 2/19 — Lightning Mini-Conf 3: *XAI-A* (scheduled subset of groups)
+## Week 3 — The three levers of deep learning
+<details>
+<summary><strong>Tue 2/3 — Lecture: The Three Levers of Deep Learning</strong></summary>
+<p>How architecture, learning objectives, and experience (data/scale) shape representations, behavior, and generalization across modalities.</p>
 
-## Week 6 — XAI-B: mechanistic interpretability
-- Tue 2/24 — Lecture: *XAI-B* (mechanistic interpretability: circuits, causal interventions, what counts as evidence)  
-- Thu 2/26 — Lightning Mini-Conf 4: *XAI-B* (scheduled subset of groups)
+<p><em>Note: Connect back to Nancy Kanwisher's examples of color and fruit detection in primates as the objective functions to be optimized / goal of the system/agent.</em></p>
 
-## Week 7 — AI → Neuroscience: alignment
-- Tue 3/3 — Lecture: *AI → Neuroscience / Alignment* (what alignment claims mean, predict neural/behavioral data, evaluation logic, what AI contributes mechanistically beyond "fit")  
-- Thu 3/5 — Lightning Mini-Conf 5: *Alignment / AI→Neuro* (scheduled subset of groups)
+<p><em>Note: Incorporate world models in reinforcement learning. See Ha & Schmidhuber (2018), <a href="https://arxiv.org/abs/1803.10122">World Models</a>.</em></p>
+</details>
 
-## Week 8 — Neuroscience → AI: inspirations
-- Tue 3/10 — Lecture: *Neuroscience → AI* (development & curricula/data diet, robustness ideas incl. V1-style angles, recurrence/RNNs/neural circuits, what biology details matter)  
-- Thu 3/12 — Lightning Mini-Conf 6: *Neuro→AI inspirations* (scheduled subset of groups)
+<details>
+<summary><strong>Thu 2/5 — Lightning Mini-Conf 1: Three Levers of DL</strong></summary>
+<p>Details TBD</p>
+</details>
 
-## Week 9 — What's missing + Cognitive alignment
-- Tue 3/17 — Lecture: *What's missing + Cognitive alignment intro* (cognitive "signatures" beyond accuracy, pitfalls: contamination/prompt sensitivity, how this motivates student projects)  
-- Thu 3/19 — Lightning Mini-Conf 7: *Cognitive alignment papers* (scheduled subset of groups)
+## Week 4 — Scaling and emerging capabilities
+<details>
+<summary><strong>Tue 2/10 — Lecture: Scaling and Emerging Capabilities</strong></summary>
+<p>Pretraining and fine-tuning/transfer; in-context learning and reasoning; what 'emergence' claims mean and how to evaluate them critically.</p>
+</details>
 
----
+<details>
+<summary><strong>Thu 2/12 — Lightning Mini-Conf 2: Scaling & Emergence</strong></summary>
+<p>Details TBD</p>
+</details>
+
+## Week 5 — Representation-level interpretability
+<details>
+<summary><strong>Tue 2/17 — Lecture: Representation-Level Interpretability</strong></summary>
+<p>Feature visualization, concept-based methods, sparse/dictionary approaches (incl. SAEs); what we can and can't reliably name in representations.</p>
+</details>
+
+<details>
+<summary><strong>Thu 2/19 — Lightning Mini-Conf 3: Representation Interpretability</strong></summary>
+<p>Details TBD</p>
+</details>
+
+## Week 6 — Mechanistic interpretability
+<details>
+<summary><strong>Tue 2/24 — Lecture: Mechanistic Interpretability</strong></summary>
+<p>Circuits, causal interventions, and standards of evidence for mechanistic claims.</p>
+</details>
+
+<details>
+<summary><strong>Thu 2/26 — Lightning Mini-Conf 4: Mechanistic Interpretability</strong></summary>
+<p>Details TBD</p>
+</details>
+
+## Week 7 — Neural alignment
+<details>
+<summary><strong>Tue 3/3 — Lecture: Neural Alignment and Model-to-Brain Mapping</strong></summary>
+<p>Predicting neural data across measurement modalities; encoding/decoding and representational similarity; what alignment can and cannot justify.</p>
+</details>
+
+<details>
+<summary><strong>Thu 3/5 — Lightning Mini-Conf 5: Neural Alignment</strong></summary>
+<p>Details TBD</p>
+</details>
+
+## Week 8 — Behavioral and cognitive alignment
+<details>
+<summary><strong>Tue 3/10 — Lecture: Behavioral and Cognitive Alignment</strong></summary>
+<p>Treating models as participants in cognitive tasks; behavioral signatures beyond accuracy (generalization, planning, decision making, cognitive control); confounds and best practices.</p>
+</details>
+
+<details>
+<summary><strong>Thu 3/12 — Lightning Mini-Conf 6: Behavioral Alignment</strong></summary>
+<p>Details TBD</p>
+</details>
+
+## Week 9 — Toward Brain-Like AI
+<details>
+<summary><strong>Tue 3/17 — Lecture: Toward Brain-Like AI (Project Launch)</strong></summary>
+<p>Brain-like training (developmental curricula, data diet, objectives) and brain-like mechanisms (recurrence/feedback, circuit motifs, robustness); translating hypotheses into concrete evaluation plans.</p>
+<p><em>Note: Incorporate hippocampus-inspired architectures for continual learning and embodied AI approaches. Also cover connectomics constraints and neuronal diversity.</em></p>
+</details>
+
+<details>
+<summary><strong>Thu 3/19 — Lightning Mini-Conf 7: Brain-Like AI + Project Launch</strong></summary>
+<p>Details TBD</p>
+</details>
 
 ## Week 10 — Spring Break
-- Tue 3/24 — No class
-- Thu 3/26 — No class
+<details>
+<summary><strong>Tue 3/24 — Spring Break</strong></summary>
+<p>No class</p>
+</details>
 
-## Week 11 — Project studio (in-class work time)
-- Tue 3/31 — Project Studio I (planning + pilot runs + figure selection)
-- Thu 4/2 — Project Studio II (complete runs + draft poster)
+<details>
+<summary><strong>Thu 3/26 — Spring Break</strong></summary>
+<p>No class</p>
+</details>
 
-## Week 12 — Project poster mini-conference (posters)
-- Tue 4/7 — Project Poster Mini-Conf A (17 posters)
-- Thu 4/9 — Project Poster Mini-Conf B (17 posters)
+## Week 11 — Project studio
+<details>
+<summary><strong>Tue 3/31 — Project Studio I</strong></summary>
+<p>Project launch and evaluation design; in-class time for groups to plan, run pilot tests, and produce first results/figures.</p>
+</details>
 
-## Week 13 — Guest lectures
-- Tue 4/14 — Guest lecture (TBD)  
-  Candidate pool: Schrimpf (Brain-Score), Binz (Centaur), Tolias lab (mouse V1 foundation model), Turaga (Janelia), Kozachkov (Brown), Tuckute (Kempner), Wang (Kempner), Chung (Kempner), etc.
-- Thu 4/16 — Guest lecture (TBD)
+<details>
+<summary><strong>Thu 4/2 — Project Studio II</strong></summary>
+<p>Continue project work: complete runs and draft poster.</p>
+</details>
 
-## Week 14 — Guest lectures
-- Tue 4/21 — Guest: Rufin VanRullen (global workspace / consciousness & deep learning)
-- Thu 4/23 — Guest: Victor Boutin (generative models, EBMs, cognitive science)
+## Week 12 — Project poster presentations
+<details>
+<summary><strong>Tue 4/7 — Project Poster Mini-Conf A</strong></summary>
+<p>Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion.</p>
+</details>
 
----
+<details>
+<summary><strong>Thu 4/9 — Project Poster Mini-Conf B</strong></summary>
+<p>Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion.</p>
+</details>
+
+## Week 13 — Guest lecture series
+<details>
+<summary><strong>Tue 4/14 — Guest Lecture Series I (TBD)</strong></summary>
+<p>Details TBD</p>
+</details>
+
+<details>
+<summary><strong>Thu 4/16 — Guest Lecture Series I (TBD)</strong></summary>
+<p>Details TBD</p>
+</details>
+
+## Week 14 — Guest lecture series (continued)
+<details>
+<summary><strong>Tue 4/21 — Guest Lecture Series II: Rufin VanRullen</strong></summary>
+<p>Frontier topics in NeuroAI: global workspace / consciousness & deep learning.</p>
+</details>
+
+<details>
+<summary><strong>Thu 4/23 — Guest Lecture Series II: Victor Boutin + Course Wrap-Up</strong></summary>
+<p>Frontier topics in NeuroAI: generative models, EBMs, cognitive science. Plus course wrap-up and final exam briefing.</p>
+</details>
 
 ## Week 15 — Final exam
-- Tue 5/12, 9:00am — Final exam
+<details>
+<summary><strong>Tue 5/12 — Final Exam</strong></summary>
+<p>Final exam, 9:00am</p>
+</details>
