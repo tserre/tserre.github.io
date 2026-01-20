@@ -56,14 +56,14 @@ Students work in rotating small groups throughout the semester, culminating in p
 
 ## Schedule {#schedule}
 
-### Week 1 — Course kickoff
+### Week 1 — Course kickoff {#week1}
 <details>
 <summary><strong>Thu 1/22 — Course Kickoff</strong></summary>
 <p>NeuroAI goals, course structure, and how we will simulate scientific conferences (lightning talks and posters).</p>
 <p><em>No readings or pre-class activities for Week 1—this is the introductory session.</em></p>
 </details>
 
-### Week 2 — Foundations of natural and artificial intelligence
+### Week 2 — Foundations of natural and artificial intelligence {#week2}
 <details markdown="1">
 <summary><strong>Async Bootcamp (no in-person class this week)</strong></summary>
 
@@ -138,7 +138,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 
 </details>
 
-### Week 3 — The three levers of deep learning
+### Week 3 — The three levers of deep learning {#week3}
 <details>
 <summary><strong>Tue 2/3 — Lecture: The Three Levers of Deep Learning</strong></summary>
 <p>Details TBD</p>
@@ -149,7 +149,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 <p>Details TBD</p>
 </details>
 
-### Week 4 — Scaling and emerging capabilities
+### Week 4 — Scaling and emerging capabilities {#week4}
 <details>
 <summary><strong>Tue 2/10 — Lecture: Scaling and Emerging Capabilities</strong></summary>
 <p>Details TBD</p>
@@ -160,7 +160,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 <p>Details TBD</p>
 </details>
 
-### Week 5 — Representation-level interpretability
+### Week 5 — Representation-level interpretability {#week5}
 <details>
 <summary><strong>Tue 2/17 — Lecture: Representation-Level Interpretability</strong></summary>
 <p>Details TBD</p>
@@ -171,7 +171,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 <p>Details TBD</p>
 </details>
 
-### Week 6 — Mechanistic interpretability
+### Week 6 — Mechanistic interpretability {#week6}
 <details>
 <summary><strong>Tue 2/24 — Lecture: Mechanistic Interpretability</strong></summary>
 <p>Details TBD</p>
@@ -182,7 +182,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 <p>Details TBD</p>
 </details>
 
-### Week 7 — Neural alignment
+### Week 7 — Neural alignment {#week7}
 <details>
 <summary><strong>Tue 3/3 — Lecture: Neural Alignment and Model-to-Brain Mapping</strong></summary>
 <p>Details TBD</p>
@@ -193,7 +193,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 <p>Details TBD</p>
 </details>
 
-### Week 8 — Behavioral and cognitive alignment
+### Week 8 — Behavioral and cognitive alignment {#week8}
 <details>
 <summary><strong>Tue 3/10 — Lecture: Behavioral and Cognitive Alignment</strong></summary>
 <p>Details TBD</p>
@@ -204,7 +204,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 <p>Details TBD</p>
 </details>
 
-### Week 9 — Toward Brain-Like AI
+### Week 9 — Toward Brain-Like AI {#week9}
 <details>
 <summary><strong>Tue 3/17 — Lecture: Toward Brain-Like AI (Project Launch)</strong></summary>
 <p>Details TBD</p>
@@ -215,7 +215,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 <p>Details TBD</p>
 </details>
 
-### Week 10 — Spring Break
+### Week 10 — Spring Break {#week10}
 <details>
 <summary><strong>Tue 3/24 — Spring Break</strong></summary>
 <p>No class</p>
@@ -226,7 +226,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 <p>No class</p>
 </details>
 
-### Week 11 — Project studio
+### Week 11 — Project studio {#week11}
 <details>
 <summary><strong>Tue 3/31 — Project Studio I</strong></summary>
 <p>Project launch and evaluation design; in-class time for groups to plan, run pilot tests, and produce first results/figures.</p>
@@ -237,7 +237,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 <p>Continue project work: complete runs and draft poster.</p>
 </details>
 
-### Week 12 — Project poster presentations
+### Week 12 — Project poster presentations {#week12}
 <details>
 <summary><strong>Tue 4/7 — Project Poster Mini-Conf A</strong></summary>
 <p>Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion.</p>
@@ -248,7 +248,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 <p>Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion.</p>
 </details>
 
-### Week 13 — Guest lecture series
+### Week 13 — Guest lecture series {#week13}
 <details>
 <summary><strong>Tue 4/14 — Guest Lecture Series I (TBD)</strong></summary>
 <p>Details TBD</p>
@@ -259,7 +259,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 <p>Details TBD</p>
 </details>
 
-### Week 14 — Guest lecture series (continued)
+### Week 14 — Guest lecture series (continued) {#week14}
 <details>
 <summary><strong>Tue 4/21 — Guest Lecture Series II: Rufin VanRullen</strong></summary>
 <p>Frontier topics in NeuroAI: global workspace / consciousness & deep learning.</p>
@@ -270,7 +270,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 <p>Frontier topics in NeuroAI: generative models, EBMs, cognitive science. Plus course wrap-up and final exam briefing.</p>
 </details>
 
-### Week 15 — Final exam
+### Week 15 — Final exam {#week15}
 <details>
 <summary><strong>Tue 5/12 — Final Exam</strong></summary>
 <p>Final exam, 9:00am</p>
