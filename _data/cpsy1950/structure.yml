@@ -24,49 +24,49 @@ parts:
     description: "Jump to specific weeks"
     lessons:
       - number: 1
-        title: "Week 1 — Course kickoff"
+        title: "W1 — Course kickoff"
         url: "/cpsy1950/#week1"
       - number: 2
-        title: "Week 2 — Foundations"
+        title: "W2 — Foundations"
         url: "/cpsy1950/#week2"
       - number: 3
-        title: "Week 3 — Three levers of DL"
+        title: "W3 — Three levers of DL"
         url: "/cpsy1950/#week3"
       - number: 4
-        title: "Week 4 — Scaling & emergence"
+        title: "W4 — Scaling & emergence"
         url: "/cpsy1950/#week4"
       - number: 5
-        title: "Week 5 — Representation interpretability"
+        title: "W5 — Rep. interpretability"
         url: "/cpsy1950/#week5"
       - number: 6
-        title: "Week 6 — Mechanistic interpretability"
+        title: "W6 — Mech. interpretability"
         url: "/cpsy1950/#week6"
       - number: 7
-        title: "Week 7 — Neural alignment"
+        title: "W7 — Neural alignment"
         url: "/cpsy1950/#week7"
       - number: 8
-        title: "Week 8 — Behavioral alignment"
+        title: "W8 — Behavioral alignment"
         url: "/cpsy1950/#week8"
       - number: 9
-        title: "Week 9 — Brain-Like AI"
+        title: "W9 — Brain-Like AI"
         url: "/cpsy1950/#week9"
       - number: 10
-        title: "Week 10 — Spring Break"
+        title: "W10 — Spring Break"
         url: "/cpsy1950/#week10"
       - number: 11
-        title: "Week 11 — Project studio"
+        title: "W11 — Project studio"
         url: "/cpsy1950/#week11"
       - number: 12
-        title: "Week 12 — Poster presentations"
+        title: "W12 — Poster presentations"
         url: "/cpsy1950/#week12"
       - number: 13
-        title: "Week 13 — Guest lectures"
+        title: "W13 — Guest lectures"
         url: "/cpsy1950/#week13"
       - number: 14
-        title: "Week 14 — Guest lectures"
+        title: "W14 — Guest lectures"
         url: "/cpsy1950/#week14"
       - number: 15
-        title: "Week 15 — Final exam"
+        title: "W15 — Final exam"
         url: "/cpsy1950/#week15"
 
 # Additional resources shown in sidebar
