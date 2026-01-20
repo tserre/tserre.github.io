@@ -1,10 +1,8 @@
 ---
 layout: course-sidebar
-title: Syllabus
-subtitle: CPSY 1950 - Spring 2026
+title: CPSY 1950 -<br>Deep Learning in Brains, Minds & Machines
+subtitle: Spring 2026 • Advanced Undergraduate/Graduate
 ---
-
-# Deep Learning in Brains, Minds & Machines
 
 ## Course Information
 
