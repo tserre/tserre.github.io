@@ -64,7 +64,7 @@ Students work in rotating small groups throughout the semester, culminating in p
 </details>
 
 ### Week 2 — Async Bootcamp (no in-person class this week)
-<details>
+<details markdown="1">
 <summary><strong>Week 2 — Async Bootcamp</strong></summary>
 
 Goal: Put everyone on a leveled playing field for Week 3. Complete the Required Core first (mandatory for all), then the conditional tracks that match your background. You do *not* need to do every track.
