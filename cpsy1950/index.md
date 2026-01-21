@@ -123,7 +123,7 @@ Target time: ~60 min total.
 
 Purpose: Ensure everyone can (i) understand Marr’s Levels of Analysis, (ii) explain—in plain language—how an artificial neural network (ANN) learns from data, and (iii) identify how specific claims about brain or ANN function could be tested using neuroscience measurement techniques (e.g., what a method can or cannot reveal, and how experimental evidence could evaluate a model’s predictions).
 
-**Assigned paper** (skim; focus on the main question + 1–2 key figures):  
+**Assigned paper** (skim; this is not an easy read! Focus on the main question + key figures -- think big picture):  
 <a href="https://www-nature-com.revproxy.brown.edu/articles/331679a0" target="_blank">Zipser & Andersen (1988) — Nature</a> (Brown Library proxy link)
 
 **Submit responses:**  
