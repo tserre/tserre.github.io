@@ -14,7 +14,6 @@ A seminar-style exploration of cutting-edge research at the intersection of natu
 
 **Instructor:** Thomas Serre  
 **Email:** [thomas_serre@brown.edu](mailto:thomas_serre@brown.edu)  
-**Semester:** Spring 2026  
 **Time:** Tuesday & Thursday, 2:30pm-3:50pm  
 **Location:** Friedman Hall 108  
 **Office Hours:** Wednesdays, 1:00-2:00pm @ Carney Innovation Hub (Room 402)  
@@ -32,14 +31,14 @@ A seminar-style exploration of cutting-edge research at the intersection of natu
 
 This course uses a lecture + mini-conference (lightning talks) format:
 
-- **Tuesdays (80 min):** Instructor lecture introducing the week's theme (figure-first, conceptual approach)
-- **Thursdays (80 min):** Student lightning talks (~15 presentations, 2 minutes each) + synthesis discussion
+- **Tuesdays (80 min):** Instructor lecture introducing the week's theme 
+- **Thursdays (80 min):** Student lightning talks (~15 presentations, 3 minutes each) + synthesis/discussion
 
-Students work in rotating small groups throughout the semester, culminating in project poster presentations. The course covers modern AI capabilities, explainable AI, the AI-neuroscience bridge, and cognitive alignment.
+Students work in rotating small groups throughout the semester, culminating in project poster presentations. The course covers modern AI capabilities, explainable AI (XAI), NeuroAI, and cognitive and neural alignment.
 
 ### Key Dates
 - **First Class:** Thursday, January 22, 2026
-- **Bootcamp:** Week 2 (async, conditional requirements)
+- **Bootcamp:** Week 2 (async – no class January 27–29)
 - **Lightning Talks:** Weeks 3-9
 - **Spring Break:** Week 10 (March 24-26)
 - **Project Posters:** Weeks 11-12 (April 7-9)
@@ -59,7 +58,7 @@ Students work in rotating small groups throughout the semester, culminating in p
 ### Week 1 — Course kickoff {#week1}
 <details>
 <summary><strong>Thu 1/22 — Course Kickoff</strong></summary>
-<p>NeuroAI goals, course structure, and how we will simulate scientific conferences (lightning talks and posters).</p>
+<p>NeuroAI goals, course structure, and how we will simulate scientific conferences (lightning talks and projects).</p>
 <p><em>No readings or pre-class activities for Week 1—this is the introductory session.</em></p>
 </details>
 
@@ -77,7 +76,7 @@ Goal: Put everyone on a leveled playing field for Week 3. Complete the Required 
 *Expected time: ~90 min total*
 
 1. Marr's Levels of Analysis (video)  
-<a href="https://nancysbraintalks.mit.edu/video_page/12-how-can-we-study-human-mind-and-brain-marrs-levels-analysis/" target="_blank">Nancy Kanwisher: "How Can We Study the Human Mind and Brain? Marr's Levels of Analysis"</a>
+<a href="https://nancysbraintalks.mit.edu/video_page/12-how-can-we-study-human-mind-and-brain-marrs-levels-analysis/" target="_blank">Nancy Kanwisher: "How can we study the human mind and brain? Marr's levels of analysis"</a>
 
 2. Coarse brain organization (video; focus on gross organization + functions)  
 <a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-2-neuroanatomy/" target="_blank">MIT OCW 9.13 (Spring 2019) Lecture 2: "Neuroanatomy"</a>  
@@ -88,20 +87,20 @@ Complete this track if you have not taken at least 1–2 courses in neuroscience
 Target time: up to ~180 min.
 
 - **A1)** Neurons, spikes, firing rate (high-level; no ion-channel deep dive)  
-<a href="https://www.brainfacts.org/core-concepts/how-neurons-communicate" target="_blank">BrainFacts: "How Neurons Communicate"</a>
+<a href="https://www.brainfacts.org/core-concepts/how-neurons-communicate" target="_blank">BrainFacts: "How neurons communicate"</a>
 
 - **A2)** Quick map of structures + functions  
-<a href="https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain" target="_blank">NIH/NINDS: "Brain Basics — Know Your Brain"</a>
+<a href="https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain" target="_blank">NIH/NINDS: "Brain basics — know your brain"</a>
 
 - **A3)** Methods lectures (videos)
-  - <a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-4-cognitive-neuroscience-methods-i/" target="_blank">MIT OCW 9.13 Lecture 4: "Cognitive Neuroscience Methods I"</a>
-  - <a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-5-cognitive-neuroscience-methods-ii/" target="_blank">MIT OCW 9.13 Lecture 5: "Cognitive Neuroscience Methods II"</a>
+  - <a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-4-cognitive-neuroscience-methods-i/" target="_blank">MIT OCW 9.13 Lecture 4: "Cognitive neuroscience methods I"</a>
+  - <a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-5-cognitive-neuroscience-methods-ii/" target="_blank">MIT OCW 9.13 Lecture 5: "Cognitive neuroscience methods II"</a>
   
   *Note:* Don't worry if the jargon feels overwhelming — you don't need to memorize all the details right now, and you can always come back to these videos later when these concepts become needed. These lectures include a section on Marr's levels of analysis; you can skip it if redundant with the required core, though reviewing it twice may be helpful if you haven't taken cognitive science courses.
 
 - **A4)** Optional "what measures what?" cheat-sheets (short skims)
-  - <a href="https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-for-physiology-022723" target="_blank">BrainFacts: "Measuring Neural Physiology"</a>
-  - <a href="https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-used-for-human-research-030923" target="_blank">BrainFacts: "Viewing the Human Brain Through Noninvasive Tools"</a>
+  - <a href="https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-for-physiology-022723" target="_blank">BrainFacts: "Measuring neural physiology"</a>
+  - <a href="https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-used-for-human-research-030923" target="_blank">BrainFacts: "Viewing the human brain through noninvasive tools"</a>
 
 #### Conditional Track B — Linear algebra intuition (refresher)
 Complete this track if vectors/matrices feel rusty.  
@@ -140,7 +139,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 
 ### Week 3 — The three levers of deep learning {#week3}
 <details>
-<summary><strong>Tue 2/3 — Lecture: The Three Levers of Deep Learning</strong></summary>
+<summary><strong>Tue 2/3 — Lecture: The three levers of deep learning</strong></summary>
 <p>Details TBD</p>
 </details>
 
@@ -151,7 +150,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 
 ### Week 4 — Scaling and emerging capabilities {#week4}
 <details>
-<summary><strong>Tue 2/10 — Lecture: Scaling and Emerging Capabilities</strong></summary>
+<summary><strong>Tue 2/10 — Lecture: Scaling and emerging capabilities</strong></summary>
 <p>Details TBD</p>
 </details>
 
@@ -162,7 +161,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 
 ### Week 5 — Representation-level interpretability {#week5}
 <details>
-<summary><strong>Tue 2/17 — Lecture: Representation-Level Interpretability</strong></summary>
+<summary><strong>Tue 2/17 — Lecture: Representation-level interpretability</strong></summary>
 <p>Details TBD</p>
 </details>
 
@@ -173,7 +172,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 
 ### Week 6 — Mechanistic interpretability {#week6}
 <details>
-<summary><strong>Tue 2/24 — Lecture: Mechanistic Interpretability</strong></summary>
+<summary><strong>Tue 2/24 — Lecture: Mechanistic interpretability</strong></summary>
 <p>Details TBD</p>
 </details>
 
@@ -184,7 +183,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 
 ### Week 7 — Neural alignment {#week7}
 <details>
-<summary><strong>Tue 3/3 — Lecture: Neural Alignment and Model-to-Brain Mapping</strong></summary>
+<summary><strong>Tue 3/3 — Lecture: Neural alignment and model-to-brain mapping</strong></summary>
 <p>Details TBD</p>
 </details>
 
@@ -195,7 +194,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 
 ### Week 8 — Behavioral and cognitive alignment {#week8}
 <details>
-<summary><strong>Tue 3/10 — Lecture: Behavioral and Cognitive Alignment</strong></summary>
+<summary><strong>Tue 3/10 — Lecture: Behavioral and cognitive alignment</strong></summary>
 <p>Details TBD</p>
 </details>
 
@@ -206,7 +205,7 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 
 ### Week 9 — Toward Brain-Like AI {#week9}
 <details>
-<summary><strong>Tue 3/17 — Lecture: Toward Brain-Like AI (Project Launch)</strong></summary>
+<summary><strong>Tue 3/17 — Lecture: Toward brain-like AI (project launch)</strong></summary>
 <p>Details TBD</p>
 </details>
 
@@ -228,51 +227,51 @@ This assignment has been set up in Canvas/Gradescope. Please submit your respons
 
 ### Week 11 — Project studio {#week11}
 <details>
-<summary><strong>Tue 3/31 — Project Studio I</strong></summary>
+<summary><strong>Tue 3/31 — Project studio I</strong></summary>
 <p>Project launch and evaluation design; in-class time for groups to plan, run pilot tests, and produce first results/figures.</p>
 </details>
 
 <details>
-<summary><strong>Thu 4/2 — Project Studio II</strong></summary>
+<summary><strong>Thu 4/2 — Project studio II</strong></summary>
 <p>Continue project work: complete runs and draft poster.</p>
 </details>
 
 ### Week 12 — Project poster presentations {#week12}
 <details>
-<summary><strong>Tue 4/7 — Project Poster Mini-Conf A</strong></summary>
+<summary><strong>Tue 4/7 — Project poster mini-conf A</strong></summary>
 <p>Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion.</p>
 </details>
 
 <details>
-<summary><strong>Thu 4/9 — Project Poster Mini-Conf B</strong></summary>
+<summary><strong>Thu 4/9 — Project poster mini-conf B</strong></summary>
 <p>Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion.</p>
 </details>
 
 ### Week 13 — Guest lecture series {#week13}
 <details>
-<summary><strong>Tue 4/14 — Guest Lecture Series I (TBD)</strong></summary>
+<summary><strong>Tue 4/14 — Guest lecture series I (TBD)</strong></summary>
 <p>Details TBD</p>
 </details>
 
 <details>
-<summary><strong>Thu 4/16 — Guest Lecture Series I (TBD)</strong></summary>
+<summary><strong>Thu 4/16 — Guest lecture series I (TBD)</strong></summary>
 <p>Details TBD</p>
 </details>
 
 ### Week 14 — Guest lecture series (continued) {#week14}
 <details>
-<summary><strong>Tue 4/21 — Guest Lecture Series II: Rufin VanRullen</strong></summary>
+<summary><strong>Tue 4/21 — Guest lecture series II: Rufin VanRullen</strong></summary>
 <p>Frontier topics in NeuroAI: global workspace / consciousness & deep learning.</p>
 </details>
 
 <details>
-<summary><strong>Thu 4/23 — Guest Lecture Series II: Victor Boutin + Course Wrap-Up</strong></summary>
+<summary><strong>Thu 4/23 — Guest lecture series II: Victor Boutin + course wrap-up</strong></summary>
 <p>Frontier topics in NeuroAI: generative models, EBMs, cognitive science. Plus course wrap-up and final exam briefing.</p>
 </details>
 
 ### Week 15 — Final exam {#week15}
 <details>
-<summary><strong>Tue 5/12 — Final Exam</strong></summary>
+<summary><strong>Tue 5/12 — Final exam</strong></summary>
 <p>Final exam, 9:00am</p>
 </details>
 
