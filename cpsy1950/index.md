@@ -6,7 +6,7 @@ subtitle: Spring 2026 • Advanced Undergraduate/Graduate
 
 A seminar-style exploration of cutting-edge research at the intersection of natural and artificial intelligence. Students engage with recent papers and develop critical perspectives on how biological and artificial systems process information.
 
-**Format:** Tuesday lectures + Thursday lightning mini-conferences • Project posters • Guest lectures
+**Format:** Tuesday lectures + Thursday mini-conferences (lightning talks) • Project posters • Guest lectures
 
 ---
 
@@ -30,7 +30,7 @@ A seminar-style exploration of cutting-edge research at the intersection of natu
 
 ## Overview {#overview}
 
-This course uses a lecture + lightning talk (conference style) format:
+This course uses a lecture + mini-conference (lightning talks) format:
 
 - **Tuesdays (80 min):** Instructor lecture introducing the week's theme (figure-first, conceptual approach)
 - **Thursdays (80 min):** Student lightning talks (~15 presentations, 2 minutes each) + synthesis discussion

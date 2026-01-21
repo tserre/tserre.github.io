@@ -9,7 +9,7 @@ subtitle: Spring 2026
 ## Core format
 - T/Th, 80 minutes
 - Tue = lecture introducing the week's theme (conceptual, figure-first)
-- Thu = lightning mini-conference on the same theme  
+- Thu = mini-conference (lightning talks) on the same theme  
   - ~15 lightning talks (2:00 talk + 0:30 transition)  
   - ~20–30 min synthesis discussion/activity
 

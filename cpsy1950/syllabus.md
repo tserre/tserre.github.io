@@ -123,7 +123,7 @@ This course has been substantially redesigned for Spring 2026 in response to maj
 ### 1. Attendance, Participation, and In-Class Checks (Required)
 **[36 hours / 3 hours weekly]**
 
-Attendance is expected at all meetings (lectures, lightning mini-conferences, project studio, project poster mini-conference, and guest lectures). This course is discussion- and activity-based; your learning (and your peers') depends on active participation. Class meetings may also include brief in-class reading quizzes/checks to support consistent engagement with the assigned materials.
+Attendance is expected at all meetings (lectures, mini-conferences (lightning talks), project studio, project poster mini-conference, and guest lectures). This course is discussion- and activity-based; your learning (and your peers') depends on active participation. Class meetings may also include brief in-class reading quizzes/checks to support consistent engagement with the assigned materials.
 
 ### 2. Weekly Preparation Outside of Class (Required)
 **[110 hours / 10 hours weekly]**
