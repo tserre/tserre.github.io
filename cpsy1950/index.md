@@ -13,13 +13,13 @@ A seminar-style exploration of cutting-edge research at the intersection of natu
 ## Course Information
 
 **Instructor:** Thomas Serre  
-**Email:** [thomas_serre@brown.edu](mailto:thomas_serre@brown.edu)  
+**Email:** <a href="mailto:thomas_serre@brown.edu" target="_blank">thomas_serre@brown.edu</a>  
 **Time:** Tuesday & Thursday, 2:30pm-3:50pm  
 **Location:** Friedman Hall 108  
 **Office Hours:** Wednesdays, 1:00-2:00pm @ Carney Innovation Hub (Room 402)  
 **Communication:** <a href="https://edstem.org/us/courses/93110/discussion" target="_blank">Ed Discussion</a>
 
-**[📄 View Full Syllabus](/cpsy1950/syllabus)**
+**<a href="/cpsy1950/syllabus" target="_blank">📄 View Full Syllabus</a>**
 
 ---
 
