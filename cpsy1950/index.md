@@ -121,15 +121,8 @@ Target time: ~60 min total.
 
 #### Bootcamp Checkpoint (all students; due Sunday 2:00pm)
 
-Purpose: Ensure everyone can (i) understand Marr’s Levels of Analysis, (ii) explain—in plain language—how an artificial neural network (ANN) learns from data, and (iii) identify how specific claims about brain or ANN function could be tested using neuroscience measurement techniques (e.g., what a method can or cannot reveal, and how experimental evidence could evaluate a model’s predictions).
-
-**Assigned paper** (skim; this is not an easy read! Focus on the main question + key figures -- think big picture):  
-<a href="https://www-nature-com.revproxy.brown.edu/articles/331679a0" target="_blank">Zipser & Andersen (1988) — Nature</a> (Brown Library proxy link)
-
-**Submit responses:**  
-This assignment has been set up in Canvas/Gradescope. Please submit your responses there (~60 minutes total).
-
-<a href="https://canvas.brown.edu/courses/1101742/assignments/8098936" target="_blank">📝 Submit on Canvas</a>
+**Reading:** TBD  
+**Activity / submission:** TBD
 
 #### Optional background papers (only if you want extra framing)
 - <a href="https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661319300348" target="_blank">Cichy & Kaiser (2019) — Trends in Cognitive Sciences</a> (Brown Library proxy link)
