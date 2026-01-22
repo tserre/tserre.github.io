@@ -59,7 +59,7 @@ Students work in rotating small groups throughout the semester, culminating in p
 <details>
 <summary><strong>Thu 1/22 — Course Kickoff</strong></summary>
 <p>NeuroAI goals, course structure, and how we will simulate scientific conferences (lightning talks and projects).</p>
-<p><a href="https://docs.google.com/presentation/d/1bozT6ncJ7EDZMnfgyGZo3fP8v8FvGWb5Vni3eXlBpF8/edit?slide=id.p#slide=id.p" target="_blank">📽️ Slides</a></p>
+<p><a href="https://docs.google.com/presentation/d/1bozT6ncJ7EDZMnfgyGZo3fP8v8FvGWb5Vni3eXlBpF8/edit?slide=id.p#slide=id.p" target="_blank">📑 Google Slides</a></p>
 <p><em>No readings or pre-class activities for Week 1—this is the introductory session.</em></p>
 </details>
 
