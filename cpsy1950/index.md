@@ -122,7 +122,7 @@ Target time: ~60 min total.
 
 #### Bootcamp Checkpoint (all students; due Sunday 2:00pm)
 
-**Reading:** TBD  
+**Reading:** <a href="https://www-nature-com.revproxy.brown.edu/articles/337129a0" target="_blank">Crick, "The recent excitement about neural networks" (Nature 1989)</a> (Brown Library proxy link)  
 **Activity / submission:** TBD
 
 #### Optional background papers (only if you want extra framing)
