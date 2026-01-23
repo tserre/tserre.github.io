@@ -123,7 +123,7 @@ Target time: ~60 min total.
 #### Bootcamp Checkpoint (all students; due Sunday 2:00pm)
 
 **Reading:** <a href="https://www-nature-com.revproxy.brown.edu/articles/337129a0" target="_blank">Crick, "The recent excitement about neural networks" (Nature 1989)</a> (Brown Library proxy link)  
-**Activity / submission:** TBD
+**Activity / submission:** <a href="https://canvas.brown.edu/courses/1101742/assignments/8098936" target="_blank">📝 Submit on Canvas</a>
 
 #### Optional background papers (only if you want extra framing)
 - <a href="https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661319300348" target="_blank">Cichy & Kaiser (2019) — Trends in Cognitive Sciences</a> (Brown Library proxy link)
