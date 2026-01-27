@@ -120,10 +120,11 @@ Target time: ~60 min total.
 - <a href="https://www.3blue1brown.com/lessons/gradient-descent" target="_blank">3Blue1Brown: "Gradient descent"</a>
 - <a href="https://www.youtube.com/watch?v=Ilg3gGewQ5U" target="_blank">3Blue1Brown: "Backpropagation"</a>
 
-#### Bootcamp Checkpoint (all students; due Sunday 2:00pm)
+#### Bootcamp Checkpoint (all students; due Sun 2/2, 2:00pm)
 
-**Reading:** <a href="https://www-nature-com.revproxy.brown.edu/articles/337129a0" target="_blank">Crick, "The recent excitement about neural networks" (Nature 1989)</a> (Brown Library proxy link)  
-**Activity / submission:** <a href="https://canvas.brown.edu/courses/1101742/assignments/8098936" target="_blank">📝 Submit on Canvas</a>
+**Reading:** <a href="https://www-nature-com.revproxy.brown.edu/articles/337129a0" target="_blank">Crick (1989) — The recent excitement about neural networks (Nature)</a> (Brown Library proxy link)
+
+**Reading response due Sun 2/2, 2:00pm:** <a href="https://canvas.brown.edu/courses/1101742/assignments/8098936" target="_blank">📝 Submit on Canvas</a>
 
 #### Optional background papers (only if you want extra framing)
 - <a href="https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661319300348" target="_blank">Cichy & Kaiser (2019) — Trends in Cognitive Sciences</a> (Brown Library proxy link)
@@ -135,7 +136,7 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Tue 2/3 — Lecture: The three levers of deep learning</strong></summary>
 <p>Architecture, learning objectives, and data shape representations, behavior, and generalization across modalities.</p>
-<p><strong>Reading (complete before class):</strong> <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-vision-091718-014951" target="_blank">Serre, T. (2019) — Deep Learning: The Good, the Bad, and the Ugly</a> (Annual Review of Vision Science)</p>
+<p><strong>Reading (complete before class):</strong> <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-vision-091718-014951" target="_blank">Serre (2019) — Deep Learning: The Good, the Bad, and the Ugly (Annual Review of Vision Science)</a></p>
 <p><strong>Reading response due Tue 2/3, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8102721" target="_blank">📝 Submit on Canvas</a></p>
 </details>
 
