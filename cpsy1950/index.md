@@ -142,7 +142,8 @@ Target time: ~60 min total.
 
 <details>
 <summary><strong>Thu 2/5 — Lightning talks</strong></summary>
-<p>Details TBD</p>
+<p>Student lightning talks on the three levers of deep learning (architecture, objectives, data).</p>
+<p><a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=0#gid=0" target="_blank">📋 List of lightning talks (Google Sheet)</a></p>
 </details>
 
 ### Week 4 — Scaling and emerging capabilities {#week4}
