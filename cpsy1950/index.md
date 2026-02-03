@@ -136,6 +136,7 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Tue 2/3 — Lecture: The three levers of deep learning</strong></summary>
 <p>Architecture, learning objectives, and data shape representations, behavior, and generalization across modalities.</p>
+<p><a href="https://docs.google.com/presentation/d/1HSDrMJosGzpToglMqN_ZYC-qp9_lVgn8lTGoHAkAFKw/edit?slide=id.g3bc9671085c_1_126#slide=id.g3bc9671085c_1_126" target="_blank">📑 Slides</a></p>
 <p><strong>Reading (complete before class):</strong> <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-vision-091718-014951" target="_blank">Serre (2019) — Deep Learning: The Good, the Bad, and the Ugly (Annual Review of Vision Science)</a></p>
 <p><strong>Reading response due Tue 2/3, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8102721" target="_blank">📝 Submit on Canvas</a></p>
 </details>
