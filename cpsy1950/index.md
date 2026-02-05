@@ -136,7 +136,7 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Tue 2/3 — Lecture: The three levers of deep learning</strong></summary>
 <p>Architecture, learning objectives, and data shape representations, behavior, and generalization across modalities.</p>
-<p><a href="https://docs.google.com/presentation/d/1HSDrMJosGzpToglMqN_ZYC-qp9_lVgn8lTGoHAkAFKw/edit?slide=id.g3bc9671085c_1_126#slide=id.g3bc9671085c_1_126" target="_blank">📑 Slides</a></p>
+<p><a href="https://docs.google.com/presentation/d/1pXkFFqKTnEvl2OzsmCmnRU6l7F9EuFSgGO34pscRpn0/edit?usp=sharing" target="_blank">📑 Slides</a> · <a href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=408a671a-f9de-4fa1-8938-b3e601418a3c" target="_blank">📺 Lecture capture</a></p>
 <p><strong>Reading (complete before class):</strong> <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-vision-091718-014951" target="_blank">Serre (2019) — Deep Learning: The Good, the Bad, and the Ugly (Annual Review of Vision Science)</a></p>
 <p><strong>Reading response due Tue 2/3, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8102721" target="_blank">📝 Submit on Canvas</a></p>
 </details>
@@ -144,7 +144,8 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Thu 2/5 — Lightning talks</strong></summary>
 <p>Student lightning talks on the three levers of deep learning (architecture, objectives, data).</p>
-<p><a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=0#gid=0" target="_blank">📋 List of lightning talks (Google Sheet)</a></p>
+<p><a href="https://docs.google.com/presentation/d/1J_YVlriJBZ_amCJRWvmq3Fbu_uyoRWFD4VEa5Fq7i6o/edit?usp=sharing" target="_blank">📑 Lightning talk presentations</a> · <a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=0#gid=0" target="_blank">📋 List of lightning talks (Google Sheet)</a></p>
+<p><strong>Reflection due Sun 2/8, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104056" target="_blank">📝 Submit on Canvas</a></p>
 </details>
 
 ### Week 4 — Scaling and emerging capabilities {#week4}
