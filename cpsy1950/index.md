@@ -152,6 +152,7 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Tue 2/10 — Lecture: Scaling and emerging capabilities</strong></summary>
 <p>Details TBD</p>
+<p><strong>Reading response due Tue 2/10, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104065" target="_blank">📝 Submit on Canvas</a></p>
 </details>
 
 <details>
