@@ -151,7 +151,8 @@ Target time: ~60 min total.
 ### Week 4 — Scaling and emerging capabilities {#week4}
 <details>
 <summary><strong>Tue 2/10 — Lecture: Scaling and emerging capabilities</strong></summary>
-<p>Details TBD</p>
+<p>Pretraining and fine-tuning/transfer; in-context learning and reasoning; what "emergence" claims mean and how to evaluate them critically.</p>
+<p><strong>Reading (complete before class):</strong> <a href="https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117" target="_blank">Firestone (2020) — Performance vs. competence in human–machine comparisons (PNAS)</a></p>
 <p><strong>Reading response due Tue 2/10, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104065" target="_blank">📝 Submit on Canvas</a></p>
 </details>
 
