@@ -1,6 +1,6 @@
 ---
 layout: course-sidebar
-title: Lesson 2: Neural Network Foundations
+title: "Lesson 2: Neural Network Foundations"
 subtitle: Part 1
 ---
 

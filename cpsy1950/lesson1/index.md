@@ -1,6 +1,6 @@
 ---
 layout: course-sidebar
-title: Lesson 1: Introduction to NeuroAI
+title: "Lesson 1: Introduction to NeuroAI"
 subtitle: Part 1
 ---
 
