@@ -36,13 +36,13 @@ parts:
         title: "W4 - Scaling & emergence"
         url: "/cpsy1950/#week4"
       - number: 5
-        title: "W5 - Rep. interpretability"
+        title: "W5 - Neural alignment"
         url: "/cpsy1950/#week5"
       - number: 6
         title: "W6 - Mech. interpretability"
         url: "/cpsy1950/#week6"
       - number: 7
-        title: "W7 - Neural alignment"
+        title: "W7 - Rep. interpretability"
         url: "/cpsy1950/#week7"
       - number: 8
         title: "W8 - Behavioral alignment"

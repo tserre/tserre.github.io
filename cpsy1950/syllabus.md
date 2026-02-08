@@ -102,9 +102,9 @@ This course has been substantially redesigned for Spring 2026 in response to maj
 - **Week 2:** Foundations of natural and artificial intelligence
 - **Week 3:** The three levers of deep learning
 - **Week 4:** Scaling and emerging capabilities
-- **Week 5:** Representation-level interpretability
+- **Week 5:** Neural alignment
 - **Week 6:** Mechanistic interpretability
-- **Week 7:** Neural alignment
+- **Week 7:** Representation-level interpretability
 - **Week 8:** Behavioral and cognitive alignment
 - **Week 9:** Toward Brain-Like AI: Training and Mechanisms
 - **Week 10:** Spring break (no class)

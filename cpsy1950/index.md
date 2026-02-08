@@ -162,9 +162,9 @@ Target time: ~60 min total.
 <p><a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?usp=sharing" target="_blank">📋 List of lightning talks (Google Sheet)</a></p>
 </details>
 
-### Week 5 — Representation-level interpretability {#week5}
+### Week 5 — Neural alignment {#week5}
 <details>
-<summary><strong>Tue 2/17 — Lecture: Representation-level interpretability</strong></summary>
+<summary><strong>Tue 2/17 — Lecture: Neural alignment and model-to-brain mapping</strong></summary>
 <p>Details TBD</p>
 </details>
 
@@ -184,9 +184,9 @@ Target time: ~60 min total.
 <p>Details TBD</p>
 </details>
 
-### Week 7 — Neural alignment {#week7}
+### Week 7 — Representation-level interpretability {#week7}
 <details>
-<summary><strong>Tue 3/3 — Lecture: Neural alignment and model-to-brain mapping</strong></summary>
+<summary><strong>Tue 3/3 — Lecture: Representation-level interpretability</strong></summary>
 <p>Details TBD</p>
 </details>
 
