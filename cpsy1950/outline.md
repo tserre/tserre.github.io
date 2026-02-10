@@ -103,6 +103,7 @@ subtitle: Spring 2026
 <details>
 <summary><strong>Tue 2/10 — Lecture: Scaling and Emerging Capabilities</strong></summary>
 <p>Pretraining and fine-tuning/transfer; in-context learning and reasoning; what 'emergence' claims mean and how to evaluate them critically.</p>
+<p><a href="https://docs.google.com/presentation/d/1Tl2OR5kqpqh5MJIe1_DsQq20MZSS5G_6gkCzDDPblkc/edit?slide=id.g3c67357f7da_0_38#slide=id.g3c67357f7da_0_38" target="_blank">📑 Slides</a></p>
 </details>
 
 <details>
@@ -110,59 +111,64 @@ subtitle: Spring 2026
 <p>Details TBD</p>
 </details>
 
-## Week 5 — Representation-level interpretability
+## Week 5 — Prediction vs Understanding
 <details>
-<summary><strong>Tue 2/17 — Lecture: Representation-Level Interpretability</strong></summary>
+<summary><strong>Tue 2/17 — No lecture (university holiday)</strong></summary>
+<p>No class.</p>
+</details>
+
+<details>
+<summary><strong>Thu 2/19 — Background reading and required viewing</strong></summary>
+<p><strong>Background paper:</strong> Serre, T. &amp; Pavlick, E. (2025). From Prediction to Understanding: Will AI Foundation Models Transform Brain Science? <em>Neuron</em>. <a href="https://www-cell-com.revproxy.brown.edu/neuron/fulltext/S0896-6273(25)00752-4" target="_blank">Brown Library proxy</a>.</p>
+<p><strong>Required viewing (watch both):</strong></p>
+<ul>
+<li>Marcus, G. (2024). <a href="https://www.youtube.com/watch?v=91SK90SahHc" target="_blank">Keynote at AGI-24</a>. Machine Learning Street Talk. Watch from ~5:00 to ~35:00.</li>
+<li>LeCun, Y. (2024). <a href="https://www.youtube.com/watch?v=MiqLoAZFRSE" target="_blank">Objective-Driven AI</a>. Ding Shum Lecture, Harvard CMSA. Watch the first ~36 minutes.</li>
+</ul>
+<p>Paper response link TBD.</p>
+</details>
+
+## Week 6 — Representation-level interpretability
+<details>
+<summary><strong>Tue 2/24 — Lecture: Representation-Level Interpretability</strong></summary>
 <p>Feature visualization, concept-based methods, sparse/dictionary approaches (incl. SAEs); what we can and can't reliably name in representations.</p>
 </details>
 
 <details>
-<summary><strong>Thu 2/19 — Lightning Mini-Conf 3: Representation Interpretability</strong></summary>
+<summary><strong>Thu 2/26 — Lightning Mini-Conf 4: Representation Interpretability</strong></summary>
 <p>Details TBD</p>
 </details>
 
-## Week 6 — Mechanistic interpretability
+## Week 7 — Mechanistic interpretability
 <details>
-<summary><strong>Tue 2/24 — Lecture: Mechanistic Interpretability</strong></summary>
+<summary><strong>Tue 3/3 — Lecture: Mechanistic Interpretability</strong></summary>
 <p>Circuits, causal interventions, and standards of evidence for mechanistic claims.</p>
 </details>
 
 <details>
-<summary><strong>Thu 2/26 — Lightning Mini-Conf 4: Mechanistic Interpretability</strong></summary>
+<summary><strong>Thu 3/5 — Lightning Mini-Conf 5: Mechanistic Interpretability</strong></summary>
 <p>Details TBD</p>
 </details>
 
-## Week 7 — Neural alignment
+## Week 8 — Neural alignment
 <details>
-<summary><strong>Tue 3/3 — Lecture: Neural Alignment and Model-to-Brain Mapping</strong></summary>
+<summary><strong>Tue 3/10 — Lecture: Neural Alignment and Model-to-Brain Mapping</strong></summary>
 <p>Predicting neural data across measurement modalities; encoding/decoding and representational similarity; what alignment can and cannot justify.</p>
 </details>
 
 <details>
-<summary><strong>Thu 3/5 — Lightning Mini-Conf 5: Neural Alignment</strong></summary>
+<summary><strong>Thu 3/12 — Lightning Mini-Conf 6: Neural Alignment</strong></summary>
 <p>Details TBD</p>
 </details>
 
-## Week 8 — Behavioral and cognitive alignment
+## Week 9 — Behavioral and cognitive alignment
 <details>
-<summary><strong>Tue 3/10 — Lecture: Behavioral and Cognitive Alignment</strong></summary>
+<summary><strong>Tue 3/17 — Lecture: Behavioral and Cognitive Alignment</strong></summary>
 <p>Treating models as participants in cognitive tasks; behavioral signatures beyond accuracy (generalization, planning, decision making, cognitive control); confounds and best practices.</p>
 </details>
 
 <details>
-<summary><strong>Thu 3/12 — Lightning Mini-Conf 6: Behavioral Alignment</strong></summary>
-<p>Details TBD</p>
-</details>
-
-## Week 9 — Toward Brain-Like AI
-<details>
-<summary><strong>Tue 3/17 — Lecture: Toward Brain-Like AI (Project Launch)</strong></summary>
-<p>Brain-like training (developmental curricula, data diet, objectives) and brain-like mechanisms (recurrence/feedback, circuit motifs, robustness); translating hypotheses into concrete evaluation plans.</p>
-<p><em>Note: Incorporate hippocampus-inspired architectures for continual learning and embodied AI approaches. Also cover connectomics constraints and neuronal diversity.</em></p>
-</details>
-
-<details>
-<summary><strong>Thu 3/19 — Lightning Mini-Conf 7: Brain-Like AI + Project Launch</strong></summary>
+<summary><strong>Thu 3/19 — Lightning Mini-Conf 7: Behavioral Alignment</strong></summary>
 <p>Details TBD</p>
 </details>
 

@@ -45,59 +45,57 @@ schedule:
   description: Details TBD
   finalized: false
 - date: '2026-02-17'
+  topic: 'Lecture: Prediction vs Understanding'
+  type: lecture
+  description: Details TBD
+  finalized: false
+- date: '2026-02-19'
+  topic: 'Lightning Mini-Conf 3: Prediction vs Understanding'
+  type: lightning
+  description: Details TBD
+  finalized: false
+- date: '2026-02-24'
   topic: 'Lecture: Representation-Level Interpretability'
   type: lecture
   description: Feature visualization, concept-based methods, sparse/dictionary approaches
     (incl. SAEs); what we can and can't reliably name in representations
   finalized: true
-- date: '2026-02-19'
-  topic: 'Lightning Mini-Conf 3: Representation Interpretability'
+- date: '2026-02-26'
+  topic: 'Lightning Mini-Conf 4: Representation Interpretability'
   type: lightning
   description: Details TBD
   finalized: false
-- date: '2026-02-24'
+- date: '2026-03-03'
   topic: 'Lecture: Mechanistic Interpretability'
   type: lecture
   description: Circuits, causal interventions, and standards of evidence for mechanistic
     claims
   finalized: true
-- date: '2026-02-26'
-  topic: 'Lightning Mini-Conf 4: Mechanistic Interpretability'
+- date: '2026-03-05'
+  topic: 'Lightning Mini-Conf 5: Mechanistic Interpretability'
   type: lightning
   description: Details TBD
   finalized: false
-- date: '2026-03-03'
+- date: '2026-03-10'
   topic: 'Lecture: Neural Alignment and Model-to-Brain Mapping'
   type: lecture
   description: Predicting neural data across measurement modalities; encoding/decoding
     and representational similarity; what alignment can and cannot justify
   finalized: true
-- date: '2026-03-05'
-  topic: 'Lightning Mini-Conf 5: Neural Alignment'
+- date: '2026-03-12'
+  topic: 'Lightning Mini-Conf 6: Neural Alignment'
   type: lightning
   description: Details TBD
   finalized: false
-- date: '2026-03-10'
+- date: '2026-03-17'
   topic: 'Lecture: Behavioral and Cognitive Alignment'
   type: lecture
   description: Treating models as participants in cognitive tasks; behavioral signatures
     beyond accuracy (generalization, planning, decision making, cognitive control);
     confounds and best practices
   finalized: true
-- date: '2026-03-12'
-  topic: 'Lightning Mini-Conf 6: Behavioral Alignment'
-  type: lightning
-  description: Details TBD
-  finalized: false
-- date: '2026-03-17'
-  topic: 'Lecture: Toward Brain-Like AI (Project Launch)'
-  type: lecture
-  description: Brain-like training (developmental curricula, data diet, objectives)
-    and brain-like mechanisms (recurrence/feedback, circuit motifs, robustness); translating
-    hypotheses into concrete evaluation plans
-  finalized: true
 - date: '2026-03-19'
-  topic: 'Lightning Mini-Conf 7: Brain-Like AI + Project Launch'
+  topic: 'Lightning Mini-Conf 7: Behavioral Alignment'
   type: lightning
   description: Details TBD
   finalized: false

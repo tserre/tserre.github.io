@@ -152,6 +152,7 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Tue 2/10 — Lecture: Scaling and emerging capabilities</strong></summary>
 <p>Pretraining and fine-tuning/transfer; in-context learning and reasoning; what "emergence" claims mean and how to evaluate them critically.</p>
+<p><a href="https://docs.google.com/presentation/d/1Tl2OR5kqpqh5MJIe1_DsQq20MZSS5G_6gkCzDDPblkc/edit?slide=id.g3c67357f7da_0_38#slide=id.g3c67357f7da_0_38" target="_blank">📑 Slides</a></p>
 <p><strong>Reading (complete before class):</strong> <a href="https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117" target="_blank">Firestone (2020) — Performance vs. competence in human–machine comparisons (PNAS)</a></p>
 <p><strong>Reading response due Tue 2/10, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104065" target="_blank">📝 Submit on Canvas</a></p>
 </details>
@@ -162,59 +163,66 @@ Target time: ~60 min total.
 <p><a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?usp=sharing" target="_blank">📋 List of lightning talks (Google Sheet)</a></p>
 </details>
 
-### Week 5 — Neural alignment {#week5}
+### Week 5 — Prediction vs Understanding {#week5}
 <details>
-<summary><strong>Tue 2/17 — Lecture: Neural alignment and model-to-brain mapping</strong></summary>
-<p>Details TBD</p>
+<summary><strong>Tue 2/17 — No lecture (university holiday)</strong></summary>
+<p>No class.</p>
 </details>
 
 <details>
-<summary><strong>Thu 2/19 — Lightning talks</strong></summary>
-<p>Details TBD</p>
+<summary><strong>Thu 2/19 — Background reading and required viewing</strong></summary>
+<p><strong>Background paper (complete before or by Thu):</strong></p>
+<p><a href="https://www-cell-com.revproxy.brown.edu/neuron/fulltext/S0896-6273(25)00752-4" target="_blank">Serre, T. &amp; Pavlick, E. (2025). From Prediction to Understanding: Will AI Foundation Models Transform Brain Science? <em>Neuron</em></a> (Brown Library proxy)</p>
+<p><strong>Required viewing (watch both):</strong></p>
+<ul>
+<li>Marcus, G. (2024). <a href="https://www.youtube.com/watch?v=91SK90SahHc" target="_blank">Keynote at AGI-24</a>. Machine Learning Street Talk. Watch from ~5:00 to ~35:00 (Marcus's talk starts after a brief introduction).</li>
+<li>LeCun, Y. (2024). <a href="https://www.youtube.com/watch?v=MiqLoAZFRSE" target="_blank">Objective-Driven AI: Towards AI Systems That Can Learn, Remember, Reason, and Plan</a>. Ding Shum Lecture, Harvard CMSA. Watch the first ~36 minutes. <em>Note: it gets fairly technical in places — if it starts feeling dry, you can stop around the 36-minute mark; you'll have what you need.</em></li>
+</ul>
+<p><strong>Paper response:</strong> Link TBD.</p>
 </details>
 
-### Week 6 — Mechanistic interpretability {#week6}
+### Week 6 — Representation-level interpretability {#week6}
 <details>
-<summary><strong>Tue 2/24 — Lecture: Mechanistic interpretability</strong></summary>
-<p>Details TBD</p>
+<summary><strong>Tue 2/24 — Lecture: Representation-level interpretability</strong></summary>
+<p>Feature visualization, concept-based methods, sparse/dictionary approaches (incl. SAEs); what we can and can't reliably "name" in representations.</p>
 </details>
 
 <details>
 <summary><strong>Thu 2/26 — Lightning talks</strong></summary>
-<p>Details TBD</p>
+<p>Student lightning talks on features, concepts, and sparse methods.</p>
 </details>
 
-### Week 7 — Representation-level interpretability {#week7}
+### Week 7 — Mechanistic interpretability {#week7}
 <details>
-<summary><strong>Tue 3/3 — Lecture: Representation-level interpretability</strong></summary>
-<p>Details TBD</p>
+<summary><strong>Tue 3/3 — Lecture: Mechanistic interpretability</strong></summary>
+<p>Circuits, causal interventions, and standards of evidence for mechanistic claims.</p>
 </details>
 
 <details>
 <summary><strong>Thu 3/5 — Lightning talks</strong></summary>
-<p>Details TBD</p>
+<p>Student lightning talks on circuits and causal interventions.</p>
 </details>
 
-### Week 8 — Behavioral and cognitive alignment {#week8}
+### Week 8 — Neural alignment {#week8}
 <details>
-<summary><strong>Tue 3/10 — Lecture: Behavioral and cognitive alignment</strong></summary>
-<p>Details TBD</p>
+<summary><strong>Tue 3/10 — Lecture: Neural alignment and model-to-brain mapping</strong></summary>
+<p>Predicting neural data across measurement modalities; encoding/decoding and representational similarity; what alignment can and cannot justify.</p>
 </details>
 
 <details>
 <summary><strong>Thu 3/12 — Lightning talks</strong></summary>
-<p>Details TBD</p>
+<p>Student lightning talks on model-to-brain mapping.</p>
 </details>
 
-### Week 9 — Toward Brain-Like AI {#week9}
+### Week 9 — Behavioral and cognitive alignment {#week9}
 <details>
-<summary><strong>Tue 3/17 — Lecture: Toward brain-like AI (project launch)</strong></summary>
-<p>Details TBD</p>
+<summary><strong>Tue 3/17 — Lecture: Behavioral and cognitive alignment</strong></summary>
+<p>Treating models as participants in cognitive tasks; behavioral signatures beyond accuracy (generalization, planning, decision making, cognitive control); confounds and best practices.</p>
 </details>
 
 <details>
 <summary><strong>Thu 3/19 — Lightning talks</strong></summary>
-<p>Details TBD</p>
+<p>Student lightning talks on cognitive and behavioral evaluation.</p>
 </details>
 
 ### Week 10 — Spring Break {#week10}

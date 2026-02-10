@@ -8,7 +8,7 @@ readings:
     authors: Doerig, A., Sommers, R. P., Seeliger, K., et al.
     journal: Nature Reviews Neuroscience
     year: 2023
-    url: https://www.nature.com/articles/s41583-023-00705-w
+    url: https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w
     pdf: https://arxiv.org/pdf/2209.03718
     notes: All students - foundational reading for the course
     required: true
@@ -16,6 +16,6 @@ readings:
     authors: Cichy, R. M., & Kaiser, D.
     journal: Trends in Cognitive Sciences
     year: 2019
-    url: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8
+    url: https://www-cell-com.revproxy.brown.edu/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8
     notes: All students - understanding DNNs as models of cognition
     required: true
