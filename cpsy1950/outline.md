@@ -125,7 +125,7 @@ subtitle: Spring 2026
 <li>Marcus, G. (2024). <a href="https://www.youtube.com/watch?v=91SK90SahHc" target="_blank">Keynote at AGI-24</a>. Machine Learning Street Talk. Watch from ~5:00 to ~35:00.</li>
 <li>LeCun, Y. (2024). <a href="https://www.youtube.com/watch?v=MiqLoAZFRSE" target="_blank">Objective-Driven AI</a>. Ding Shum Lecture, Harvard CMSA. Watch the first ~36 minutes.</li>
 </ul>
-<p>Paper response link TBD.</p>
+<p><strong>Paper response due Thu 2/19, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104666" target="_blank">📝 Submit on Canvas</a></p>
 </details>
 
 ## Week 6 — Representation-level interpretability
