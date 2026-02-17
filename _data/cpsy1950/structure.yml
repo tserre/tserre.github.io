@@ -16,9 +16,21 @@ parts:
         url: "/cpsy1950/#schedule"
         description: "Weekly schedule with dates and topics"
       - number: 3
+        title: "Readings"
+        url: "/cpsy1950/#reading-lists"
+        description: "Weekly reading lists and papers"
+      - number: 4
+        title: "Assignments"
+        url: "/cpsy1950/#assignments"
+        description: "Course assignments and materials"
+      - number: 5
         title: "Syllabus"
         url: "/cpsy1950/syllabus"
         description: "Full course syllabus and policies"
+      - number: 6
+        title: "Course Outline"
+        url: "/cpsy1950/outline"
+        description: "Detailed course outline"
   - id: weekly-schedule
     title: "Weekly Schedule"
     description: "Jump to specific weeks"
@@ -75,5 +87,5 @@ resources:
     url: "https://edstem.org/us/courses/93110/discussion"
     external: true
   - title: "Canvas"
-    url: "https://canvas.brown.edu/courses/1101742"
+    url: "https://canvas.brown.edu"
     external: true
