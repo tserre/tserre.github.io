@@ -258,25 +258,25 @@ Target time: ~60 min total.
 <p>Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion.</p>
 </details>
 
-### Week 13 — Guest lecture series {#week13}
+### Week 13 — Guest lectures {#week13}
 <details>
-<summary><strong>Tue 4/14 — Guest lecture series I (TBD)</strong></summary>
+<summary><strong>Tue 4/14 — Guest lecture (TBD)</strong></summary>
 <p>Details TBD</p>
 </details>
 
 <details>
-<summary><strong>Thu 4/16 — Guest lecture series I (TBD)</strong></summary>
-<p>Details TBD</p>
-</details>
-
-### Week 14 — Guest lecture series (continued) {#week14}
-<details>
-<summary><strong>Tue 4/21 — Guest lecture series II: Rufin VanRullen</strong></summary>
+<summary><strong>Thu 4/16 — Guest lecture: Rufin VanRullen</strong></summary>
 <p>Frontier topics in NeuroAI: global workspace / consciousness & deep learning.</p>
 </details>
 
+### Week 14 — Guest lectures {#week14}
 <details>
-<summary><strong>Thu 4/23 — Guest lecture series II: Victor Boutin + course wrap-up</strong></summary>
+<summary><strong>Tue 4/21 — Guest lecture (TBD)</strong></summary>
+<p>Details TBD</p>
+</details>
+
+<details>
+<summary><strong>Thu 4/23 — Guest lecture: Victor Boutin</strong></summary>
 <p>Frontier topics in NeuroAI: generative models, EBMs, cognitive science. Plus course wrap-up and final exam briefing.</p>
 </details>
 
