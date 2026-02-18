@@ -260,12 +260,12 @@ Target time: ~60 min total.
 
 ### Week 13 — Guest lectures {#week13}
 <details>
-<summary><strong>Tue 4/14 — Guest lecture (TBD)</strong></summary>
+<summary><strong>Tue 4/14 — Guest lecture: Greta Tuckute (Kempner Institute, Harvard)</strong></summary>
 <p>Details TBD</p>
 </details>
 
 <details>
-<summary><strong>Thu 4/16 — Guest lecture: Rufin VanRullen</strong></summary>
+<summary><strong>Thu 4/16 — Guest lecture: Rufin VanRullen (CNRS, France)</strong></summary>
 <p>Frontier topics in NeuroAI: global workspace / consciousness & deep learning.</p>
 </details>
 
@@ -276,7 +276,7 @@ Target time: ~60 min total.
 </details>
 
 <details>
-<summary><strong>Thu 4/23 — Guest lecture: Victor Boutin</strong></summary>
+<summary><strong>Thu 4/23 — Guest lecture: Victor Boutin (CNRS, France)</strong></summary>
 <p>Frontier topics in NeuroAI: generative models, EBMs, cognitive science. Plus course wrap-up and final exam briefing.</p>
 </details>
 
