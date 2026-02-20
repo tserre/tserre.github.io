@@ -185,6 +185,8 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Tue 2/24 — Lecture: Representation-level interpretability</strong></summary>
 <p>Feature visualization, concept-based methods, sparse/dictionary approaches (incl. SAEs); what we can and can't reliably "name" in representations.</p>
+<p><strong>Reading (complete before class):</strong> <a href="https://distill.pub/2018/building-blocks/" target="_blank">Olah, C., Satyanarayan, A., Johnson, I., Carter, S., Schubert, L., Ye, K., &amp; Mordvinets, A. (2018). The Building Blocks of Interpretability. <em>Distill</em></a></p>
+<p><strong>Reading response due Tue 2/24, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/external_tools/38388" target="_blank">📝 Submit on Canvas</a></p>
 </details>
 
 <details>
