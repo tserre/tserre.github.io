@@ -171,6 +171,7 @@ Target time: ~60 min total.
 
 <details>
 <summary><strong>Thu 2/19 — Background reading and required viewing</strong></summary>
+<p><em>Class on Feb 19 was cancelled (instructor sick).</em></p>
 <p><strong>Background paper (complete before or by Thu):</strong></p>
 <p><a href="https://www-cell-com.revproxy.brown.edu/neuron/fulltext/S0896-6273(25)00752-4" target="_blank">Serre, T. &amp; Pavlick, E. (2025). From Prediction to Understanding: Will AI Foundation Models Transform Brain Science? <em>Neuron</em></a> (Brown Library proxy)</p>
 <p><strong>Required viewing (watch both):</strong></p>
