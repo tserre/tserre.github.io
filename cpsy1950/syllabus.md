@@ -96,26 +96,6 @@ This course has been substantially redesigned for Spring 2026 in response to maj
 - **Thursday:** Conference-style lightning talks on the same theme (short student presentations)
 - **After spring break:** Student project studio sessions, followed by a project poster mini-conference and a short guest-lecture series on current trends in NeuroAI
 
-### High-Level Weekly Topics
-
-- **Week 1:** Course overview
-- **Week 2:** Foundations of natural and artificial intelligence
-- **Week 3:** The three levers of deep learning
-- **Week 4:** Scaling and emerging capabilities
-- **Week 5:** Neural alignment
-- **Week 6:** Mechanistic interpretability
-- **Week 7:** Representation-level interpretability
-- **Week 8:** Behavioral and cognitive alignment
-- **Week 9:** Toward Brain-Like AI: Training and Mechanisms
-- **Week 10:** Spring break (no class)
-- **Week 11:** Project studio
-- **Week 12:** Project poster presentations
-- **Week 13:** Guest lecture series – current trends in NeuroAI
-- **Week 14:** Guest lecture series – current trends in NeuroAI (continued)
-- **Final exam:** Tuesday, May 12, at 9:00 am
-
----
-
 ## Course Requirements
 
 **[Total time: 180 hours]**
