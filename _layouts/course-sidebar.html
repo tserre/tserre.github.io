@@ -390,13 +390,6 @@
         padding-top: 0.5em;
       }
       
-      .course-footer {
-        margin-left: 280px;
-        padding: 1em 60px;
-        border-top: 1px solid #e1e4e8;
-        font-size: 0.9em;
-        color: #666;
-      }
       @media (max-width: 768px) {
         .course-sidebar {
           width: 100%;
@@ -406,10 +399,6 @@
         .course-main {
           margin-left: 0;
           padding: 20px;
-        }
-        .course-footer {
-          margin-left: 0;
-          padding: 1em 20px;
         }
       }
     </style>
@@ -483,9 +472,6 @@
           {{ content }}
         </div>
       </main>
-      <footer class="course-footer" role="contentinfo">
-        <p>&copy; {{ 'now' | date: "%Y" }} Brown University. <a href="https://digital-accessibility.brown.edu/">Digital Accessibility</a></p>
-      </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
