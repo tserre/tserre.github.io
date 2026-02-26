@@ -161,7 +161,7 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Thu 2/12 — Lightning talks</strong></summary>
 <p>Student lightning talks on scaling and emerging capabilities.</p>
-<p><a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?usp=sharing" target="_blank">📋 List of lightning talks (Google Sheet)</a></p>
+<p><a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=922517882#gid=922517882" target="_blank">📋 List of lightning talks (Google Sheet)</a></p>
 </details>
 
 ### Week 5 — Prediction vs Understanding {#week5}
@@ -196,6 +196,7 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Thu 2/26 — Lightning talks</strong></summary>
 <p>Student lightning talks on features, concepts, and sparse methods.</p>
+<p><a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=1842491430#gid=1842491430" target="_blank">📋 List of lightning talks (Google Sheet)</a></p>
 </details>
 
 ### Week 7 — Mechanistic interpretability {#week7}
