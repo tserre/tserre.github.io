@@ -8,12 +8,13 @@ subtitle: Course Resources
 
 {% assign schedule = site.data.cpsy1950.schedule %}
 {% if schedule %}
-<table style="width: 100%; border-collapse: collapse; margin-top: 1em;">
+<table role="table" style="width: 100%; border-collapse: collapse; margin-top: 1em;">
+  <caption class="sr-only">Course schedule with date, topic, and readings for each session</caption>
   <thead>
     <tr style="border-bottom: 2px solid #0366d6;">
-      <th style="text-align: left; padding: 0.5em;">Date</th>
-      <th style="text-align: left; padding: 0.5em;">Topic</th>
-      <th style="text-align: left; padding: 0.5em;">Readings</th>
+      <th scope="col" style="text-align: left; padding: 0.5em;">Date</th>
+      <th scope="col" style="text-align: left; padding: 0.5em;">Topic</th>
+      <th scope="col" style="text-align: left; padding: 0.5em;">Readings</th>
     </tr>
   </thead>
   <tbody>

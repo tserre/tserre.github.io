@@ -13,13 +13,13 @@ A seminar-style exploration of cutting-edge research at the intersection of natu
 ## Course Information
 
 **Instructor:** Thomas Serre  
-**Email:** <a href="mailto:thomas_serre@brown.edu" target="_blank">thomas_serre@brown.edu</a>  
+**Email:** <a href="mailto:thomas_serre@brown.edu" target="_blank" rel="noopener noreferrer" title="Opens in new tab">thomas_serre@brown.edu</a>  
 **Time:** Tuesday & Thursday, 2:30pm-3:50pm  
 **Location:** Friedman Hall 108  
 **Office Hours:** Wednesdays, 1:00-2:00pm @ Carney Innovation Hub (Room 402)  
-**Communication:** <a href="https://edstem.org/us/courses/93110/discussion" target="_blank">Ed Discussion</a>
+**Communication:** <a href="https://edstem.org/us/courses/93110/discussion" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Ed Discussion</a>
 
-**<a href="/cpsy1950/syllabus" target="_blank">📄 View Full Syllabus</a>**
+**<a href="/cpsy1950/syllabus" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📄</span> View Full Syllabus</a>**
 
 ---
 
@@ -59,7 +59,7 @@ Students work in rotating small groups throughout the semester, culminating in p
 <details>
 <summary><strong>Thu 1/22 — Course Kickoff</strong></summary>
 <p>NeuroAI goals, course structure, and how we will simulate scientific conferences (lightning talks and projects).</p>
-<p><a href="https://docs.google.com/presentation/d/1bozT6ncJ7EDZMnfgyGZo3fP8v8FvGWb5Vni3eXlBpF8/edit?slide=id.p#slide=id.p" target="_blank">📑 Google Slides</a></p>
+<p><a href="https://docs.google.com/presentation/d/1bozT6ncJ7EDZMnfgyGZo3fP8v8FvGWb5Vni3eXlBpF8/edit?slide=id.p#slide=id.p" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Google Slides</a></p>
 <p><em>No readings or pre-class activities for Week 1—this is the introductory session.</em></p>
 </details>
 
@@ -77,10 +77,10 @@ Goal: Put everyone on a leveled playing field for Week 3. Complete the Required 
 *Expected time: ~90 min total*
 
 1. Marr's Levels of Analysis (video)  
-<a href="https://nancysbraintalks.mit.edu/video_page/12-how-can-we-study-human-mind-and-brain-marrs-levels-analysis/" target="_blank">Nancy Kanwisher: "How can we study the human mind and brain? Marr's levels of analysis"</a>
+<a href="https://nancysbraintalks.mit.edu/video_page/12-how-can-we-study-human-mind-and-brain-marrs-levels-analysis/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Nancy Kanwisher: "How can we study the human mind and brain? Marr's levels of analysis"</a>
 
 2. Coarse brain organization (video; focus on gross organization + functions)  
-<a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-2-neuroanatomy/" target="_blank">MIT OCW 9.13 (Spring 2019) Lecture 2: "Neuroanatomy"</a>  
+<a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-2-neuroanatomy/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">MIT OCW 9.13 (Spring 2019) Lecture 2: "Neuroanatomy"</a>  
 *Viewing guidance:* Watch for the high-level tour of major brain divisions/structures and what they do. Pay particular attention to concepts of receptive fields, neural tuning, and cortical maps — these are fundamental for understanding how neural networks relate to biological systems. You do *not* need to know fine anatomical details.
 
 #### Conditional Track A — Cognitive neuroscience foundations
@@ -88,47 +88,47 @@ Complete this track if you have not taken at least 1–2 courses in neuroscience
 Target time: up to ~180 min.
 
 - **A1)** Neurons, spikes, firing rate (high-level; no ion-channel deep dive)  
-<a href="https://www.brainfacts.org/core-concepts/how-neurons-communicate" target="_blank">BrainFacts: "How neurons communicate"</a>
+<a href="https://www.brainfacts.org/core-concepts/how-neurons-communicate" target="_blank" rel="noopener noreferrer" title="Opens in new tab">BrainFacts: "How neurons communicate"</a>
 
 - **A2)** Quick map of structures + functions  
-<a href="https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain" target="_blank">NIH/NINDS: "Brain basics — know your brain"</a>
+<a href="https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain" target="_blank" rel="noopener noreferrer" title="Opens in new tab">NIH/NINDS: "Brain basics — know your brain"</a>
 
 - **A3)** Methods lectures (videos)
-  - <a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-4-cognitive-neuroscience-methods-i/" target="_blank">MIT OCW 9.13 Lecture 4: "Cognitive neuroscience methods I"</a>
-  - <a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-5-cognitive-neuroscience-methods-ii/" target="_blank">MIT OCW 9.13 Lecture 5: "Cognitive neuroscience methods II"</a>
+  - <a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-4-cognitive-neuroscience-methods-i/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">MIT OCW 9.13 Lecture 4: "Cognitive neuroscience methods I"</a>
+  - <a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-5-cognitive-neuroscience-methods-ii/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">MIT OCW 9.13 Lecture 5: "Cognitive neuroscience methods II"</a>
   
   *Note:* Don't worry if the jargon feels overwhelming — you don't need to memorize all the details right now, and you can always come back to these videos later when these concepts become needed. These lectures include a section on Marr's levels of analysis; you can skip it if redundant with the required core, though reviewing it twice may be helpful if you haven't taken cognitive science courses.
 
 - **A4)** Optional "what measures what?" cheat-sheets (short skims)
-  - <a href="https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-for-physiology-022723" target="_blank">BrainFacts: "Measuring neural physiology"</a>
-  - <a href="https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-used-for-human-research-030923" target="_blank">BrainFacts: "Viewing the human brain through noninvasive tools"</a>
+  - <a href="https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-for-physiology-022723" target="_blank" rel="noopener noreferrer" title="Opens in new tab">BrainFacts: "Measuring neural physiology"</a>
+  - <a href="https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-used-for-human-research-030923" target="_blank" rel="noopener noreferrer" title="Opens in new tab">BrainFacts: "Viewing the human brain through noninvasive tools"</a>
 
 #### Conditional Track B — Linear algebra intuition (refresher)
 Complete this track if vectors/matrices feel rusty.  
 Target time: ~60 min total.
 
-- <a href="https://www.3blue1brown.com/lessons/vectors" target="_blank">3Blue1Brown: "Vectors, what even are they?"</a>
-- <a href="https://www.3blue1brown.com/lessons/span" target="_blank">3Blue1Brown: "Linear combinations, span, and basis vectors"</a>
-- <a href="https://www.3blue1brown.com/lessons/linear-transformations" target="_blank">3Blue1Brown: "Linear transformations and matrices"</a>
-- <a href="https://www.3blue1brown.com/lessons/matrix-multiplication" target="_blank">3Blue1Brown: "Matrix multiplication as composition"</a>
+- <a href="https://www.3blue1brown.com/lessons/vectors" target="_blank" rel="noopener noreferrer" title="Opens in new tab">3Blue1Brown: "Vectors, what even are they?"</a>
+- <a href="https://www.3blue1brown.com/lessons/span" target="_blank" rel="noopener noreferrer" title="Opens in new tab">3Blue1Brown: "Linear combinations, span, and basis vectors"</a>
+- <a href="https://www.3blue1brown.com/lessons/linear-transformations" target="_blank" rel="noopener noreferrer" title="Opens in new tab">3Blue1Brown: "Linear transformations and matrices"</a>
+- <a href="https://www.3blue1brown.com/lessons/matrix-multiplication" target="_blank" rel="noopener noreferrer" title="Opens in new tab">3Blue1Brown: "Matrix multiplication as composition"</a>
 
 #### Conditional Track C — Deep learning intuition (refresher)
 Complete this track if backprop/gradient descent are unfamiliar.  
 Target time: ~60 min total.
 
-- <a href="https://www.3blue1brown.com/lessons/neural-networks" target="_blank">3Blue1Brown: "What is a neural network?"</a>
-- <a href="https://www.3blue1brown.com/lessons/gradient-descent" target="_blank">3Blue1Brown: "Gradient descent"</a>
-- <a href="https://www.youtube.com/watch?v=Ilg3gGewQ5U" target="_blank">3Blue1Brown: "Backpropagation"</a>
+- <a href="https://www.3blue1brown.com/lessons/neural-networks" target="_blank" rel="noopener noreferrer" title="Opens in new tab">3Blue1Brown: "What is a neural network?"</a>
+- <a href="https://www.3blue1brown.com/lessons/gradient-descent" target="_blank" rel="noopener noreferrer" title="Opens in new tab">3Blue1Brown: "Gradient descent"</a>
+- <a href="https://www.youtube.com/watch?v=Ilg3gGewQ5U" target="_blank" rel="noopener noreferrer" title="Opens in new tab">3Blue1Brown: "Backpropagation"</a>
 
 #### Bootcamp Checkpoint (all students; due Sun 2/2, 2:00pm)
 
-**Reading:** <a href="https://www-nature-com.revproxy.brown.edu/articles/337129a0" target="_blank">Crick (1989) — The recent excitement about neural networks (Nature)</a> (Brown Library proxy link)
+**Reading:** <a href="https://www-nature-com.revproxy.brown.edu/articles/337129a0" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Crick (1989) — The recent excitement about neural networks (Nature)</a> (Brown Library proxy link)
 
-**Reading response due Sun 2/2, 2:00pm:** <a href="https://canvas.brown.edu/courses/1101742/assignments/8098936" target="_blank">📝 Submit on Canvas</a>
+**Reading response due Sun 2/2, 2:00pm:** <a href="https://canvas.brown.edu/courses/1101742/assignments/8098936" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a>
 
 #### Optional background papers (only if you want extra framing)
-- <a href="https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661319300348" target="_blank">Cichy & Kaiser (2019) — Trends in Cognitive Sciences</a> (Brown Library proxy link)
-- <a href="https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w" target="_blank">Doerig et al. (2023) — Nature Reviews Neuroscience</a> (Brown Library proxy link)
+- <a href="https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661319300348" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Cichy & Kaiser (2019) — Trends in Cognitive Sciences</a> (Brown Library proxy link)
+- <a href="https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Doerig et al. (2023) — Nature Reviews Neuroscience</a> (Brown Library proxy link)
 
 </details>
 
@@ -136,32 +136,32 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Tue 2/3 — Lecture: The three levers of deep learning</strong></summary>
 <p>Architecture, learning objectives, and data shape representations, behavior, and generalization across modalities.</p>
-<p><strong>Guest lecturer:</strong> Michael Lepori (CS, Brown) — <a href="https://lepori.xyz/" target="_blank">lepori.xyz</a></p>
-<p><a href="https://docs.google.com/presentation/d/1pXkFFqKTnEvl2OzsmCmnRU6l7F9EuFSgGO34pscRpn0/edit?usp=sharing" target="_blank">📑 Slides</a> · <a href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=408a671a-f9de-4fa1-8938-b3e601418a3c" target="_blank">📺 Lecture capture</a></p>
-<p><strong>Reading (complete before class):</strong> <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-vision-091718-014951" target="_blank">Serre (2019) — Deep Learning: The Good, the Bad, and the Ugly (Annual Review of Vision Science)</a></p>
-<p><strong>Reading response due Tue 2/3, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8102721" target="_blank">📝 Submit on Canvas</a></p>
+<p><strong>Guest lecturer:</strong> Michael Lepori (CS, Brown) — <a href="https://lepori.xyz/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">lepori.xyz</a></p>
+<p><a href="https://docs.google.com/presentation/d/1pXkFFqKTnEvl2OzsmCmnRU6l7F9EuFSgGO34pscRpn0/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a> · <a href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=408a671a-f9de-4fa1-8938-b3e601418a3c" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📺</span> Lecture capture</a></p>
+<p><strong>Reading (complete before class):</strong> <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-vision-091718-014951" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Serre (2019) — Deep Learning: The Good, the Bad, and the Ugly (Annual Review of Vision Science)</a></p>
+<p><strong>Reading response due Tue 2/3, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8102721" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
 <details>
 <summary><strong>Thu 2/5 — Lightning talks</strong></summary>
 <p>Student lightning talks on the three levers of deep learning (architecture, objectives, data).</p>
-<p><a href="https://docs.google.com/presentation/d/1J_YVlriJBZ_amCJRWvmq3Fbu_uyoRWFD4VEa5Fq7i6o/edit?usp=sharing" target="_blank">📑 Lightning talk presentations</a> · <a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=0#gid=0" target="_blank">📋 List of lightning talks (Google Sheet)</a></p>
-<p><strong>Reflection due Sun 2/8, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104056" target="_blank">📝 Submit on Canvas</a></p>
+<p><a href="https://docs.google.com/presentation/d/1J_YVlriJBZ_amCJRWvmq3Fbu_uyoRWFD4VEa5Fq7i6o/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Lightning talk presentations</a> · <a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=0#gid=0" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> List of lightning talks (Google Sheet)</a></p>
+<p><strong>Reflection due Sun 2/8, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104056" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
 ### Week 4 — Scaling and emerging capabilities {#week4}
 <details>
 <summary><strong>Tue 2/10 — Lecture: Scaling and emerging capabilities</strong></summary>
 <p>Pretraining and fine-tuning/transfer; in-context learning and reasoning; what "emergence" claims mean and how to evaluate them critically.</p>
-<p><a href="https://docs.google.com/presentation/d/1Tl2OR5kqpqh5MJIe1_DsQq20MZSS5G_6gkCzDDPblkc/edit?slide=id.g3c67357f7da_0_38#slide=id.g3c67357f7da_0_38" target="_blank">📑 Slides</a></p>
-<p><strong>Reading (complete before class):</strong> <a href="https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117" target="_blank">Firestone (2020) — Performance vs. competence in human–machine comparisons (PNAS)</a></p>
-<p><strong>Reading response due Tue 2/10, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104065" target="_blank">📝 Submit on Canvas</a></p>
+<p><a href="https://docs.google.com/presentation/d/1Tl2OR5kqpqh5MJIe1_DsQq20MZSS5G_6gkCzDDPblkc/edit?slide=id.g3c67357f7da_0_38#slide=id.g3c67357f7da_0_38" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a></p>
+<p><strong>Reading (complete before class):</strong> <a href="https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Firestone (2020) — Performance vs. competence in human–machine comparisons (PNAS)</a></p>
+<p><strong>Reading response due Tue 2/10, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104065" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
 <details>
 <summary><strong>Thu 2/12 — Lightning talks</strong></summary>
 <p>Student lightning talks on scaling and emerging capabilities.</p>
-<p><a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=922517882#gid=922517882" target="_blank">📋 List of lightning talks (Google Sheet)</a></p>
+<p><a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=922517882#gid=922517882" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> List of lightning talks (Google Sheet)</a></p>
 </details>
 
 ### Week 5 — Prediction vs Understanding {#week5}
@@ -174,29 +174,29 @@ Target time: ~60 min total.
 <summary><strong>Thu 2/19 — Background reading and required viewing</strong></summary>
 <p><em>Class on Feb 19 was cancelled (instructor sick).</em></p>
 <p><strong>Background paper (complete before or by Thu):</strong></p>
-<p><a href="https://www-cell-com.revproxy.brown.edu/neuron/fulltext/S0896-6273(25)00752-4" target="_blank">Serre, T. &amp; Pavlick, E. (2025). From Prediction to Understanding: Will AI Foundation Models Transform Brain Science? <em>Neuron</em></a> (Brown Library proxy)</p>
+<p><a href="https://www-cell-com.revproxy.brown.edu/neuron/fulltext/S0896-6273(25)00752-4" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Serre, T. &amp; Pavlick, E. (2025). From Prediction to Understanding: Will AI Foundation Models Transform Brain Science? <em>Neuron</em></a> (Brown Library proxy)</p>
 <p><strong>Required viewing (watch both):</strong></p>
 <ul>
-<li>Marcus, G. (2024). <a href="https://www.youtube.com/watch?v=91SK90SahHc" target="_blank">Keynote at AGI-24</a>. Machine Learning Street Talk. Watch from ~5:00 to ~35:00 (Marcus's talk starts after a brief introduction).</li>
-<li>LeCun, Y. (2024). <a href="https://www.youtube.com/watch?v=MiqLoAZFRSE" target="_blank">Objective-Driven AI: Towards AI Systems That Can Learn, Remember, Reason, and Plan</a>. Ding Shum Lecture, Harvard CMSA. Watch the first ~36 minutes. <em>Note: it gets fairly technical in places — if it starts feeling dry, you can stop around the 36-minute mark; you'll have what you need.</em></li>
+<li>Marcus, G. (2024). <a href="https://www.youtube.com/watch?v=91SK90SahHc" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Keynote at AGI-24</a>. Machine Learning Street Talk. Watch from ~5:00 to ~35:00 (Marcus's talk starts after a brief introduction).</li>
+<li>LeCun, Y. (2024). <a href="https://www.youtube.com/watch?v=MiqLoAZFRSE" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Objective-Driven AI: Towards AI Systems That Can Learn, Remember, Reason, and Plan</a>. Ding Shum Lecture, Harvard CMSA. Watch the first ~36 minutes. <em>Note: it gets fairly technical in places — if it starts feeling dry, you can stop around the 36-minute mark; you'll have what you need.</em></li>
 </ul>
-<p><strong>Paper response due Thu 2/19, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104666" target="_blank">📝 Submit on Canvas</a></p>
+<p><strong>Paper response due Thu 2/19, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104666" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
 ### Week 6 — Representation-level interpretability {#week6}
 <details>
 <summary><strong>Tue 2/24 — Lecture: Representation-level interpretability</strong></summary>
 <p>Feature visualization, concept-based methods, sparse/dictionary approaches (incl. SAEs); what we can and can't reliably "name" in representations.</p>
-<p><strong>Guest lecturer:</strong> Dr Thomas Fel (Kempner Institute, Harvard) — <a href="https://thomasfel.fr/" target="_blank">thomasfel.fr</a></p>
-<p><a href="https://docs.google.com/presentation/d/15xBgm8bfUcT6LRMFBhmFgX2dqdcFXVX26U0ELaNIp8A/edit?usp=sharing" target="_blank">📑 Slides</a> · <a href="https://brown.zoom.us/rec/share/ixd_lOmcIbv26RmRAuArADsBUM05gJZZcHaobW7izIRsdCLmXgVznJc6NP30JtZt.FpamIMyb19pZ3-z5" target="_blank">📺 Lecture capture</a></p>
-<p><strong>Reading (complete before class):</strong> <a href="https://distill.pub/2018/building-blocks/" target="_blank">Olah, C., Satyanarayan, A., Johnson, I., Carter, S., Schubert, L., Ye, K., &amp; Mordvinets, A. (2018). The Building Blocks of Interpretability. <em>Distill</em></a></p>
-<p><strong>Reading response due Tue 2/24, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/external_tools/38388" target="_blank">📝 Submit on Canvas</a></p>
+<p><strong>Guest lecturer:</strong> Dr Thomas Fel (Kempner Institute, Harvard) — <a href="https://thomasfel.fr/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">thomasfel.fr</a></p>
+<p><a href="https://docs.google.com/presentation/d/15xBgm8bfUcT6LRMFBhmFgX2dqdcFXVX26U0ELaNIp8A/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a> · <a href="https://brown.zoom.us/rec/share/ixd_lOmcIbv26RmRAuArADsBUM05gJZZcHaobW7izIRsdCLmXgVznJc6NP30JtZt.FpamIMyb19pZ3-z5" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📺</span> Lecture capture</a></p>
+<p><strong>Reading (complete before class):</strong> <a href="https://distill.pub/2018/building-blocks/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Olah, C., Satyanarayan, A., Johnson, I., Carter, S., Schubert, L., Ye, K., &amp; Mordvinets, A. (2018). The Building Blocks of Interpretability. <em>Distill</em></a></p>
+<p><strong>Reading response due Tue 2/24, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/external_tools/38388" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
 <details>
 <summary><strong>Thu 2/26 — Lightning talks</strong></summary>
 <p>Student lightning talks on features, concepts, and sparse methods.</p>
-<p><a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=1842491430#gid=1842491430" target="_blank">📋 List of lightning talks (Google Sheet)</a></p>
+<p><a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=1842491430#gid=1842491430" target="_blank" rel="noopener noreferrer" title="Opens in new tab">📋 List of lightning talks (Google Sheet)</a></p>
 </details>
 
 ### Week 7 — Mechanistic interpretability {#week7}

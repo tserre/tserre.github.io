@@ -89,6 +89,37 @@
         color: #4F46E5 !important;
         opacity: 0.8;
       }
+      /* WCAG 2.1 AA: Visually hidden (screen reader only) */
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+      .sr-only:focus,
+      .sr-only-focusable:focus {
+        position: static;
+        width: auto;
+        height: auto;
+        padding: 0.5em 1em;
+        margin: 0;
+        overflow: visible;
+        clip: auto;
+        white-space: normal;
+        background: #fff;
+        color: #000;
+        z-index: 9999;
+      }
+      /* WCAG 2.1 AA: Visible focus for keyboard navigation */
+      :focus-visible {
+        outline: 2px solid #2c5282;
+        outline-offset: 2px;
+      }
       /* Social icons hover */
       .social-icons a:hover, .social-icons button:hover {
         color: #4F46E5 !important;
@@ -105,8 +136,9 @@
     <![endif]-->
   </head>
   <body>
+    <a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
     <div class="wrapper">
-      <header>
+      <header role="banner">
         <img src="https://vivo.brown.edu/profile-images/a20/107/457/8fe/466/2b8/4d3/698/9fd/411/55/tserre_photo_.jpeg" alt="Thomas Serre" style="float: left; margin: 0 20px 20px 0; max-width: 200px; border-radius: 8px;">
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
@@ -139,21 +171,21 @@
             }
           </style>
           <span class="social-icons">
-          <button onclick="this.innerHTML=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ==')" style="background:none;border:none;color:inherit;cursor:pointer;padding:0;font:inherit;" title="Email"><i class="fas fa-envelope"></i></button>
-          <a href="https://x.com/tserre" title="X (Twitter): @tserre"><i class="fab fa-x-twitter"></i></a>
-          <a href="https://bsky.app/profile/thomasserre.bsky.social" title="Bluesky: @thomasserre.bsky.social"><i class="fab fa-bluesky"></i></a>
-          <a href="https://www.linkedin.com/in/thomasserre/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-          <a href="https://orcid.org/0000-0003-0846-0039" title="ORCID Profile"><i class="fab fa-orcid"></i></a>
-          <a href="https://scholar.google.com/citations?user=kZlPW4wAAAAJ&hl=en&oi=ao" title="Google Scholar Profile"><i class="fas fa-graduation-cap"></i></a>
+          <button onclick="this.innerHTML=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ==')" style="background:none;border:none;color:inherit;cursor:pointer;padding:0;font:inherit;" aria-label="Email address"><i class="fas fa-envelope" aria-hidden="true"></i></button>
+          <a href="https://x.com/tserre" aria-label="X (Twitter): @tserre"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
+          <a href="https://bsky.app/profile/thomasserre.bsky.social" aria-label="Bluesky: @thomasserre.bsky.social"><i class="fab fa-bluesky" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/thomasserre/" aria-label="LinkedIn profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://orcid.org/0000-0003-0846-0039" aria-label="ORCID profile"><i class="fab fa-orcid" aria-hidden="true"></i></a>
+          <a href="https://scholar.google.com/citations?user=kZlPW4wAAAAJ&hl=en&oi=ao" aria-label="Google Scholar profile"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a>
           {% if site.github.is_user_page %}
-          <a href="{{ site.github.owner_url }}" title="View My GitHub Profile"><i class="fab fa-github"></i></a>
+          <a href="{{ site.github.owner_url }}" aria-label="GitHub profile (opens in new tab)" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i></a>
           {% endif %}
           </span><br>
           <br>
           <a href="https://serre-lab.clps.brown.edu/">Lab website</a><br>
-          <a href="https://github.com/serre-lab">Lab github</a><br>
+          <a href="https://github.com/serre-lab">Lab GitHub</a><br>
           <a href="https://vivo.brown.edu/display/tserre">Brown profile</a><br>
-          <a href="/assets/serre_cv.pdf" title="Download CV">CV</a><br>
+          <a href="/assets/serre_cv.pdf" aria-label="Download CV (PDF)">CV</a><br>
         </p>
 
         {% if site.github.is_project_page %}
@@ -168,12 +200,13 @@
         </ul>
         {% endif %}
       </header>
-      <section>
+      <main id="main-content" role="main">
 
       {{ content }}
 
-      </section>
-      <footer>
+      </main>
+      <footer role="contentinfo">
+        <p>&copy; {{ 'now' | date: "%Y" }} Thomas Serre. Brown University. <a href="https://digital-accessibility.brown.edu/">Digital Accessibility</a></p>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
