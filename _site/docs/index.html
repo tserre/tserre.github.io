@@ -10,61 +10,201 @@
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Docs" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="[]" />
-<meta property="og:description" content="[]" />
-<link rel="canonical" href="http://0.0.0.0:4000/docs/" />
-<meta property="og:url" content="http://0.0.0.0:4000/docs/" />
+<meta name="description" content="Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI" />
+<meta property="og:description" content="Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI" />
+<link rel="canonical" href="https://thomas-serre.com/docs/" />
+<meta property="og:url" content="https://thomas-serre.com/docs/" />
 <meta property="og:site_name" content="Thomas Serre" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Docs" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"[]","headline":"Docs","url":"http://0.0.0.0:4000/docs/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI","headline":"Docs","url":"https://thomas-serre.com/docs/"}</script>
 <!-- End Jekyll SEO tag -->
 
+    <link rel="canonical" href="https://thomas-serre.com/docs/">
     <link rel="stylesheet" href="/assets/css/style.css?v=">
     <!-- Font Awesome for social icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- Goodfire font scheme -->
+    <style>
+      @font-face {
+        font-family: "IBM Plex Mono";
+        src: url("/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.ttf") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("/assets/fonts/suisse-intl/SuisseIntl-Book.otf") format("opentype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("/assets/fonts/suisse-intl/SuisseIntl-Medium.otf") format("opentype");
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("/assets/fonts/suisse-intl/SuisseIntl-SemiBold.otf") format("opentype");
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("/assets/fonts/suisse-intl/SuisseIntl-Bold.otf") format("opentype");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Works";
+        src: url("/assets/fonts/suisse-works/SuisseWorks-Book.otf") format("opentype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      body, p, span, div, li, ul, ol, section, article, header, footer {
+        font-family: "Suisse Intl", serif !important;
+        color: #475569 !important;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-smoothing: antialiased;
+      }
+      /* Exclude icon fonts from font-family override */
+      .fa, .fas, .far, .fab, .fal, .fad, [class^="fa-"], [class*=" fa-"], i[class*="fa-"] {
+        font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands", "Font Awesome 6 Pro" !important;
+      }
+      h1, h2, h3, h4, h5, h6, header h1, header h1 a {
+        font-family: "Suisse Intl", serif !important;
+        font-weight: 600 !important;
+        color: #4F46E5 !important;
+      }
+      /* Normalize first letter size in header */
+      header h1::first-letter, header h1 a::first-letter {
+        font-size: 1em !important;
+        line-height: 1em !important;
+        float: none !important;
+        initial-letter: normal !important;
+      }
+      /* Section headers */
+      h2, h3 {
+        letter-spacing: 0.05em;
+      }
+      /* Standardize all links to use the same blue */
+      a, a:link, a:visited {
+        color: #4F46E5 !important;
+      }
+      a:hover, a:focus {
+        color: #4F46E5 !important;
+        opacity: 0.8;
+      }
+      /* WCAG 2.1 AA: Visually hidden (screen reader only) */
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+      .sr-only:focus,
+      .sr-only-focusable:focus {
+        position: static;
+        width: auto;
+        height: auto;
+        padding: 0.5em 1em;
+        margin: 0;
+        overflow: visible;
+        clip: auto;
+        white-space: normal;
+        background: #fff;
+        color: #000;
+        z-index: 9999;
+      }
+      /* WCAG 2.1 AA: Visible focus for keyboard navigation */
+      :focus-visible {
+        outline: 2px solid #2c5282;
+        outline-offset: 2px;
+      }
+      /* Social icons hover */
+      .social-icons a:hover, .social-icons button:hover {
+        color: #4F46E5 !important;
+      }
+      code, pre, kbd, samp {
+        font-family: "IBM Plex Mono", monospace !important;
+      }
+      button, input, select, textarea {
+        font-family: "Suisse Works", sans-serif !important;
+      }
+    </style>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
   </head>
   <body>
+    <a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
     <div class="wrapper">
-      <header>
-        <h1><a href="http://0.0.0.0:4000/">Thomas Serre</a></h1>
+      <header role="banner">
+        <img src="https://vivo.brown.edu/profile-images/a20/107/457/8fe/466/2b8/4d3/698/9fd/411/55/tserre_photo_.jpeg" alt="Thomas Serre" style="float: left; margin: 0 20px 20px 0; max-width: 200px; border-radius: 8px;">
+        <h1><a href="https://thomas-serre.com/">Thomas Serre</a></h1>
         
         
 
-        <p></p>
+        <p style="font-style: italic; color: #666; font-size: 14px; line-height: 1.5;">Machine and Biological Vision • Computational Neuroscience • AI&nbsp;•&nbsp;NeuroAI&nbsp;•&nbsp;XAI</p>
         
-        <p>
+        <p style="font-weight: 500; color: #333; font-size: 13px; line-height: 1.6;">
           Brown University<br>
           Providence, RI 02912<br>
           <br>
-          <button onclick="this.innerHTML=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ==')" style="background:none;border:none;color:inherit;text-decoration:none;cursor:pointer;padding:0;font:inherit;" title="Email"><i class="fas fa-envelope"></i></button> &nbsp;
-          <a href="https://x.com/tserre" title="X (Twitter): @tserre">𝕏</a> &nbsp;
-          <a href="https://bsky.app/profile/thomasserre.bsky.social" title="Bluesky: @thomasserre.bsky.social" style="text-decoration: none;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg" alt="Bluesky" style="width: 14px; height: 14px; vertical-align: middle;">
-          </a> &nbsp;
-          <a href="https://www.linkedin.com/in/thomasserre/" title="LinkedIn">in</a> &nbsp;
-          <a href="https://orcid.org/0000-0003-0846-0039" title="ORCID Profile"><i class="fab fa-orcid"></i></a> &nbsp;
-          <a href="https://scholar.google.com/citations?user=kZlPW4wAAAAJ&hl=en&oi=ao" title="Google Scholar Profile" style="text-decoration: none;">
-            <img src="/assets/img/google-scholar.svg" alt="Google Scholar" style="width: 19px; height: 19px; vertical-align: middle; opacity: 0.7; transition: opacity 0.3s ease;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.7'">
-          </a>
+          <style>
+            /* Consistent social icon styling */
+            .social-icons a, .social-icons button {
+              display: inline-block;
+              width: 20px;
+              text-align: center;
+              color: #333;
+              text-decoration: none;
+              transition: color 0.3s ease;
+            }
+            .social-icons a:hover, .social-icons button:hover {
+              color: #4F46E5;
+            }
+            .social-icons i {
+              font-size: 18px;
+              vertical-align: middle;
+            }
+          </style>
+          <span class="social-icons">
+          <button onclick="this.innerHTML=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ==')" style="background:none;border:none;color:inherit;cursor:pointer;padding:0;font:inherit;" aria-label="Email address"><i class="fas fa-envelope" aria-hidden="true"></i></button>
+          <a href="https://x.com/tserre" aria-label="X (Twitter): @tserre"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
+          <a href="https://bsky.app/profile/thomasserre.bsky.social" aria-label="Bluesky: @thomasserre.bsky.social"><i class="fab fa-bluesky" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/thomasserre/" aria-label="LinkedIn profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://orcid.org/0000-0003-0846-0039" aria-label="ORCID profile"><i class="fab fa-orcid" aria-hidden="true"></i></a>
+          <a href="https://scholar.google.com/citations?user=kZlPW4wAAAAJ&hl=en&oi=ao" aria-label="Google Scholar profile"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a>
+          
+          </span><br>
           <br>
-          <br>
-          - <a href="https://serre-lab.clps.brown.edu/">Lab website</a><br>
-          - <a href="https://github.com/serre-lab">Lab github</a><br>
-          - <a href="https://vivo.brown.edu/display/tserre">Brown profile</a><br>
-          - <a href="/assets/serre_cv.pdf" title="Download CV">CV</a><br>
+          <a href="https://serre-lab.clps.brown.edu/">Lab website</a><br>
+          <a href="https://github.com/serre-lab">Lab GitHub</a><br>
+          <a href="https://vivo.brown.edu/display/tserre">Brown profile</a><br>
+          <a href="/assets/serre_cv.pdf" aria-label="Download CV (PDF)">CV</a><br>
         </p>
 
         
 
         
       </header>
-      <section>
+      <main id="main-content" role="main">
 
       <p>Exemplar doesn’t have much in the way of documentation. Use git to download, tweak in your favorite editor and “rake -T” to get a list of jekyll/sass/git tasks.</p>
 
@@ -78,8 +218,9 @@
 
 
 
-      </section>
-      <footer>
+      </main>
+      <footer role="contentinfo">
+        <p>&copy; 2026 Thomas Serre. Brown University. <a href="https://digital-accessibility.brown.edu/">Digital Accessibility</a></p>
         
       </footer>
     </div>

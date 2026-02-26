@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Syllabus | Thomas Serre</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Syllabus" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI" />
+<meta property="og:description" content="Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI" />
+<link rel="canonical" href="https://thomas-serre.com/cpsy1950/syllabus.html" />
+<meta property="og:url" content="https://thomas-serre.com/cpsy1950/syllabus.html" />
+<meta property="og:site_name" content="Thomas Serre" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Syllabus" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI","headline":"Syllabus","url":"https://thomas-serre.com/cpsy1950/syllabus.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="canonical" href="https://thomas-serre.com/cpsy1950/syllabus.html">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- Font scheme -->
+    <style>
+      @font-face {
+        font-family: "IBM Plex Mono";
+        src: url("/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.ttf") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("/assets/fonts/suisse-intl/SuisseIntl-Book.otf") format("opentype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("/assets/fonts/suisse-intl/SuisseIntl-Medium.otf") format("opentype");
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("/assets/fonts/suisse-intl/SuisseIntl-SemiBold.otf") format("opentype");
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("/assets/fonts/suisse-intl/SuisseIntl-Bold.otf") format("opentype");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+      body, p, span, div, li, ul, ol, section, article {
+        font-family: "Suisse Intl", serif !important;
+        color: #475569 !important;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-smoothing: antialiased;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: "Suisse Intl", serif !important;
+        font-weight: 600 !important;
+        color: #4F46E5 !important;
+      }
+      h2, h3 {
+        letter-spacing: 0.05em;
+      }
+      a, a:link, a:visited {
+        color: #4F46E5 !important;
+      }
+      a:hover, a:focus {
+        color: #4F46E5 !important;
+        opacity: 0.8;
+      }
+      /* WCAG 2.1 AA: Visually hidden (screen reader only) */
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+      .sr-only:focus,
+      .sr-only-focusable:focus {
+        position: static;
+        width: auto;
+        height: auto;
+        padding: 0.5em 1em;
+        margin: 0;
+        overflow: visible;
+        clip: auto;
+        white-space: normal;
+        background: #fff;
+        color: #000;
+        z-index: 9999;
+      }
+      /* WCAG 2.1 AA: Visible focus for keyboard navigation */
+      :focus-visible {
+        outline: 2px solid #2c5282;
+        outline-offset: 2px;
+      }
+      code, pre, kbd, samp {
+        font-family: "IBM Plex Mono", monospace !important;
+      }
+      
+      /* Sidebar Layout */
+      .course-wrapper {
+        display: flex;
+        min-height: 100vh;
+      }
+      
+      .course-sidebar {
+        width: 280px;
+        background-color: #f8f9fa;
+        border-right: 1px solid #e1e4e8;
+        padding: 20px 0;
+        position: fixed;
+        height: 100vh;
+        overflow-y: auto;
+        top: 0;
+        left: 0;
+      }
+      
+      .course-sidebar-header {
+        padding: 20px;
+        border-bottom: 1px solid #e1e4e8;
+        margin-bottom: 20px;
+      }
+      
+      .course-sidebar-header .brown-logo {
+        width: 140px;
+        height: auto;
+        margin-bottom: 15px;
+        display: block;
+        max-width: 100%;
+      }
+      
+      .course-sidebar-header .course-code {
+        font-size: 1.2em;
+        margin: 0 0 5px 0;
+        color: #ED1C24;
+        font-family: Georgia, "Times New Roman", serif;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+      }
+      
+      .course-sidebar-header .subtitle {
+        font-size: 0.9em;
+        color: #475569;
+        margin: 0;
+      }
+      
+      .course-sidebar-nav {
+        padding: 0 10px;
+      }
+      
+      .part-section {
+        margin-bottom: 25px;
+      }
+      
+      .part-title {
+        font-weight: 600;
+        font-size: 0.95em;
+        color: #475569;
+        padding: 8px 10px;
+        margin-bottom: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .part-title:hover {
+        background-color: #e1e4e8;
+        border-radius: 3px;
+      }
+      
+      .part-title.active {
+        background-color: #e1e4e8;
+        border-radius: 3px;
+      }
+      
+      .part-description {
+        font-size: 0.85em;
+        color: #666;
+        padding: 0 10px 8px 10px;
+        margin-bottom: 5px;
+      }
+      
+      .lesson-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .lesson-item {
+        padding: 8px 10px 8px 25px;
+        margin: 2px 0;
+      }
+      
+      .lesson-item a {
+        color: #475569;
+        text-decoration: none;
+        font-size: 0.9em;
+        display: block;
+      }
+      
+      .lesson-item a:hover {
+        color: #4F46E5;
+      }
+      
+      .lesson-item.active a {
+        color: #4F46E5;
+        font-weight: 600;
+      }
+      
+      .lesson-number {
+        color: #959da5;
+        margin-right: 8px;
+      }
+      
+      .resources-section {
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid #e1e4e8;
+      }
+      
+      .resources-section .part-title {
+        font-size: 0.9em;
+        color: #475569;
+      }
+      
+      .course-main {
+        margin-left: 280px;
+        flex: 1;
+        padding: 40px 60px;
+        max-width: 900px;
+      }
+      
+      .course-header {
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #4F46E5;
+      }
+      
+      .course-header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        color: #4F46E5;
+        line-height: 1.3;
+      }
+      
+      .course-header h1 .course-code {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 1.2em;
+        color: #ED1C24;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+      }
+      
+      .course-header h1 .course-name {
+        font-family: "Suisse Intl", sans-serif;
+        font-size: 0.85em;
+        color: #475569;
+        font-weight: 500;
+        display: block;
+        margin-top: 0.3em;
+      }
+      
+      .course-meta {
+        color: #666;
+        font-size: 1.1em;
+        margin-top: 10px;
+      }
+      
+      .course-meta .course-code {
+        font-family: Georgia, "Times New Roman", serif;
+        color: #ED1C24;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+      }
+      
+      .course-meta .course-name {
+        font-family: "Suisse Intl", sans-serif;
+        color: #475569;
+        font-weight: 500;
+        display: block;
+        margin-top: 0.5em;
+        font-size: 0.9em;
+      }
+      
+      .course-meta {
+        color: #666;
+        font-size: 1.1em;
+        margin-top: 10px;
+      }
+      
+      .course-content {
+        line-height: 1.8;
+      }
+      
+      .course-content h2 {
+        margin-top: 2em;
+        margin-bottom: 1em;
+        padding-bottom: 0.5em;
+        border-bottom: 2px solid #4F46E5;
+      }
+      
+      .course-content h3 {
+        margin-top: 1.5em;
+        margin-bottom: 0.8em;
+      }
+      
+      .course-content ul, .course-content ol {
+        margin: 1em 0;
+        padding-left: 2em;
+      }
+      
+      .course-content li {
+        margin: 0.5em 0;
+      }
+      
+      .course-content table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5em 0;
+      }
+      
+      .course-content table th,
+      .course-content table td {
+        padding: 0.75em;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      
+      .course-content table th {
+        background-color: #f5f5f5;
+        font-weight: 600;
+        color: #4F46E5;
+      }
+      
+      /* Expandable details styling */
+      details {
+        margin: 1em 0;
+        padding: 0.5em;
+        border-left: 3px solid #4F46E5;
+        background-color: #f8f9fa;
+      }
+      
+      details summary {
+        cursor: pointer;
+        font-weight: 600;
+        color: #4F46E5;
+        padding: 0.5em;
+        list-style: none;
+        user-select: none;
+      }
+      
+      details summary::-webkit-details-marker {
+        display: none;
+      }
+      
+      details summary::before {
+        content: "▶ ";
+        display: inline-block;
+        margin-right: 0.5em;
+        transition: transform 0.2s;
+      }
+      
+      details[open] summary::before {
+        transform: rotate(90deg);
+      }
+      
+      details summary:hover {
+        background-color: #e8eaf6;
+        border-radius: 3px;
+      }
+      
+      details[open] summary {
+        margin-bottom: 0.5em;
+      }
+      
+      details[open] {
+        padding: 0.5em 0.5em 1em 0.5em;
+      }
+      
+      details > *:not(summary) {
+        margin-left: 1.5em;
+        padding-top: 0.5em;
+      }
+      
+      .course-footer {
+        margin-left: 280px;
+        padding: 1em 60px;
+        border-top: 1px solid #e1e4e8;
+        font-size: 0.9em;
+        color: #666;
+      }
+      @media (max-width: 768px) {
+        .course-sidebar {
+          width: 100%;
+          position: relative;
+          height: auto;
+        }
+        .course-main {
+          margin-left: 0;
+          padding: 20px;
+        }
+        .course-footer {
+          margin-left: 0;
+          padding: 1em 20px;
+        }
+      }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <div class="course-wrapper">
+      <!-- Sidebar Navigation -->
+      <aside class="course-sidebar" aria-label="Course sidebar">
+        <div class="course-sidebar-header">
+          <img src="/assets/img/brown-logo.webp" alt="Brown University" class="brown-logo">
+          <div class="course-code">CPSY 1950</div>
+        </div>
+        
+        <nav class="course-sidebar-nav" aria-label="Course navigation">
+          
+          
+          
+          <div class="part-section">
+            <div class="part-title">
+              <span>Course Information</span>
+            </div>
+            
+            <div class="part-description">Main course page sections</div>
+            
+            <ul class="lesson-list">
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#overview">
+                  Course Overview
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#schedule">
+                  Schedule
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#reading-lists">
+                  Readings
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#assignments">
+                  Assignments
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/syllabus">
+                  Syllabus
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/outline">
+                  Course Outline
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+          
+          <div class="part-section">
+            <div class="part-title">
+              <span>Weekly Schedule</span>
+            </div>
+            
+            <div class="part-description">Jump to specific weeks</div>
+            
+            <ul class="lesson-list">
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week1">
+                  W1 - Course kickoff
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week2">
+                  W2 - Foundations
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week3">
+                  W3 - Three levers of DL
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week4">
+                  W4 - Scaling & emergence
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week5">
+                  W5 - Prediction vs Understanding
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week6">
+                  W6 - Rep. interpretability
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week7">
+                  W7 - Mech. interpretability
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week8">
+                  W8 - Neural alignment
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week9">
+                  W9 - Behavioral alignment
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week10">
+                  W10 - Spring Break
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week11">
+                  W11 - Project studio
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week12">
+                  W12 - Project posters
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week13">
+                  W13 - Guest lectures
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week14">
+                  W14 - Guest lectures
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week15">
+                  W15 - Final exam
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+          
+          
+          
+          <div class="resources-section">
+            <div class="part-title">Resources</div>
+            <ul class="lesson-list">
+              
+              <li class="lesson-item ">
+                <a href="https://edstem.org/us/courses/93110/discussion" target="_blank" rel="noopener noreferrer" aria-label="Ed Discussion (opens in new tab)">
+                  Ed Discussion
+                  
+                  <span style="font-size: 0.8em; color: #959da5; margin-left: 5px;" aria-hidden="true">↗</span>
+                  
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="https://canvas.brown.edu" target="_blank" rel="noopener noreferrer" aria-label="Canvas (opens in new tab)">
+                  Canvas
+                  
+                  <span style="font-size: 0.8em; color: #959da5; margin-left: 5px;" aria-hidden="true">↗</span>
+                  
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+          
+        </nav>
+      </aside>
+      
+      <!-- Main Content -->
+      <main id="main-content" class="course-main" role="main">
+        <div class="course-header">
+          <h1>Syllabus</h1>
+          
+          <div class="course-meta"><span class="course-code">CPSY 1950 -</span> Spring 2026<br><span class="course-name">Deep Learning in Brains, Minds & Machines</span></div>
+          
+        </div>
+
+        <div class="course-content">
+          <h2 id="course-information">Course Information</h2>
+
+<p><strong>Meeting times:</strong> TTh 2:30-3:50 pm<br />
+<strong>Classroom location:</strong> Friedman Hall 108<br />
+<strong>Course Website:</strong> <a href="https://thomas-serre.com/cpsy1950/">https://thomas-serre.com/cpsy1950/</a><br />
+<strong>Communication:</strong> <a href="https://edstem.org/us/courses/93110/discussion">Ed Discussion</a></p>
+
+<h2 id="instructor">Instructor</h2>
+
+<p><strong>Thomas Serre</strong></p>
+
+<p>Professor, Cognitive &amp; Psychological Sciences and Computer Science<br />
+Faculty Director, Center for Computation &amp; Visualization<br />
+Associate Director, Center for Computational Brain Science</p>
+
+<h3 id="contact">Contact</h3>
+
+<p><strong>Email:</strong> <a href="mailto:thomas_serre@brown.edu">thomas_serre@brown.edu</a><br />
+<strong>Office hours:</strong> W 1:00-2:00 pm — I also typically stay after class for questions<br />
+<strong>Location:</strong> Carney Innovation Hub (room 402) @ 164 Angell St</p>
+
+<hr />
+
+<h2 id="description">Description</h2>
+
+<p>This course introduces students to core ideas in NeuroAI—the joint study of artificial and biological intelligence—with an emphasis on what it would take to build AI systems that perceive, think, learn, and behave like humans, and on identifying general principles of intelligence that may generalize across humans and machines. We will examine modern foundation models—their training objectives, scaling behavior, and emergent capabilities—and evaluate how well they align with neural and behavioral data from humans. A central theme will be explainability and interpretability (XAI): what we currently understand about the internal representations and mechanisms of modern models, what remains opaque, and how interpretability tools can be used to generate and test scientific hypotheses.</p>
+
+<p>Throughout, we will highlight two-way interactions between AI and neuroscience: how AI methods can motivate new mechanistic hypotheses and experimental designs in neuroscience and cognitive psychology, and how neuroscience and cognitive science can guide the development of novel neural architectures, training curricula, and evaluation paradigms that address limitations of current AI.</p>
+
+<p>Weekly topics are addressed through a mix of instructor lectures, guest lectures, and conference-style activities, including lightning talks and poster sessions designed to simulate the scientific process of presenting, critiquing, and refining ideas.</p>
+
+<h3 id="course-updates-spring-2026">Course Updates (Spring 2026)</h3>
+
+<p>This course has been rebuilt for Spring 2026 after a one-year hiatus, with updated content reflecting rapid advances in foundation models, interpretability, and neural alignment. As a result, the schedule and specific activities may be adjusted during the semester. Updates will be posted on the course website. Thank you in advance for your flexibility and patience.</p>
+
+<hr />
+
+<h2 id="objectives">Objectives</h2>
+
+<p>The primary objective of this course is to provide an advanced introduction to NeuroAI—modern artificial neural networks and deep learning viewed through the complementary lenses of artificial and biological intelligence. The course emphasizes perception (especially vision) but spans core cognitive capacities—language, attention, memory, reasoning, and decision-making—as well as broader questions about generalization and robustness in humans and machines.</p>
+
+<p>Students will develop professional-level familiarity with contemporary research questions, methods, and debates in AI, neuroscience, and cognitive science, and will practice core scientific skills through reading, discussion, and conference-style presentations. At the conclusion of the course, students should be able to:</p>
+
+<ol>
+  <li>Explain major ideas and current debates in NeuroAI, including foundation-model era approaches (objectives, scaling, interpretability/XAI, neural and cognitive alignment, and limitations).</li>
+  <li>Read and evaluate primary research papers critically, assessing whether the evidence supports the claims and identifying key assumptions, confounds, and limitations.</li>
+  <li>Compare and synthesize approaches to studying intelligence across humans and machines, and articulate what would count as convincing evidence for “human-like” perception and cognition.</li>
+  <li>Design evaluations at a conceptual level: propose appropriate measurements (behavioral, neural), metrics, controls, and falsifiable predictions to test a model’s claims.</li>
+  <li>Communicate scientific ideas clearly by summarizing, presenting, and critiquing research in short oral formats (lightning talks), discussion, and posters.</li>
+</ol>
+
+<hr />
+
+<h2 id="who-should-take-this-course">Who Should Take This Course?</h2>
+
+<p>The course is designed for <strong>advanced undergraduate and graduate students</strong> from the computational and/or biological sciences.</p>
+
+<hr />
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>There are no hard prerequisites for this course. The goal is to identify concepts, trends, and general principles in NeuroAI—not to work through mathematical derivations. That said, we will engage extensively with primary research literature in AI, neuroscience, and cognitive science. Students should be prepared to engage with technical jargon and to interpret results, experimental designs, and evaluation logic, but will not be expected to master every technical detail.</p>
+
+<p>Students will be best prepared if they have taken a course in machine learning and/or deep learning, and are comfortable with basic quantitative concepts: vectors and matrices, linear transformations, basic probability/statistics, and common ML terminology (e.g., training vs testing, overfitting, embeddings/representations, optimization). Familiarity with neural network fundamentals (layers, activations, backpropagation at a conceptual level) is also helpful. Prior coursework in neuroscience is useful but not required; strong quantitative preparation is generally more important for success.</p>
+
+<p>Courses such as CPSY 1291 (Computational Cognitive Science), CSCI 1470 (Deep Learning), CSCI 1420 (Machine Learning), or APMA 1655 (Statistical Inference) provide relevant preparation. If you have gaps in your background, the instructor is happy to help: I typically stay after class for questions and hold office hours (tentatively Wednesdays at 1 pm). That said, you will need to take initiative, put in the work outside of class, and ask for help early.</p>
+
+<h3 id="example-readings-to-help-you-gauge-fit">Example Readings (to help you gauge fit)</h3>
+
+<p>To help you decide whether this course is a good match, here are examples of the kinds of primary research papers we will read and discuss (links use Brown Library proxy access when applicable):</p>
+
+<ul>
+  <li>Schrimpf et al. (2020), <a href="https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S089662732030605X">Integrative benchmarking to advance neurally mechanistic models of human intelligence</a> (Neuron)</li>
+  <li>Caucheteux et al. (2022), <a href="https://www-nature-com.revproxy.brown.edu/articles/s41598-022-20460-9">Deep language algorithms predict semantic comprehension from brain activity</a> (Scientific Reports)</li>
+  <li>He et al. (2022), <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf">Masked autoencoders are scalable vision learners</a> (CVPR)</li>
+  <li>Russin et al. (2025), <a href="https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.2510270122">Parallel trade-offs in human cognition and neural networks</a> (PNAS)</li>
+</ul>
+
+<hr />
+
+<h2 id="course-materials">Course Materials</h2>
+
+<p>There are no textbooks. Materials will include online content and primary sources provided by the instructor.</p>
+
+<hr />
+
+<h2 id="list-of-topics">List of Topics</h2>
+
+<p>This course has been substantially redesigned for Spring 2026 in response to major recent advances in NeuroAI. While the overall weekly structure is fixed, specific readings, guest speakers, and activities may be refined as the semester progresses based on emerging research and class needs. All updates, readings, slides, and assignments will be posted on the course website: <a href="https://thomas-serre.com/cpsy1950/">https://thomas-serre.com/cpsy1950/</a></p>
+
+<h3 id="weekly-structure">Weekly Structure</h3>
+
+<ul>
+  <li><strong>Tuesday:</strong> Instructor lecture introducing the week’s theme</li>
+  <li><strong>Thursday:</strong> Conference-style lightning talks on the same theme (short student presentations)</li>
+  <li><strong>After spring break:</strong> Student project studio sessions, followed by a project poster mini-conference and a short guest-lecture series on current trends in NeuroAI</li>
+</ul>
+
+<h2 id="course-requirements">Course Requirements</h2>
+
+<p><strong>[Total time: 180 hours]</strong></p>
+
+<h3 id="1-attendance-participation-and-in-class-checks-required">1. Attendance, Participation, and In-Class Checks (Required)</h3>
+<p><strong>[36 hours / 3 hours weekly]</strong></p>
+
+<p>Attendance is expected at all meetings (lectures, mini-conferences (lightning talks), project studio, project poster mini-conference, and guest lectures). This course is discussion- and activity-based; your learning (and your peers’) depends on active participation. Class meetings may also include brief in-class reading quizzes/checks to support consistent engagement with the assigned materials.</p>
+
+<h3 id="2-weekly-preparation-outside-of-class-required">2. Weekly Preparation Outside of Class (Required)</h3>
+<p><strong>[110 hours / 10 hours weekly]</strong></p>
+
+<p>Most weeks you will complete work outside of class that includes:</p>
+
+<ul>
+  <li>Reading usually 1-2 papers/week (up to 3)</li>
+  <li>Short response papers / pre-class activities (due Tuesdays 2:00 pm)</li>
+  <li>Brief post-class follow-up activities (due Sundays 2:00 pm)</li>
+  <li>Project work leading up to the project poster mini-conference (after spring break)</li>
+</ul>
+
+<p>Workload may shift across weeks (for example, reading volume may be lighter during project studio weeks). Students are strongly encouraged to form study groups and participate in course discussion threads on Ed/the course website.</p>
+
+<h3 id="3-lightning-talks-required">3. Lightning Talks (Required)</h3>
+<p><strong>[12 hours / 4 hours per presentation]</strong></p>
+
+<p>Each student will prepare for <strong>three</strong> lightning talks over the semester (reading the assigned papers, preparing slides, rehearsing, and coordinating with your group of three). Lightning talk groups rotate across weeks; presentation equity is tracked at the individual level so each student presents the same number of times.</p>
+
+<h3 id="4-final-exam-required">4. Final Exam (Required)</h3>
+<p><strong>[22 hours]</strong></p>
+
+<p>About 19 hours of preparation plus a 3-hour in-person exam.</p>
+
+<p><strong>Final exam: Tuesday, May 12, at 9:00 am</strong></p>
+
+<hr />
+
+<h2 id="attendance-required">Attendance (Required)</h2>
+
+<p>Attendance is mandatory. Class meetings include interactive activities (discussion, synthesis, brief reading checks, and conference-style sessions) that cannot be replicated asynchronously. If you must miss class, contact the instructor as early as possible; documentation (Dean’s note/medical note) is requested for excused absences when appropriate.</p>
+
+<hr />
+
+<h2 id="deadlines-standard">Deadlines (Standard)</h2>
+
+<p>Unless otherwise noted, deadlines are:</p>
+
+<ul>
+  <li><strong>Tuesday 2:00 pm:</strong> Pre-class submissions (before Tuesday’s lecture)</li>
+  <li><strong>Sunday 2:00 pm:</strong> Follow-up activities after Thursday sessions</li>
+</ul>
+
+<p>All deadlines and any week-specific adjustments are posted on the course website.</p>
+
+<hr />
+
+<h2 id="late-work-policy">Late Work Policy</h2>
+
+<p>Late work receives a 20% penalty per day (including weekends), unless an extension has been granted in advance.</p>
+
+<hr />
+
+<h2 id="lightning-talks-no-extensions">Lightning Talks (No Extensions)</h2>
+
+<p>Lightning talks must be delivered on the scheduled date. There are no extensions for lightning presentations.</p>
+
+<p>To ensure the mini-conference runs smoothly, your slide must be added to the shared class deck by Thursday, 2:00 pm on the day you are scheduled to present.</p>
+
+<hr />
+
+<h2 id="regrading">Regrading</h2>
+
+<p>If you believe a grade is incorrect, submit a regrade request in Gradescope within the posted regrade window. Requests must be specific and include a brief justification.</p>
+
+<hr />
+
+<h2 id="extra-credit-and-participation">Extra Credit and Participation</h2>
+
+<p>There is no extra credit. The main “wiggle room” in the course is the participation component—so please participate actively (in class and on Ed) throughout the semester.</p>
+
+<hr />
+
+<h2 id="grading">Grading</h2>
+
+<ul>
+  <li><strong>Final exam:</strong> 20%</li>
+  <li><strong>Weekly work</strong> (readings, response papers, post-class follow-ups, other short assignments): 40%</li>
+  <li><strong>Lightning talks:</strong> 20%</li>
+  <li><strong>Participation</strong> (in-class participation, in-class activities, and async. participation on Ed): 20%</li>
+</ul>
+
+<hr />
+
+<h2 id="plagiarism-warning">Plagiarism Warning</h2>
+
+<p>Academic dishonesty, such as copying material from articles, books, student papers, or the web, or submitting work that is not your own, is a serious offense and can result in an NC for the course or dismissal from Brown.</p>
+
+<p>Read the Academic Code: <em>“Students who submit academic work that uses others’ ideas, words, research, or images without proper attribution and documentation are in violation of the academic code. Infringement of the academic code entails penalties ranging from reprimand to suspension, dismissal, or expulsion from the University.”</em></p>
+
+<p>Follow these guidelines:</p>
+
+<ul>
+  <li><strong>Do not copy other people’s work.</strong> Cutting and pasting text from articles, books, other papers, or the web is plagiarism. Summarizing the contents of another work is fine, but it must be paraphrased in your own words, and the source must be cited.</li>
+  <li><strong>Use quotation marks.</strong> Verbatim quotes from any source must be placed in quotation marks, and the source must be cited. Do this sparingly, only for important ideas.</li>
+  <li><strong>Credit other people for their ideas.</strong> All sources used in writing an essay must be cited in the text and listed in the References section at the end of the paper. Wikipedia may be useful for getting oriented to a topic and finding relevant articles, but it is not a valid source.</li>
+</ul>
+
+<p>If you have any confusion or questions about what constitutes plagiarism, please talk to the instructor. Misunderstanding the definition of plagiarism will not be accepted as an excuse for violating this code.</p>
+
+<hr />
+
+<h2 id="use-of-ai">Use of AI</h2>
+
+<p>This course is designed to help you practice critical reading, scientific reasoning, and synthesis. You will get the most value by doing the thinking yourself. Most of the grading is based on completing the work and demonstrating genuine engagement with the readings (claims, evidence, limitations), not on producing polished prose. As a result, using GenAI to “polish” responses provides little benefit and can undermine the purpose of the assignments.</p>
+
+<h3 id="allowed-uses-to-complement-learning-not-replace-it">Allowed Uses (to complement learning, not replace it)</h3>
+
+<ul>
+  <li>Clarifying concepts you don’t understand (e.g., asking for explanations of a method, a term, or a mathematical idea)</li>
+  <li>Generating study questions or alternative intuitions for a figure/result</li>
+  <li>Brainstorming how to critique a claim or propose follow-up experiments (you must choose and justify your own final arguments)</li>
+  <li>Finding related papers as a starting point, with the understanding that GenAI is unreliable at literature search; use dedicated tools (e.g., Google Scholar/Semantic Scholar/Litmaps) to verify and expand</li>
+</ul>
+
+<h3 id="not-allowed-unless-explicitly-permitted-for-a-specific-assignment">Not Allowed (unless explicitly permitted for a specific assignment)</h3>
+
+<ul>
+  <li>Using GenAI to write or substantially rewrite your Tuesday response papers, post-Thursday follow-ups, or other submitted work</li>
+  <li>Using GenAI to generate your lightning talk script/slide content in place of your own understanding of the paper</li>
+  <li>Using GenAI during in-class quizzes or the final exam</li>
+</ul>
+
+<h3 id="disclosure-requirement">Disclosure Requirement</h3>
+
+<p>At the end of every submission, include a brief AI use statement. If you used GenAI in a permitted way, state the tool name and what you used it for (e.g., “Used Claude to clarify method terminology”). If you did not use GenAI, write “No AI tools used.” Omitting this statement may result in the assignment being returned for completion.</p>
+
+<h3 id="reading-accountability">Reading Accountability</h3>
+
+<p>To ensure everyone practices these skills, we will use very short in-class reading checks (e.g., 2-4 minutes) that may ask about a key method detail, dataset/setting, or an interpretation of a main figure (e.g., “What does Figure 2 actually demonstrate in one sentence?”). These checks are meant to confirm engagement with the paper beyond the written response.</p>
+
+<hr />
+
+<h2 id="diversity-and-inclusion">Diversity and Inclusion</h2>
+
+<p>In this class, we strive to create a learning environment that supports a diversity of thought, perspectives, and experiences and respects everyone’s identities (including race, gender, class, sexuality, religion, ability, etc.). This means acknowledging biases and the diversity of all of us in the room. While we expect the course to challenge you intellectually, please speak with the instructor (either in person, via email, or by submitting anonymous feedback):</p>
+
+<ul>
+  <li>If anything in the readings or anything said in class (by anyone) feels personally disrespectful</li>
+  <li>If you feel that your performance in class is being impacted by your experiences outside of class</li>
+  <li>If you have any suggestions for improving the course materials to include diverse perspectives</li>
+</ul>
+
+<hr />
+
+<h2 id="accessibility-and-accommodations">Accessibility and Accommodations</h2>
+
+<p>Brown University is committed to the full inclusion of all students. Please inform us early in the term if you require accommodations or modifications of any course procedures. You may speak with the instructor after class, during office hours, or by appointment. If you need accommodations around online learning or in-classroom accommodations, please contact Student Accessibility Services (SAS) for assistance (<a href="mailto:seas@brown.edu">seas@brown.edu</a>, 401-863-9588). Students needing short-term academic advice or support can contact one of the academic deans in the College.</p>
+
+<hr />
+
+<h2 id="class-recording-and-distribution-of-course-materials">Class Recording and Distribution of Course Materials</h2>
+
+<p>Lectures and other course materials are copyrighted. Students are prohibited from reproducing, making copies, publicly displaying, selling, or otherwise distributing slides, recordings, or transcripts of the materials. The only exception is that students with disabilities may have the right to record for their private use if that method is determined to be a reasonable accommodation by Student Accessibility Services. Disregarding the University’s copyright policy and federal copyright law is a Student Code of Conduct violation.</p>
+
+<hr />
+
+        </div>
+      </main>
+      <footer class="course-footer" role="contentinfo">
+        <p>&copy; 2026 Brown University. <a href="https://digital-accessibility.brown.edu/">Digital Accessibility</a></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+  </body>
+</html>

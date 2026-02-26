@@ -205,25 +205,25 @@ subtitle: Spring 2026
 <p>Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion.</p>
 </details>
 
-## Week 13 — Guest lecture series
+## Week 13 — Guest lectures
 <details>
-<summary><strong>Tue 4/14 — Guest Lecture Series I (TBD)</strong></summary>
+<summary><strong>Tue 4/14 — Guest lecture (TBD)</strong></summary>
 <p>Details TBD</p>
 </details>
 
 <details>
-<summary><strong>Thu 4/16 — Guest Lecture Series I (TBD)</strong></summary>
-<p>Details TBD</p>
-</details>
-
-## Week 14 — Guest lecture series (continued)
-<details>
-<summary><strong>Tue 4/21 — Guest Lecture Series II: Rufin VanRullen</strong></summary>
+<summary><strong>Thu 4/16 — Guest lecture: Rufin VanRullen</strong></summary>
 <p>Frontier topics in NeuroAI: global workspace / consciousness & deep learning.</p>
 </details>
 
+## Week 14 — Guest lectures
 <details>
-<summary><strong>Thu 4/23 — Guest Lecture Series II: Victor Boutin + Course Wrap-Up</strong></summary>
+<summary><strong>Tue 4/21 — Guest lecture (TBD)</strong></summary>
+<p>Details TBD</p>
+</details>
+
+<details>
+<summary><strong>Thu 4/23 — Guest lecture: Victor Boutin</strong></summary>
 <p>Frontier topics in NeuroAI: generative models, EBMs, cognitive science. Plus course wrap-up and final exam briefing.</p>
 </details>
 

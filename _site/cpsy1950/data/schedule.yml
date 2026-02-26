@@ -1,0 +1,16 @@
+# CPSY 1950 Course Schedule
+# List all class sessions with dates, topics, and readings
+
+schedule:
+  - date: "2025-01-15"
+    topic: "Introduction to NeuroAI"
+    readings:
+      - title: "Example Reading"
+        url: "/cpsy1950/papers/example.pdf"
+  
+  # Add more schedule items below:
+  # - date: "2025-01-22"
+  #   topic: "Topic Name"
+  #   readings:
+  #     - title: "Reading Title"
+  #       url: "/cpsy1950/papers/filename.pdf"

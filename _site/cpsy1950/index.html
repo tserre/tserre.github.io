@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>CPSY 1950 Deep Learning in Brains, Minds &amp; Machines | Thomas Serre</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="CPSY 1950 Deep Learning in Brains, Minds &amp; Machines" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI" />
+<meta property="og:description" content="Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI" />
+<link rel="canonical" href="https://thomas-serre.com/cpsy1950/" />
+<meta property="og:url" content="https://thomas-serre.com/cpsy1950/" />
+<meta property="og:site_name" content="Thomas Serre" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="CPSY 1950 Deep Learning in Brains, Minds &amp; Machines" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI","headline":"CPSY 1950 Deep Learning in Brains, Minds &amp; Machines","url":"https://thomas-serre.com/cpsy1950/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="canonical" href="https://thomas-serre.com/cpsy1950/">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- Font scheme -->
+    <style>
+      @font-face {
+        font-family: "IBM Plex Mono";
+        src: url("/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.ttf") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("/assets/fonts/suisse-intl/SuisseIntl-Book.otf") format("opentype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("/assets/fonts/suisse-intl/SuisseIntl-Medium.otf") format("opentype");
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("/assets/fonts/suisse-intl/SuisseIntl-SemiBold.otf") format("opentype");
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Suisse Intl";
+        src: url("/assets/fonts/suisse-intl/SuisseIntl-Bold.otf") format("opentype");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+      body, p, span, div, li, ul, ol, section, article {
+        font-family: "Suisse Intl", serif !important;
+        color: #475569 !important;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-smoothing: antialiased;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: "Suisse Intl", serif !important;
+        font-weight: 600 !important;
+        color: #4F46E5 !important;
+      }
+      h2, h3 {
+        letter-spacing: 0.05em;
+      }
+      a, a:link, a:visited {
+        color: #4F46E5 !important;
+      }
+      a:hover, a:focus {
+        color: #4F46E5 !important;
+        opacity: 0.8;
+      }
+      /* WCAG 2.1 AA: Visually hidden (screen reader only) */
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+      .sr-only:focus,
+      .sr-only-focusable:focus {
+        position: static;
+        width: auto;
+        height: auto;
+        padding: 0.5em 1em;
+        margin: 0;
+        overflow: visible;
+        clip: auto;
+        white-space: normal;
+        background: #fff;
+        color: #000;
+        z-index: 9999;
+      }
+      /* WCAG 2.1 AA: Visible focus for keyboard navigation */
+      :focus-visible {
+        outline: 2px solid #2c5282;
+        outline-offset: 2px;
+      }
+      code, pre, kbd, samp {
+        font-family: "IBM Plex Mono", monospace !important;
+      }
+      
+      /* Sidebar Layout */
+      .course-wrapper {
+        display: flex;
+        min-height: 100vh;
+      }
+      
+      .course-sidebar {
+        width: 280px;
+        background-color: #f8f9fa;
+        border-right: 1px solid #e1e4e8;
+        padding: 20px 0;
+        position: fixed;
+        height: 100vh;
+        overflow-y: auto;
+        top: 0;
+        left: 0;
+      }
+      
+      .course-sidebar-header {
+        padding: 20px;
+        border-bottom: 1px solid #e1e4e8;
+        margin-bottom: 20px;
+      }
+      
+      .course-sidebar-header .brown-logo {
+        width: 140px;
+        height: auto;
+        margin-bottom: 15px;
+        display: block;
+        max-width: 100%;
+      }
+      
+      .course-sidebar-header .course-code {
+        font-size: 1.2em;
+        margin: 0 0 5px 0;
+        color: #ED1C24;
+        font-family: Georgia, "Times New Roman", serif;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+      }
+      
+      .course-sidebar-header .subtitle {
+        font-size: 0.9em;
+        color: #475569;
+        margin: 0;
+      }
+      
+      .course-sidebar-nav {
+        padding: 0 10px;
+      }
+      
+      .part-section {
+        margin-bottom: 25px;
+      }
+      
+      .part-title {
+        font-weight: 600;
+        font-size: 0.95em;
+        color: #475569;
+        padding: 8px 10px;
+        margin-bottom: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .part-title:hover {
+        background-color: #e1e4e8;
+        border-radius: 3px;
+      }
+      
+      .part-title.active {
+        background-color: #e1e4e8;
+        border-radius: 3px;
+      }
+      
+      .part-description {
+        font-size: 0.85em;
+        color: #666;
+        padding: 0 10px 8px 10px;
+        margin-bottom: 5px;
+      }
+      
+      .lesson-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .lesson-item {
+        padding: 8px 10px 8px 25px;
+        margin: 2px 0;
+      }
+      
+      .lesson-item a {
+        color: #475569;
+        text-decoration: none;
+        font-size: 0.9em;
+        display: block;
+      }
+      
+      .lesson-item a:hover {
+        color: #4F46E5;
+      }
+      
+      .lesson-item.active a {
+        color: #4F46E5;
+        font-weight: 600;
+      }
+      
+      .lesson-number {
+        color: #959da5;
+        margin-right: 8px;
+      }
+      
+      .resources-section {
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid #e1e4e8;
+      }
+      
+      .resources-section .part-title {
+        font-size: 0.9em;
+        color: #475569;
+      }
+      
+      .course-main {
+        margin-left: 280px;
+        flex: 1;
+        padding: 40px 60px;
+        max-width: 900px;
+      }
+      
+      .course-header {
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #4F46E5;
+      }
+      
+      .course-header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        color: #4F46E5;
+        line-height: 1.3;
+      }
+      
+      .course-header h1 .course-code {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 1.2em;
+        color: #ED1C24;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+      }
+      
+      .course-header h1 .course-name {
+        font-family: "Suisse Intl", sans-serif;
+        font-size: 0.85em;
+        color: #475569;
+        font-weight: 500;
+        display: block;
+        margin-top: 0.3em;
+      }
+      
+      .course-meta {
+        color: #666;
+        font-size: 1.1em;
+        margin-top: 10px;
+      }
+      
+      .course-meta .course-code {
+        font-family: Georgia, "Times New Roman", serif;
+        color: #ED1C24;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+      }
+      
+      .course-meta .course-name {
+        font-family: "Suisse Intl", sans-serif;
+        color: #475569;
+        font-weight: 500;
+        display: block;
+        margin-top: 0.5em;
+        font-size: 0.9em;
+      }
+      
+      .course-meta {
+        color: #666;
+        font-size: 1.1em;
+        margin-top: 10px;
+      }
+      
+      .course-content {
+        line-height: 1.8;
+      }
+      
+      .course-content h2 {
+        margin-top: 2em;
+        margin-bottom: 1em;
+        padding-bottom: 0.5em;
+        border-bottom: 2px solid #4F46E5;
+      }
+      
+      .course-content h3 {
+        margin-top: 1.5em;
+        margin-bottom: 0.8em;
+      }
+      
+      .course-content ul, .course-content ol {
+        margin: 1em 0;
+        padding-left: 2em;
+      }
+      
+      .course-content li {
+        margin: 0.5em 0;
+      }
+      
+      .course-content table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5em 0;
+      }
+      
+      .course-content table th,
+      .course-content table td {
+        padding: 0.75em;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      
+      .course-content table th {
+        background-color: #f5f5f5;
+        font-weight: 600;
+        color: #4F46E5;
+      }
+      
+      /* Expandable details styling */
+      details {
+        margin: 1em 0;
+        padding: 0.5em;
+        border-left: 3px solid #4F46E5;
+        background-color: #f8f9fa;
+      }
+      
+      details summary {
+        cursor: pointer;
+        font-weight: 600;
+        color: #4F46E5;
+        padding: 0.5em;
+        list-style: none;
+        user-select: none;
+      }
+      
+      details summary::-webkit-details-marker {
+        display: none;
+      }
+      
+      details summary::before {
+        content: "▶ ";
+        display: inline-block;
+        margin-right: 0.5em;
+        transition: transform 0.2s;
+      }
+      
+      details[open] summary::before {
+        transform: rotate(90deg);
+      }
+      
+      details summary:hover {
+        background-color: #e8eaf6;
+        border-radius: 3px;
+      }
+      
+      details[open] summary {
+        margin-bottom: 0.5em;
+      }
+      
+      details[open] {
+        padding: 0.5em 0.5em 1em 0.5em;
+      }
+      
+      details > *:not(summary) {
+        margin-left: 1.5em;
+        padding-top: 0.5em;
+      }
+      
+      .course-footer {
+        margin-left: 280px;
+        padding: 1em 60px;
+        border-top: 1px solid #e1e4e8;
+        font-size: 0.9em;
+        color: #666;
+      }
+      @media (max-width: 768px) {
+        .course-sidebar {
+          width: 100%;
+          position: relative;
+          height: auto;
+        }
+        .course-main {
+          margin-left: 0;
+          padding: 20px;
+        }
+        .course-footer {
+          margin-left: 0;
+          padding: 1em 20px;
+        }
+      }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <div class="course-wrapper">
+      <!-- Sidebar Navigation -->
+      <aside class="course-sidebar" aria-label="Course sidebar">
+        <div class="course-sidebar-header">
+          <img src="/assets/img/brown-logo.webp" alt="Brown University" class="brown-logo">
+          <div class="course-code">CPSY 1950</div>
+        </div>
+        
+        <nav class="course-sidebar-nav" aria-label="Course navigation">
+          
+          
+          
+          <div class="part-section">
+            <div class="part-title">
+              <span>Course Information</span>
+            </div>
+            
+            <div class="part-description">Main course page sections</div>
+            
+            <ul class="lesson-list">
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#overview">
+                  Course Overview
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#schedule">
+                  Schedule
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#reading-lists">
+                  Readings
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#assignments">
+                  Assignments
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/syllabus">
+                  Syllabus
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/outline">
+                  Course Outline
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+          
+          <div class="part-section">
+            <div class="part-title">
+              <span>Weekly Schedule</span>
+            </div>
+            
+            <div class="part-description">Jump to specific weeks</div>
+            
+            <ul class="lesson-list">
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week1">
+                  W1 - Course kickoff
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week2">
+                  W2 - Foundations
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week3">
+                  W3 - Three levers of DL
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week4">
+                  W4 - Scaling & emergence
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week5">
+                  W5 - Prediction vs Understanding
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week6">
+                  W6 - Rep. interpretability
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week7">
+                  W7 - Mech. interpretability
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week8">
+                  W8 - Neural alignment
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week9">
+                  W9 - Behavioral alignment
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week10">
+                  W10 - Spring Break
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week11">
+                  W11 - Project studio
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week12">
+                  W12 - Project posters
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week13">
+                  W13 - Guest lectures
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week14">
+                  W14 - Guest lectures
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="/cpsy1950/#week15">
+                  W15 - Final exam
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+          
+          
+          
+          <div class="resources-section">
+            <div class="part-title">Resources</div>
+            <ul class="lesson-list">
+              
+              <li class="lesson-item ">
+                <a href="https://edstem.org/us/courses/93110/discussion" target="_blank" rel="noopener noreferrer" aria-label="Ed Discussion (opens in new tab)">
+                  Ed Discussion
+                  
+                  <span style="font-size: 0.8em; color: #959da5; margin-left: 5px;" aria-hidden="true">↗</span>
+                  
+                </a>
+              </li>
+              
+              <li class="lesson-item ">
+                <a href="https://canvas.brown.edu" target="_blank" rel="noopener noreferrer" aria-label="Canvas (opens in new tab)">
+                  Canvas
+                  
+                  <span style="font-size: 0.8em; color: #959da5; margin-left: 5px;" aria-hidden="true">↗</span>
+                  
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+          
+        </nav>
+      </aside>
+      
+      <!-- Main Content -->
+      <main id="main-content" class="course-main" role="main">
+        <div class="course-header">
+          <h1><span class="course-code">CPSY 1950 </span><span class="course-name">Deep Learning in Brains, Minds & Machines</span></h1>
+          
+          <div class="course-meta">Spring 2026 • Advanced Undergraduate/Graduate</div>
+          
+        </div>
+
+        <div class="course-content">
+          <p>A seminar-style exploration of cutting-edge research at the intersection of natural and artificial intelligence. Students engage with recent papers and develop critical perspectives on how biological and artificial systems process information.</p>
+
+<p><strong>Format:</strong> Tuesday lectures + Thursday mini-conferences (lightning talks) • Project posters • Guest lectures</p>
+
+<hr />
+
+<h2 id="course-information">Course Information</h2>
+
+<p><strong>Instructor:</strong> Thomas Serre<br />
+<strong>Email:</strong> <a href="mailto:thomas_serre@brown.edu" target="_blank" rel="noopener noreferrer" title="Opens in new tab">thomas_serre@brown.edu</a><br />
+<strong>Time:</strong> Tuesday &amp; Thursday, 2:30pm-3:50pm<br />
+<strong>Location:</strong> Friedman Hall 108<br />
+<strong>Office Hours:</strong> Wednesdays, 1:00-2:00pm @ Carney Innovation Hub (Room 402)<br />
+<strong>Communication:</strong> <a href="https://edstem.org/us/courses/93110/discussion" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Ed Discussion</a></p>
+
+<p><strong><a href="/cpsy1950/syllabus" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📄</span> View Full Syllabus</a></strong></p>
+
+<hr />
+
+<blockquote>
+  <p><strong>Course Updates (Spring 2026):</strong> This course has been substantially revamped for Spring 2026 to reflect rapid changes in NeuroAI. As a result, the schedule and specific activities may be adjusted during the semester. Updates will be posted on the course website. Thank you in advance for your flexibility and patience.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="overview">Overview</h2>
+
+<p>This course uses a lecture + mini-conference (lightning talks) format:</p>
+
+<ul>
+  <li><strong>Tuesdays (80 min):</strong> Instructor lecture introducing the week’s theme</li>
+  <li><strong>Thursdays (80 min):</strong> Student lightning talks (~15 presentations, 3 minutes each) + synthesis/discussion</li>
+</ul>
+
+<p>Students work in rotating small groups throughout the semester, culminating in project poster presentations. The course covers modern AI capabilities, explainable AI (XAI), NeuroAI, and cognitive and neural alignment.</p>
+
+<h3 id="key-dates">Key Dates</h3>
+<ul>
+  <li><strong>First Class:</strong> Thursday, January 22, 2026</li>
+  <li><strong>Bootcamp:</strong> Week 2 (async – no class January 27–29)</li>
+  <li><strong>Lightning Talks:</strong> Weeks 3-9</li>
+  <li><strong>Spring Break:</strong> Week 10 (March 24-26)</li>
+  <li><strong>Project Posters:</strong> Weeks 11-12 (April 7-9)</li>
+  <li><strong>Guest Lectures:</strong> Weeks 13-14</li>
+  <li><strong>Final Exam:</strong> Tuesday, May 12, 2026, 9:00am</li>
+</ul>
+
+<h3 id="group--presentation-plan-for-up-to-103-students">Group &amp; Presentation Plan (for up to 103 students)</h3>
+<ul>
+  <li>Lightning talks are prepared in small groups (typically 3, occasionally 4).</li>
+  <li>Groups are not fixed: students will form new groups for each lightning week (rotating teams over the semester).</li>
+  <li>Posters are reserved for student projects (after spring break).</li>
+  <li>Equity: presentation turns are tracked at the individual student level so that each student presents the same number of times across the semester (lightning talks + the project poster).</li>
+</ul>
+
+<hr />
+
+<h2 id="schedule">Schedule</h2>
+
+<h3 id="week1">Week 1 — Course kickoff</h3>
+<details>
+<summary><strong>Thu 1/22 — Course Kickoff</strong></summary>
+<p>NeuroAI goals, course structure, and how we will simulate scientific conferences (lightning talks and projects).</p>
+<p><a href="https://docs.google.com/presentation/d/1bozT6ncJ7EDZMnfgyGZo3fP8v8FvGWb5Vni3eXlBpF8/edit?slide=id.p#slide=id.p" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Google Slides</a></p>
+<p><em>No readings or pre-class activities for Week 1—this is the introductory session.</em></p>
+</details>
+
+<h3 id="week2">Week 2 — Foundations of natural and artificial intelligence</h3>
+<details>
+  <summary><strong>Async Bootcamp (no in-person class this week)</strong></summary>
+
+  <p>Goal: Put everyone on a leveled playing field for Week 3. Complete the Required Core first (mandatory for all), then the conditional tracks that match your background. You do <em>not</em> need to do every track.</p>
+
+  <p><em>Note on access to papers:</em> For any <em>paper</em> link below, please use the Brown Library proxy links (you may be prompted to log in with Brown credentials off campus).</p>
+
+  <h4 id="required-core--mandatory-for-all-students">Required Core — Mandatory for all students</h4>
+
+  <p>⚠️ Complete both items below before moving on to any conditional tracks. Students with a strong background in cognitive neuroscience may skim, but should still review to ensure familiarity with the course’s framing and terminology.<br />
+<em>Expected time: ~90 min total</em></p>
+
+  <ol>
+    <li>
+      <p>Marr’s Levels of Analysis (video)<br />
+<a href="https://nancysbraintalks.mit.edu/video_page/12-how-can-we-study-human-mind-and-brain-marrs-levels-analysis/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Nancy Kanwisher: “How can we study the human mind and brain? Marr’s levels of analysis”</a></p>
+    </li>
+    <li>
+      <p>Coarse brain organization (video; focus on gross organization + functions)<br />
+<a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-2-neuroanatomy/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">MIT OCW 9.13 (Spring 2019) Lecture 2: “Neuroanatomy”</a><br />
+<em>Viewing guidance:</em> Watch for the high-level tour of major brain divisions/structures and what they do. Pay particular attention to concepts of receptive fields, neural tuning, and cortical maps — these are fundamental for understanding how neural networks relate to biological systems. You do <em>not</em> need to know fine anatomical details.</p>
+    </li>
+  </ol>
+
+  <h4 id="conditional-track-a--cognitive-neuroscience-foundations">Conditional Track A — Cognitive neuroscience foundations</h4>
+  <p>Complete this track if you have not taken at least 1–2 courses in neuroscience or cognitive neuroscience.<br />
+Target time: up to ~180 min.</p>
+
+  <ul>
+    <li>
+      <p><strong>A1)</strong> Neurons, spikes, firing rate (high-level; no ion-channel deep dive)<br />
+<a href="https://www.brainfacts.org/core-concepts/how-neurons-communicate" target="_blank" rel="noopener noreferrer" title="Opens in new tab">BrainFacts: “How neurons communicate”</a></p>
+    </li>
+    <li>
+      <p><strong>A2)</strong> Quick map of structures + functions<br />
+<a href="https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain" target="_blank" rel="noopener noreferrer" title="Opens in new tab">NIH/NINDS: “Brain basics — know your brain”</a></p>
+    </li>
+    <li><strong>A3)</strong> Methods lectures (videos)
+      <ul>
+        <li><a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-4-cognitive-neuroscience-methods-i/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">MIT OCW 9.13 Lecture 4: “Cognitive neuroscience methods I”</a></li>
+        <li><a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-5-cognitive-neuroscience-methods-ii/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">MIT OCW 9.13 Lecture 5: “Cognitive neuroscience methods II”</a></li>
+      </ul>
+
+      <p><em>Note:</em> Don’t worry if the jargon feels overwhelming — you don’t need to memorize all the details right now, and you can always come back to these videos later when these concepts become needed. These lectures include a section on Marr’s levels of analysis; you can skip it if redundant with the required core, though reviewing it twice may be helpful if you haven’t taken cognitive science courses.</p>
+    </li>
+    <li><strong>A4)</strong> Optional “what measures what?” cheat-sheets (short skims)
+      <ul>
+        <li><a href="https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-for-physiology-022723" target="_blank" rel="noopener noreferrer" title="Opens in new tab">BrainFacts: “Measuring neural physiology”</a></li>
+        <li><a href="https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-used-for-human-research-030923" target="_blank" rel="noopener noreferrer" title="Opens in new tab">BrainFacts: “Viewing the human brain through noninvasive tools”</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <h4 id="conditional-track-b--linear-algebra-intuition-refresher">Conditional Track B — Linear algebra intuition (refresher)</h4>
+  <p>Complete this track if vectors/matrices feel rusty.<br />
+Target time: ~60 min total.</p>
+
+  <ul>
+    <li><a href="https://www.3blue1brown.com/lessons/vectors" target="_blank" rel="noopener noreferrer" title="Opens in new tab">3Blue1Brown: “Vectors, what even are they?”</a></li>
+    <li><a href="https://www.3blue1brown.com/lessons/span" target="_blank" rel="noopener noreferrer" title="Opens in new tab">3Blue1Brown: “Linear combinations, span, and basis vectors”</a></li>
+    <li><a href="https://www.3blue1brown.com/lessons/linear-transformations" target="_blank" rel="noopener noreferrer" title="Opens in new tab">3Blue1Brown: “Linear transformations and matrices”</a></li>
+    <li><a href="https://www.3blue1brown.com/lessons/matrix-multiplication" target="_blank" rel="noopener noreferrer" title="Opens in new tab">3Blue1Brown: “Matrix multiplication as composition”</a></li>
+  </ul>
+
+  <h4 id="conditional-track-c--deep-learning-intuition-refresher">Conditional Track C — Deep learning intuition (refresher)</h4>
+  <p>Complete this track if backprop/gradient descent are unfamiliar.<br />
+Target time: ~60 min total.</p>
+
+  <ul>
+    <li><a href="https://www.3blue1brown.com/lessons/neural-networks" target="_blank" rel="noopener noreferrer" title="Opens in new tab">3Blue1Brown: “What is a neural network?”</a></li>
+    <li><a href="https://www.3blue1brown.com/lessons/gradient-descent" target="_blank" rel="noopener noreferrer" title="Opens in new tab">3Blue1Brown: “Gradient descent”</a></li>
+    <li><a href="https://www.youtube.com/watch?v=Ilg3gGewQ5U" target="_blank" rel="noopener noreferrer" title="Opens in new tab">3Blue1Brown: “Backpropagation”</a></li>
+  </ul>
+
+  <h4 id="bootcamp-checkpoint-all-students-due-sun-22-200pm">Bootcamp Checkpoint (all students; due Sun 2/2, 2:00pm)</h4>
+
+  <p><strong>Reading:</strong> <a href="https://www-nature-com.revproxy.brown.edu/articles/337129a0" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Crick (1989) — The recent excitement about neural networks (Nature)</a> (Brown Library proxy link)</p>
+
+  <p><strong>Reading response due Sun 2/2, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8098936" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
+
+  <h4 id="optional-background-papers-only-if-you-want-extra-framing">Optional background papers (only if you want extra framing)</h4>
+  <ul>
+    <li><a href="https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661319300348" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Cichy &amp; Kaiser (2019) — Trends in Cognitive Sciences</a> (Brown Library proxy link)</li>
+    <li><a href="https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Doerig et al. (2023) — Nature Reviews Neuroscience</a> (Brown Library proxy link)</li>
+  </ul>
+
+</details>
+
+<h3 id="week3">Week 3 — The three levers of deep learning</h3>
+<details>
+<summary><strong>Tue 2/3 — Lecture: The three levers of deep learning</strong></summary>
+<p>Architecture, learning objectives, and data shape representations, behavior, and generalization across modalities.</p>
+<p><strong>Guest lecturer:</strong> Michael Lepori (CS, Brown) — <a href="https://lepori.xyz/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">lepori.xyz</a></p>
+<p><a href="https://docs.google.com/presentation/d/1pXkFFqKTnEvl2OzsmCmnRU6l7F9EuFSgGO34pscRpn0/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a> · <a href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=408a671a-f9de-4fa1-8938-b3e601418a3c" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📺</span> Lecture capture</a></p>
+<p><strong>Reading (complete before class):</strong> <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-vision-091718-014951" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Serre (2019) — Deep Learning: The Good, the Bad, and the Ugly (Annual Review of Vision Science)</a></p>
+<p><strong>Reading response due Tue 2/3, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8102721" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
+</details>
+
+<details>
+<summary><strong>Thu 2/5 — Lightning talks</strong></summary>
+<p>Student lightning talks on the three levers of deep learning (architecture, objectives, data).</p>
+<p><a href="https://docs.google.com/presentation/d/1J_YVlriJBZ_amCJRWvmq3Fbu_uyoRWFD4VEa5Fq7i6o/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Lightning talk presentations</a> · <a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=0#gid=0" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> List of lightning talks (Google Sheet)</a></p>
+<p><strong>Reflection due Sun 2/8, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104056" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
+</details>
+
+<h3 id="week4">Week 4 — Scaling and emerging capabilities</h3>
+<details>
+<summary><strong>Tue 2/10 — Lecture: Scaling and emerging capabilities</strong></summary>
+<p>Pretraining and fine-tuning/transfer; in-context learning and reasoning; what "emergence" claims mean and how to evaluate them critically.</p>
+<p><a href="https://docs.google.com/presentation/d/1Tl2OR5kqpqh5MJIe1_DsQq20MZSS5G_6gkCzDDPblkc/edit?slide=id.g3c67357f7da_0_38#slide=id.g3c67357f7da_0_38" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a></p>
+<p><strong>Reading (complete before class):</strong> <a href="https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Firestone (2020) — Performance vs. competence in human–machine comparisons (PNAS)</a></p>
+<p><strong>Reading response due Tue 2/10, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104065" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
+</details>
+
+<details>
+<summary><strong>Thu 2/12 — Lightning talks</strong></summary>
+<p>Student lightning talks on scaling and emerging capabilities.</p>
+<p><a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=922517882#gid=922517882" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> List of lightning talks (Google Sheet)</a></p>
+</details>
+
+<h3 id="week5">Week 5 — Prediction vs Understanding</h3>
+<details>
+<summary><strong>Tue 2/17 — No lecture (university holiday)</strong></summary>
+<p>No class.</p>
+</details>
+
+<details>
+<summary><strong>Thu 2/19 — Background reading and required viewing</strong></summary>
+<p><em>Class on Feb 19 was cancelled (instructor sick).</em></p>
+<p><strong>Background paper (complete before or by Thu):</strong></p>
+<p><a href="https://www-cell-com.revproxy.brown.edu/neuron/fulltext/S0896-6273(25)00752-4" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Serre, T. &amp; Pavlick, E. (2025). From Prediction to Understanding: Will AI Foundation Models Transform Brain Science? <em>Neuron</em></a> (Brown Library proxy)</p>
+<p><strong>Required viewing (watch both):</strong></p>
+<ul>
+<li>Marcus, G. (2024). <a href="https://www.youtube.com/watch?v=91SK90SahHc" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Keynote at AGI-24</a>. Machine Learning Street Talk. Watch from ~5:00 to ~35:00 (Marcus's talk starts after a brief introduction).</li>
+<li>LeCun, Y. (2024). <a href="https://www.youtube.com/watch?v=MiqLoAZFRSE" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Objective-Driven AI: Towards AI Systems That Can Learn, Remember, Reason, and Plan</a>. Ding Shum Lecture, Harvard CMSA. Watch the first ~36 minutes. <em>Note: it gets fairly technical in places — if it starts feeling dry, you can stop around the 36-minute mark; you'll have what you need.</em></li>
+</ul>
+<p><strong>Paper response due Thu 2/19, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104666" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
+</details>
+
+<h3 id="week6">Week 6 — Representation-level interpretability</h3>
+<details>
+<summary><strong>Tue 2/24 — Lecture: Representation-level interpretability</strong></summary>
+<p>Feature visualization, concept-based methods, sparse/dictionary approaches (incl. SAEs); what we can and can't reliably "name" in representations.</p>
+<p><strong>Guest lecturer:</strong> Dr Thomas Fel (Kempner Institute, Harvard) — <a href="https://thomasfel.fr/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">thomasfel.fr</a></p>
+<p><a href="https://docs.google.com/presentation/d/15xBgm8bfUcT6LRMFBhmFgX2dqdcFXVX26U0ELaNIp8A/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a> · <a href="https://brown.zoom.us/rec/share/ixd_lOmcIbv26RmRAuArADsBUM05gJZZcHaobW7izIRsdCLmXgVznJc6NP30JtZt.FpamIMyb19pZ3-z5" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📺</span> Lecture capture</a></p>
+<p><strong>Reading (complete before class):</strong> <a href="https://distill.pub/2018/building-blocks/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Olah, C., Satyanarayan, A., Johnson, I., Carter, S., Schubert, L., Ye, K., &amp; Mordvinets, A. (2018). The Building Blocks of Interpretability. <em>Distill</em></a></p>
+<p><strong>Reading response due Tue 2/24, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/external_tools/38388" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
+</details>
+
+<details>
+<summary><strong>Thu 2/26 — Lightning talks</strong></summary>
+<p>Student lightning talks on features, concepts, and sparse methods.</p>
+<p><a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=1842491430#gid=1842491430" target="_blank" rel="noopener noreferrer" title="Opens in new tab">📋 List of lightning talks (Google Sheet)</a></p>
+</details>
+
+<h3 id="week7">Week 7 — Mechanistic interpretability</h3>
+<details>
+<summary><strong>Tue 3/3 — Lecture: Mechanistic interpretability</strong></summary>
+<p>Circuits, causal interventions, and standards of evidence for mechanistic claims.</p>
+</details>
+
+<details>
+<summary><strong>Thu 3/5 — Lightning talks</strong></summary>
+<p>Student lightning talks on circuits and causal interventions.</p>
+</details>
+
+<h3 id="week8">Week 8 — Neural alignment</h3>
+<details>
+<summary><strong>Tue 3/10 — Lecture: Neural alignment and model-to-brain mapping</strong></summary>
+<p>Predicting neural data across measurement modalities; encoding/decoding and representational similarity; what alignment can and cannot justify.</p>
+</details>
+
+<details>
+<summary><strong>Thu 3/12 — Lightning talks</strong></summary>
+<p>Student lightning talks on model-to-brain mapping.</p>
+</details>
+
+<h3 id="week9">Week 9 — Behavioral and cognitive alignment</h3>
+<details>
+<summary><strong>Tue 3/17 — Lecture: Behavioral and cognitive alignment</strong></summary>
+<p>Treating models as participants in cognitive tasks; behavioral signatures beyond accuracy (generalization, planning, decision making, cognitive control); confounds and best practices.</p>
+</details>
+
+<details>
+<summary><strong>Thu 3/19 — Lightning talks</strong></summary>
+<p>Student lightning talks on cognitive and behavioral evaluation.</p>
+</details>
+
+<h3 id="week10">Week 10 — Spring Break</h3>
+<details>
+<summary><strong>Tue 3/24 — Spring Break</strong></summary>
+<p>No class</p>
+</details>
+
+<details>
+<summary><strong>Thu 3/26 — Spring Break</strong></summary>
+<p>No class</p>
+</details>
+
+<h3 id="week11">Week 11 — Project studio</h3>
+<details>
+<summary><strong>Tue 3/31 — Project studio I</strong></summary>
+<p>Project launch and evaluation design; in-class time for groups to plan, run pilot tests, and produce first results/figures.</p>
+</details>
+
+<details>
+<summary><strong>Thu 4/2 — Project studio II</strong></summary>
+<p>Continue project work: complete runs and draft poster.</p>
+</details>
+
+<h3 id="week12">Week 12 — Project poster presentations</h3>
+<details>
+<summary><strong>Tue 4/7 — Project poster mini-conf A</strong></summary>
+<p>Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion.</p>
+</details>
+
+<details>
+<summary><strong>Thu 4/9 — Project poster mini-conf B</strong></summary>
+<p>Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion.</p>
+</details>
+
+<h3 id="week13">Week 13 — Guest lectures</h3>
+<details>
+<summary><strong>Tue 4/14 — Guest lecture: Greta Tuckute (Kempner Institute, Harvard)</strong></summary>
+<p>Details TBD</p>
+</details>
+
+<details>
+<summary><strong>Thu 4/16 — Guest lecture: Rufin VanRullen (CNRS, France)</strong></summary>
+<p>Frontier topics in NeuroAI: global workspace / consciousness &amp; deep learning.</p>
+</details>
+
+<h3 id="week14">Week 14 — Guest lectures</h3>
+<details>
+<summary><strong>Tue 4/21 — Guest lecture (TBD)</strong></summary>
+<p>Details TBD</p>
+</details>
+
+<details>
+<summary><strong>Thu 4/23 — Guest lecture: Victor Boutin (CNRS, France)</strong></summary>
+<p>Frontier topics in NeuroAI: generative models, EBMs, cognitive science. Plus course wrap-up and final exam briefing.</p>
+</details>
+
+<h3 id="week15">Week 15 — Final exam</h3>
+<details>
+<summary><strong>Tue 5/12 — Final exam</strong></summary>
+<p>Final exam, 9:00am</p>
+</details>
+
+
+        </div>
+      </main>
+      <footer class="course-footer" role="contentinfo">
+        <p>&copy; 2026 Brown University. <a href="https://digital-accessibility.brown.edu/">Digital Accessibility</a></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+  </body>
+</html>

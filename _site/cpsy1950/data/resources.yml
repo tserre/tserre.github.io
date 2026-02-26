@@ -1,0 +1,14 @@
+# CPSY 1950 Additional Resources
+# Links to external resources, tools, datasets, etc.
+
+resources:
+  - title: "Example Resource"
+    description: "Description of the resource and why it's useful"
+    url: "https://example.com/resource"
+    category: "Tool"  # Optional: Tool, Dataset, Tutorial, etc.
+
+  # Add more resources below:
+  # - title: "Resource Name"
+  #   description: "Description"
+  #   url: "https://url.com"
+  #   category: "Category"

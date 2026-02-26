@@ -1,0 +1,49 @@
+# Accessibility: WCAG 2.1 AA Compliance (Brown University Policy)
+
+All HTML output from this project must comply with WCAG 2.1 AA.
+Brown University requires full digital accessibility compliance.
+Reference: https://digital-accessibility.brown.edu/
+
+## Mandatory checks for every change
+
+Before committing any HTML, CSS, or template change, verify:
+
+### Structure
+- Single <h1> per page; headings nest logically (h1 > h2 > h3, no skipping)
+- Landmark elements present: <header>, <nav>, <main>, <footer>
+- Skip-to-content link is the first focusable element
+- lang attribute on <html> element
+
+### Images & Media
+- Every <img> has alt text (descriptive for meaningful images, alt="" for decorative)
+- No auto-playing audio or video without user controls
+- Video content has captions or transcript links
+
+### Color & Contrast
+- Text-to-background contrast ratio >= 4.5:1 (>= 3:1 for large text, >=14pt bold or >=18pt)
+- Information is never conveyed by color alone
+
+### Interactive Elements
+- All interactive elements reachable and operable via keyboard
+- Visible :focus-visible styles on all focusable elements
+- Icon-only buttons/links have aria-label or visually-hidden text
+- Form inputs have associated <label> elements
+
+### Links
+- Link text is descriptive (no bare "click here" or "read more" without context)
+- Links that open new windows indicate this (e.g., aria-label includes "opens in new tab")
+
+### ARIA
+- Use semantic HTML first; ARIA only when native semantics are insufficient
+- aria-label on all <nav> elements to distinguish them
+- aria-hidden="true" on decorative icons
+
+### Dynamic Content (SPA)
+- Route changes announce new page content to screen readers
+- Focus moves to new content heading after navigation
+- Error messages are announced via aria-live regions
+
+## Testing
+- Run axe-core or Lighthouse accessibility audit before each deploy
+- Test keyboard navigation (Tab, Shift+Tab, Enter, Escape)
+- Test with screen reader (VoiceOver on macOS) for critical flows

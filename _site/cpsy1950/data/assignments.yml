@@ -1,0 +1,23 @@
+# CPSY 1950 Assignments
+# List all assignments with due dates, descriptions, and materials
+
+assignments:
+  - title: "Example Assignment"
+    due_date: "2025-02-01"
+    description: "Description of the assignment requirements."
+    materials:
+      - name: "Assignment PDF"
+        type: "pdf"
+        url: "/cpsy1950/papers/assignment1.pdf"
+      - name: "Submission Link"
+        type: "link"
+        url: "https://example.com/submit"
+  
+  # Add more assignments below:
+  # - title: "Assignment Name"
+  #   due_date: "2025-02-15"
+  #   description: "Description"
+  #   materials:
+  #     - name: "Material Name"
+  #       type: "pdf"
+  #       url: "/cpsy1950/papers/file.pdf"
