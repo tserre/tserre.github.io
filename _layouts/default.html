@@ -120,6 +120,23 @@
         outline: 2px solid #2c5282;
         outline-offset: 2px;
       }
+      /* main inherits section layout (theme targets section) */
+      main {
+        width: 500px;
+        float: right;
+        padding-bottom: 50px;
+      }
+      @media print, screen and (max-width: 960px) {
+        main {
+          float: none;
+          position: static;
+          width: auto;
+          border: 1px solid #e5e5e5;
+          border-width: 1px 0;
+          padding: 20px 0;
+          margin: 0 0 20px;
+        }
+      }
       /* Social icons hover */
       .social-icons a:hover, .social-icons button:hover {
         color: #4F46E5 !important;
