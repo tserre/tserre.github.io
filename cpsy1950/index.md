@@ -136,6 +136,7 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Tue 2/3 — Lecture: The three levers of deep learning</strong></summary>
 <p>Architecture, learning objectives, and data shape representations, behavior, and generalization across modalities.</p>
+<p><strong>Guest lecturer:</strong> Michael Lepori (CS, Brown) — <a href="https://lepori.xyz/" target="_blank">lepori.xyz</a></p>
 <p><a href="https://docs.google.com/presentation/d/1pXkFFqKTnEvl2OzsmCmnRU6l7F9EuFSgGO34pscRpn0/edit?usp=sharing" target="_blank">📑 Slides</a> · <a href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=408a671a-f9de-4fa1-8938-b3e601418a3c" target="_blank">📺 Lecture capture</a></p>
 <p><strong>Reading (complete before class):</strong> <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-vision-091718-014951" target="_blank">Serre (2019) — Deep Learning: The Good, the Bad, and the Ugly (Annual Review of Vision Science)</a></p>
 <p><strong>Reading response due Tue 2/3, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8102721" target="_blank">📝 Submit on Canvas</a></p>
@@ -186,6 +187,8 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Tue 2/24 — Lecture: Representation-level interpretability</strong></summary>
 <p>Feature visualization, concept-based methods, sparse/dictionary approaches (incl. SAEs); what we can and can't reliably "name" in representations.</p>
+<p><strong>Guest lecturer:</strong> Dr Thomas Fel (Kempner Institute, Harvard) — <a href="https://thomasfel.fr/" target="_blank">thomasfel.fr</a></p>
+<p><a href="https://docs.google.com/presentation/d/15xBgm8bfUcT6LRMFBhmFgX2dqdcFXVX26U0ELaNIp8A/edit?usp=sharing" target="_blank">📑 Slides</a> · <a href="https://brown.zoom.us/rec/share/ixd_lOmcIbv26RmRAuArADsBUM05gJZZcHaobW7izIRsdCLmXgVznJc6NP30JtZt.FpamIMyb19pZ3-z5" target="_blank">📺 Lecture capture</a></p>
 <p><strong>Reading (complete before class):</strong> <a href="https://distill.pub/2018/building-blocks/" target="_blank">Olah, C., Satyanarayan, A., Johnson, I., Carter, S., Schubert, L., Ye, K., &amp; Mordvinets, A. (2018). The Building Blocks of Interpretability. <em>Distill</em></a></p>
 <p><strong>Reading response due Tue 2/24, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/external_tools/38388" target="_blank">📝 Submit on Canvas</a></p>
 </details>
