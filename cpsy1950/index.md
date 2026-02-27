@@ -179,7 +179,7 @@ Target time: ~60 min total.
 <li>Marcus, G. (2024). <a href="https://www.youtube.com/watch?v=91SK90SahHc" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Keynote at AGI-24</a>. Machine Learning Street Talk. Watch from ~5:00 to ~35:00 (Marcus's talk starts after a brief introduction).</li>
 <li>LeCun, Y. (2024). <a href="https://www.youtube.com/watch?v=MiqLoAZFRSE" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Objective-Driven AI: Towards AI Systems That Can Learn, Remember, Reason, and Plan</a>. Ding Shum Lecture, Harvard CMSA. Watch the first ~36 minutes. <em>Note: it gets fairly technical in places — if it starts feeling dry, you can stop around the 36-minute mark; you'll have what you need.</em></li>
 </ul>
-<p><strong>Paper response due Thu 2/19, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104666" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
+<p><strong>Paper response due Sat 2/22, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104666" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
 ### Week 6 — Representation-level interpretability {#week6}
