@@ -179,7 +179,7 @@ Target time: ~60 min total.
 <li>Marcus, G. (2024). <a href="https://www.youtube.com/watch?v=91SK90SahHc" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Keynote at AGI-24</a>. Machine Learning Street Talk. Watch from ~5:00 to ~35:00 (Marcus's talk starts after a brief introduction).</li>
 <li>LeCun, Y. (2024). <a href="https://www.youtube.com/watch?v=MiqLoAZFRSE" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Objective-Driven AI: Towards AI Systems That Can Learn, Remember, Reason, and Plan</a>. Ding Shum Lecture, Harvard CMSA. Watch the first ~36 minutes. <em>Note: it gets fairly technical in places — if it starts feeling dry, you can stop around the 36-minute mark; you'll have what you need.</em></li>
 </ul>
-<p><strong>Paper response due Sat 2/22, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104666" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
+<p><strong>Paper response due Sun 2/22, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104666" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
 ### Week 6 — Representation-level interpretability {#week6}
@@ -196,6 +196,7 @@ Target time: ~60 min total.
 <summary><strong>Thu 2/26 — Lightning talks</strong></summary>
 <p>Student lightning talks on features, concepts, and sparse methods.</p>
 <p><a href="https://docs.google.com/presentation/d/1cu82CUrtErz6b-DXQ7yQ4W6evtthqb0vwX36HsrEa-c/edit?slide=id.g393d2000cd8_7_0#slide=id.g393d2000cd8_7_0" target="_blank" rel="noopener noreferrer" title="Opens in new tab">📑 Lightning talk presentations</a> · <a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=1842491430#gid=1842491430" target="_blank" rel="noopener noreferrer" title="Opens in new tab">📋 List of lightning talks (Google Sheet)</a></p>
+<p><strong>Read:</strong> Thorpe, S.J. (1989). <a href="https://www.persee.fr/doc/intel_0769-4113_1989_num_8_2_873#intel_0769-4113_1989_num_8_2_T1_0004_0000" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Local vs. Distributed Coding. <em>Intellectica</em>, 8, 3–40</a>.</p>
 <p><strong>Response due 2/29, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8106008" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
@@ -204,6 +205,9 @@ Target time: ~60 min total.
 <summary><strong>Tue 3/3 — Lecture: Mechanistic interpretability</strong></summary>
 <p>Circuits, causal interventions, and standards of evidence for mechanistic claims.</p>
 <p><strong>Guest lecturer:</strong> Michael Lepori (CS, Brown) — <a href="https://lepori.xyz/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">lepori.xyz</a></p>
+<p><strong>Watch:</strong> Jensen Huang &amp; Ilya Sutskever, <a href="https://www.youtube.com/watch?v=NT9sP4mAWEg" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Discovering the World Model Through LLM</a> (YouTube)</p>
+<p><strong>Read:</strong> nostalgebraist (2020). <a href="https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Interpreting GPT: The Logit Lens</a> (LessWrong)</p>
+<p><strong>Reading response due Tue 3/3, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8106010" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
 <details>
