@@ -197,7 +197,7 @@ Target time: ~60 min total.
 <p>Student lightning talks on features, concepts, and sparse methods.</p>
 <p><a href="https://docs.google.com/presentation/d/1cu82CUrtErz6b-DXQ7yQ4W6evtthqb0vwX36HsrEa-c/edit?slide=id.g393d2000cd8_7_0#slide=id.g393d2000cd8_7_0" target="_blank" rel="noopener noreferrer" title="Opens in new tab">📑 Lightning talk presentations</a> · <a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=1842491430#gid=1842491430" target="_blank" rel="noopener noreferrer" title="Opens in new tab">📋 List of lightning talks (Google Sheet)</a></p>
 <p><strong>Read:</strong> Thorpe, S.J. (1989). <a href="https://www.persee.fr/doc/intel_0769-4113_1989_num_8_2_873#intel_0769-4113_1989_num_8_2_T1_0004_0000" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Local vs. Distributed Coding. <em>Intellectica</em>, 8, 3–40</a>.</p>
-<p><strong>Response due 2/29, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8106008" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
+<p><strong>Reflection due Sun 2/29, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8106008" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
 ### Week 7 — Mechanistic interpretability {#week7}
