@@ -395,6 +395,14 @@
         padding-top: 0.5em;
       }
       
+      .course-footer {
+        margin-left: 280px;
+        padding: 1rem 2rem;
+        font-size: 0.9em;
+        color: #6b7280;
+        border-top: 1px solid #e1e4e8;
+      }
+      
       @media (max-width: 768px) {
         .course-sidebar {
           width: 100%;
@@ -405,6 +413,10 @@
           margin-left: 0;
           padding: 20px;
         }
+        .course-footer {
+          margin-left: 0;
+          padding: 1rem 20px;
+        }
       }
     </style>
     <!--[if lt IE 9]>
@@ -414,8 +426,8 @@
   <body>
     <a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
     <div class="course-wrapper">
-      <!-- Sidebar Navigation -->
-      <aside class="course-sidebar" aria-label="Course sidebar">
+      <!-- Sidebar / Header -->
+      <header class="course-sidebar" aria-label="Course header and navigation">
         <div class="course-sidebar-header">
           <img src="{{ '/assets/img/brown-logo.webp' | relative_url }}" alt="Brown University" class="brown-logo">
           <div class="course-code">CPSY 1950</div>
@@ -462,7 +474,7 @@
           </div>
           {% endif %}
         </nav>
-      </aside>
+      </header>
       
       <!-- Main Content -->
       <main id="main-content" class="course-main" role="main">
@@ -477,6 +489,9 @@
           {{ content }}
         </div>
       </main>
+      <footer class="course-footer" role="contentinfo">
+        <p style="margin: 0;">© {{ site.time | date: "%Y" }} Brown University · CPSY 1950</p>
+      </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>

@@ -190,8 +190,8 @@
               vertical-align: middle;
             }
           </style>
-          <span class="social-icons">
-          <button onclick="this.innerHTML=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ==')" style="background:none;border:none;color:inherit;cursor:pointer;padding:0;font:inherit;" aria-label="Email address"><i class="fas fa-envelope" aria-hidden="true"></i></button>
+          <nav class="social-icons" aria-label="Profile and social links">
+          <button onclick="this.innerHTML=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ==')" style="background:none;border:none;color:inherit;cursor:pointer;padding:0;font:inherit;" aria-label="Show email address (click to reveal)"><i class="fas fa-envelope" aria-hidden="true"></i></button>
           <a href="https://x.com/tserre" aria-label="X (Twitter): @tserre"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
           <a href="https://bsky.app/profile/thomasserre.bsky.social" aria-label="Bluesky: @thomasserre.bsky.social"><i class="fab fa-bluesky" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/in/thomasserre/" aria-label="LinkedIn profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
@@ -200,7 +200,7 @@
           {% if site.github.is_user_page %}
           <a href="{{ site.github.owner_url }}" aria-label="GitHub profile (opens in new tab)" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i></a>
           {% endif %}
-          </span><br>
+          </nav><br>
           <br>
           <a href="https://serre-lab.clps.brown.edu/">Lab website</a><br>
           <a href="https://github.com/serre-lab">Lab GitHub</a><br>
@@ -225,6 +225,9 @@
       {{ content }}
 
       </main>
+      <footer role="contentinfo" style="clear:both;padding:1rem 20px;font-size:0.9em;color:#6b7280;border-top:1px solid #e5e5e5;text-align:center;">
+        <p style="margin:0;">© {{ site.time | date: "%Y" }} Thomas Serre · Brown University</p>
+      </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     <!-- Google Analytics 4 -->
