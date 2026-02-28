@@ -64,11 +64,12 @@
       }
       a, a:link, a:visited {
         color: #4338ca !important;
-        text-decoration: underline;
-        text-underline-offset: 0.15em;
+        text-decoration: none;
       }
-      a:hover, a:focus {
+      a:hover, a:focus, a:focus-visible {
         color: #3730a3 !important;
+        text-decoration: underline !important;
+        text-underline-offset: 0.15em;
         opacity: 1;
       }
       /* WCAG 2.1 AA: Visually hidden (screen reader only) */
