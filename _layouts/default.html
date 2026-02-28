@@ -81,15 +81,15 @@
       h2, h3 {
         letter-spacing: 0.05em;
       }
-      /* Standardize all links: WCAG 2.1 AA - distinguishable without color alone, sufficient contrast */
+      /* Links: no underline by default; underline on hover/focus for WCAG 2.1 AA */
       a, a:link, a:visited {
         color: #4338ca !important;
-        text-decoration: underline !important;
-        text-underline-offset: 0.15em;
+        text-decoration: none !important;
       }
-      a:hover, a:focus {
+      a:hover, a:focus, a:focus-visible {
         color: #3730a3 !important;
         text-decoration: underline !important;
+        text-underline-offset: 0.15em;
         opacity: 0.9;
       }
       /* WCAG 2.1 AA: Visually hidden (screen reader only) */
@@ -160,7 +160,7 @@
     <div class="wrapper">
       <header role="banner">
         <img src="https://vivo.brown.edu/profile-images/a20/107/457/8fe/466/2b8/4d3/698/9fd/411/55/tserre_photo_.jpeg" alt="Thomas Serre" style="float: left; margin: 0 20px 20px 0; max-width: 200px; border-radius: 8px;">
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
