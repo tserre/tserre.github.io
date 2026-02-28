@@ -12,17 +12,17 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI" />
 <meta property="og:description" content="Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI" />
-<link rel="canonical" href="https://thomas-serre.com/" />
-<meta property="og:url" content="https://thomas-serre.com/" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Thomas Serre" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Machine and Biological Vision, Computational Neuroscience &amp; AI Research" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI","headline":"Machine and Biological Vision, Computational Neuroscience &amp; AI Research","name":"Thomas Serre","url":"https://thomas-serre.com/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI","headline":"Machine and Biological Vision, Computational Neuroscience &amp; AI Research","name":"Thomas Serre","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="canonical" href="https://thomas-serre.com/">
+    <link rel="canonical" href="http://localhost:4000/">
     <link rel="stylesheet" href="/assets/css/style.css?v=">
     <!-- Font Awesome for social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
@@ -97,13 +97,16 @@
       h2, h3 {
         letter-spacing: 0.05em;
       }
-      /* Standardize all links to use the same blue */
+      /* Standardize all links: WCAG 2.1 AA - distinguishable without color alone, sufficient contrast */
       a, a:link, a:visited {
-        color: #4F46E5 !important;
+        color: #4338ca !important;
+        text-decoration: underline !important;
+        text-underline-offset: 0.15em;
       }
       a:hover, a:focus {
-        color: #4F46E5 !important;
-        opacity: 0.8;
+        color: #3730a3 !important;
+        text-decoration: underline !important;
+        opacity: 0.9;
       }
       /* WCAG 2.1 AA: Visually hidden (screen reader only) */
       .sr-only {
@@ -136,6 +139,23 @@
         outline: 2px solid #2c5282;
         outline-offset: 2px;
       }
+      /* main inherits section layout (theme targets section) */
+      main {
+        width: 500px;
+        float: right;
+        padding-bottom: 50px;
+      }
+      @media print, screen and (max-width: 960px) {
+        main {
+          float: none;
+          position: static;
+          width: auto;
+          border: 1px solid #e5e5e5;
+          border-width: 1px 0;
+          padding: 20px 0;
+          margin: 0 0 20px;
+        }
+      }
       /* Social icons hover */
       .social-icons a:hover, .social-icons button:hover {
         color: #4F46E5 !important;
@@ -156,7 +176,7 @@
     <div class="wrapper">
       <header role="banner">
         <img src="https://vivo.brown.edu/profile-images/a20/107/457/8fe/466/2b8/4d3/698/9fd/411/55/tserre_photo_.jpeg" alt="Thomas Serre" style="float: left; margin: 0 20px 20px 0; max-width: 200px; border-radius: 8px;">
-        <h1><a href="https://thomas-serre.com/">Thomas Serre</a></h1>
+        <h1><a href="http://localhost:4000/">Thomas Serre</a></h1>
         
         
 
@@ -248,7 +268,7 @@ section b {
     letter-spacing: -0.01em;
 }
 </style>
-Dr. Thomas Serre is the Thomas J. Watson, Sr. Professor of Science and Professor of <a href="https://brown.edu/academics/cognitive-linguistic-psychological-sciences">Cognitive & Psychological Sciences</a> and <a href="https://cs.brown.edu/">Computer Science</a> at Brown University <span style="color: #888;">•</span> He serves as Faculty Director of the <a href="https://ccv.brown.edu/">Center for Computation & Visualization</a> and Associate Director of the <a href="https://ccbs.carney.brown.edu/">Center for Computational Brain Science</a>, and is also an affiliate of the <a href="https://carney.brown.edu/">Carney Institute for Brain Science</a>, the <a href="https://brown.edu/academics/physics/centers/theoretical-physics-innovation">Center for Theoretical Physics and Innovation</a>, and the <a href="https://dsi.brown.edu/">Data Science Institute</a>. He holds an International Chair in AI at the <a href="https://aniti.univ-toulouse.fr/">Artificial and Natural Intelligence Toulouse Institute</a> (France) and is a Fellow of the European Laboratory for Learning and Intelligent Systems <span style="color: #888;">•</span> Dr. Serre received his Ph.D. in Neuroscience from MIT (2006) and an M.Sc. in Electrical Engineering and Computer Science from Télécom Bretagne, France (2000) <span style="color: #888;">•</span> His research investigates the computational principles of biological vision to understand how the brain works—and to build AI systems that see and reason more like humans. He studies how recurrent and feedback processes support visual reasoning, develops cognitive-psychology-inspired benchmarks to reveal gaps between human and machine vision, and designs brain-inspired computational models that help bridge neuroscience and artificial intelligence <span style="color: #888;">•</span> His work has been featured by the BBC, The Economist, New Scientist, and Scientific American <span style="color: #888;">•</span> Dr. Serre serves as an area chair for premier conferences such as CVPR, ICML, ICLR, and NeurIPS, and as Neuroscience Section Editor for PLOS Computational Biology <span style="color: #888;">•</span> He has received an NSF Early Career Award, DARPA Young Faculty Award, and DARPA Director's Award, and his team's work on human action recognition earned the IEEE PAMI Helmholtz Prize (2021) and Mark Everingham Prize (2022).<br><br>
+Dr. Thomas Serre is the Thomas J. Watson, Sr. Professor of Science and Professor of <a href="https://brown.edu/academics/cognitive-linguistic-psychological-sciences">Cognitive & Psychological Sciences</a> and <a href="https://cs.brown.edu/">Computer Science</a> at Brown University <span style="color: #6b7280;">•</span> He serves as Faculty Director of the <a href="https://ccv.brown.edu/">Center for Computation & Visualization</a> and Associate Director of the <a href="https://ccbs.carney.brown.edu/">Center for Computational Brain Science</a>, and is also an affiliate of the <a href="https://carney.brown.edu/">Carney Institute for Brain Science</a>, the <a href="https://brown.edu/academics/physics/centers/theoretical-physics-innovation">Center for Theoretical Physics and Innovation</a>, and the <a href="https://dsi.brown.edu/">Data Science Institute</a>. He holds an International Chair in AI at the <a href="https://aniti.univ-toulouse.fr/">Artificial and Natural Intelligence Toulouse Institute</a> (France) and is a Fellow of the European Laboratory for Learning and Intelligent Systems <span style="color: #6b7280;">•</span> Dr. Serre received his Ph.D. in Neuroscience from MIT (2006) and an M.Sc. in Electrical Engineering and Computer Science from Télécom Bretagne, France (2000) <span style="color: #6b7280;">•</span> His research investigates the computational principles of biological vision to understand how the brain works—and to build AI systems that see and reason more like humans. He studies how recurrent and feedback processes support visual reasoning, develops cognitive-psychology-inspired benchmarks to reveal gaps between human and machine vision, and designs brain-inspired computational models that help bridge neuroscience and artificial intelligence <span style="color: #6b7280;">•</span> His work has been featured by the BBC, The Economist, New Scientist, and Scientific American <span style="color: #6b7280;">•</span> Dr. Serre serves as an area chair for premier conferences such as CVPR, ICML, ICLR, and NeurIPS, and as Neuroscience Section Editor for PLOS Computational Biology <span style="color: #6b7280;">•</span> He has received an NSF Early Career Award, DARPA Young Faculty Award, and DARPA Director's Award, and his team's work on human action recognition earned the IEEE PAMI Helmholtz Prize (2021) and Mark Everingham Prize (2022).<br><br>
 
 <h2>Research</h2>
 
@@ -271,22 +291,22 @@ In collaboration with the Artificial and Natural Intelligence Toulouse Institute
 I teach computational courses at the interface between natural and artificial intelligence, bridging neuroscience, cognitive science, and AI.<br><br>
 
 <b>CPSY 1291: Computational Methods for Mind, Brain & Behavior</b><br>
-<i>Advanced Undergraduate/Graduate <span style="color: #888;">•</span> Fall Semester</i><br>
+<i>Advanced Undergraduate/Graduate <span style="color: #6b7280;">•</span> Fall Semester</i><br>
 A broad introduction to NeuroAI combining lectures with hands-on programming assignments. Students explore computational models of brain and cognition, classical machine learning algorithms, and modern deep learning architectures.<br><br>
 
 <b>CPSY 1950: Deep Learning in Brains, Minds & Machines</b><br>
-<i>Advanced Undergraduate/Graduate <span style="color: #888;">•</span> Spring Semester</i><br>
+<i>Advanced Undergraduate/Graduate <span style="color: #6b7280;">•</span> Spring Semester</i><br>
 A seminar-style exploration of cutting-edge research at the intersection of natural and artificial intelligence. Students engage with recent papers and develop critical perspectives on how biological and artificial systems process information.<br><br>
 
 <h2>Selected Recent Publications</h2>
 
 <ul style="list-style-type: disc; padding-left: 1.5em; margin-top: 0.5em;">
-<li style="margin-bottom: 0.5em;">T. Serre & E. Pavlick <span style="color: #888;">•</span> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0896627325007524">From Prediction to Understanding: Will AI Foundation Models Transform Brain Science?</a> <span style="color: #888;">•</span> <i>Neuron</i> <span style="color: #888;">•</span> 2025</li>
-<li style="margin-bottom: 0.5em;">P. Roelfsema & T. Serre <span style="color: #888;">•</span> <a href="https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(25)00232-3">Feature binding in biological and artificial vision</a> <span style="color: #888;">•</span> <i>Trends in Cognitive Sciences</i> <span style="color: #888;">•</span> 2025</li>
-<li style="margin-bottom: 0.5em;">D. Linsley et al. <span style="color: #888;">•</span> <a href="https://openreview.net/forum?id=UIFAJZ22ZF">The 3D-PC: A benchmark for visual perspective taking in humans and machines</a> <span style="color: #888;">•</span> <i>ICLR</i> <span style="color: #888;">•</span> 2025</li>
-<li style="margin-bottom: 0.5em;">D. Linsley, P. Feng & T. Serre <span style="color: #888;">•</span> <a href="https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(25)00349-3">Better artificial intelligence does not mean better models of biology</a> <span style="color: #888;">•</span> <i>Trends in Cognitive Sciences</i> <span style="color: #888;">•</span> 2025</li>
-<li style="margin-bottom: 0.5em;">S. Shahamatdar et al. <span style="color: #888;">•</span> <a href="https://onlinelibrary.wiley.com/doi/10.1111/his.15180">Deceptive learning in histopathology</a> <span style="color: #888;">•</span> <i>Histopathology</i> <span style="color: #888;">•</span> 2024</li>
-<li style="margin-bottom: 0.5em;">A. Ahuja et al. <span style="color: #888;">•</span> <a href="https://www.cell.com/current-biology/fulltext/S0960-9822(24)01380-0">Monkeys engage in visual simulation to solve complex problems</a> <span style="color: #888;">•</span> <i>Current Biology</i> <span style="color: #888;">•</span> 2024</li>
+<li style="margin-bottom: 0.5em;">T. Serre & E. Pavlick <span style="color: #6b7280;">•</span> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0896627325007524">From Prediction to Understanding: Will AI Foundation Models Transform Brain Science?</a> <span style="color: #6b7280;">•</span> <i>Neuron</i> <span style="color: #6b7280;">•</span> 2025</li>
+<li style="margin-bottom: 0.5em;">P. Roelfsema & T. Serre <span style="color: #6b7280;">•</span> <a href="https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(25)00232-3">Feature binding in biological and artificial vision</a> <span style="color: #6b7280;">•</span> <i>Trends in Cognitive Sciences</i> <span style="color: #6b7280;">•</span> 2025</li>
+<li style="margin-bottom: 0.5em;">D. Linsley et al. <span style="color: #6b7280;">•</span> <a href="https://openreview.net/forum?id=UIFAJZ22ZF">The 3D-PC: A benchmark for visual perspective taking in humans and machines</a> <span style="color: #6b7280;">•</span> <i>ICLR</i> <span style="color: #6b7280;">•</span> 2025</li>
+<li style="margin-bottom: 0.5em;">D. Linsley, P. Feng & T. Serre <span style="color: #6b7280;">•</span> <a href="https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(25)00349-3">Better artificial intelligence does not mean better models of biology</a> <span style="color: #6b7280;">•</span> <i>Trends in Cognitive Sciences</i> <span style="color: #6b7280;">•</span> 2025</li>
+<li style="margin-bottom: 0.5em;">S. Shahamatdar et al. <span style="color: #6b7280;">•</span> <a href="https://onlinelibrary.wiley.com/doi/10.1111/his.15180">Deceptive learning in histopathology</a> <span style="color: #6b7280;">•</span> <i>Histopathology</i> <span style="color: #6b7280;">•</span> 2024</li>
+<li style="margin-bottom: 0.5em;">A. Ahuja et al. <span style="color: #6b7280;">•</span> <a href="https://www.cell.com/current-biology/fulltext/S0960-9822(24)01380-0">Monkeys engage in visual simulation to solve complex problems</a> <span style="color: #6b7280;">•</span> <i>Current Biology</i> <span style="color: #6b7280;">•</span> 2024</li>
 </ul>
 
 <p>See the <a href="https://serre-lab.clps.brown.edu/publications">lab publications page</a> for a complete list of publications.</p><br>
@@ -297,19 +317,19 @@ A seminar-style exploration of cutting-edge research at the intersection of natu
 
 <div style="margin-bottom: 2em;">
 <b>Aligning deep networks with primate vision via self-supervised learning</b><br>
-<i>Simons Foundation Workshop on "Self Supervised Learning" <span style="color: #888;">•</span> May 2025</i><br>
+<i>Simons Foundation Workshop on "Self Supervised Learning" <span style="color: #6b7280;">•</span> May 2025</i><br>
 <p style="margin: 0.5em 0;">Exploring how self-supervised learning can bridge the gap between artificial neural networks and biological vision systems. This talk presents our latest work on developing training procedures that align deep neural networks with primate visual processing, demonstrating that alignment can be dramatically improved without changing network architectures.</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-top: 1em;">
-<iframe src="https://www.youtube.com/embed/qDz-nZnioeg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+<iframe src="https://www.youtube.com/embed/qDz-nZnioeg" title="Aligning deep networks with primate vision via self-supervised learning - Simons Foundation Workshop" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 </div>
 </div>
 
 <div style="margin-bottom: 2em;">
 <b>Feedforward and feedback processes in visual reasoning</b><br>
-<i>MindCORE Vision Seminar, University of Pennsylvania <span style="color: #888;">•</span> April 2024</i><br>
+<i>MindCORE Vision Seminar, University of Pennsylvania <span style="color: #6b7280;">•</span> April 2024</i><br>
 <p style="margin: 0.5em 0;">Demonstrating how feedforward neural networks struggle with visual reasoning problems that appear simple to humans. This talk presents our computational neuroscience model of feedback circuitry in the visual cortex, showing how it can be transformed into a modern deep recurrent network that addresses weaknesses of current state-of-the-art feedforward networks—providing evidence that neuroscience can offer powerful new concepts for AI.</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-top: 1em;">
-<iframe src="https://www.youtube.com/embed/85fdDvpaHGE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+<iframe src="https://www.youtube.com/embed/85fdDvpaHGE" title="Feedforward and feedback processes in visual reasoning - MindCORE Vision Seminar" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 </div>
 </div>
 
@@ -319,34 +339,30 @@ A seminar-style exploration of cutting-edge research at the intersection of natu
 
 <ul style="list-style-type: none; padding-left: 0; margin-top: 0.5em;">
 <li style="margin-bottom: 0.75em;"><b>High-performance compute cluster for brain science</b><br>
-<i>NIH S10OD036341 <span style="color: #888;">•</span> 2025 – 2030 <span style="color: #888;">•</span> PI</i><br>
+<i>NIH S10OD036341 <span style="color: #6b7280;">•</span> 2025 – 2030 <span style="color: #6b7280;">•</span> PI</i><br>
 Supporting acquisition of a state-of-the-art high-performance computing cluster for large-scale computational neuroscience modeling and deep learning experiments.</li>
 <li style="margin-bottom: 0.75em;"><b>One vision: Computational alignment of deep neural networks with humans</b><br>
-<i>NSF IIS-2402875 <span style="color: #888;">•</span> 2024 – 2028 <span style="color: #888;">•</span> co-PI (Serre/Linsley)</i><br>
+<i>NSF IIS-2402875 <span style="color: #6b7280;">•</span> 2024 – 2028 <span style="color: #6b7280;">•</span> co-PI (Serre/Linsley)</i><br>
 Developing methods to quantify and improve alignment between deep neural networks and human visual processing using developmental psychology approaches.</li>
 <li style="margin-bottom: 0.75em;"><b>Brain-inspired deep learning models of visual reasoning</b><br>
-<i>ONR N00014-24-1-2026 <span style="color: #888;">•</span> 2023 – 2028 <span style="color: #888;">•</span> PI</i><br>
+<i>ONR N00014-24-1-2026 <span style="color: #6b7280;">•</span> 2023 – 2028 <span style="color: #6b7280;">•</span> PI</i><br>
 Investigating computational principles underlying visual reasoning to develop more capable AI through cognitive benchmarks and brain-inspired architectures.</li>
 <li style="margin-bottom: 0.75em;"><b>Brown Postdoctoral Training Program in Computational Psychiatry</b><br>
-<i>NIH/NIMH 5T32MH126388 <span style="color: #888;">•</span> 2021 – 2026 <span style="color: #888;">•</span> co-PI (Frank/Rasmussen/Serre)</i><br>
+<i>NIH/NIMH 5T32MH126388 <span style="color: #6b7280;">•</span> 2021 – 2026 <span style="color: #6b7280;">•</span> co-PI (Frank/Rasmussen/Serre)</i><br>
 Training postdoctoral fellows at the intersection of computational neuroscience, machine learning, and psychiatry to develop computational methods for understanding psychiatric disorders.</li>
 <li style="margin-bottom: 0.75em;"><b>REPRISM: Flexible embodied problem-solving by manipulating the representational prism</b><br>
-<i>ONR MURI N00014-24-1-2603 <span style="color: #888;">•</span> 2024 – 2027 <span style="color: #888;">•</span> co-I (PI: Konidaris)</i><br>
+<i>ONR MURI N00014-24-1-2603 <span style="color: #6b7280;">•</span> 2024 – 2027 <span style="color: #6b7280;">•</span> co-I (PI: Konidaris)</i><br>
 Developing vision systems that adaptively change representations based on task demands for flexible and generalizable problem-solving.</li>
 <li style="margin-bottom: 0.75em;"><b>SEA-CROGS: Scalable, efficient and accelerated causal reasoning operators, graphs and spikes</b><br>
-<i>DOE DE-SC0023191 <span style="color: #888;">•</span> 2022 – 2027 <span style="color: #888;">•</span> co-I (PI: Maxey)</i><br>
+<i>DOE DE-SC0023191 <span style="color: #6b7280;">•</span> 2022 – 2027 <span style="color: #6b7280;">•</span> co-I (PI: Maxey)</i><br>
 Creating scalable causal reasoning methods combining graph-based representations, spiking neural networks, and causal inference for Earth system science.</li>
 <li style="margin-bottom: 0.75em;"><b>The next generation of operator regression networks: Theory, algorithms, applications</b><br>
-<i>ONR N00014-22-1-2795 <span style="color: #888;">•</span> 2022 – 2027 <span style="color: #888;">•</span> co-I (PI: Karniadakis)</i><br>
+<i>ONR N00014-22-1-2795 <span style="color: #6b7280;">•</span> 2022 – 2027 <span style="color: #6b7280;">•</span> co-I (PI: Karniadakis)</i><br>
 Advancing theoretical foundations and practical applications of operator regression networks for solving partial differential equations and modeling physical systems.</li>
 </ul>
 
 
       </main>
-      <footer role="contentinfo">
-        <p>&copy; 2026 Thomas Serre. Brown University. <a href="https://digital-accessibility.brown.edu/">Digital Accessibility</a></p>
-        
-      </footer>
     </div>
     <script src="/assets/js/scale.fix.js"></script>
     <!-- Google Analytics 4 -->

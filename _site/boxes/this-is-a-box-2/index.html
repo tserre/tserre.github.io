@@ -12,17 +12,17 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI" />
 <meta property="og:description" content="Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI" />
-<link rel="canonical" href="https://thomas-serre.com/boxes/this-is-a-box-2/" />
-<meta property="og:url" content="https://thomas-serre.com/boxes/this-is-a-box-2/" />
+<link rel="canonical" href="http://localhost:4000/boxes/this-is-a-box-2/" />
+<meta property="og:url" content="http://localhost:4000/boxes/this-is-a-box-2/" />
 <meta property="og:site_name" content="Thomas Serre" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="This is a box" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI","headline":"This is a box","url":"https://thomas-serre.com/boxes/this-is-a-box-2/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI","headline":"This is a box","url":"http://localhost:4000/boxes/this-is-a-box-2/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="canonical" href="https://thomas-serre.com/boxes/this-is-a-box-2/">
+    <link rel="canonical" href="http://localhost:4000/boxes/this-is-a-box-2/">
     <link rel="stylesheet" href="/assets/css/style.css?v=">
     <!-- Font Awesome for social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
@@ -97,13 +97,16 @@
       h2, h3 {
         letter-spacing: 0.05em;
       }
-      /* Standardize all links to use the same blue */
+      /* Standardize all links: WCAG 2.1 AA - distinguishable without color alone, sufficient contrast */
       a, a:link, a:visited {
-        color: #4F46E5 !important;
+        color: #4338ca !important;
+        text-decoration: underline !important;
+        text-underline-offset: 0.15em;
       }
       a:hover, a:focus {
-        color: #4F46E5 !important;
-        opacity: 0.8;
+        color: #3730a3 !important;
+        text-decoration: underline !important;
+        opacity: 0.9;
       }
       /* WCAG 2.1 AA: Visually hidden (screen reader only) */
       .sr-only {
@@ -136,6 +139,23 @@
         outline: 2px solid #2c5282;
         outline-offset: 2px;
       }
+      /* main inherits section layout (theme targets section) */
+      main {
+        width: 500px;
+        float: right;
+        padding-bottom: 50px;
+      }
+      @media print, screen and (max-width: 960px) {
+        main {
+          float: none;
+          position: static;
+          width: auto;
+          border: 1px solid #e5e5e5;
+          border-width: 1px 0;
+          padding: 20px 0;
+          margin: 0 0 20px;
+        }
+      }
       /* Social icons hover */
       .social-icons a:hover, .social-icons button:hover {
         color: #4F46E5 !important;
@@ -156,7 +176,7 @@
     <div class="wrapper">
       <header role="banner">
         <img src="https://vivo.brown.edu/profile-images/a20/107/457/8fe/466/2b8/4d3/698/9fd/411/55/tserre_photo_.jpeg" alt="Thomas Serre" style="float: left; margin: 0 20px 20px 0; max-width: 200px; border-radius: 8px;">
-        <h1><a href="https://thomas-serre.com/">Thomas Serre</a></h1>
+        <h1><a href="http://localhost:4000/">Thomas Serre</a></h1>
         
         
 
@@ -210,10 +230,6 @@
 
 
       </main>
-      <footer role="contentinfo">
-        <p>&copy; 2026 Thomas Serre. Brown University. <a href="https://digital-accessibility.brown.edu/">Digital Accessibility</a></p>
-        
-      </footer>
     </div>
     <script src="/assets/js/scale.fix.js"></script>
     <!-- Google Analytics 4 -->
