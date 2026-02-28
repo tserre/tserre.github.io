@@ -24,7 +24,7 @@ This lesson provides an introduction to the intersection between neuroscience an
 - **{{ reading.title }}**
   {% if reading.authors %}<br>  <i>{{ reading.authors }}</i>{% endif %}
   {% if reading.journal %}<br>  {{ reading.journal }}{% endif %}
-  {% if reading.year %}<span style="color: #888;"> • {{ reading.year }}</span>{% endif %}
+  {% if reading.year %}<span style="color: #6b7280;"> • {{ reading.year }}</span>{% endif %}
   {% if reading.pdf %}
     <br>  <a href="{{ reading.pdf }}" target="_blank">📄 PDF</a>
   {% endif %}
@@ -47,7 +47,7 @@ This lesson provides an introduction to the intersection between neuroscience an
   {% if video.description %}<p>{{ video.description }}</p>{% endif %}
   {% if video.youtube_id %}
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-top: 1em;">
-    <iframe src="https://www.youtube.com/embed/{{ video.youtube_id }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    <iframe src="https://www.youtube.com/embed/{{ video.youtube_id }}" title="{{ video.title }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
   </div>
   {% endif %}
 </div>

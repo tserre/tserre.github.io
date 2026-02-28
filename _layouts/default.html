@@ -81,13 +81,16 @@
       h2, h3 {
         letter-spacing: 0.05em;
       }
-      /* Standardize all links to use the same blue */
+      /* Standardize all links: WCAG 2.1 AA - distinguishable without color alone, sufficient contrast */
       a, a:link, a:visited {
-        color: #4F46E5 !important;
+        color: #4338ca !important;
+        text-decoration: underline !important;
+        text-underline-offset: 0.15em;
       }
       a:hover, a:focus {
-        color: #4F46E5 !important;
-        opacity: 0.8;
+        color: #3730a3 !important;
+        text-decoration: underline !important;
+        opacity: 0.9;
       }
       /* WCAG 2.1 AA: Visually hidden (screen reader only) */
       .sr-only {

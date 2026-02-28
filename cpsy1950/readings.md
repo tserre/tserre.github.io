@@ -21,7 +21,7 @@ subtitle: Course Resources
     <strong>{{ reading.title }}</strong>
     {% if reading.authors %}<br><i>{{ reading.authors }}</i>{% endif %}
     {% if reading.journal %}<br>{{ reading.journal }}{% endif %}
-    {% if reading.year %}<span style="color: #888;"> • {{ reading.year }}</span>{% endif %}
+    {% if reading.year %}<span style="color: #6b7280;"> • {{ reading.year }}</span>{% endif %}
     {% if reading.pdf %}
       <br><a href="{{ reading.pdf }}" target="_blank">📄 PDF</a>
     {% endif %}
