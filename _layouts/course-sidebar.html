@@ -62,9 +62,11 @@
       h2, h3 {
         letter-spacing: 0.05em;
       }
+      /* WCAG 2.1 AA: links distinguishable without color alone; sufficient contrast */
       a, a:link, a:visited {
         color: #4338ca !important;
-        text-decoration: none;
+        text-decoration: underline;
+        text-underline-offset: 0.15em;
       }
       a:hover, a:focus, a:focus-visible {
         color: #3730a3 !important;
@@ -186,7 +188,7 @@
       
       .part-description {
         font-size: 0.85em;
-        color: #666;
+        color: #525252;
         padding: 0 10px 8px 10px;
         margin-bottom: 5px;
       }
@@ -219,7 +221,7 @@
       }
       
       .lesson-number {
-        color: #959da5;
+        color: #6b7280;
         margin-right: 8px;
       }
       
@@ -272,7 +274,7 @@
       }
       
       .course-meta {
-        color: #666;
+        color: #525252;
         font-size: 1.1em;
         margin-top: 10px;
       }
@@ -294,7 +296,7 @@
       }
       
       .course-meta {
-        color: #666;
+        color: #525252;
         font-size: 1.1em;
         margin-top: 10px;
       }
@@ -451,7 +453,7 @@
                 <a href="{{ resource.url }}" {% if resource.external %}target="_blank" rel="noopener noreferrer" aria-label="{{ resource.title }} (opens in new tab)"{% endif %}>
                   {{ resource.title }}
                   {% if resource.external %}
-                  <span style="font-size: 0.8em; color: #959da5; margin-left: 5px;" aria-hidden="true">↗</span>
+                  <span style="font-size: 0.8em; color: #6b7280; margin-left: 5px;" aria-hidden="true">↗</span>
                   {% endif %}
                 </a>
               </li>
