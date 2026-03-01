@@ -178,20 +178,27 @@
               display: inline-block;
               width: 20px;
               text-align: center;
-              color: #333;
+              color: #333 !important;
               text-decoration: none;
               transition: color 0.3s ease;
             }
             .social-icons a:hover, .social-icons button:hover {
-              color: #4F46E5;
+              color: #4F46E5 !important;
             }
-            .social-icons i {
+            .social-icons button {
+              border: none;
+              background: none;
+              cursor: pointer;
+              padding: 0;
+            }
+            .social-icons i, .social-icons button i {
               font-size: 18px;
               vertical-align: middle;
+              color: inherit;
             }
           </style>
           <nav class="social-icons" aria-label="Profile and social links">
-          <button onclick="this.innerHTML=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ==')" style="background:none;border:none;color:inherit;cursor:pointer;padding:0;font:inherit;" aria-label="Show email address (click to reveal)"><i class="fas fa-envelope" aria-hidden="true"></i></button>
+          <button onclick="this.innerHTML=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ==')" aria-label="Show email address (click to reveal)"><i class="fas fa-envelope" aria-hidden="true"></i></button>
           <a href="https://x.com/tserre" aria-label="X (Twitter): @tserre"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
           <a href="https://bsky.app/profile/thomasserre.bsky.social" aria-label="Bluesky: @thomasserre.bsky.social"><i class="fab fa-bluesky" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/in/thomasserre/" aria-label="LinkedIn profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
