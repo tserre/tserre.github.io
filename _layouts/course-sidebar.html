@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!-- Font Awesome for social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
-    <!-- Font scheme -->
+    <!-- Match personal site styling -->
     <style>
       @font-face {
         font-family: "IBM Plex Mono";
@@ -47,34 +47,32 @@
         font-style: normal;
         font-display: swap;
       }
-      body, p, span, div, li, ul, ol, section, article {
+      body, p, span, div, li, ul, ol, section, article, header, footer {
         font-family: "Suisse Intl", serif !important;
         color: #475569 !important;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        font-smoothing: antialiased;
       }
-      h1, h2, h3, h4, h5, h6 {
+      .fa, .fas, .far, .fab, .fal, .fad, [class^="fa-"], [class*=" fa-"], i[class*="fa-"] {
+        font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands", "Font Awesome 6 Pro" !important;
+      }
+      h1, h2, h3, h4, h5, h6, header h1, header h1 a {
         font-family: "Suisse Intl", serif !important;
         font-weight: 600 !important;
         color: #4F46E5 !important;
       }
-      h2, h3 {
-        letter-spacing: 0.05em;
-      }
-      /* WCAG 2.1 AA: links distinguishable without color alone; sufficient contrast */
+      h2, h3 { letter-spacing: 0.05em; }
+      /* Match personal site: no underline by default */
       a, a:link, a:visited {
         color: #4338ca !important;
-        text-decoration: underline;
-        text-underline-offset: 0.15em;
+        text-decoration: none !important;
       }
       a:hover, a:focus, a:focus-visible {
         color: #3730a3 !important;
         text-decoration: underline !important;
         text-underline-offset: 0.15em;
-        opacity: 1;
+        opacity: 0.9;
       }
-      /* WCAG 2.1 AA: Visually hidden (screen reader only) */
       .sr-only {
         position: absolute;
         width: 1px;
@@ -86,8 +84,7 @@
         white-space: nowrap;
         border: 0;
       }
-      .sr-only:focus,
-      .sr-only-focusable:focus {
+      .sr-only:focus, .sr-only-focusable:focus {
         position: static;
         width: auto;
         height: auto;
@@ -100,7 +97,6 @@
         color: #000;
         z-index: 9999;
       }
-      /* WCAG 2.1 AA: Visible focus for keyboard navigation */
       :focus-visible {
         outline: 2px solid #2c5282;
         outline-offset: 2px;
@@ -109,138 +105,124 @@
         font-family: "IBM Plex Mono", monospace !important;
       }
       
-      /* Sidebar Layout */
+      /* Layout: same as personal site - left sidebar + main */
       .course-wrapper {
         display: flex;
         min-height: 100vh;
       }
       
+      /* Left sidebar - matches personal site header */
       .course-sidebar {
-        width: 280px;
-        background-color: #f8f9fa;
-        border-right: 1px solid #e1e4e8;
-        padding: 20px 0;
-        position: fixed;
-        height: 100vh;
+        width: 300px;
+        min-width: 300px;
+        padding: 20px;
+        border-right: 1px solid #e5e5e5;
         overflow-y: auto;
-        top: 0;
-        left: 0;
+        background: #fff;
       }
       
-      .course-sidebar-header {
-        padding: 20px;
-        border-bottom: 1px solid #e1e4e8;
+      .course-sidebar .profile-photo {
+        max-width: 200px;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        display: block;
+      }
+      
+      .course-sidebar .profile-title {
+        font-size: 1.5em;
+        margin: 0 0 10px 0;
+        font-weight: 600;
+        color: #4F46E5;
+      }
+      
+      .course-sidebar .profile-desc {
+        font-style: italic;
+        color: #666;
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+      }
+      
+      .course-sidebar .profile-links {
+        font-weight: 500;
+        color: #333;
+        font-size: 13px;
+        line-height: 1.6;
         margin-bottom: 20px;
       }
       
-      .course-sidebar-header .brown-logo {
-        width: 140px;
-        height: auto;
-        margin-bottom: 15px;
-        display: block;
-        max-width: 100%;
+      .social-icons a, .social-icons button {
+        display: inline-block;
+        width: 20px;
+        text-align: center;
+        color: #333;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+      .social-icons a:hover, .social-icons button:hover {
+        color: #4F46E5;
+      }
+      .social-icons i {
+        font-size: 18px;
+        vertical-align: middle;
       }
       
-      .course-sidebar-header .course-code {
-        font-size: 1.2em;
-        margin: 0 0 5px 0;
+      /* Course nav section */
+      .course-nav-section {
+        border-top: 1px solid #e5e5e5;
+        padding-top: 20px;
+        margin-top: 10px;
+      }
+      
+      .course-nav-section .course-code {
+        font-size: 1.1em;
+        font-weight: 600;
         color: #ED1C24;
         font-family: Georgia, "Times New Roman", serif;
-        font-weight: 400;
         letter-spacing: 0.05em;
-      }
-      
-      .course-sidebar-header .subtitle {
-        font-size: 0.9em;
-        color: #475569;
-        margin: 0;
-      }
-      
-      .course-sidebar-nav {
-        padding: 0 10px;
-      }
-      
-      .part-section {
-        margin-bottom: 25px;
-      }
-      
-      .part-title {
-        font-weight: 600;
-        font-size: 0.95em;
-        color: #475569;
-        padding: 8px 10px;
-        margin-bottom: 5px;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-      
-      .part-title:hover {
-        background-color: #e1e4e8;
-        border-radius: 3px;
-      }
-      
-      .part-title.active {
-        background-color: #e1e4e8;
-        border-radius: 3px;
-      }
-      
-      .part-description {
-        font-size: 0.85em;
-        color: #525252;
-        padding: 0 10px 8px 10px;
-        margin-bottom: 5px;
-      }
-      
-      .lesson-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
-      
-      .lesson-item {
-        padding: 8px 10px 8px 25px;
-        margin: 2px 0;
-      }
-      
-      .lesson-item a {
-        color: #475569;
-        text-decoration: none;
-        font-size: 0.9em;
+        margin-bottom: 15px;
         display: block;
       }
       
-      .lesson-item a:hover {
-        color: #4F46E5;
-      }
-      
-      .lesson-item.active a {
-        color: #4F46E5;
+      .course-nav-section .part-title {
         font-weight: 600;
+        font-size: 0.9em;
+        color: #475569;
+        margin: 15px 0 8px 0;
       }
       
-      .lesson-number {
-        color: #6b7280;
-        margin-right: 8px;
+      .course-nav-section .lesson-list {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 15px 0;
       }
       
-      .resources-section {
-        margin-top: 30px;
-        padding-top: 20px;
-        border-top: 1px solid #e1e4e8;
+      .course-nav-section .lesson-item {
+        padding: 4px 0;
       }
       
-      .resources-section .part-title {
+      .course-nav-section .lesson-item a {
         font-size: 0.9em;
         color: #475569;
       }
       
+      .course-nav-section .lesson-item.active a {
+        color: #4F46E5;
+        font-weight: 600;
+      }
+      
+      .course-nav-section .resources-section {
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px solid #e5e5e5;
+      }
+      
+      /* Main content */
       .course-main {
-        margin-left: 280px;
         flex: 1;
         padding: 40px 60px;
-        max-width: 900px;
+        max-width: 700px;
+        min-width: 0;
       }
       
       .course-header {
@@ -250,7 +232,7 @@
       }
       
       .course-header h1 {
-        font-size: 2.5em;
+        font-size: 2.2em;
         margin-bottom: 10px;
         color: #4F46E5;
         line-height: 1.3;
@@ -258,46 +240,15 @@
       
       .course-header h1 .course-code {
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 1.2em;
+        font-size: 1em;
         color: #ED1C24;
         font-weight: 400;
         letter-spacing: 0.05em;
       }
       
-      .course-header h1 .course-name {
-        font-family: "Suisse Intl", sans-serif;
-        font-size: 0.85em;
-        color: #475569;
-        font-weight: 500;
-        display: block;
-        margin-top: 0.3em;
-      }
-      
       .course-meta {
         color: #525252;
-        font-size: 1.1em;
-        margin-top: 10px;
-      }
-      
-      .course-meta .course-code {
-        font-family: Georgia, "Times New Roman", serif;
-        color: #ED1C24;
-        font-weight: 400;
-        letter-spacing: 0.05em;
-      }
-      
-      .course-meta .course-name {
-        font-family: "Suisse Intl", sans-serif;
-        color: #475569;
-        font-weight: 500;
-        display: block;
-        margin-top: 0.5em;
-        font-size: 0.9em;
-      }
-      
-      .course-meta {
-        color: #525252;
-        font-size: 1.1em;
+        font-size: 1.05em;
         margin-top: 10px;
       }
       
@@ -345,7 +296,6 @@
         color: #4F46E5;
       }
       
-      /* Expandable details styling */
       details {
         margin: 1em 0;
         padding: 0.5em;
@@ -362,9 +312,7 @@
         user-select: none;
       }
       
-      details summary::-webkit-details-marker {
-        display: none;
-      }
+      details summary::-webkit-details-marker { display: none; }
       
       details summary::before {
         content: "▶ ";
@@ -373,18 +321,14 @@
         transition: transform 0.2s;
       }
       
-      details[open] summary::before {
-        transform: rotate(90deg);
-      }
+      details[open] summary::before { transform: rotate(90deg); }
       
       details summary:hover {
         background-color: #e8eaf6;
         border-radius: 3px;
       }
       
-      details[open] summary {
-        margin-bottom: 0.5em;
-      }
+      details[open] summary { margin-bottom: 0.5em; }
       
       details[open] {
         padding: 0.5em 0.5em 1em 0.5em;
@@ -396,25 +340,26 @@
       }
       
       .course-footer {
-        margin-left: 280px;
-        padding: 1rem 2rem;
+        padding: 1rem 60px;
         font-size: 0.9em;
         color: #6b7280;
-        border-top: 1px solid #e1e4e8;
+        border-top: 1px solid #e5e5e5;
       }
       
-      @media (max-width: 768px) {
+      @media (max-width: 960px) {
+        .course-wrapper {
+          flex-direction: column;
+        }
         .course-sidebar {
           width: 100%;
-          position: relative;
-          height: auto;
+          min-width: unset;
+          border-right: none;
+          border-bottom: 1px solid #e5e5e5;
         }
         .course-main {
-          margin-left: 0;
           padding: 20px;
         }
         .course-footer {
-          margin-left: 0;
           padding: 1rem 20px;
         }
       }
@@ -426,57 +371,69 @@
   <body>
     <a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
     <div class="course-wrapper">
-      <!-- Sidebar / Header -->
-      <header class="course-sidebar" aria-label="Course header and navigation">
-        <div class="course-sidebar-header">
-          <img src="{{ '/assets/img/brown-logo.webp' | relative_url }}" alt="Brown University" class="brown-logo">
-          <div class="course-code">CPSY 1950</div>
-        </div>
+      <!-- Left sidebar - same as personal site -->
+      <header class="course-sidebar" role="banner">
+        <img src="https://vivo.brown.edu/profile-images/a20/107/457/8fe/466/2b8/4d3/698/9fd/411/55/tserre_photo_.jpeg" alt="Thomas Serre" class="profile-photo">
+        <h1 class="profile-title"><a href="/">{{ site.title }}</a></h1>
+        <p class="profile-desc">{{ site.description | default: site.github.project_tagline | newline_to_br }}</p>
+        <p class="profile-links">
+          Brown University<br>
+          Providence, RI 02912<br>
+          <br>
+          <nav class="social-icons" aria-label="Profile and social links">
+            <button onclick="this.innerHTML=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ==')" style="background:none;border:none;color:inherit;cursor:pointer;padding:0;font:inherit;" aria-label="Show email address (click to reveal)"><i class="fas fa-envelope" aria-hidden="true"></i></button>
+            <a href="https://x.com/tserre" aria-label="X (Twitter): @tserre"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
+            <a href="https://bsky.app/profile/thomasserre.bsky.social" aria-label="Bluesky"><i class="fab fa-bluesky" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/thomasserre/" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://orcid.org/0000-0003-0846-0039" aria-label="ORCID"><i class="fab fa-orcid" aria-hidden="true"></i></a>
+            <a href="https://scholar.google.com/citations?user=kZlPW4wAAAAJ&hl=en&oi=ao" aria-label="Google Scholar"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a>
+            {% if site.github.owner_url %}<a href="{{ site.github.owner_url }}" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i></a>{% endif %}
+          </nav><br>
+          <br>
+          <a href="https://serre-lab.clps.brown.edu/">Lab website</a><br>
+          <a href="https://github.com/serre-lab">Lab GitHub</a><br>
+          <a href="https://vivo.brown.edu/display/tserre">Brown profile</a><br>
+          <a href="/assets/serre_cv.pdf" aria-label="Download CV (PDF)">CV</a><br>
+        </p>
         
-        <nav class="course-sidebar-nav" aria-label="Course navigation">
-          {% assign structure = site.data.cpsy1950.structure %}
+        <!-- Course navigation -->
+        <div class="course-nav-section">
+          <a href="/cpsy1950/" class="course-code">CPSY 1950</a>
+          <span style="font-size: 0.9em; color: #475569; display: block; margin-bottom: 15px;">Deep Learning in Brains, Minds & Machines</span>
           
-          {% for part in structure.parts %}
-          <div class="part-section">
-            <div class="part-title">
-              <span>{{ part.title }}</span>
-            </div>
-            {% if part.description %}
-            <div class="part-description">{{ part.description }}</div>
-            {% endif %}
+          <nav aria-label="Course navigation">
+            {% assign structure = site.data.cpsy1950.structure %}
+            {% for part in structure.parts %}
+            <div class="part-title">{{ part.title }}</div>
             <ul class="lesson-list">
               {% for lesson in part.lessons %}
-              <li class="lesson-item {% if page.url == lesson.url %}active{% endif %}">
-                <a href="{{ lesson.url }}">
-                  {{ lesson.title }}
-                </a>
+              {% assign lesson_base = lesson.url | split: '#' | first %}
+              <li class="lesson-item {% if page.url == lesson.url or page.url == lesson_base or page.url == lesson.url | append: '/' %}active{% endif %}">
+                <a href="{{ lesson.url }}">{{ lesson.title }}</a>
               </li>
               {% endfor %}
             </ul>
-          </div>
-          {% endfor %}
-          
-          {% if structure.resources %}
-          <div class="resources-section">
-            <div class="part-title">Resources</div>
-            <ul class="lesson-list">
-              {% for resource in structure.resources %}
-              <li class="lesson-item {% if page.url == resource.url %}active{% endif %}">
-                <a href="{{ resource.url }}" {% if resource.external %}target="_blank" rel="noopener noreferrer" aria-label="{{ resource.title }} (opens in new tab)"{% endif %}>
-                  {{ resource.title }}
-                  {% if resource.external %}
-                  <span style="font-size: 0.8em; color: #6b7280; margin-left: 5px;" aria-hidden="true">↗</span>
-                  {% endif %}
-                </a>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-          {% endif %}
-        </nav>
+            {% endfor %}
+            
+            {% if structure.resources %}
+            <div class="resources-section">
+              <div class="part-title">Resources</div>
+              <ul class="lesson-list">
+                {% for resource in structure.resources %}
+                <li class="lesson-item">
+                  <a href="{{ resource.url }}" {% if resource.external %}target="_blank" rel="noopener noreferrer" aria-label="{{ resource.title }} (opens in new tab)"{% endif %}>
+                    {{ resource.title }}{% if resource.external %} ↗{% endif %}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+          </nav>
+        </div>
       </header>
       
-      <!-- Main Content -->
+      <!-- Main content -->
       <main id="main-content" class="course-main" role="main">
         <div class="course-header">
           <h1>{{ page.title }}</h1>
@@ -489,10 +446,17 @@
           {{ content }}
         </div>
       </main>
-      <footer class="course-footer" role="contentinfo">
-        <p style="margin: 0;">© {{ site.time | date: "%Y" }} Brown University · CPSY 1950</p>
-      </footer>
     </div>
+    <footer class="course-footer" role="contentinfo">
+      <p style="margin:0;">© {{ site.time | date: "%Y" }} Thomas Serre · Brown University</p>
+    </footer>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DQBQVVCL0C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DQBQVVCL0C');
+    </script>
   </body>
 </html>
