@@ -45,8 +45,8 @@ Students work in rotating small groups throughout the semester, culminating in p
 - **Guest Lectures:** Weeks 13-14
 - **Final Exam:** Tuesday, May 12, 2026, 9:00am
 
-### Group & Presentation Plan (for up to 103 students)
-- Lightning talks are prepared in small groups (typically 3, occasionally 4).
+### Group & Presentation Plan
+- Lightning talks are prepared in small groups.
 - Groups are not fixed: students will form new groups for each lightning week (rotating teams over the semester).
 - Posters are reserved for student projects (after spring break).
 - Equity: presentation turns are tracked at the individual student level so that each student presents the same number of times across the semester (lightning talks + the project poster).

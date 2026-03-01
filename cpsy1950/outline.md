@@ -13,8 +13,8 @@ subtitle: Spring 2026
   - ~15 lightning talks (2:00 talk + 0:30 transition)  
   - ~20–30 min synthesis discussion/activity
 
-## Group & presentation plan (for up to 103 students)
-- Lightning talks are prepared in small groups (typically 3, occasionally 4).
+## Group & presentation plan
+- Lightning talks are prepared in small groups.
 - Groups are not fixed: students will form new groups for each lightning week (rotating teams over the semester).
 - Posters are reserved for student projects (after spring break).
 - Equity: presentation turns are tracked at the individual student level so that each student presents the same number of times across the semester (lightning talks + the project poster).
