@@ -207,13 +207,20 @@
         font-size: 0.9em;
       }
       
-      /* Main content */
-      .course-main {
+      /* Main content area (main + footer) */
+      .course-content-area {
         margin-left: 280px;
+        flex: 1;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      
+      .course-main {
         flex: 1;
         padding: 40px 60px;
         max-width: 900px;
-        min-width: 0;
       }
       
       .course-header {
@@ -331,11 +338,11 @@
       }
       
       .course-footer {
-        margin-left: 280px;
         padding: 1rem 60px;
         font-size: 0.9em;
         color: #6b7280;
         border-top: 1px solid #e5e5e5;
+        flex-shrink: 0;
       }
       
       @media (max-width: 960px) {
@@ -344,12 +351,13 @@
           position: relative;
           height: auto;
         }
-        .course-main {
+        .course-content-area {
           margin-left: 0;
+        }
+        .course-main {
           padding: 20px;
         }
         .course-footer {
-          margin-left: 0;
           padding: 1rem 20px;
         }
       }
@@ -404,23 +412,25 @@
         </nav>
       </header>
       
-      <!-- Main content -->
-      <main id="main-content" class="course-main" role="main">
-        <div class="course-header">
-          <h1>{{ page.title }}</h1>
-          {% if page.subtitle %}
-          <div class="course-meta">{{ page.subtitle }}</div>
-          {% endif %}
-        </div>
+      <!-- Main content + footer -->
+      <div class="course-content-area">
+        <main id="main-content" class="course-main" role="main">
+          <div class="course-header">
+            <h1>{{ page.title }}</h1>
+            {% if page.subtitle %}
+            <div class="course-meta">{{ page.subtitle }}</div>
+            {% endif %}
+          </div>
 
-        <div class="course-content">
-          {{ content }}
-        </div>
-      </main>
+          <div class="course-content">
+            {{ content }}
+          </div>
+        </main>
+        <footer class="course-footer" role="contentinfo">
+          <p style="margin:0;">© {{ site.time | date: "%Y" }} Thomas Serre · Brown University</p>
+        </footer>
+      </div>
     </div>
-    <footer class="course-footer" role="contentinfo">
-      <p style="margin:0;">© {{ site.time | date: "%Y" }} Thomas Serre · Brown University</p>
-    </footer>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DQBQVVCL0C"></script>
     <script>
