@@ -227,8 +227,5 @@ subtitle: Spring 2026
 <p>Frontier topics in NeuroAI: generative models, EBMs, cognitive science. Plus course wrap-up and final exam briefing.</p>
 </details>
 
-## Week 15 — Final exam
-<details>
-<summary><strong>Tue 5/12 — Final Exam</strong></summary>
-<p>Final exam, 9:00am</p>
-</details>
+## Final Exam
+**Tuesday, May 12, 2026, 9:00am**

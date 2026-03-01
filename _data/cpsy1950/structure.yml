@@ -77,9 +77,6 @@ parts:
       - number: 14
         title: "W14 - Guest lectures"
         url: "/cpsy1950/#week14"
-      - number: 15
-        title: "W15 - Final exam"
-        url: "/cpsy1950/#week15"
 
 # Additional resources shown in sidebar
 resources:

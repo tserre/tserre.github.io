@@ -292,9 +292,6 @@ Target time: ~60 min total.
 <p>Frontier topics in NeuroAI: generative models, EBMs, cognitive science. Plus course wrap-up and final exam briefing.</p>
 </details>
 
-### Week 15 — Final exam {#week15}
-<details>
-<summary><strong>Tue 5/12 — Final exam</strong></summary>
-<p>Final exam, 9:00am</p>
-</details>
+### Final Exam {#final-exam}
+**Tuesday, May 12, 2026, 9:00am**
 
