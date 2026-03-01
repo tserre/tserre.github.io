@@ -16,8 +16,6 @@ subtitle: Spring 2026
 ## Group & presentation plan
 - Lightning talks are prepared in small groups.
 - Groups are not fixed: students will form new groups for each lightning week (rotating teams over the semester).
-- Posters are reserved for student projects (after spring break).
-- Equity: presentation turns are tracked at the individual student level so that each student presents the same number of times across the semester (lightning talks + the project poster).
 
 # Schedule
 
