@@ -19,10 +19,6 @@ parts:
         title: "Syllabus"
         url: "/cpsy1950/syllabus"
         description: "Full course syllabus and policies"
-      - number: 4
-        title: "Course Outline"
-        url: "/cpsy1950/outline"
-        description: "Detailed course outline"
   - id: weekly-schedule
     title: "Weekly Schedule"
     description: "Jump to specific weeks"
