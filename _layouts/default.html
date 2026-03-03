@@ -81,17 +81,14 @@
       h2, h3 {
         letter-spacing: 0.05em;
       }
-      /* Links: subtle background shade for WCAG (distinguishable without color alone); stronger shade on hover */
+      /* Links: bold for WCAG (distinguishable without color alone); darker on hover */
       a, a:link, a:visited {
         color: #3730a3 !important;
         text-decoration: none !important;
-        background-color: rgba(79, 70, 229, 0.08);
-        padding: 0 2px;
-        border-radius: 2px;
+        font-weight: 600 !important;
       }
       a:hover, a:focus, a:focus-visible {
         color: #312e81 !important;
-        background-color: rgba(79, 70, 229, 0.18);
       }
       /* WCAG 2.1 AA: Visually hidden (screen reader only) */
       .sr-only {
@@ -174,10 +171,19 @@
           Providence, RI 02912<br>
           <br>
           <style>
-            /* Consistent social icon styling */
+            /* Social icons: min 24x24px touch targets for WCAG 2.5.5 */
+            .social-icons {
+              display: flex;
+              gap: 8px;
+              flex-wrap: wrap;
+            }
             .social-icons a, .social-icons button {
-              display: inline-block;
-              width: 20px;
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              min-width: 28px;
+              min-height: 28px;
+              padding: 4px;
               text-align: center;
               color: #333 !important;
               text-decoration: none;
@@ -190,12 +196,16 @@
               border: none;
               background: none;
               cursor: pointer;
-              padding: 0;
             }
             .social-icons i, .social-icons button i {
               font-size: 18px;
-              vertical-align: middle;
               color: inherit;
+            }
+            /* Profile links: min 24px touch target height */
+            .profile-links a {
+              display: inline-block;
+              padding: 6px 0;
+              min-height: 24px;
             }
           </style>
           <nav class="social-icons" aria-label="Profile and social links">
@@ -210,10 +220,12 @@
           {% endif %}
           </nav><br>
           <br>
+          <span class="profile-links">
           <a href="https://serre-lab.clps.brown.edu/">Lab website</a><br>
           <a href="https://github.com/serre-lab">Lab GitHub</a><br>
           <a href="https://vivo.brown.edu/display/tserre">Brown profile</a><br>
           <a href="/assets/serre_cv.pdf" aria-label="Download CV (PDF)">CV</a><br>
+          </span>
         </p>
 
         {% if site.github.is_project_page %}

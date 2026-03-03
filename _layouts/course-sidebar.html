@@ -62,17 +62,14 @@
         color: #4F46E5 !important;
       }
       h2, h3 { letter-spacing: 0.05em; }
-      /* Links: subtle background shade for WCAG (distinguishable without color alone); stronger shade on hover */
+      /* Links: bold for WCAG (distinguishable without color alone); darker on hover */
       a, a:link, a:visited {
         color: #3730a3 !important;
         text-decoration: none !important;
-        background-color: rgba(79, 70, 229, 0.08);
-        padding: 0 2px;
-        border-radius: 2px;
+        font-weight: 600 !important;
       }
       a:hover, a:focus, a:focus-visible {
         color: #312e81 !important;
-        background-color: rgba(79, 70, 229, 0.18);
       }
       .sr-only {
         position: absolute;
@@ -188,14 +185,11 @@
         font-size: 0.9em;
         display: block;
         text-decoration: none;
-        background-color: rgba(79, 70, 229, 0.08);
-        padding: 2px 4px;
-        border-radius: 2px;
+        font-weight: 600;
       }
       
       .lesson-item a:hover {
         color: #312e81;
-        background-color: rgba(79, 70, 229, 0.18);
       }
       
       .lesson-item.active a {
