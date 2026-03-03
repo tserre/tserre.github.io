@@ -1,21 +1,59 @@
 readings:
 - week: 2
-  topic: 'Bootcamp: Foundations'
-  description: Core readings on neuroconnectionism and deep learning as scientific
-    models
+  topic: Foundations of Natural and Artificial Intelligence
+  description: 'Async bootcamp: Required core + conditional tracks + checkpoint reading'
   papers:
-  - title: The neuroconnectionist research programme
-    authors: Doerig, A., Sommers, R. P., Seeliger, K., et al.
-    journal: Nature Reviews Neuroscience
-    year: 2023
-    url: https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w
-    pdf: https://arxiv.org/pdf/2209.03718
-    notes: All students - foundational reading for the course
-    required: true
-  - title: Deep Neural Networks as Scientific Models
-    authors: Cichy, R. M., & Kaiser, D.
-    journal: Trends in Cognitive Sciences
+  - title: TBD
+    notes: Readings will be announced soon
+- week: 3
+  topic: The Three Levers of Deep Learning
+  description: How architecture, learning objectives, and experience (data/scale)
+    shape representations, behavior, and generalization
+  papers:
+  - title: 'Deep Learning: The Good, the Bad, and the Ugly'
+    authors: Serre, T.
+    journal: Annual Review of Vision Science
     year: 2019
-    url: https://www-cell-com.revproxy.brown.edu/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8
-    notes: All students - understanding DNNs as models of cognition
+    url: https://www.annualreviews.org/content/journals/10.1146/annurev-vision-091718-014951
+    notes: Required reading before Tue 2/3 lecture. Reading response due Tue 2/3,
+      2:00pm on Canvas.
+    required: true
+- week: 4
+  topic: Scaling and Emerging Capabilities
+  description: Pretraining, fine-tuning, in-context learning, and critical evaluation
+    of emergence claims
+  papers:
+  - title: Performance vs. competence in human–machine comparisons
+    authors: Firestone, C.
+    journal: PNAS
+    year: 2020
+    url: https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117
+    notes: Required reading before Tue 2/10 lecture. Reading response due Tue 2/10,
+      2:00pm on Canvas.
+    required: true
+- week: 5
+  topic: Prediction vs Understanding
+  description: 'Background paper and required videos; no lecture Tue (university holiday).
+    Note: Thu 2/19 class was cancelled (instructor sick).'
+  papers:
+  - title: 'From Prediction to Understanding: Will AI Foundation Models Transform
+      Brain Science?'
+    authors: T. Serre & E. Pavlick
+    journal: Neuron
+    year: 2025
+    url: https://www-cell-com.revproxy.brown.edu/neuron/fulltext/S0896-6273(25)00752-4
+    notes: Background reading. Paper response due Thu 2/19, 2:00pm on Canvas.
+    required: true
+- week: 6
+  topic: Representation-Level Interpretability
+  description: Features, concepts, sparse methods; what we can and can't reliably
+    name
+  papers:
+  - title: The Building Blocks of Interpretability
+    authors: Olah, C., Satyanarayan, A., Johnson, I., Carter, S., Schubert, L., Ye,
+      K., & Mordvintsev, A.
+    journal: Distill
+    year: 2018
+    notes: Required reading before Tue 2/24 lecture. Reading response due Tue 2/24,
+      2:00pm on Canvas.
     required: true

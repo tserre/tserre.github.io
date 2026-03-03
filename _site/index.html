@@ -12,17 +12,17 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI" />
 <meta property="og:description" content="Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="https://thomas-serre.com/" />
+<meta property="og:url" content="https://thomas-serre.com/" />
 <meta property="og:site_name" content="Thomas Serre" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Machine and Biological Vision, Computational Neuroscience &amp; AI Research" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI","headline":"Machine and Biological Vision, Computational Neuroscience &amp; AI Research","name":"Thomas Serre","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI","headline":"Machine and Biological Vision, Computational Neuroscience &amp; AI Research","name":"Thomas Serre","url":"https://thomas-serre.com/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="canonical" href="http://localhost:4000/">
+    <link rel="canonical" href="https://thomas-serre.com/">
     <link rel="stylesheet" href="/assets/css/style.css?v=">
     <!-- Font Awesome for social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
@@ -192,27 +192,34 @@
               display: inline-block;
               width: 20px;
               text-align: center;
-              color: #333;
+              color: #333 !important;
               text-decoration: none;
               transition: color 0.3s ease;
             }
             .social-icons a:hover, .social-icons button:hover {
-              color: #4F46E5;
+              color: #4F46E5 !important;
             }
-            .social-icons i {
+            .social-icons button {
+              border: none;
+              background: none;
+              cursor: pointer;
+              padding: 0;
+            }
+            .social-icons i, .social-icons button i {
               font-size: 18px;
               vertical-align: middle;
+              color: inherit;
             }
           </style>
-          <span class="social-icons">
-          <button onclick="this.innerHTML=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ==')" style="background:none;border:none;color:inherit;cursor:pointer;padding:0;font:inherit;" aria-label="Email address"><i class="fas fa-envelope" aria-hidden="true"></i></button>
+          <nav class="social-icons" aria-label="Profile and social links">
+          <button onclick="this.innerHTML=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ==')" aria-label="Show email address (click to reveal)"><i class="fas fa-envelope" aria-hidden="true"></i></button>
           <a href="https://x.com/tserre" aria-label="X (Twitter): @tserre"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
           <a href="https://bsky.app/profile/thomasserre.bsky.social" aria-label="Bluesky: @thomasserre.bsky.social"><i class="fab fa-bluesky" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/in/thomasserre/" aria-label="LinkedIn profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
           <a href="https://orcid.org/0000-0003-0846-0039" aria-label="ORCID profile"><i class="fab fa-orcid" aria-hidden="true"></i></a>
           <a href="https://scholar.google.com/citations?user=kZlPW4wAAAAJ&hl=en&oi=ao" aria-label="Google Scholar profile"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a>
           
-          </span><br>
+          </nav><br>
           <br>
           <a href="https://serre-lab.clps.brown.edu/">Lab website</a><br>
           <a href="https://github.com/serre-lab">Lab GitHub</a><br>
@@ -316,6 +323,15 @@ A seminar-style exploration of cutting-edge research at the intersection of natu
 <div style="margin-top: 1em;">
 
 <div style="margin-bottom: 2em;">
+<b>Cortical feedback mechanisms in visual reasoning: From perceptual grouping to abstract compositional reasoning</b><br>
+<i>DIC-ISC-CRIA Seminar, Montreal <span style="color: #6b7280;">•</span> February 2026</i><br>
+<p style="margin: 0.5em 0;">Examining how cortical feedback facilitates compositional visual reasoning, distinguishing biological from artificial vision. Same-different judgments—fundamental symbolic operations that newborn ducklings master from single examples yet challenge state-of-the-art feedforward networks—illustrate this gap. The talk presents computational evidence that cortical feedback contributes essential mechanisms for the compositional reasoning capabilities that connect perception and abstract thought.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-top: 1em;">
+<iframe src="https://www.youtube.com/embed/xnfidn2lmog" title="Cortical feedback mechanisms in visual reasoning - DIC-ISC-CRIA Seminar" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+</div>
+
+<div style="margin-bottom: 2em;">
 <b>Aligning deep networks with primate vision via self-supervised learning</b><br>
 <i>Simons Foundation Workshop on "Self Supervised Learning" <span style="color: #6b7280;">•</span> May 2025</i><br>
 <p style="margin: 0.5em 0;">Exploring how self-supervised learning can bridge the gap between artificial neural networks and biological vision systems. This talk presents our latest work on developing training procedures that align deep neural networks with primate visual processing, demonstrating that alignment can be dramatically improved without changing network architectures.</p>
@@ -363,6 +379,9 @@ Advancing theoretical foundations and practical applications of operator regress
 
 
       </main>
+      <footer role="contentinfo" style="clear:both;padding:1rem 20px;font-size:0.9em;color:#6b7280;border-top:1px solid #e5e5e5;text-align:center;">
+        <p style="margin:0;">© 2026 Thomas Serre · Brown University</p>
+      </footer>
     </div>
     <script src="/assets/js/scale.fix.js"></script>
     <!-- Google Analytics 4 -->

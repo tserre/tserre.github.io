@@ -12,17 +12,17 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI" />
 <meta property="og:description" content="Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI" />
-<link rel="canonical" href="http://localhost:4000/404.html" />
-<meta property="og:url" content="http://localhost:4000/404.html" />
+<link rel="canonical" href="https://thomas-serre.com/404.html" />
+<meta property="og:url" content="https://thomas-serre.com/404.html" />
 <meta property="og:site_name" content="Thomas Serre" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Page Not Found" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI","headline":"Page Not Found","url":"http://localhost:4000/404.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Machine and Biological Vision • Computational Neuroscience • AI • NeuroAI • XAI","headline":"Page Not Found","url":"https://thomas-serre.com/404.html"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="canonical" href="http://localhost:4000/404.html">
+    <link rel="canonical" href="https://thomas-serre.com/404.html">
     <link rel="stylesheet" href="/assets/css/style.css?v=">
     <!-- Font Awesome for social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
@@ -192,27 +192,34 @@
               display: inline-block;
               width: 20px;
               text-align: center;
-              color: #333;
+              color: #333 !important;
               text-decoration: none;
               transition: color 0.3s ease;
             }
             .social-icons a:hover, .social-icons button:hover {
-              color: #4F46E5;
+              color: #4F46E5 !important;
             }
-            .social-icons i {
+            .social-icons button {
+              border: none;
+              background: none;
+              cursor: pointer;
+              padding: 0;
+            }
+            .social-icons i, .social-icons button i {
               font-size: 18px;
               vertical-align: middle;
+              color: inherit;
             }
           </style>
-          <span class="social-icons">
-          <button onclick="this.innerHTML=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ==')" style="background:none;border:none;color:inherit;cursor:pointer;padding:0;font:inherit;" aria-label="Email address"><i class="fas fa-envelope" aria-hidden="true"></i></button>
+          <nav class="social-icons" aria-label="Profile and social links">
+          <button onclick="this.innerHTML=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ==')" aria-label="Show email address (click to reveal)"><i class="fas fa-envelope" aria-hidden="true"></i></button>
           <a href="https://x.com/tserre" aria-label="X (Twitter): @tserre"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
           <a href="https://bsky.app/profile/thomasserre.bsky.social" aria-label="Bluesky: @thomasserre.bsky.social"><i class="fab fa-bluesky" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/in/thomasserre/" aria-label="LinkedIn profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
           <a href="https://orcid.org/0000-0003-0846-0039" aria-label="ORCID profile"><i class="fab fa-orcid" aria-hidden="true"></i></a>
           <a href="https://scholar.google.com/citations?user=kZlPW4wAAAAJ&hl=en&oi=ao" aria-label="Google Scholar profile"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a>
           
-          </span><br>
+          </nav><br>
           <br>
           <a href="https://serre-lab.clps.brown.edu/">Lab website</a><br>
           <a href="https://github.com/serre-lab">Lab GitHub</a><br>
@@ -230,6 +237,9 @@
 
 
       </main>
+      <footer role="contentinfo" style="clear:both;padding:1rem 20px;font-size:0.9em;color:#6b7280;border-top:1px solid #e5e5e5;text-align:center;">
+        <p style="margin:0;">© 2026 Thomas Serre · Brown University</p>
+      </footer>
     </div>
     <script src="/assets/js/scale.fix.js"></script>
     <!-- Google Analytics 4 -->

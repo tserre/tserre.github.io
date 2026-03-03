@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://thomas-serre.com/</loc>
-    <lastmod>2026-02-28T17:33:35+00:00</lastmod>
+    <lastmod>2026-03-03T08:24:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -14,8 +14,8 @@
   
     
     <url>
-      <loc>http://localhost:4000/cpsy1950/assignments.html</loc>
-      <lastmod>2026-02-28T17:33:35+00:00</lastmod>
+      <loc>https://thomas-serre.com/</loc>
+      <lastmod>2026-03-03T08:24:59+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -23,19 +23,8 @@
   
     
     <url>
-      <loc>http://localhost:4000/</loc>
-      <lastmod>2026-02-28T17:33:35+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-    </url>
-    
-  
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/cpsy1950/lesson2/</loc>
-      <lastmod>2026-02-28T17:33:35+00:00</lastmod>
+      <loc>https://thomas-serre.com/cpsy1950/</loc>
+      <lastmod>2026-03-03T08:24:59+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -43,71 +32,8 @@
   
     
     <url>
-      <loc>http://localhost:4000/cpsy1950/lesson1/</loc>
-      <lastmod>2026-02-28T17:33:35+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/cpsy1950/</loc>
-      <lastmod>2026-02-28T17:33:35+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/docs/</loc>
-      <lastmod>2026-02-28T17:33:35+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/boxes/this-is-a-box-1/</loc>
-      <lastmod>2026-02-28T17:33:35+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/boxes/this-is-a-box-2/</loc>
-      <lastmod>2026-02-28T17:33:35+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/cpsy1950/outline.html</loc>
-      <lastmod>2026-02-28T17:33:35+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/cpsy1950/readings.html</loc>
-      <lastmod>2026-02-28T17:33:35+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/cpsy1950/schedule.html</loc>
-      <lastmod>2026-02-28T17:33:35+00:00</lastmod>
+      <loc>https://thomas-serre.com/cpsy1950/outline.html</loc>
+      <lastmod>2026-03-03T08:24:59+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -119,8 +45,8 @@
   
     
     <url>
-      <loc>http://localhost:4000/cpsy1950/syllabus.html</loc>
-      <lastmod>2026-02-28T17:33:35+00:00</lastmod>
+      <loc>https://thomas-serre.com/cpsy1950/syllabus.html</loc>
+      <lastmod>2026-03-03T08:24:59+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>

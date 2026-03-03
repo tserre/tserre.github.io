@@ -66,7 +66,7 @@ Create an isolated conda environment with an older Ruby version that's compatibl
 ```bash
 conda create -n jekyll-env ruby=2.7
 conda activate jekyll-env
-cd /Users/tserre/Projects/tserre.github.io
+cd /Users/tserre/Projects/prj_web/tserre.github.io
 gem install bundler
 bundle install
 bundle exec jekyll serve
@@ -104,7 +104,7 @@ Remove `github-pages` gem and use a newer Jekyll version directly:
 ```bash
 brew install rbenv ruby-build
 rbenv install 2.7.8
-cd /Users/tserre/Projects/tserre.github.io
+cd /Users/tserre/Projects/prj_web/tserre.github.io
 rbenv local 2.7.8
 gem install bundler
 bundle install
@@ -139,7 +139,7 @@ bundle exec jekyll serve
 
 **Start the server:**
 ```bash
-cd /Users/tserre/Projects/tserre.github.io
+cd /Users/tserre/Projects/prj_web/tserre.github.io
 eval "$(rbenv init - zsh)"  # Make sure rbenv is active
 bundle exec jekyll serve
 # Opens at http://localhost:4000
@@ -159,7 +159,7 @@ bundle exec jekyll serve
 
 ```bash
 # Navigate to project
-cd /Users/tserre/Projects/tserre.github.io
+cd /Users/tserre/Projects/prj_web/tserre.github.io
 
 # Make sure you're on dev branch
 git checkout dev
