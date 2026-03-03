@@ -1,6 +1,6 @@
 ---
 description: CPSY 1950 course site structure and editing context
-globs: cpsy1950/**/*,_data/cpsy1950/**/*
+globs: cpsy1950/**/*,_data/cpsy1950/**/*,_layouts/course-sidebar.html
 alwaysApply: false
 ---
 
@@ -14,23 +14,24 @@ CPSY 1950: Deep Learning in Brains, Minds & Machines — Jekyll course site at `
 
 | File | Purpose |
 |------|---------|
-| `cpsy1950/index.md` | Main course page — schedule, readings, links. All content is inline (no YAML). |
+| `cpsy1950/index.md` | **Canonical** main course page — schedule, readings, links. All published content lives here. |
 | `cpsy1950/syllabus.md` | Full syllabus (linked from index and sidebar) |
-| `cpsy1950/outline.md` | Course outline (linked from sidebar) |
+| `cpsy1950/PLANNING.md` | Internal planning only — excluded from site. Instructor notes, todos, draft ideas. |
 | `_data/cpsy1950/structure.yml` | Sidebar navigation — parts, lessons, resources (Ed Discussion, Canvas) |
 | `_layouts/course-sidebar.html` | Layout for all course pages |
 
 ## Sidebar Structure (structure.yml)
 
-- **Course Information:** Overview (#overview), Schedule (#schedule), Syllabus, Course Outline
+- **Course Information:** Overview (#overview), Schedule (#schedule), Syllabus
 - **Weekly Schedule:** Links to #week1 through #week15 on index
 - **Resources:** Ed Discussion, Canvas (external links)
 
 ## Editing Content
 
-- **Schedule / readings / assignments:** Edit `cpsy1950/index.md` directly. Content is inline in `<details>` blocks.
+- **Schedule / readings / assignments:** Edit `cpsy1950/index.md` — this is the canonical source. All changes that affect students go here.
 - **Sidebar links:** Edit `_data/cpsy1950/structure.yml`
-- **Syllabus / outline:** Edit `cpsy1950/syllabus.md` or `cpsy1950/outline.md`
+- **Syllabus:** Edit `cpsy1950/syllabus.md`
+- **Planning (internal only):** Edit `cpsy1950/PLANNING.md` — excluded from site. Use for instructor notes, todos, draft ideas.
 
 ## Unused Data Files
 
@@ -41,6 +42,16 @@ CPSY 1950: Deep Learning in Brains, Minds & Machines — Jekyll course site at `
 - Local: `bundle exec jekyll serve`
 - Deploy: Push to GitHub; GitHub Pages rebuilds automatically
 
-## Accessibility
+## Mandatory: Digital Accessibility (Brown University)
 
-Root `.cursorrules` enforces WCAG 2.1 AA. Apply to all course pages: headings (single h1, logical nesting), landmarks, alt text, keyboard nav, external link labels.
+**Every change to the course site must not break digital accessibility.** Brown requires full compliance by May 2026. Reference: https://digital-accessibility.brown.edu/
+
+Before committing any edit to `cpsy1950/` or `_layouts/course-sidebar.html`:
+
+1. **Headings:** Single `<h1>` per page; logical nesting (h1 > h2 > h3); never skip levels
+2. **Links:** Descriptive link text; external links use `target="_blank"` with `rel="noopener noreferrer"` and `title="Opens in new tab"`
+3. **Images/iframes:** Every `<img>` has alt text; every `<iframe>` (e.g., YouTube embeds) has a `title` attribute
+4. **Structure:** Landmarks (header, nav, main, footer); `lang="en-US"` on html
+5. **Interactive:** All controls reachable via keyboard; visible focus styles
+
+Root `.cursorrules` has full WCAG 2.1 AA checklist. Run Lighthouse accessibility audit before deploy.

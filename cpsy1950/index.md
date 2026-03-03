@@ -211,6 +211,7 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Thu 3/5 — Lightning talks</strong></summary>
 <p>Student lightning talks on circuits and causal interventions.</p>
+<p><a href="https://docs.google.com/presentation/d/1vx2gfTl5w38Kz-hk6V0g2I13dCe4zRcRI3Wys0j-pFA/edit?slide=id.p#slide=id.p" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Lightning talk presentations</a> · <a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=1786913523#gid=1786913523" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> List of lightning talks (Google Sheet)</a></p>
 </details>
 
 ### Week 8 — Neural alignment {#week8}

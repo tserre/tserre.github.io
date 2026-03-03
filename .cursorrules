@@ -4,6 +4,8 @@ All HTML output from this project must comply with WCAG 2.1 AA.
 Brown University requires full digital accessibility compliance by May 2026.
 Reference: https://digital-accessibility.brown.edu/
 
+**Scope:** Applies to all pages including the CPSY 1950 course site. Do not introduce accessibility regressions when editing course content, layouts, or navigation.
+
 ## Known Issues to Fix
 
 ### CRITICAL: Publications page heading hierarchy

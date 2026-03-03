@@ -1,5 +1,7 @@
 theme: jekyll-theme-minimal
 url: https://thomas-serre.com
+exclude:
+  - cpsy1950/PLANNING.md
 title: Thomas Serre
 description: "Machine and Biological Vision • Computational Neuroscience • AI&nbsp;•&nbsp;NeuroAI&nbsp;•&nbsp;XAI"
 defaults:
