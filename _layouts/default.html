@@ -81,16 +81,17 @@
       h2, h3 {
         letter-spacing: 0.05em;
       }
-      /* Links: no underline by default; underline on hover/focus for WCAG 2.1 AA */
+      /* Links: subtle background shade for WCAG (distinguishable without color alone); stronger shade on hover */
       a, a:link, a:visited {
-        color: #4338ca !important;
+        color: #3730a3 !important;
         text-decoration: none !important;
+        background-color: rgba(79, 70, 229, 0.08);
+        padding: 0 2px;
+        border-radius: 2px;
       }
       a:hover, a:focus, a:focus-visible {
-        color: #3730a3 !important;
-        text-decoration: underline !important;
-        text-underline-offset: 0.15em;
-        opacity: 0.9;
+        color: #312e81 !important;
+        background-color: rgba(79, 70, 229, 0.18);
       }
       /* WCAG 2.1 AA: Visually hidden (screen reader only) */
       .sr-only {
