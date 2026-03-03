@@ -1,0 +1,46 @@
+---
+description: CPSY 1950 course site structure and editing context
+globs: cpsy1950/**/*,_data/cpsy1950/**/*
+alwaysApply: false
+---
+
+# CPSY 1950 Course Site Context
+
+## Overview
+
+CPSY 1950: Deep Learning in Brains, Minds & Machines — Jekyll course site at `https://thomas-serre.com/cpsy1950/`
+
+## Active Files (Used)
+
+| File | Purpose |
+|------|---------|
+| `cpsy1950/index.md` | Main course page — schedule, readings, links. All content is inline (no YAML). |
+| `cpsy1950/syllabus.md` | Full syllabus (linked from index and sidebar) |
+| `cpsy1950/outline.md` | Course outline (linked from sidebar) |
+| `_data/cpsy1950/structure.yml` | Sidebar navigation — parts, lessons, resources (Ed Discussion, Canvas) |
+| `_layouts/course-sidebar.html` | Layout for all course pages |
+
+## Sidebar Structure (structure.yml)
+
+- **Course Information:** Overview (#overview), Schedule (#schedule), Syllabus, Course Outline
+- **Weekly Schedule:** Links to #week1 through #week15 on index
+- **Resources:** Ed Discussion, Canvas (external links)
+
+## Editing Content
+
+- **Schedule / readings / assignments:** Edit `cpsy1950/index.md` directly. Content is inline in `<details>` blocks.
+- **Sidebar links:** Edit `_data/cpsy1950/structure.yml`
+- **Syllabus / outline:** Edit `cpsy1950/syllabus.md` or `cpsy1950/outline.md`
+
+## Unused Data Files
+
+`_data/cpsy1950/readings.yml`, `schedule.yml`, `assignments.yml`, `videos.yml` exist but are **not used** by any page. The index has all content inline. These can be removed or kept for future refactoring.
+
+## Build & Deploy
+
+- Local: `bundle exec jekyll serve`
+- Deploy: Push to GitHub; GitHub Pages rebuilds automatically
+
+## Accessibility
+
+Root `.cursorrules` enforces WCAG 2.1 AA. Apply to all course pages: headings (single h1, logical nesting), landmarks, alt text, keyboard nav, external link labels.
