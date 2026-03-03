@@ -32,7 +32,7 @@ A seminar-style exploration of cutting-edge research at the intersection of natu
 This course uses a lecture + mini-conference (lightning talks) format:
 
 - **Tuesdays (80 min):** Instructor lecture introducing the week's theme 
-- **Thursdays (80 min):** Student lightning talks (~15 presentations, 3 minutes each) + synthesis/discussion
+- **Thursdays (80 min):** Student lightning talks (a dozen presentations, about 4–5 min each) + synthesis/discussion
 
 Students work in rotating small groups throughout the semester, culminating in project poster presentations. The course covers modern AI capabilities, explainable AI (XAI), NeuroAI, and cognitive and neural alignment.
 
