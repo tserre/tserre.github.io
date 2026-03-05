@@ -213,6 +213,7 @@ Target time: ~60 min total.
 <summary><strong>Thu 3/5 — Lightning talks</strong></summary>
 <p>Student lightning talks on circuits and causal interventions.</p>
 <p><a href="https://docs.google.com/presentation/d/1vx2gfTl5w38Kz-hk6V0g2I13dCe4zRcRI3Wys0j-pFA/edit?slide=id.p#slide=id.p" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Lightning talk presentations</a> · <a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=1786913523#gid=1786913523" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> List of lightning talks (Google Sheet)</a></p>
+<p><strong>Read:</strong> Anthropic, <a href="https://www.anthropic.com/research/tracing-thoughts-language-model" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Tracing the Thoughts of a Large Language Model</a></p>
 <p><strong>Reflection due Sun 3/8, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8106398" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
@@ -220,12 +221,20 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Tue 3/10 — Lecture: Neural alignment and model-to-brain mapping</strong></summary>
 <p>Predicting neural data across measurement modalities; encoding/decoding and representational similarity; what alignment can and cannot justify.</p>
+<p><strong>Reading (complete before class):</strong></p>
+<ul>
+<li><strong>Reading 1 (methods):</strong> <a href="https://www-nature-com.revproxy.brown.edu/articles/s41593-018-0210-5" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Kriegeskorte, N. &amp; Douglas, P.K. (2018). Cognitive computational neuroscience. <em>Nature Neuroscience</em>, 21, 1148–1160</a> (Brown Library proxy)</li>
+<li><strong>Reading 2 (criteria for explanation):</strong> <a href="https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Doerig, A., Sommers, R.P., Seeliger, K., Richards, B., Ismael, J., Lindsay, G.W., Kording, K.P., Konkle, T., van Gerven, M.A.J., Kriegeskorte, N., &amp; Kietzmann, T.C. (2023). The neuroconnectionist research programme. <em>Nature Reviews Neuroscience</em>, 24, 431–450</a> (Brown Library proxy)</li>
+</ul>
+<p><strong>Reading response due Tue 3/10, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8106570" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
 <details>
 <summary><strong>Thu 3/12 — Lightning talks</strong></summary>
 <p>Student lightning talks on model-to-brain mapping.</p>
 <p><a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=820346163#gid=820346163" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> List of lightning talks (Google Sheet)</a></p>
+<p><strong>Read:</strong> <a href="https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661325003493" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Linsley, D., Feng, P., &amp; Serre, T. (2025). Better artificial intelligence does not mean better models of biology. <em>Trends in Cognitive Sciences</em></a> (Brown Library proxy)</p>
+<p><strong>Reflection due Sun 3/15, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8106572" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
 ### Week 9 — Behavioral and cognitive alignment {#week9}
