@@ -120,13 +120,13 @@ Target time: ~60 min total.
 
 #### Bootcamp Checkpoint (all students; due Sun 2/2, 2:00pm)
 
-**Reading:** <a href="https://www-nature-com.revproxy.brown.edu/articles/337129a0" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Crick (1989) — The recent excitement about neural networks (Nature)</a> (Brown Library proxy link)
+**Reading:** <a href="https://www-nature-com.revproxy.brown.edu/articles/337129a0" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Crick (1989). The recent excitement about neural networks. <em>Nature</em></a>
 
 **Reading response due Sun 2/2, 2:00pm:** <a href="https://canvas.brown.edu/courses/1101742/assignments/8098936" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a>
 
 #### Optional background papers (only if you want extra framing)
-- <a href="https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661319300348" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Cichy & Kaiser (2019) — Trends in Cognitive Sciences</a> (Brown Library proxy link)
-- <a href="https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Doerig et al. (2023) — Nature Reviews Neuroscience</a> (Brown Library proxy link)
+- <a href="https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661319300348" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Cichy &amp; Kaiser (2019). Deep Neural Networks as Scientific Models. <em>Trends in Cognitive Sciences</em></a>
+- <a href="https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Doerig et al. (2023). The neuroconnectionist research programme. <em>Nature Reviews Neuroscience</em></a>
 
 </details>
 
@@ -135,7 +135,7 @@ Target time: ~60 min total.
 <summary><strong>Tue 2/3 — Lecture: The three levers of deep learning</strong></summary>
 <p>Architecture, learning objectives, and data shape representations, behavior, and generalization across modalities.</p>
 <p><a href="https://docs.google.com/presentation/d/1pXkFFqKTnEvl2OzsmCmnRU6l7F9EuFSgGO34pscRpn0/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a> · <a href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=408a671a-f9de-4fa1-8938-b3e601418a3c" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📺</span> Lecture capture</a></p>
-<p><strong>Reading (complete before class):</strong> <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-vision-091718-014951" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Serre (2019) — Deep Learning: The Good, the Bad, and the Ugly (Annual Review of Vision Science)</a></p>
+<p><strong>Reading (complete before class):</strong> <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-vision-091718-014951" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Serre (2019). Deep Learning: The Good, the Bad, and the Ugly. <em>Annual Review of Vision Science</em></a></p>
 <p><strong>Reading response due Tue 2/3, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8106010" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
@@ -151,7 +151,7 @@ Target time: ~60 min total.
 <summary><strong>Tue 2/10 — Lecture: Scaling and emerging capabilities</strong></summary>
 <p>Pretraining and fine-tuning/transfer; in-context learning and reasoning; what "emergence" claims mean and how to evaluate them critically.</p>
 <p><a href="https://docs.google.com/presentation/d/1Tl2OR5kqpqh5MJIe1_DsQq20MZSS5G_6gkCzDDPblkc/edit?slide=id.g3c67357f7da_0_38#slide=id.g3c67357f7da_0_38" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a></p>
-<p><strong>Reading (complete before class):</strong> <a href="https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Firestone (2020) — Performance vs. competence in human–machine comparisons (PNAS)</a></p>
+<p><strong>Reading (complete before class):</strong> <a href="https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Firestone (2020). Performance vs. competence in human–machine comparisons. <em>PNAS</em></a></p>
 <p><strong>Reading response due Tue 2/10, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104065" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
@@ -170,8 +170,7 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Thu 2/19 — Background reading and required viewing</strong></summary>
 <p><em>Class on Feb 19 was cancelled (instructor sick).</em></p>
-<p><strong>Background paper (complete before or by Thu):</strong></p>
-<p><a href="https://www-cell-com.revproxy.brown.edu/neuron/fulltext/S0896-6273(25)00752-4" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Serre, T. &amp; Pavlick, E. (2025). From Prediction to Understanding: Will AI Foundation Models Transform Brain Science? <em>Neuron</em></a> (Brown Library proxy)</p>
+<p><strong>Background paper (complete before or by Thu):</strong> <a href="https://www-cell-com.revproxy.brown.edu/neuron/fulltext/S0896-6273(25)00752-4" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Serre &amp; Pavlick (2025). From Prediction to Understanding: Will AI Foundation Models Transform Brain Science? <em>Neuron</em></a></p>
 <p><strong>Required viewing (watch both):</strong></p>
 <ul>
 <li>Marcus, G. (2024). <a href="https://www.youtube.com/watch?v=91SK90SahHc" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Keynote at AGI-24</a>. Machine Learning Street Talk. Watch from ~5:00 to ~35:00 (Marcus's talk starts after a brief introduction).</li>
@@ -186,7 +185,7 @@ Target time: ~60 min total.
 <p>Feature visualization, concept-based methods, sparse/dictionary approaches (incl. SAEs); what we can and can't reliably "name" in representations.</p>
 <p><strong>Guest lecturer:</strong> Dr Thomas Fel (Kempner Institute, Harvard) — <a href="https://thomasfel.fr/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">thomasfel.fr</a></p>
 <p><a href="https://docs.google.com/presentation/d/15xBgm8bfUcT6LRMFBhmFgX2dqdcFXVX26U0ELaNIp8A/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a> · <a href="https://brown.zoom.us/rec/share/ixd_lOmcIbv26RmRAuArADsBUM05gJZZcHaobW7izIRsdCLmXgVznJc6NP30JtZt.FpamIMyb19pZ3-z5" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📺</span> Lecture capture</a></p>
-<p><strong>Reading (complete before class):</strong> <a href="https://distill.pub/2018/building-blocks/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Olah, C., Satyanarayan, A., Johnson, I., Carter, S., Schubert, L., Ye, K., &amp; Mordvinets, A. (2018). The Building Blocks of Interpretability. <em>Distill</em></a></p>
+<p><strong>Reading (complete before class):</strong> <a href="https://distill.pub/2018/building-blocks/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Olah et al. (2018). The Building Blocks of Interpretability. <em>Distill</em></a></p>
 <p><strong>Reading response due Tue 2/24, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/external_tools/38388" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
@@ -194,7 +193,7 @@ Target time: ~60 min total.
 <summary><strong>Thu 2/26 — Lightning talks</strong></summary>
 <p>Student lightning talks on features, concepts, and sparse methods.</p>
 <p><a href="https://docs.google.com/presentation/d/1cu82CUrtErz6b-DXQ7yQ4W6evtthqb0vwX36HsrEa-c/edit?slide=id.g393d2000cd8_7_0#slide=id.g393d2000cd8_7_0" target="_blank" rel="noopener noreferrer" title="Opens in new tab">📑 Lightning talk presentations</a> · <a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=1842491430#gid=1842491430" target="_blank" rel="noopener noreferrer" title="Opens in new tab">📋 List of lightning talks (Google Sheet)</a></p>
-<p><strong>Read:</strong> Thorpe, S.J. (1989). <a href="https://www.persee.fr/doc/intel_0769-4113_1989_num_8_2_873#intel_0769-4113_1989_num_8_2_T1_0004_0000" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Local vs. Distributed Coding. <em>Intellectica</em>, 8, 3–40</a>.</p>
+<p><strong>Read:</strong> <a href="https://www.persee.fr/doc/intel_0769-4113_1989_num_8_2_873#intel_0769-4113_1989_num_8_2_T1_0004_0000" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Thorpe (1989). Local vs. Distributed Coding. <em>Intellectica</em></a></p>
 <p><strong>Reflection due Sun 2/29, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8106008" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
@@ -205,7 +204,7 @@ Target time: ~60 min total.
 <p><strong>Guest lecturer:</strong> Michael Lepori (CS, Brown) — <a href="https://lepori.xyz/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">lepori.xyz</a></p>
 <p><a href="https://docs.google.com/presentation/d/1ZSG8H-Vck4Gbp4wNiRCiII81ontS_b-9O_kgc7WIfYM/edit?slide=id.p#slide=id.p" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a> · <a href="https://drive.google.com/file/d/1FQgMkk7uAsm5A_tilaq2JiIzc-WOeYOA/view" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📺</span> Lecture capture</a></p>
 <p><strong>Watch:</strong> Jensen Huang &amp; Ilya Sutskever, <a href="https://www.youtube.com/watch?v=NT9sP4mAWEg" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Discovering the World Model Through LLM</a> (YouTube)</p>
-<p><strong>Read:</strong> nostalgebraist (2020). <a href="https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Interpreting GPT: The Logit Lens</a> (LessWrong)</p>
+<p><strong>Read:</strong> <a href="https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens" target="_blank" rel="noopener noreferrer" title="Opens in new tab">nostalgebraist (2020). Interpreting GPT: The Logit Lens. <em>LessWrong</em></a></p>
 <p><strong>Reading response due Tue 3/3, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8106010" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
@@ -213,7 +212,7 @@ Target time: ~60 min total.
 <summary><strong>Thu 3/5 — Lightning talks</strong></summary>
 <p>Student lightning talks on circuits and causal interventions.</p>
 <p><a href="https://docs.google.com/presentation/d/1vx2gfTl5w38Kz-hk6V0g2I13dCe4zRcRI3Wys0j-pFA/edit?slide=id.p#slide=id.p" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Lightning talk presentations</a> · <a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=1786913523#gid=1786913523" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> List of lightning talks (Google Sheet)</a></p>
-<p><strong>Read:</strong> Anthropic, <a href="https://www.anthropic.com/research/tracing-thoughts-language-model" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Tracing the Thoughts of a Large Language Model</a></p>
+<p><strong>Read:</strong> <a href="https://www.anthropic.com/research/tracing-thoughts-language-model" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Anthropic. Tracing the Thoughts of a Large Language Model</a></p>
 <p><strong>Reflection due Sun 3/8, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8106398" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
@@ -223,8 +222,8 @@ Target time: ~60 min total.
 <p>Predicting neural data across measurement modalities; encoding/decoding and representational similarity; what alignment can and cannot justify.</p>
 <p><strong>Reading (complete before class):</strong></p>
 <ul>
-<li><strong>Reading 1 (methods):</strong> <a href="https://www-nature-com.revproxy.brown.edu/articles/s41593-018-0210-5" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Kriegeskorte, N. &amp; Douglas, P.K. (2018). Cognitive computational neuroscience. <em>Nature Neuroscience</em>, 21, 1148–1160</a> (Brown Library proxy)</li>
-<li><strong>Reading 2 (criteria for explanation):</strong> <a href="https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Doerig, A., Sommers, R.P., Seeliger, K., Richards, B., Ismael, J., Lindsay, G.W., Kording, K.P., Konkle, T., van Gerven, M.A.J., Kriegeskorte, N., &amp; Kietzmann, T.C. (2023). The neuroconnectionist research programme. <em>Nature Reviews Neuroscience</em>, 24, 431–450</a> (Brown Library proxy)</li>
+<li><a href="https://www-nature-com.revproxy.brown.edu/articles/s41593-018-0210-5" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Kriegeskorte &amp; Douglas (2018). Cognitive computational neuroscience. <em>Nature Neuroscience</em></a></li>
+<li><a href="https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Doerig et al. (2023). The neuroconnectionist research programme. <em>Nature Reviews Neuroscience</em></a></li>
 </ul>
 <p><strong>Reading response due Tue 3/10, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8106570" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
@@ -233,7 +232,7 @@ Target time: ~60 min total.
 <summary><strong>Thu 3/12 — Lightning talks</strong></summary>
 <p>Student lightning talks on model-to-brain mapping.</p>
 <p><a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=820346163#gid=820346163" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> List of lightning talks (Google Sheet)</a></p>
-<p><strong>Read:</strong> <a href="https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661325003493" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Linsley, D., Feng, P., &amp; Serre, T. (2025). Better artificial intelligence does not mean better models of biology. <em>Trends in Cognitive Sciences</em></a> (Brown Library proxy)</p>
+<p><strong>Read:</strong> <a href="https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661325003493" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Linsley, Feng &amp; Serre (2025). Better artificial intelligence does not mean better models of biology. <em>Trends in Cognitive Sciences</em></a></p>
 <p><strong>Reflection due Sun 3/15, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8106572" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
