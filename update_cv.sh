@@ -4,9 +4,9 @@
 # Checks if CV has been updated and uploads new version if needed
 
 # Configuration
-CV_SOURCE_PATH="$HOME/Projects/prj_cv/latex/serre_cv.pdf"
+CV_SOURCE_PATH="$HOME/Projects/personal/cv/latex/serre_cv.pdf"
 CV_DEST_PATH="assets/serre_cv.pdf"
-WEBSITE_DIR="/Users/tserre/Projects/prj_web/tserre.github.io"
+WEBSITE_DIR="/Users/tserre/Projects/personal/web/tserre.github.io"
 
 # Colors for output
 RED='\033[0;31m'

@@ -109,7 +109,7 @@ TTL: 3600
 The changes have been made locally. Push them:
 
 ```bash
-cd /Users/tserre/Projects/prj_web/tserre.github.io
+cd /Users/tserre/Projects/personal/web/tserre.github.io
 git add _config.yml index.html CNAME CUSTOM_DOMAIN_SETUP.md
 git commit -m "Configure custom domain thomas-serre.com"
 git push origin main
