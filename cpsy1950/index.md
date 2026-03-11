@@ -220,7 +220,7 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Tue 3/10 — Lecture: Neural alignment and model-to-brain mapping</strong></summary>
 <p>Predicting neural data across measurement modalities; encoding/decoding and representational similarity; what alignment can and cannot justify.</p>
-<p><a href="https://docs.google.com/presentation/d/1IXPUZAHX5-_MMe7XDRWjqUK7dFp0f43G-1gq7JgsvSk/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a></p>
+<p><a href="https://docs.google.com/presentation/d/1IXPUZAHX5-_MMe7XDRWjqUK7dFp0f43G-1gq7JgsvSk/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a> · <a href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b8625f3f-9ed9-4425-89f8-b4090130e393" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📺</span> Lecture capture</a></p>
 <p><strong>Reading (complete before class):</strong></p>
 <ul>
 <li><a href="https://www-nature-com.revproxy.brown.edu/articles/s41593-018-0210-5" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Kriegeskorte &amp; Douglas (2018). Cognitive computational neuroscience. <em>Nature Neuroscience</em></a></li>
