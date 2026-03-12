@@ -232,7 +232,7 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Thu 3/12 — Lightning talks</strong></summary>
 <p>Student lightning talks on model-to-brain mapping.</p>
-<p><a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=820346163#gid=820346163" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> List of lightning talks (Google Sheet)</a></p>
+<p><a href="https://docs.google.com/presentation/d/1-ASh-3vqUoqu8Z9Fob1w7R5_qI5OqaGnJ45KHsmbznY/edit?slide=id.p#slide=id.p" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Lightning talk presentations</a> · <a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=820346163#gid=820346163" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> List of lightning talks (Google Sheet)</a></p>
 <p><strong>Read:</strong> <a href="https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661325003493" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Linsley, Feng &amp; Serre (2025). Better artificial intelligence does not mean better models of biology. <em>Trends in Cognitive Sciences</em></a></p>
 <p><strong>Reflection due Sun 3/15, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8106572" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
