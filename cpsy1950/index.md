@@ -241,7 +241,8 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Tue 3/17 — Lecture: Behavioral and cognitive alignment</strong></summary>
 <p>Treating models as participants in cognitive tasks; behavioral signatures beyond accuracy (generalization, planning, decision making, cognitive control); confounds and best practices.</p>
-<p><a href="https://docs.google.com/presentation/d/1tcWlQk5e0-8wIvVTLY1WIvE5mEMOnR2z7-EzGQpx3xA/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a></p>
+<p><a href="https://docs.google.com/presentation/d/1tcWlQk5e0-8wIvVTLY1WIvE5mEMOnR2z7-EzGQpx3xA/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a> · <a href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6b7c105d-e388-4fb3-81c9-b41001372eb6" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📺</span> Lecture capture</a></p>
+<p><em>Note:</em> The beginning of the lecture is missing from this recording — the capture was not started until partway through class.</p>
 <p><strong>Reading (complete before class):</strong> <a href="https://www-nature-com.revproxy.brown.edu/articles/s41586-025-09215-4" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Binz et al. (2025). A foundation model to predict and capture human cognition. <em>Nature</em></a></p>
 <p><strong>Reading response due Tue 3/17, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8108065" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
