@@ -250,7 +250,7 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Thu 3/19 — Lightning talks</strong></summary>
 <p>Student lightning talks on cognitive and behavioral evaluation.</p>
-<p><a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=412589322#gid=412589322" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> List of lightning talks (Google Sheet)</a></p>
+<p><a href="https://docs.google.com/presentation/d/1UGaOknDzDsUw7zV_sGn8AFsgeUQN2X9z_s9AIYYBszs/edit?slide=id.g396142cf277_0_0#slide=id.g396142cf277_0_0" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Lightning talk presentations</a> · <a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=412589322#gid=412589322" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> List of lightning talks (Google Sheet)</a></p>
 <p><strong>Read:</strong> <a href="https://eprints.bbk.ac.uk/id/eprint/56681/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Brady et al. (2025). Dual-process theory and decision-making in large language models. <em>Nature Reviews Psychology</em></a></p>
 <p><strong>Reflection due Sun 3/22, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8108066" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
