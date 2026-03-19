@@ -301,7 +301,7 @@ Target time: ~60 min total.
 
 ### Week 14 — Frontier topics in NeuroAI II {#week14}
 <details>
-<summary><strong>Tue 4/21 — Lecture (Thomas Serre): The role of feedback for biological and artificial intelligence (vision)</strong></summary>
+<summary><strong>Tue 4/21 — The role of feedback for biol and artif vision</strong></summary>
 <p>How can neuroscience-inspired recurrent neural network models help us better understand human visual processing? We will highlight our recent work developing and testing recurrent architectures motivated by neuroscience, discuss how these models advance beyond standard feedforward DNNs, and share insights from our experiments linking these models to behavioral and neural benchmarks.</p>
 </details>
 
