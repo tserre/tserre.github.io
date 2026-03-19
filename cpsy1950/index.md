@@ -307,7 +307,7 @@ Target time: ~60 min total.
 
 <details>
 <summary><strong>Thu 4/23 — Guest lecture: Victor Boutin (CNRS, France)</strong></summary>
-<p>Generative models, energy-based models, and cognitive science. Plus course wrap-up and final exam briefing.</p>
+<p>Generative models, energy-based models, and cognitive science.</p>
 </details>
 
 ### Final Exam {#final-exam}
