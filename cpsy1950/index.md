@@ -288,26 +288,26 @@ Target time: ~60 min total.
 <p>Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion.</p>
 </details>
 
-### Week 13 — Guest lectures {#week13}
+### Week 13 — Frontier topics in NeuroAI I {#week13}
 <details>
 <summary><strong>Tue 4/14 — Guest lecture: Greta Tuckute (Kempner Institute, Harvard)</strong></summary>
-<p>Details TBD</p>
+<p>How the human brain represents and processes language—and what we learn by comparing brain and machine representations during language understanding.</p>
 </details>
 
 <details>
 <summary><strong>Thu 4/16 — Guest lecture: Rufin VanRullen (CNRS, France)</strong></summary>
-<p>Frontier topics in NeuroAI: global workspace / consciousness & deep learning.</p>
+<p>Global workspace theory, consciousness, and deep learning.</p>
 </details>
 
-### Week 14 — Guest lectures {#week14}
+### Week 14 — Frontier topics in NeuroAI II {#week14}
 <details>
-<summary><strong>Tue 4/21 — Guest lecture (TBD)</strong></summary>
-<p>Details TBD</p>
+<summary><strong>Tue 4/21 — Lecture (Thomas Serre): The role of feedback for biological and artificial intelligence (vision)</strong></summary>
+<p>How can neuroscience-inspired recurrent neural network models help us better understand human visual processing? We will highlight our recent work developing and testing recurrent architectures motivated by neuroscience, discuss how these models advance beyond standard feedforward DNNs, and share insights from our experiments linking these models to behavioral and neural benchmarks.</p>
 </details>
 
 <details>
 <summary><strong>Thu 4/23 — Guest lecture: Victor Boutin (CNRS, France)</strong></summary>
-<p>Frontier topics in NeuroAI: generative models, EBMs, cognitive science. Plus course wrap-up and final exam briefing.</p>
+<p>Generative models, energy-based models, and cognitive science. Plus course wrap-up and final exam briefing.</p>
 </details>
 
 ### Final Exam {#final-exam}
