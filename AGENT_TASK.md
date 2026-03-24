@@ -22,7 +22,7 @@ I need help finishing the Jekyll local development setup. Everything is document
 ## Context
 
 - User is on macOS with Homebrew and Conda installed
-- Working in `/Users/tserre/Projects/personal/web/tserre.github.io` 
+- Working in `/Users/tserre/Work/personal/website` 
 - On `dev` branch (safe for testing)
 - User prefers isolated environments (conda/brew) to avoid system mess
 - User is new to web dev, so keep explanations simple
@@ -37,7 +37,7 @@ I need help finishing the Jekyll local development setup. Everything is document
 
 When done, user should be able to run:
 ```bash
-cd /Users/tserre/Projects/personal/web/tserre.github.io
+cd /Users/tserre/Work/personal/website
 bundle exec jekyll serve
 # Opens at http://localhost:4000
 ```

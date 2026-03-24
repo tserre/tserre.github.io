@@ -2,7 +2,7 @@
 # Add this to your ~/.zshrc or ~/.bashrc
 
 update_cv() {
-    cd /Users/tserre/Projects/personal/web/tserre.github.io
+    cd /Users/tserre/Work/personal/website
     ./update_cv.sh
 }
 
@@ -10,7 +10,7 @@ update_cv() {
 update_cv_direct() {
     # Configuration
     CV_SOURCE_PATH="$HOME/Projects/personal/cv/latex/serre_cv.pdf"
-    CV_DEST_PATH="/Users/tserre/Projects/personal/web/tserre.github.io/assets/serre_cv.pdf"
+    CV_DEST_PATH="/Users/tserre/Work/personal/website/assets/serre_cv.pdf"
     DAYS_THRESHOLD=7
     
     # Colors
@@ -29,7 +29,7 @@ update_cv_direct() {
     if [ ! -f "$CV_DEST_PATH" ]; then
         echo -e "${YELLOW}No existing CV found. Uploading...${NC}"
         cp "$CV_SOURCE_PATH" "$CV_DEST_PATH"
-        cd /Users/tserre/Projects/personal/web/tserre.github.io
+        cd /Users/tserre/Work/personal/website
         git add assets/serre_cv.pdf
         git commit -m "Add CV - $(date '+%Y-%m-%d')"
         git push
@@ -44,7 +44,7 @@ update_cv_direct() {
     if [ $DAYS_SINCE_UPDATE -gt $DAYS_THRESHOLD ]; then
         echo -e "${YELLOW}CV needs updating (${DAYS_SINCE_UPDATE} days old)${NC}"
         cp "$CV_SOURCE_PATH" "$CV_DEST_PATH"
-        cd /Users/tserre/Projects/personal/web/tserre.github.io
+        cd /Users/tserre/Work/personal/website
         git add assets/serre_cv.pdf
         git commit -m "Update CV - $(date '+%Y-%m-%d')"
         git push

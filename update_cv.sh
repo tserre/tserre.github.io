@@ -6,7 +6,7 @@
 # Configuration
 CV_SOURCE_PATH="$HOME/Projects/personal/cv/latex/serre_cv.pdf"
 CV_DEST_PATH="assets/serre_cv.pdf"
-WEBSITE_DIR="/Users/tserre/Projects/personal/web/tserre.github.io"
+WEBSITE_DIR="/Users/tserre/Work/personal/website"
 
 # Colors for output
 RED='\033[0;31m'
