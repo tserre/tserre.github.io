@@ -82,9 +82,9 @@ All experiments must use models accessible through the course API (CCV LiteLLM).
 
 Log probabilities are accessible for open-weight models — this is important if you want to compute NLL alignment scores (as in Tekin's demo and the Centaur paper).
 
-**Frontier model (provided after TA review):**
+**Frontier models (provided after TA review):**
 
-A frontier model (GPT-4o or equivalent) will be made available once your TA confirms your pilot experiment is working. This model may support **vision/image inputs (VLM)**, enabling experiments that go beyond text — for example, psychophysics tasks, texture/shape experiments, or visual reasoning. If you are interested in a vision experiment, discuss this with your TA during studio sessions.
+One or more frontier models will be made available once your TA confirms your pilot experiment is working. The exact models will be announced at the start of project week. These models may support **vision/image inputs (VLM)**, enabling experiments that go beyond text — for example, psychophysics tasks, texture/shape experiments, or visual reasoning. If you are interested in a vision experiment, discuss this with your TA during studio sessions.
 
 Your API key and endpoint details will be shared at the start of project week. See Tekin's demo notebook for a working setup example.
 
@@ -150,7 +150,7 @@ Think comparatively as you tour: are there patterns across experiments? Do diffe
 
 ## Peer Feedback (20 points)
 
-**Due:** end of day Thursday April 9
+**Due:** end of day Thursday April 9  
 **Submitted:** Gradescope (link shared on Ed before class)
 
 While touring, complete one Gradescope entry for each group you visit — **minimum 5 groups** across both presentation days combined. In each 35-minute touring round, roughly 6–7 groups are presenting, so 5 is feasible in a single round.
