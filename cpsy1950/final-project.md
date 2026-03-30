@@ -76,10 +76,10 @@ All experiments must use models accessible through the course API (CCV LiteLLM).
 
 | Model | Notes |
 |-------|-------|
-| `gpt-oss-120B` | High-capability open-weight model; recommended for main runs |
+| `gpt-oss` | High-capability open-weight model; recommended for main runs |
 | `Llama-3.3-70B-Instruct` | Different architecture; useful for model-to-model comparison |
 | `Mistral-Large-3` | Another architecture variant for comparison |
-| `Gemini-3-flash-preview` | Fast and inexpensive; supports vision inputs — good for VLM piloting |
+| `gemini-3-flash-preview` | Fast and inexpensive; supports vision inputs — good for VLM piloting |
 
 Log probabilities are accessible for open-weight models — this is important if you want to compute NLL alignment scores (as in Tekin's demo and the Centaur paper).
 
@@ -89,8 +89,8 @@ Log probabilities are accessible for open-weight models — this is important if
 |-------|-------|
 | `gpt-5.2` | |
 | `gpt-5.4` | |
-| `Gemini-2.5-pro` | Supports vision inputs (VLM) |
-| `Claude-sonnet-4.5` | Supports vision inputs (VLM) |
+| `gemini-2.5-pro` | Supports vision inputs (VLM) |
+| `claude-sonnet-4-5` | Supports vision inputs (VLM) |
 
 Frontier models are gated — your TA must confirm your pilot experiment is working before you get access. If you are planning a **vision/VLM experiment**, flag this to your TA during Studio I so they can prioritize your access.
 
