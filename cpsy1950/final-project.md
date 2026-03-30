@@ -48,13 +48,17 @@ Chollet's ARC benchmark (W9 lecture, slides 35–36) was specifically designed t
 
 ### 2. Aggregate fit ≠ process fidelity
 
-As covered in the **W9 lecture** (slides 13–16) and the Namazova et al. critique of Centaur (W9 lightning talk #100): a model can match average human performance while having completely different trial-level dynamics. Centaur achieves NLL = 0.44 vs. 0.56 for domain-specific models — impressive at the aggregate level — yet Namazova et al. showed it fails to reproduce learning curves and sequential dependencies at the trial level. Matching performance does not mean matching process.
+As covered in the **W9 lecture** (slides 13–16, "Aggregate vs. process-level metrics") and the Namazova et al. critique of Centaur (W9 lightning talk #100): a model can match average human performance while having completely different trial-level dynamics. Centaur achieves NLL = 0.44 vs. 0.56 for domain-specific models — impressive at the aggregate level — yet Namazova et al. showed it fails to reproduce learning curves and sequential dependencies at the trial level. This is the behavioral analog of the W8 lesson from Storrs et al. (2021): diverse architectures can all predict IT cortex equally well after linear fitting, even though they represent the world very differently.
+
+The W9 lecture (slide 15) showed the same thing for vision: Geirhos et al. (2020, NeurIPS) found that DNNs match human *accuracy* but make completely different *errors* — measured via error consistency (Cohen's κ near zero). Matching performance does not mean matching process.
 
 *Mitigation:* Report not just overall accuracy or mean choices, but **learning curves** (how behavior changes over trials), **sequential dependencies** (does choice on trial N depend on trial N−1?), and **error distributions** (which items does the model get wrong, and do those match human confusion patterns?).
 
 ### 3. Autoregressive artifacts
 
 McCoy et al. (2024, W9 lightning talk #96) showed that autoregressive training leaves systematic behavioral fingerprints — left-to-right processing asymmetries, recency biases, sensitivity to prompt ordering — that have no analog in human cognition. When you observe a behavioral pattern, ask: **could this be an artifact of how the model was trained rather than the cognitive process you're trying to study?**
+
+This connects directly to the W9 lecture discussion of the WSC: models appeared to reason correctly, but were actually exploiting statistical regularities baked in by autoregressive pretraining on web text.
 
 *Mitigation:* Test sensitivity to prompt ordering, trial order, and framing. Include control conditions that vary surface features of the prompt while keeping the task structure constant.
 
@@ -105,7 +109,7 @@ Your API key and endpoint details will be shared at the start of project week. S
 
 ### Submission
 
-Submit your poster as a **PDF on Canvas** before class on April 7 (2:00 pm deadline). Your submission will be graded across two separate Canvas assignments — *Research Quality* (50 pts) and *Written Poster* (25 pts) — both sourced from the same PDF. *Oral Presentation* (25 pts) is entered by instructors and TAs after your presentation. *Peer Feedback* (20 pts) is submitted separately on Gradescope by end of day April 9.
+Submit your poster as a **PDF on Canvas** before class on April 7 (2:00 pm deadline). Your submission will be graded across two separate Canvas assignments — *Research Quality* (50 pts) and *Written Poster* (25 pts) — both sourced from the same PDF. *Oral Presentation* (25 pts) is entered by instructors and TAs after your presentation; no Canvas submission required for that component. Peer feedback (20 pts) is submitted separately on Gradescope by end of day April 9 — see the Peer Feedback section below.
 
 ### Poster: 4 letter-sized slides
 
@@ -203,4 +207,4 @@ Graded on quality of written feedback submitted on Gradescope (see above).
 
 **API access:** CCV LiteLLM endpoint + API key shared via Ed at the start of project week.
 
-**Questions?** Post on Ed Discussion — this is the primary channel for all project-related questions. Office hours: Wednesdays 1:00–2:00 pm, Carney Innovation Hub Room 402.
+**Questions?** Post on Ed Discussion — this is the primary channel for all project-related questions. Reach out to the instructors and TAs there; do not email directly. Office hours: Wednesdays 1:00–2:00 pm, Carney Innovation Hub Room 402.
