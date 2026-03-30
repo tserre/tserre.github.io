@@ -72,19 +72,27 @@ Whether you use chain-of-thought (CoT) prompting has a large effect on LLM behav
 
 All experiments must use models accessible through the course API (CCV LiteLLM). You are **not** expected to set up or pay for your own model access.
 
-**Open-weight models (available from the start):**
+**Standard-access models (available from the start):**
 
 | Model | Notes |
 |-------|-------|
-| GPT-OSS 120B | Highest capability open-weight model; use for main runs |
-| GPT-OSS 20B | Faster and cheaper; good for piloting and debugging prompts |
-| Llama 3.3 | Different architecture; useful for model-to-model comparison |
+| `gpt-oss-120B` | High-capability open-weight model; recommended for main runs |
+| `Llama-3.3-70B-Instruct` | Different architecture; useful for model-to-model comparison |
+| `Mistral-Large-3` | Another architecture variant for comparison |
+| `Gemini-3-flash-preview` | Fast and inexpensive; supports vision inputs — good for VLM piloting |
 
 Log probabilities are accessible for open-weight models — this is important if you want to compute NLL alignment scores (as in Tekin's demo and the Centaur paper).
 
-**Frontier models (provided after TA review):**
+**Frontier models (provided after TA sign-off in Studio II):**
 
-One or more frontier models will be made available once your TA confirms your pilot experiment is working. The exact models will be announced at the start of project week. These models may support **vision/image inputs (VLM)**, enabling experiments that go beyond text — for example, psychophysics tasks, texture/shape experiments, or visual reasoning. If you are interested in a vision experiment, discuss this with your TA during studio sessions.
+| Model | Notes |
+|-------|-------|
+| `gpt-5.2` | |
+| `gpt-5.4` | |
+| `Gemini-2.5-pro` | Supports vision inputs (VLM) |
+| `Claude-sonnet-4.5` | Supports vision inputs (VLM) |
+
+Frontier models are gated — your TA must confirm your pilot experiment is working before you get access. If you are planning a **vision/VLM experiment**, flag this to your TA during Studio I so they can prioritize your access.
 
 Your API key and endpoint details will be shared at the start of project week. See Tekin's demo notebook for a working setup example.
 
@@ -155,15 +163,15 @@ Think comparatively as you tour: are there patterns across experiments? Do diffe
 
 While touring, complete one Gradescope entry for each group you visit — **minimum 5 groups** across both presentation days combined. In each 35-minute touring round, roughly 6–7 groups are presenting, so 5 is feasible in a single round.
 
-For each group, write a short paragraph (4–6 sentences) addressing how well they did on the main rubric criteria and *why*:
+For each group, rate the following three components on a 1–5 scale and write 1–2 sentences explaining your score. These match the same criteria you are being graded on.
 
-1. **Hypothesis & framing** — Was the hypothesis specific and testable? Did it connect clearly to course themes?
-2. **Experiment design** — Were the methods described clearly enough to replicate? How did they handle potential confounds?
-3. **Results** — Did they compare to human data from the literature? Did the analysis go beyond aggregate statistics?
-4. **Scientific narrative** — Did the conclusions synthesize the findings and connect to course themes (Marr's levels, aggregate vs. trial-level, etc.)?
-5. **Oral clarity** — Could you follow the 3-minute walk-through? Did the presenter use the visuals effectively?
+**1. Research quality** (hypothesis, experiment design, results)
+**2. Written poster** (scientific narrative, conclusions, visual clarity)
+**3. Oral presentation** (walk-through clarity, depth of answers)
 
-Feedback is graded on **quality**: generic comments ("good job," "interesting experiment") will not earn full credit. You do not need to assign numerical scores — write substantive commentary that engages with the criteria. The goal is to practice giving and receiving scientific feedback.
+Also answer: *One thing that surprised you, or a question you'd want them to pursue.*
+
+Your scores are for your own reflection — they do not go into the group's official grade. Feedback is graded on **quality**: generic comments will not earn full credit. The goal is to practice giving and receiving scientific feedback.
 
 ---
 
