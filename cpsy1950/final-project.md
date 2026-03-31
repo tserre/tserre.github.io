@@ -102,14 +102,14 @@ Your API key and endpoint details will be shared at the start of project week. S
 
 | Date | Milestone |
 |------|-----------|
-| **Tue Mar 31 — Studio I** | Project launch: explore the Psych-101 dataset, pick a task, begin running the replication experiment on open-weight models. |
+| **Tue Mar 31 — Studio I** | Project jumpstart: walk through Tekin's demo notebook, pick a task from Psych-101, and begin running your replication pipeline on open-weight models. |
 | **Thu Apr 2 — Studio II** | By this session you should have a working replication of a Centaur experiment and a clear plan for your follow-up. Complete open-weight runs; get TA sign-off to access frontier model. |
 | **Tue Apr 7, 2:00 pm** | **Final poster due** (submit PDF on Canvas before class). |
 | **Tue Apr 7 — Poster session A** | Presentations during class (2:30–3:50 pm). Your session (A or B) is randomly assigned and announced in class on Apr 7 — prepare for both days. |
 | **Thu Apr 9 — Poster session B** | Presentations during class (2:30–3:50 pm). |
 | **Thu Apr 9, 11:59 pm** | **Peer feedback due** on Gradescope. |
 
-**The studio sessions are your primary working time.** Come to Studio I having already explored the Psych-101 dataset and looked through Tekin's demo notebook — so you can start running code immediately. Studio II is the checkpoint: by then you should have a working replication and a clear follow-up direction.
+**The studio sessions are your primary working time.** You've already been introduced to the Psych-101/Centaur dataset through your prior reflection — Studio I is where you put it into practice. Use the full session to pick a task, walk through Tekin's demo notebook, and start building your pipeline. Studio II is the checkpoint: by then you should have a working replication and a clear follow-up direction.
 
 ---
 
