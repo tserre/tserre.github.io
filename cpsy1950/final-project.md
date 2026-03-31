@@ -34,7 +34,9 @@ The dataset is publicly available on HuggingFace: [`marcelbinz/Psych-101`](https
 
 ## A Critical Warning: Confounds in Model Behavioral Experiments
 
-Running cognitive experiments on deep learning models is harder than it looks. **Before finalizing your design and interpreting your results, you must grapple with the following confounds.** These are the most common ways projects go wrong — all of them were covered in the W8 and W9 lectures and lightning talks — and your rubric will assess how carefully you handle them.
+Running cognitive experiments on deep learning models is harder than it looks. The confounds below are the most common ways projects go wrong — all of them were covered in the W8 and W9 lectures and lightning talks.
+
+Given the time constraints of this project, you are not expected to fully address every confound. **You must explicitly tackle at least one** with a concrete mitigation strategy (described in your Methods slide). For the others, you should be aware of them and discuss how they might affect your conclusions in the **Open Questions & Conclusions slide** — acknowledging what you could not control for and what you would do differently with more time is itself a sign of scientific maturity.
 
 ### 1. Training data contamination and spurious cues
 
@@ -42,19 +44,15 @@ Classic cognitive psychology tasks appear extensively in the published literatur
 
 This concern applies to *every* model and *every* dataset — including Psych-101. Psych-101 is publicly available on HuggingFace; frontier models and large open-weight models may well have been trained on it. A model that achieves low NLL on Psych-101 tasks could be reproducing memorized patterns rather than exhibiting genuine cognitive alignment.
 
-This was a central theme of the **W9 lecture**: the Winograd Schema Challenge appeared solved (≥90% accuracy on RoBERTa-large) until Elazar et al. (2021) showed that models were exploiting *selectional restrictions* and *word co-occurrence biases* — lexical shortcuts that predict the correct answer without any actual coreference reasoning. Controlling for these shortcuts dropped performance to 25–34%. The same dynamic appeared with NLI benchmarks (Du et al., 2022, W9 lecture) and analogical reasoning (Lewis & Mitchell, 2024, W9 lightning talk #93).
+This was a central theme of the **W9 lecture**: the Winograd Schema Challenge appeared solved (≥90% accuracy on RoBERTa-large) until Elazar et al. (2021) showed that models were exploiting lexical shortcuts that predict the correct answer without any actual coreference reasoning. Controlling for these shortcuts dropped performance to 25–34%. The same dynamic appeared with NLI benchmarks (Du et al., 2022, W9 lecture) and analogical reasoning (Lewis & Mitchell, 2024, W9 lightning talk).
 
-Chollet's ARC benchmark (W9 lecture, slides 35–36) was specifically designed to resist this: by requiring few-shot generalization to novel transformation rules, it prevents models from succeeding via memorization. This is the design principle to aim for in your own experiment.
-
-*Mitigation:* Use **counterfactual or adversarial variants** of the task — change surface features (cover stories, object labels, numerical values) while preserving the abstract structure. Lewis & Mitchell (2024) showed that models which pass standard letter-string analogies fail systematically when the alphabet or transformation direction is changed. If your model's behavior changes dramatically with surface-level modifications, that is a sign of pattern matching. Also compare behavior across models with different training sets — systematic differences are informative.
+Ideally you will try your best to control for models succeeding via memorization/shortcut learning. As discussed in class, you can use **counterfactual or adversarial variants** of the task — change surface features (cover stories, object labels, numerical values) while preserving the abstract structure. Lewis & Mitchell (2024) showed that models which pass standard letter-string analogies fail systematically when the alphabet or transformation direction is changed. If your model's behavior changes dramatically with surface-level modifications, that is a sign of pattern matching. Also compare behavior across models with different training sets — systematic differences are informative.
 
 ### 2. Aggregate fit ≠ process fidelity
 
-As covered in the **W9 lecture** (slides 13–16, "Aggregate vs. process-level metrics") and the Namazova et al. critique of Centaur (W9 lightning talk #100): a model can match average human performance while having completely different trial-level dynamics. Centaur achieves NLL = 0.44 vs. 0.56 for domain-specific models — impressive at the aggregate level — yet Namazova et al. showed it fails to reproduce learning curves and sequential dependencies at the trial level. This is the behavioral analog of the W8 lesson from Storrs et al. (2021): diverse architectures can all predict IT cortex equally well after linear fitting, even though they represent the world very differently.
+A model can match average human performance while having completely different trial-level dynamics. Centaur achieves NLL = 0.44 vs. 0.56 for domain-specific models — impressive at the aggregate level — yet Namazova et al. showed it fails to reproduce learning curves and sequential dependencies at the trial level. This is the behavioral analog of the W8 lesson from Storrs et al. (2021): diverse architectures can all predict IT cortex equally well after linear fitting, even though they represent the world very differently. The W9 lecture showed the same thing for vision: Geirhos et al. (2020, NeurIPS) found that DNNs match human *accuracy* but make completely different *errors* — measured via error consistency (Cohen's κ near zero). Matching performance does not mean matching process.
 
-The W9 lecture (slide 15) showed the same thing for vision: Geirhos et al. (2020, NeurIPS) found that DNNs match human *accuracy* but make completely different *errors* — measured via error consistency (Cohen's κ near zero). Matching performance does not mean matching process.
-
-*Mitigation:* Report not just overall accuracy or mean choices, but **learning curves** (how behavior changes over trials), **sequential dependencies** (does choice on trial N depend on trial N−1?), and **error distributions** (which items does the model get wrong, and do those match human confusion patterns?).
+Ideally, you should report not just overall accuracy or mean choices, but **learning curves** (how behavior changes over trials), **sequential dependencies** (does choice on trial N depend on trial N−1?), and **error distributions** (which items does the model get wrong, and do those match human confusion patterns?).
 
 ### 3. Autoregressive artifacts
 
