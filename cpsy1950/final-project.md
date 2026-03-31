@@ -12,7 +12,7 @@ This is a group project (pairs of 2). Group assignments are finalized — check 
 
 ---
 
-## Starting Point: The Centaur / Psych-101 Dataset
+## Starting point: the Centaur / Psych-101 dataset
 
 Your starting point is the Psych-101 dataset (Binz et al., 2025): trial-by-trial behavioral data from 160 cognitive psychology experiments across 60,000+ human participants, formatted as natural language transcripts. It was used to train Centaur, the foundation model of human cognition we discussed in class.
 
@@ -24,7 +24,7 @@ You are not required to use Psych-101. Vision/VLM experiments or tasks outside P
 
 ---
 
-## Confounds in Model Behavioral Experiments
+## Confounds in model behavioral experiments
 
 Running cognitive experiments on deep learning models is harder than it looks. The confounds below are the most common ways projects go wrong — all covered in class.
 
@@ -48,7 +48,7 @@ Chain-of-thought (CoT) prompting substantially changes LLM choice distributions.
 
 ---
 
-## Available Models
+## Available models
 
 All experiments must use models accessible through the course API (CCV LiteLLM). You are not expected to set up or pay for your own model access.
 
@@ -74,7 +74,7 @@ Your API key will be sent to your Brown email via Virtu (Brown's encrypted email
 
 ---
 
-## Workflow & Timeline
+## Workflow & timeline
 
 - **Tue Mar 31 — Studio I:** Project jumpstart: walk through Tekin's demo notebook, pick a task from Psych-101, and begin running your replication pipeline on open-weight models.
 - **Thu Apr 2 — Studio II:** Working replication of a Centaur experiment; clear follow-up plan. Complete your open-weight runs.
@@ -82,7 +82,7 @@ Your API key will be sent to your Brown email via Virtu (Brown's encrypted email
 - **Tue Apr 7, 2:00 pm — Final poster due** on Canvas.
 - **Tue Apr 7 — Poster session A:** Presentations during class (2:30–3:50 pm). Session (A or B) randomly assigned and announced in class on Apr 7 — prepare for both days.
 - **Thu Apr 9 — Poster session B:** Presentations during class (2:30–3:50 pm).
-- **Thu Apr 9, 11:59 pm — Peer feedback due** on Gradescope.
+- **Thu Apr 9, 11:59 pm — Peer feedback due** on Canvas/Gradescope.
 
 The studio sessions are your primary working time. You've already been introduced to the Psych-101/Centaur dataset through your prior reflection — Studio I is where you put it into practice. Studio II is the checkpoint.
 
@@ -92,7 +92,7 @@ The studio sessions are your primary working time. You've already been introduce
 
 ### Submission
 
-Submit your poster as a PDF on Canvas before class on April 7 (2:00 pm). Your submission will be graded across two separate Canvas assignments — Research Quality (50 pts) and Written Poster (25 pts) — both sourced from the same PDF. Oral Presentation (25 pts) is entered by instructors and TAs after your presentation. Peer feedback (20 pts) is submitted separately on Gradescope by end of day April 9.
+Submit your poster as a PDF on Canvas before class on April 7 (2:00 pm). Your submission will be graded across two separate Canvas assignments — Research Quality (50 pts) and Written Poster (25 pts) — both sourced from the same PDF. Oral Presentation (25 pts) is entered by instructors and TAs after your presentation. Peer feedback (20 pts) is submitted separately on Canvas/Gradescope by end of day April 9.
 
 ### Poster: 4 letter-sized slides
 
@@ -101,7 +101,7 @@ Produce four letter-sized slides in a format suitable for a mini-conference post
 1. **Motivation.** What cognitive phenomenon are you studying? Why is it interesting to test on this model? What is your hypothesis? Connect to at least one course theme.
 2. **Methods.** Task design, models tested, number of trials, prompting approach. Be specific — we should be able to replicate your experiment from this slide alone. Describe how you controlled for confounds.
 3. **Results.** Main findings: performance curves or choice distributions, comparison to human data from the literature, model-to-model comparison. All figures must have labeled axes and a caption.
-4. **Open Questions & Conclusions.** What do your results tell us? How do they connect to course themes (Marr's levels, aggregate vs. trial-level, prediction vs. understanding)? Key limitations and what you would do next.
+4. **Open questions & conclusions.** What do your results tell us? How do they connect to course themes (Marr's levels, aggregate vs. trial-level, prediction vs. understanding)? Key limitations and what you would do next.
 
 You may include one optional appendix slide for supplementary figures or methodological details. It will not be presented but may be referenced during Q&A.
 
@@ -109,7 +109,7 @@ Formatting: font ≥ 16pt body text, clean layout, good contrast. Print each sli
 
 ---
 
-## Poster Presentations
+## Poster presentations
 
 Presentations take place on Tuesday April 7 and Thursday April 9 during class (2:30–3:50 pm), approximately 13–14 groups per session. All groups attend both sessions.
 
@@ -119,23 +119,7 @@ Each session (80 min) is split into two rounds of ~35 minutes. Half the groups p
 
 If you are presenting: bring your 4–5 slides printed (one per sheet) and mount them on the wall — mounting putty will be provided. Stand by your poster for the full 35 minutes. Give a 3-minute walk-through when visitors arrive, then take questions. You will present multiple times to different visitors. Three minutes goes fast — roughly 45 seconds per slide. Practice out loud. Do not read from the slides.
 
-If you are touring: complete a Gradescope entry for each group you visit across both sessions (see Peer Feedback below). Think comparatively — are there patterns across experiments? Do different groups converge on similar conclusions or tell different stories?
-
----
-
-## Peer Feedback (20 points)
-
-Due end of day Thursday April 9, submitted on Gradescope (link shared on Ed before class).
-
-While touring, complete one Gradescope entry for each group you visit. You must cover both sessions (April 7 and April 9) and visit a minimum of 5 groups total. For each group, rate three components on a 1–5 scale and write 1–2 sentences explaining your score:
-
-1. Research quality (hypothesis, experiment design, results)
-2. Written poster (scientific narrative, conclusions, visual clarity)
-3. Oral presentation (walk-through clarity, depth of answers)
-
-Also answer: one thing that surprised you, or a question you'd want them to pursue.
-
-Peer feedback is graded on quality, not just completion. Generic comments will not earn full credit.
+If you are touring: complete a Canvas/Gradescope entry for each group you visit across both sessions (see Peer Feedback below). Think comparatively — are there patterns across experiments? Do different groups converge on similar conclusions or tell different stories?
 
 ---
 
@@ -163,7 +147,7 @@ Both partners are expected to be able to present the work independently.
 
 ### Peer feedback — 20 points
 
-Graded on quality of written feedback submitted on Gradescope (see above).
+Due end of day Thursday April 9, submitted on Canvas/Gradescope (link shared on Ed before class). While touring, complete one entry for each group you visit — cover both sessions (April 7 and April 9), minimum 5 groups total. For each group, rate three components on a 1–5 scale and write 1–2 sentences: research quality (hypothesis, experiment design, results), written poster (scientific narrative, conclusions, visual clarity), and oral presentation (walk-through clarity, depth of answers). Also answer: one thing that surprised you, or a question you'd want them to pursue. Peer feedback is graded on quality, not just completion — generic comments will not earn full credit.
 
 ---
 
