@@ -125,7 +125,7 @@ Your presentation day (A or B) is randomly assigned and announced in class on Ap
 
 Each session (80 min) is split into two rounds of ~35 minutes. Half the groups present while the other half tours; then they switch. The session closes with a short synthesis discussion.
 
-If you are presenting: stand by your laptop for the full 35 minutes. Give a 3-minute walk-through when visitors arrive, then take questions. You will present multiple times to different visitors. Three minutes goes fast — roughly 45 seconds per slide. Practice out loud. Do not read from the slides.
+If you are presenting: stand by your laptop (or printed poster — mounting putty will be provided) for the full 35 minutes. Give a 3-minute walk-through when visitors arrive, then take questions. You will present multiple times to different visitors. Three minutes goes fast — roughly 45 seconds per slide. Practice out loud. Do not read from the slides.
 
 If you are touring: visit as many groups as you can in 35 minutes and complete a Gradescope entry for each (see Peer Feedback below). Think comparatively — are there patterns across experiments? Do different groups converge on similar conclusions or tell different stories?
 
