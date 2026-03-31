@@ -69,14 +69,14 @@ Standard-access models (available from the start):
 
 Log probabilities are accessible for open-weight models — needed for NLL alignment scoring.
 
-Frontier models (provided after TA sign-off in Studio II):
+Frontier models (access granted after TA review of your draft poster submission):
 
 - `gpt-5.2`
 - `gpt-5.4`
 - `gemini-2.5-pro` — supports vision inputs (VLM)
 - `claude-sonnet-4-5` — supports vision inputs (VLM)
 
-Frontier models are gated — your TA must confirm your pilot experiment is working before you get access. If you plan a vision/VLM experiment, flag this to your TA during Studio I.
+Frontier models are gated — access is granted by TAs after reviewing your draft poster submission (due Sat Apr 5). If you plan a vision/VLM experiment, flag this to your TA during Studio I so they can prioritize your review.
 
 Your API key will be sent to your Brown email via Virtu (Brown's encrypted email service).
 
@@ -85,8 +85,8 @@ Your API key will be sent to your Brown email via Virtu (Brown's encrypted email
 ## Workflow & Timeline
 
 - **Tue Mar 31 — Studio I:** Project jumpstart: walk through Tekin's demo notebook, pick a task from Psych-101, and begin running your replication pipeline on open-weight models.
-- **Thu Apr 2 — Studio II:** Working replication of a Centaur experiment; clear follow-up plan. Complete open-weight runs and aim for TA sign-off (deadline: Sat Apr 5, 2:00 pm).
-- **Sat Apr 5, 2:00 pm — TA sign-off deadline** for frontier model access. If you have not received sign-off by this date, contact your TA immediately.
+- **Thu Apr 2 — Studio II:** Working replication of a Centaur experiment; clear follow-up plan. Complete your open-weight runs.
+- **Sat Apr 5, 2:00 pm — Draft poster due** on Canvas, with preliminary results showing your pipeline ran successfully on open-weight models. TAs will review and grant frontier model access based on this submission.
 - **Tue Apr 7, 2:00 pm — Final poster due** on Canvas.
 - **Tue Apr 7 — Poster session A:** Presentations during class (2:30–3:50 pm). Session (A or B) randomly assigned and announced in class on Apr 7 — prepare for both days.
 - **Thu Apr 9 — Poster session B:** Presentations during class (2:30–3:50 pm).
