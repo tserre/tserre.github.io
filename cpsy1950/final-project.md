@@ -94,7 +94,7 @@ cd CPSY-1950-Project-Demo
   ```
   The `requirements.txt` in the demo repo includes everything you need (`openai`, `pandas`, `matplotlib`, `numpy`, `python-dotenv`, `jupyter`).
 
-- *CCV exploratory account (if you don't have a working Python setup):* Brown students can request free access to CCV's Open OnDemand computing environment, which lets you run Jupyter notebooks in the browser with no local setup. Request an account at [ccv.brown.edu/request-access](https://ccv.brown.edu/request-access). Allow 1–2 business days for activation.
+- *CCV exploratory account (if you don't have a working Python setup):* Brown students can request free access to CCV's Open OnDemand computing environment, which lets you run Jupyter notebooks in the browser with no local setup. Request an account at [ccv.brown.edu](https://ccv.brown.edu). Allow 1–2 business days for activation.
 
 **API access and VPN.** The course API endpoint is hosted on Brown's network. You must be either on campus or connected to the Brown VPN to make API calls. If you're working off campus, connect to the VPN first: [it.brown.edu/services/virtual-private-network-vpn](https://it.brown.edu/services/virtual-private-network-vpn).
 
