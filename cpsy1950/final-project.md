@@ -105,7 +105,7 @@ Your API key and endpoint details will be shared at the start of project week. S
 | **Tue Mar 31 — Studio I** | Project launch: explore the Psych-101 dataset, pick a task, begin running the replication experiment on open-weight models. |
 | **Thu Apr 2 — Studio II** | By this session you should have a working replication of a Centaur experiment and a clear plan for your follow-up. Complete open-weight runs; get TA sign-off to access frontier model. |
 | **Tue Apr 7, 2:00 pm** | **Final poster due** (submit PDF on Canvas before class). |
-| **Tue Apr 7 — Poster session A** | Presentations during class (2:30–3:50 pm). |
+| **Tue Apr 7 — Poster session A** | Presentations during class (2:30–3:50 pm). Your session (A or B) is randomly assigned and announced in class on Apr 7 — prepare for both days. |
 | **Thu Apr 9 — Poster session B** | Presentations during class (2:30–3:50 pm). |
 | **Thu Apr 9, 11:59 pm** | **Peer feedback due** on Gradescope. |
 
@@ -213,6 +213,6 @@ Graded on quality of written feedback submitted on Gradescope (see above).
 
 **Psych-101 dataset:** [`marcelbinz/Psych-101`](https://huggingface.co/datasets/marcelbinz/Psych-101) on HuggingFace. 160 experiments, 60,092 participants, trial-by-trial natural language transcripts.
 
-**API access:** CCV LiteLLM endpoint + API key shared via Ed at the start of project week.
+**API access:** CCV LiteLLM endpoint + API key sent to your Brown email via Virtu (Brown's encrypted email service) at the start of project week.
 
 **Questions?** Post on Ed Discussion — this is the primary channel for all project-related questions. Reach out to the instructors and TAs there; do not email directly. Office hours: Wednesdays 1:00–2:00 pm, Carney Innovation Hub Room 402.
