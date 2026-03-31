@@ -41,7 +41,7 @@ Students work in rotating small groups throughout the semester, culminating in p
 - **Bootcamp:** Week 2 (async – no class January 27–29)
 - **Lightning Talks:** Weeks 3-9
 - **Spring Break:** Week 10 (March 24-26)
-- **Project Posters:** Weeks 11-12 (April 7-9)
+- **Project Posters:** Weeks 11-12 (April 7-9) — [📋 Final project specification](/cpsy1950/final-project)
 - **Guest Lectures:** Weeks 13-14
 - **Final Exam:** Tuesday, May 12, 2026, 9:00am
 
@@ -269,23 +269,26 @@ Target time: ~60 min total.
 ### Week 11 — Project studio {#week11}
 <details>
 <summary><strong>Tue 3/31 — Project studio I</strong></summary>
-<p>Project launch and evaluation design; in-class time for groups to plan, run pilot tests, and produce first results/figures.</p>
+<p>Project jumpstart: walk through Tekin's demo notebook, pick a task from Psych-101, and begin running your replication pipeline. In-class working time.</p>
+<p><a href="/cpsy1950/final-project" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> Final project specification</a></p>
 </details>
 
 <details>
 <summary><strong>Thu 4/2 — Project studio II</strong></summary>
-<p>Continue project work: complete runs and draft poster.</p>
+<p>Continue project work: complete runs and draft poster. TA sign-off required to access frontier models.</p>
+<p><a href="/cpsy1950/final-project" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> Final project specification</a></p>
 </details>
 
 ### Week 12 — Project poster presentations {#week12}
 <details>
 <summary><strong>Tue 4/7 — Project poster mini-conf A</strong></summary>
-<p>Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion.</p>
+<p>Students present project findings in posters; structured peer feedback and synthesis discussion. Poster PDF due by 2:00 pm on Canvas.</p>
+<p><a href="/cpsy1950/final-project" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> Final project specification</a></p>
 </details>
 
 <details>
 <summary><strong>Thu 4/9 — Project poster mini-conf B</strong></summary>
-<p>Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion.</p>
+<p>Students present project findings in posters; structured peer feedback and synthesis discussion. Peer feedback due end of day on Gradescope.</p>
 </details>
 
 ### Week 13 — Frontier topics in NeuroAI I {#week13}
