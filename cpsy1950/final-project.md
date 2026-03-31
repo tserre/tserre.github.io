@@ -127,7 +127,7 @@ If you are touring: visit at least 5 groups during your 35-minute round and comp
 
 Due end of day Thursday April 9, submitted on Gradescope (link shared on Ed before class).
 
-While touring, complete one Gradescope entry for each group you visit — minimum 5 groups across both presentation days combined. For each group, rate three components on a 1–5 scale and write 1–2 sentences explaining your score:
+While touring, complete one Gradescope entry for each group you visit. You must cover both sessions (April 7 and April 9) and visit a minimum of 5 groups total. For each group, rate three components on a 1–5 scale and write 1–2 sentences explaining your score:
 
 1. Research quality (hypothesis, experiment design, results)
 2. Written poster (scientific narrative, conclusions, visual clarity)
