@@ -84,7 +84,7 @@ cd CPSY-1950-Project-Demo
 
 **Python environment.** You have two options:
 
-- *Local machine (recommended if you have Python installed):* Create a conda environment with Python 3.11, then install dependencies:
+- *Local machine (recommended if you have Python installed):* After cloning the demo repo above, create a conda environment and install dependencies:
   ```bash
   conda create -n cpsy1950 python=3.11
   conda activate cpsy1950
@@ -92,7 +92,7 @@ cd CPSY-1950-Project-Demo
   python -m ipykernel install --user --name cpsy1950
   jupyter lab
   ```
-  The `requirements.txt` in the demo repo includes everything you need (`openai`, `pandas`, `matplotlib`, `numpy`, `python-dotenv`, `jupyter`).
+  The `requirements.txt` in the repo includes everything you need (`openai`, `pandas`, `matplotlib`, `numpy`, `python-dotenv`, `jupyter`).
 
 - *CCV exploratory account (if you don't have a working Python setup):* Brown students can request free access to CCV's Open OnDemand computing environment, which lets you run Jupyter notebooks in the browser with no local setup. Request an account at [ccv.brown.edu](https://ccv.brown.edu). Allow 1–2 business days for activation.
 
