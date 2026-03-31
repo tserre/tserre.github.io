@@ -113,7 +113,7 @@ Produce four letter-sized slides in a format suitable for a mini-conference post
 
 You may include one optional appendix slide for supplementary figures or methodological details. It will not be presented but may be referenced during Q&A.
 
-Formatting: font ≥ 16pt body text, clean layout, good contrast.
+Formatting: font ≥ 16pt body text, clean layout, good contrast. Print each slide on a separate letter-sized sheet and bring all 4–5 sheets to your presentation session.
 
 ---
 
@@ -125,7 +125,7 @@ Your presentation day (A or B) is randomly assigned and announced in class on Ap
 
 Each session (80 min) is split into two rounds of ~35 minutes. Half the groups present while the other half tours; then they switch. The session closes with a short synthesis discussion.
 
-If you are presenting: stand by your laptop (or printed poster — mounting putty will be provided) for the full 35 minutes. Give a 3-minute walk-through when visitors arrive, then take questions. You will present multiple times to different visitors. Three minutes goes fast — roughly 45 seconds per slide. Practice out loud. Do not read from the slides.
+If you are presenting: bring your 4–5 slides printed (one per sheet) and mount them on the wall — mounting putty will be provided. Stand by your poster for the full 35 minutes. Give a 3-minute walk-through when visitors arrive, then take questions. You will present multiple times to different visitors. Three minutes goes fast — roughly 45 seconds per slide. Practice out loud. Do not read from the slides.
 
 If you are touring: visit as many groups as you can in 35 minutes and complete a Gradescope entry for each (see Peer Feedback below). Think comparatively — are there patterns across experiments? Do different groups converge on similar conclusions or tell different stories?
 
