@@ -54,7 +54,6 @@ All experiments must use models accessible through the course API (CCV LiteLLM).
 
 Standard-access models (available from the start):
 
-- `gpt-oss` — high-capability open-weight model; recommended for main runs
 - `Llama-3.3-70B-Instruct` — different architecture; useful for model-to-model comparison
 - `Mistral-Large-3` — another architecture variant for comparison
 - `gemini-3-flash-preview` — fast and inexpensive; supports vision inputs — good for VLM piloting
