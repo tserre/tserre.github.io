@@ -157,7 +157,7 @@ All project assignments count toward the weekly work category.
 
 - Hypothesis & framing (10 pts): Specific, testable hypothesis with a predicted direction; explicit connection to at least one course theme (Marr's levels, aggregate vs. trial-level, divergence problem, autoregressive artifacts, etc.)
 - Experiment design (15 pts): Reproducible protocol; explicit treatment of at least one confound with a mitigation strategy; both open-weight and frontier model runs; appropriate number of trials.
-- Results & analysis (25 pts): At least one comparison to human data from the literature; trial-level analysis (learning curves, error patterns, or sequential dependencies) beyond aggregate accuracy; model-to-model comparison.
+- Results & analysis (25 pts): At least one comparison to human data from the literature; model-to-model comparison.
 
 ### Written poster — 25 points
 
