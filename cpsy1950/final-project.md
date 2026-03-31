@@ -74,23 +74,19 @@ All experiments must use models accessible through the course API (CCV LiteLLM).
 
 **Standard-access models (available from the start):**
 
-| Model | Notes |
-|-------|-------|
-| `gpt-oss` | High-capability open-weight model; recommended for main runs |
-| `Llama-3.3-70B-Instruct` | Different architecture; useful for model-to-model comparison |
-| `Mistral-Large-3` | Another architecture variant for comparison |
-| `gemini-3-flash-preview` | Fast and inexpensive; supports vision inputs — good for VLM piloting |
+- `gpt-oss` — high-capability open-weight model; recommended for main runs
+- `Llama-3.3-70B-Instruct` — different architecture; useful for model-to-model comparison
+- `Mistral-Large-3` — another architecture variant for comparison
+- `gemini-3-flash-preview` — fast and inexpensive; supports vision inputs — good for VLM piloting
 
 Log probabilities are accessible for open-weight models — this is important if you want to compute NLL alignment scores (as in Tekin's demo and the Centaur paper).
 
 **Frontier models (provided after TA sign-off in Studio II):**
 
-| Model | Notes |
-|-------|-------|
-| `gpt-5.2` | |
-| `gpt-5.4` | |
-| `gemini-2.5-pro` | Supports vision inputs (VLM) |
-| `claude-sonnet-4-5` | Supports vision inputs (VLM) |
+- `gpt-5.2`
+- `gpt-5.4`
+- `gemini-2.5-pro` — supports vision inputs (VLM)
+- `claude-sonnet-4-5` — supports vision inputs (VLM)
 
 Frontier models are gated — your TA must confirm your pilot experiment is working before you get access. If you are planning a **vision/VLM experiment**, flag this to your TA during Studio I so they can prioritize your access.
 
@@ -100,14 +96,12 @@ Your API key and endpoint details will be shared at the start of project week. S
 
 ## Workflow & Timeline
 
-| Date | Milestone |
-|------|-----------|
-| **Tue Mar 31 — Studio I** | Project jumpstart: walk through Tekin's demo notebook, pick a task from Psych-101, and begin running your replication pipeline on open-weight models. |
-| **Thu Apr 2 — Studio II** | By this session you should have a working replication of a Centaur experiment and a clear plan for your follow-up. Complete open-weight runs; get TA sign-off to access frontier model. |
-| **Tue Apr 7, 2:00 pm** | **Final poster due** (submit PDF on Canvas before class). |
-| **Tue Apr 7 — Poster session A** | Presentations during class (2:30–3:50 pm). Your session (A or B) is randomly assigned and announced in class on Apr 7 — prepare for both days. |
-| **Thu Apr 9 — Poster session B** | Presentations during class (2:30–3:50 pm). |
-| **Thu Apr 9, 11:59 pm** | **Peer feedback due** on Gradescope. |
+- **Tue Mar 31 — Studio I:** Project jumpstart: walk through Tekin's demo notebook, pick a task from Psych-101, and begin running your replication pipeline on open-weight models.
+- **Thu Apr 2 — Studio II:** By this session you should have a working replication of a Centaur experiment and a clear plan for your follow-up. Complete open-weight runs; get TA sign-off to access frontier models.
+- **Tue Apr 7, 2:00 pm — Final poster due** (submit PDF on Canvas before class).
+- **Tue Apr 7 — Poster session A:** Presentations during class (2:30–3:50 pm). Your session (A or B) is randomly assigned and announced in class on Apr 7 — prepare for both days.
+- **Thu Apr 9 — Poster session B:** Presentations during class (2:30–3:50 pm).
+- **Thu Apr 9, 11:59 pm — Peer feedback due** on Gradescope.
 
 **The studio sessions are your primary working time.** You've already been introduced to the Psych-101/Centaur dataset through your prior reflection — Studio I is where you put it into practice. Use the full session to pick a task, walk through Tekin's demo notebook, and start building your pipeline. Studio II is the checkpoint: by then you should have a working replication and a clear follow-up direction.
 
@@ -123,12 +117,10 @@ Submit your poster as a **PDF on Canvas** before class on April 7 (2:00 pm deadl
 
 Produce **four letter-sized slides** in a format suitable for a mini-conference poster. One clear idea per slide; figures preferred over text walls.
 
-| Slide | Content |
-|-------|---------|
-| **1 — Motivation** | What cognitive phenomenon are you studying? Why is it interesting to test on this model? What is your hypothesis and why? Connect to at least one course theme. |
-| **2 — Methods** | Task design, models tested, number of trials, prompting approach. Be specific — we should be able to replicate your experiment from this slide alone. Describe how you controlled for confounds. |
-| **3 — Results** | Main findings: performance curves or choice distributions, comparison to human data from the literature, model-to-model comparison. All figures must have labeled axes and a brief caption. |
-| **4 — Open Questions & Conclusions** | What do your results tell us? How do they connect to course themes (Marr's levels, aggregate vs. trial-level, prediction vs. understanding)? What are the key limitations and what would you do next? |
+1. **Motivation.** What cognitive phenomenon are you studying? Why is it interesting to test on this model? What is your hypothesis and why? Connect to at least one course theme.
+2. **Methods.** Task design, models tested, number of trials, prompting approach. Be specific — we should be able to replicate your experiment from this slide alone. Describe how you controlled for confounds.
+3. **Results.** Main findings: performance curves or choice distributions, comparison to human data from the literature, model-to-model comparison. All figures must have labeled axes and a brief caption.
+4. **Open Questions & Conclusions.** What do your results tell us? How do they connect to course themes (Marr's levels, aggregate vs. trial-level, prediction vs. understanding)? What are the key limitations and what would you do next?
 
 You may include one optional **appendix slide** for supplementary figures or methodological details. The appendix slide will not be presented but may be referenced during Q&A.
 
@@ -181,25 +173,19 @@ All project assignments count toward the weekly work category.
 
 ### Research quality — 50 points
 
-| Component | Points | What we are looking for |
-|-----------|--------|------------------------|
-| **Hypothesis & framing** | 10 | Specific, testable hypothesis with a predicted direction; explicit connection to at least one course theme (Marr's levels, aggregate vs. trial-level, divergence problem, autoregressive artifacts, etc.) |
-| **Experiment design** | 15 | Reproducible protocol; explicit treatment of at least one confound with a mitigation strategy; both open-weight and frontier model runs; appropriate number of trials |
-| **Results & analysis** | 25 | At least one comparison to human data from the literature; trial-level analysis (learning curves, error patterns, or sequential dependencies) beyond aggregate accuracy; model-to-model comparison |
+- **Hypothesis & framing (10 pts):** Specific, testable hypothesis with a predicted direction; explicit connection to at least one course theme (Marr's levels, aggregate vs. trial-level, divergence problem, autoregressive artifacts, etc.)
+- **Experiment design (15 pts):** Reproducible protocol; explicit treatment of at least one confound with a mitigation strategy; both open-weight and frontier model runs; appropriate number of trials.
+- **Results & analysis (25 pts):** At least one comparison to human data from the literature; trial-level analysis (learning curves, error patterns, or sequential dependencies) beyond aggregate accuracy; model-to-model comparison.
 
 ### Written poster — 25 points
 
-| Component | Points | What we are looking for |
-|-----------|--------|------------------------|
-| **Conclusions & scientific narrative** | 15 | Findings synthesized into a coherent story; identifies what Marr level the experiment speaks to; honest acknowledgment of limitations; genuine follow-up questions |
-| **Visual design & clarity** | 10 | Figures with labeled axes and captions; layout readable at a glance; one clear idea per slide; appropriate use of space for a poster format |
+- **Conclusions & scientific narrative (15 pts):** Findings synthesized into a coherent story; identifies what Marr level the experiment speaks to; honest acknowledgment of limitations; genuine follow-up questions.
+- **Visual design & clarity (10 pts):** Figures with labeled axes and captions; layout readable at a glance; one clear idea per slide; appropriate use of space for a poster format.
 
 ### Oral presentation — 25 points *(individual)*
 
-| Component | Points | What we are looking for |
-|-----------|--------|------------------------|
-| **Clarity and delivery** | 15 | Walk-through covers all 4 slides in ~3 min; narrative is clear to someone unfamiliar with the task; visuals support rather than replace the explanation |
-| **Depth and Q&A** | 10 | Responses to visitor questions show genuine understanding of the experiment, the confounds, and the course themes; uncertainty acknowledged where appropriate |
+- **Clarity and delivery (15 pts):** Walk-through covers all 4 slides in ~3 min; narrative is clear to someone unfamiliar with the task; visuals support rather than replace the explanation.
+- **Depth and Q&A (10 pts):** Responses to visitor questions show genuine understanding of the experiment, the confounds, and the course themes; uncertainty acknowledged where appropriate.
 
 ### Peer feedback — 20 points *(individual)*
 
