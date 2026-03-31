@@ -40,23 +40,23 @@ Given the time constraints of this project, you are not expected to fully addres
 
 ### 1. Training data contamination and spurious cues
 
-Classic cognitive psychology tasks appear extensively in the published literature, textbooks, and internet text that LLMs were trained on. **A model that "performs" like humans on a task may simply have learned the expected pattern from training data, not from anything resembling the cognitive processes humans use.**
+Classic cognitive psychology tasks appear extensively in the published literature, textbooks, and internet text that LLMs were trained on. A model that "performs" like humans on a task may simply have learned the expected pattern from training data, not from anything resembling the cognitive processes humans use.
 
 This concern applies to *every* model and *every* dataset — including Psych-101. Psych-101 is publicly available on HuggingFace; frontier models and large open-weight models may well have been trained on it. A model that achieves low NLL on Psych-101 tasks could be reproducing memorized patterns rather than exhibiting genuine cognitive alignment.
 
-This was a central theme of the **W9 lecture**: the Winograd Schema Challenge appeared solved (≥90% accuracy on RoBERTa-large) until Elazar et al. (2021) showed that models were exploiting lexical shortcuts that predict the correct answer without any actual coreference reasoning. Controlling for these shortcuts dropped performance to 25–34%. The same dynamic appeared with NLI benchmarks (Du et al., 2022, W9 lecture) and analogical reasoning (Lewis & Mitchell, 2024, W9 lightning talk).
+This was a central theme of the W9 lecture: the Winograd Schema Challenge appeared solved (≥90% accuracy on RoBERTa-large) until Elazar et al. (2021) showed that models were exploiting lexical shortcuts that predict the correct answer without any actual coreference reasoning. Controlling for these shortcuts dropped performance to 25–34%. The same dynamic appeared with NLI benchmarks (Du et al., 2022) and analogical reasoning (Lewis & Mitchell, 2024).
 
-Ideally you will try your best to control for models succeeding via memorization/shortcut learning. As discussed in class, you can use **counterfactual or adversarial variants** of the task — change surface features (cover stories, object labels, numerical values) while preserving the abstract structure. Lewis & Mitchell (2024) showed that models which pass standard letter-string analogies fail systematically when the alphabet or transformation direction is changed. If your model's behavior changes dramatically with surface-level modifications, that is a sign of pattern matching. Also compare behavior across models with different training sets — systematic differences are informative.
+Try to control for models succeeding via memorization or shortcut learning. One approach is to use counterfactual or adversarial variants of the task — changing surface features (cover stories, object labels, numerical values) while preserving the abstract structure. Lewis & Mitchell (2024) showed that models which pass standard letter-string analogies fail systematically when the alphabet or transformation direction is changed. If your model's behavior changes dramatically with surface-level modifications, that is a sign of pattern matching. Also compare behavior across models with different training sets — systematic differences are informative.
 
 ### 2. Aggregate fit ≠ process fidelity
 
 A model can match average human performance while having completely different trial-level dynamics. Centaur achieves NLL = 0.44 vs. 0.56 for domain-specific models — impressive at the aggregate level — yet Namazova et al. showed it fails to reproduce learning curves and sequential dependencies at the trial level. This is the behavioral analog of the W8 lesson from Storrs et al. (2021): diverse architectures can all predict IT cortex equally well after linear fitting, even though they represent the world very differently. The W9 lecture showed the same thing for vision: Geirhos et al. (2020, NeurIPS) found that DNNs match human *accuracy* but make completely different *errors* — measured via error consistency (Cohen's κ near zero). Matching performance does not mean matching process.
 
-Ideally, you should report not just overall accuracy or mean choices, but **learning curves** (how behavior changes over trials), **sequential dependencies** (does choice on trial N depend on trial N−1?), and **error distributions** (which items does the model get wrong, and do those match human confusion patterns?).
+Where possible, report not just overall accuracy or mean choices but also learning curves (how behavior changes over trials), sequential dependencies (does choice on trial N depend on trial N−1?), and error distributions (which items does the model get wrong, and do those match human confusion patterns?).
 
 ### 3. Autoregressive artifacts
 
-McCoy et al. (2024, W9 lightning talk #96) showed that autoregressive training leaves systematic behavioral fingerprints — left-to-right processing asymmetries, recency biases, sensitivity to prompt ordering — that have no analog in human cognition. When you observe a behavioral pattern, ask: **could this be an artifact of how the model was trained rather than the cognitive process you're trying to study?**
+McCoy et al. (2024) showed that autoregressive training leaves systematic behavioral fingerprints — left-to-right processing asymmetries, recency biases, sensitivity to prompt ordering — that have no analog in human cognition. When you observe a behavioral pattern, ask: could this be an artifact of how the model was trained rather than the cognitive process you're trying to study?
 
 This connects directly to the W9 lecture discussion of the WSC: models appeared to reason correctly, but were actually exploiting statistical regularities baked in by autoregressive pretraining on web text.
 
@@ -64,7 +64,7 @@ This connects directly to the W9 lecture discussion of the WSC: models appeared 
 
 ### 4. Chain-of-thought consistency
 
-Whether you use chain-of-thought (CoT) prompting has a large effect on LLM behavior. As Brady et al. (2025, W9 reflection reading) discuss in the dual-process framework, CoT shifts the model toward a more deliberative mode — analogous to System 2 reasoning — which can substantially change choice distributions. **Be consistent**: use either CoT or no CoT across all models and all conditions, and report which you used. If you vary CoT, treat it as an independent variable and report results for both conditions.
+Whether you use chain-of-thought (CoT) prompting has a large effect on LLM behavior. As Brady et al. (2025) discuss in the dual-process framework, CoT shifts the model toward a more deliberative mode — analogous to System 2 reasoning — which can substantially change choice distributions. Be consistent: use either CoT or no CoT across all models and conditions, and report which you used. If you vary CoT, treat it as an independent variable and report results for both conditions.
 
 ---
 
