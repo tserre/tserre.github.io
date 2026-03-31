@@ -14,7 +14,7 @@ This is a group project (pairs of 2). Group assignments are finalized — check 
 
 ## Starting Point: The Centaur / Psych-101 Dataset
 
-Your starting point is the Psych-101 dataset (Binz et al., 2025 — your W9 reflection reading): trial-by-trial behavioral data from 160 cognitive psychology experiments across 60,000+ human participants, formatted as natural language transcripts. It was used to train Centaur, the foundation model of human cognition from Week 9.
+Your starting point is the Psych-101 dataset (Binz et al., 2025): trial-by-trial behavioral data from 160 cognitive psychology experiments across 60,000+ human participants, formatted as natural language transcripts. It was used to train Centaur, the foundation model of human cognition we discussed in class.
 
 Psych-101 is a natural starting point: prompts and task structures are already formatted for LLM input, human behavioral data is built in, and the dataset spans a broad range of cognitive domains (decision-making, memory, learning, reasoning, perception). Dataset: [`marcelbinz/Psych-101`](https://huggingface.co/datasets/marcelbinz/Psych-101) on HuggingFace.
 
@@ -26,7 +26,7 @@ You are not required to use Psych-101. Vision/VLM experiments or tasks outside P
 
 ## Confounds in Model Behavioral Experiments
 
-Running cognitive experiments on deep learning models is harder than it looks. The confounds below are the most common ways projects go wrong — all covered in the W8 and W9 lectures.
+Running cognitive experiments on deep learning models is harder than it looks. The confounds below are the most common ways projects go wrong — all covered in class.
 
 Given the time constraints, you are not expected to address every confound. You must explicitly tackle at least one with a concrete mitigation strategy (in your Methods slide). For the others, discuss how they might affect your conclusions in the Open Questions & Conclusions slide — acknowledging what you could not control for is a sign of scientific maturity.
 
