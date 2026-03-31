@@ -36,19 +36,19 @@ Classic cognitive psychology tasks appear extensively in published literature an
 
 The Winograd Schema Challenge appeared solved (≥90% accuracy) until Elazar et al. (2021) showed models were exploiting lexical shortcuts, not actual coreference reasoning. Controlling for those shortcuts dropped performance to 25–34%.
 
-*Mitigation:* Use counterfactual or adversarial variants — change surface features (cover stories, object labels, numerical values) while preserving the abstract structure. Compare behavior across models with different training sets.
+One approach: use counterfactual or adversarial variants — change surface features (cover stories, object labels, numerical values) while preserving the abstract structure. Compare behavior across models with different training sets.
 
 ### 2. Aggregate fit ≠ process fidelity
 
 A model can match average human performance while having completely different trial-level dynamics. Centaur achieves impressive aggregate NLL scores yet fails to reproduce learning curves and sequential dependencies at the trial level. Matching performance does not mean matching process.
 
-*Mitigation:* Report not just overall accuracy, but learning curves (how behavior changes over trials), sequential dependencies (does choice on trial N depend on trial N−1?), and error distributions.
+Where possible, report not just overall accuracy, but learning curves (how behavior changes over trials), sequential dependencies (does choice on trial N depend on trial N−1?), and error distributions.
 
 ### 3. Autoregressive artifacts
 
 Autoregressive training leaves systematic behavioral fingerprints — left-to-right asymmetries, recency biases, sensitivity to prompt ordering — that have no analog in human cognition. When you observe a behavioral pattern, ask: could this be an artifact of how the model was trained?
 
-*Mitigation:* Test sensitivity to prompt ordering, trial order, and framing. Include control conditions that vary surface features while keeping the task structure constant.
+Test sensitivity to prompt ordering, trial order, and framing. Include control conditions that vary surface features while keeping the task structure constant.
 
 ### 4. Chain-of-thought consistency
 
