@@ -85,8 +85,8 @@ Your API key will be sent to your Brown email via Virtu (Brown's encrypted email
 ## Workflow & Timeline
 
 - **Tue Mar 31 — Studio I:** Project jumpstart: walk through Tekin's demo notebook, pick a task from Psych-101, and begin running your replication pipeline on open-weight models.
-- **Thu Apr 2 — Studio II:** Working replication of a Centaur experiment; clear follow-up plan. Complete open-weight runs; get TA sign-off to access frontier models.
-- **Sat Apr 5, 2:00 pm — Draft poster due** on Canvas (intermediate checkpoint).
+- **Thu Apr 2 — Studio II:** Working replication of a Centaur experiment; clear follow-up plan. Complete open-weight runs and aim for TA sign-off (deadline: Sat Apr 5, 2:00 pm).
+- **Sat Apr 5, 2:00 pm — TA sign-off deadline** for frontier model access. If you have not received sign-off by this date, contact your TA immediately.
 - **Tue Apr 7, 2:00 pm — Final poster due** on Canvas.
 - **Tue Apr 7 — Poster session A:** Presentations during class (2:30–3:50 pm). Session (A or B) randomly assigned and announced in class on Apr 7 — prepare for both days.
 - **Thu Apr 9 — Poster session B:** Presentations during class (2:30–3:50 pm).
