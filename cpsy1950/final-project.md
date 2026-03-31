@@ -28,8 +28,6 @@ The dataset is publicly available on HuggingFace: [`marcelbinz/Psych-101`](https
 
 **Start with Psych-101 to build and debug your pipeline.** Even if you end up running a different experiment for your final project, loading Psych-101 and replicating one task from the dataset is the fastest way to get your NLL scoring pipeline working end-to-end. Human trial data and prompt formatting are already provided, so you can focus on getting the API calls, logprob extraction, and alignment computation right before worrying about experimental design. Once the pipeline runs cleanly on a Psych-101 task, adapting it to your own experiment is straightforward.
 
-> **Note on Tekin's demo notebook:** the demo uses a bundled dataset from a specific paper (the two-step task), *not* Psych-101 directly. Treat it as a template for the code structure — API calls, logprob extraction, NLL computation, and the two-step simulator — then swap in a Psych-101 task for your actual project.
-
 **You are not required to use Psych-101.** If you have a different experiment in mind — including vision/VLM experiments, or a task not covered in Psych-101 — that is equally welcome. Discuss your proposal with an instructor during studio sessions. What matters in either case: a principled experiment, at least two models compared to each other and to human data from the literature.
 
 ---
