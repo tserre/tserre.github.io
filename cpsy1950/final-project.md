@@ -32,23 +32,15 @@ Given the time constraints, you are not expected to address every confound. You 
 
 ### 1. Training data contamination and spurious cues
 
-Classic cognitive psychology tasks appear extensively in published literature and internet text that LLMs were trained on. A model that "performs" like humans may simply have learned the expected pattern from training data rather than anything resembling the cognitive processes humans use. This applies to every model and dataset — including Psych-101, which is publicly available and may be in frontier model training sets.
-
-The Winograd Schema Challenge appeared solved (≥90% accuracy) until Elazar et al. (2021) showed models were exploiting lexical shortcuts, not actual coreference reasoning. Controlling for those shortcuts dropped performance to 25–34%.
-
-One approach: use counterfactual or adversarial variants — change surface features (cover stories, object labels, numerical values) while preserving the abstract structure. Compare behavior across models with different training sets.
+Classic cognitive psychology tasks appear extensively in published literature and internet text that LLMs were trained on. A model that "performs" like humans may simply have learned the expected pattern from training data rather than anything resembling the cognitive processes humans use — this applies to every model and dataset, including Psych-101. The Winograd Schema Challenge appeared solved (≥90% accuracy) until Elazar et al. (2021) showed models were exploiting lexical shortcuts, not actual coreference reasoning; controlling for those shortcuts dropped performance to 25–34%. One approach: use counterfactual or adversarial variants — change surface features (cover stories, object labels, numerical values) while preserving the abstract structure. Compare behavior across models with different training sets.
 
 ### 2. Aggregate fit ≠ process fidelity
 
-A model can match average human performance while having completely different trial-level dynamics. Centaur achieves impressive aggregate NLL scores yet fails to reproduce learning curves and sequential dependencies at the trial level. Matching performance does not mean matching process.
-
-Where possible, report not just overall accuracy, but learning curves (how behavior changes over trials), sequential dependencies (does choice on trial N depend on trial N−1?), and error distributions.
+A model can match average human performance while having completely different trial-level dynamics. Centaur achieves impressive aggregate NLL scores yet fails to reproduce learning curves and sequential dependencies at the trial level — matching performance does not mean matching process. Where possible, report not just overall accuracy but also learning curves, sequential dependencies, and error distributions.
 
 ### 3. Autoregressive artifacts
 
-Autoregressive training leaves systematic behavioral fingerprints — left-to-right asymmetries, recency biases, sensitivity to prompt ordering — that have no analog in human cognition. When you observe a behavioral pattern, ask: could this be an artifact of how the model was trained?
-
-Test sensitivity to prompt ordering, trial order, and framing. Include control conditions that vary surface features while keeping the task structure constant.
+Autoregressive training leaves systematic behavioral fingerprints — left-to-right asymmetries, recency biases, sensitivity to prompt ordering — that have no analog in human cognition. When you observe a behavioral pattern, ask: could this be an artifact of how the model was trained? Test sensitivity to prompt ordering, trial order, and framing, and include control conditions that vary surface features while keeping the task structure constant.
 
 ### 4. Chain-of-thought consistency
 
@@ -128,8 +120,6 @@ Each session (80 min) is split into two rounds of ~35 minutes. Half the groups p
 If you are presenting: bring your 4–5 slides printed (one per sheet) and mount them on the wall — mounting putty will be provided. Stand by your poster for the full 35 minutes. Give a 3-minute walk-through when visitors arrive, then take questions. You will present multiple times to different visitors. Three minutes goes fast — roughly 45 seconds per slide. Practice out loud. Do not read from the slides.
 
 If you are touring: visit as many groups as you can in 35 minutes and complete a Gradescope entry for each (see Peer Feedback below). Think comparatively — are there patterns across experiments? Do different groups converge on similar conclusions or tell different stories?
-
-On April 9, we close with the question we have been building toward all semester: after neural alignment, behavioral alignment, and now your own experiments — have we answered Crick's challenge?
 
 ---
 
