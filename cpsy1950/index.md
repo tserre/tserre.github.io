@@ -270,8 +270,7 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Tue 3/31 — Project studio I</strong></summary>
 <p>Project jumpstart: walk through Tekin's demo notebook, pick a task from Psych-101, and begin running your replication pipeline. In-class working time.</p>
-<p><a href="https://docs.google.com/presentation/d/1Sbc21LHCO6Bs4MELO-Cp7T4QElKqrETcAvl2Gh3krDg/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a></p>
-<p><a href="/cpsy1950/final-project" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> Final project specification</a></p>
+<p><a href="https://docs.google.com/presentation/d/1Sbc21LHCO6Bs4MELO-Cp7T4QElKqrETcAvl2Gh3krDg/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a> · <a href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9df665d0-2cc8-4ea6-99bc-b41e01312405" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📺</span> Lecture capture</a> · <a href="/cpsy1950/final-project" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> Final project specification</a></p>
 </details>
 
 <details>
