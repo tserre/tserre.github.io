@@ -282,13 +282,13 @@ Target time: ~60 min total.
 ### Week 12 — Project poster presentations {#week12}
 <details>
 <summary><strong>Tue 4/7 — Project poster mini-conf A</strong></summary>
-<p>Students present project findings in posters; structured peer feedback and synthesis discussion. Poster PDF due by 2:00 pm on Canvas.</p>
+<p><strong>Location: Kasper Multipurpose Room.</strong> Students present project findings in posters; structured peer feedback and synthesis discussion. Poster PDF due by 2:00 pm on Canvas.</p>
 <p><a href="/cpsy1950/final-project" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> Final project specification</a></p>
 </details>
 
 <details>
 <summary><strong>Thu 4/9 — Project poster mini-conf B</strong></summary>
-<p>Students present project findings in posters; structured peer feedback and synthesis discussion. Peer feedback due end of day on Gradescope.</p>
+<p><strong>Location: Kasper Multipurpose Room.</strong> Students present project findings in posters; structured peer feedback and synthesis discussion. Peer feedback due end of day on Gradescope.</p>
 </details>
 
 ### Week 13 — Frontier topics in NeuroAI I {#week13}
