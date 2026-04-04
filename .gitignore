@@ -9,3 +9,4 @@ vendor/
 
 # OS
 .DS_Store
+_site/
