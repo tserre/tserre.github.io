@@ -67,7 +67,7 @@ Frontier models (access granted after TA review of your draft poster submission)
 - `gemini-2.5-pro` — supports vision inputs (VLM)
 - `claude-sonnet-4-5` — supports vision inputs (VLM)
 
-Frontier models are gated — access is granted by TAs after reviewing your draft poster submission (due Sat Apr 5). If you plan a vision/VLM experiment, flag this to your TA during Studio I so they can prioritize your review.
+Frontier models are gated — access is granted by TAs after reviewing your draft poster submission (due Sat Apr 4). If you plan a vision/VLM experiment, flag this to your TA during Studio I so they can prioritize your review.
 
 Your API key will be sent to your Brown email via Virtu (Brown's encrypted email service).
 
@@ -104,7 +104,7 @@ cd CPSY-1950-Project-Demo
 
 - **Tue Mar 31 — Studio I:** Project jumpstart: walk through Tekin's demo notebook, pick a task from Psych-101, and begin running your replication pipeline on open-weight models.
 - **Thu Apr 2 — Studio II:** Working replication of a Centaur experiment; clear follow-up plan. Complete your open-weight runs.
-- **Sat Apr 5, 2:00 pm — Draft poster due** on Canvas, with preliminary results showing your pipeline ran successfully on open-weight models. TAs will review and grant frontier model access based on this submission.
+- **Sat Apr 4, 2:00 pm — Draft poster due** on Canvas, with preliminary results showing your pipeline ran successfully on open-weight models. TAs will review and grant frontier model access based on this submission.
 - **Tue Apr 7, 2:00 pm — Final poster due** on Canvas.
 - **Tue Apr 7 — Poster session A:** Presentations during class (2:30–3:50 pm). Session (A or B) randomly assigned and announced in class on Apr 7 — prepare for both days.
 - **Thu Apr 9 — Poster session B:** Presentations during class (2:30–3:50 pm).
