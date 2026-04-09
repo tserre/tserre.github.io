@@ -291,7 +291,7 @@ Target time: ~60 min total.
 <p><strong>Location: Kasper Multipurpose Room.</strong> Students present project findings in posters; structured peer feedback and synthesis discussion. Peer feedback due end of day on Gradescope.</p>
 </details>
 
-### Week 13 — Frontier topics in NeuroAI I {#week13}
+### Week 13 — Frontier topics in NeuroAI {#week13}
 <details>
 <summary><strong>Tue 4/14 — Guest lecture: Greta Tuckute (Kempner Institute, Harvard)</strong></summary>
 <p>How the human brain represents and processes language—and what we learn by comparing brain and machine representations during language understanding.</p>
@@ -308,7 +308,7 @@ Target time: ~60 min total.
 <p><strong>Reflection due Sun 4/19, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
-### Week 14 — Frontier topics in NeuroAI II {#week14}
+### Week 14 — Frontier topics in NeuroAI {#week14}
 <details>
 <summary><strong>Tue 4/21 — The role of feedback for biological and artificial vision</strong></summary>
 <p>How can neuroscience-inspired recurrent neural network models help us better understand human visual processing? We will highlight our recent work developing and testing recurrent architectures motivated by neuroscience, discuss how these models advance beyond standard feedforward DNNs, and share insights from our experiments linking these models to behavioral and neural benchmarks.</p>

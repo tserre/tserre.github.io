@@ -10,3 +10,11 @@ vendor/
 # OS
 .DS_Store
 _site/
+
+# Office temp files
+~$*
+
+# Student grades / submissions (FERPA)
+**/CPSY*_Grades*
+**/CPSY*_Grading*
+**/CPSY*_Submissions*
