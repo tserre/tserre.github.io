@@ -296,15 +296,15 @@ Target time: ~60 min total.
 <summary><strong>Tue 4/14 — Guest lecture: Greta Tuckute (Kempner Institute, Harvard)</strong></summary>
 <p>How the human brain represents and processes language—and what we learn by comparing brain and machine representations during language understanding.</p>
 <p><strong>Guest lecturer:</strong> Dr Greta Tuckute (Kempner Institute, Harvard) — <a href="https://www.gretatuckute.com/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">gretatuckute.com</a></p>
-<p><strong>Reading (complete before class):</strong> <a href="https://www-annualreviews-org.revproxy.brown.edu/content/journals/10.1146/annurev-neuro-120623-101142" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Tuckute, Kanwisher &amp; Fedorenko (2024). Language in Brains, Minds, and Machines. <em>Annual Review of Neuroscience</em></a></p>
+<p><strong>Reading (complete before class):</strong> <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-neuro-120623-101142" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Tuckute, Kanwisher &amp; Fedorenko (2024). Language in Brains, Minds, and Machines. <em>Annual Review of Neuroscience</em></a></p>
 <p><strong>Reading response due Tue 4/14, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
 <details>
 <summary><strong>Thu 4/16 — Guest lecture: Rufin VanRullen (CNRS, France)</strong></summary>
 <p>Global workspace theory, consciousness, and deep learning.</p>
-<p><strong>Guest lecturer:</strong> Dr Rufin VanRullen (CNRS, France) — <a href="https://rufinvanrullen.wordpress.com/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">rufinvanrullen.wordpress.com</a></p>
-<p><strong>Reading (complete before Thu lecture):</strong> <a href="https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S0166223621000771" target="_blank" rel="noopener noreferrer" title="Opens in new tab">VanRullen &amp; Kanai (2021). Deep Learning and the Global Workspace Theory. <em>Trends in Neurosciences</em></a></p>
+<p><strong>Guest lecturer:</strong> Dr Rufin VanRullen (CNRS, France) — <a href="https://cerco.cnrs.fr/pagesp/rufin/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">cerco.cnrs.fr/pagesp/rufin</a></p>
+<p><strong>Reading (complete before Thu lecture):</strong> <a href="https://www.sciencedirect.com/science/article/pii/S0166223621000771" target="_blank" rel="noopener noreferrer" title="Opens in new tab">VanRullen &amp; Kanai (2021). Deep Learning and the Global Workspace Theory. <em>Trends in Neurosciences</em></a></p>
 <p><strong>Reflection due Sun 4/19, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
