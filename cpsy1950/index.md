@@ -296,6 +296,7 @@ Target time: ~60 min total.
 <summary><strong>Tue 4/14 — Guest lecture: Greta Tuckute (Kempner Institute, Harvard)</strong></summary>
 <p>How the human brain represents and processes language—and what we learn by comparing brain and machine representations during language understanding.</p>
 <p><strong>Guest lecturer:</strong> Dr Greta Tuckute (Kempner Institute, Harvard) — <a href="http://www.tuckute.com/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">tuckute.com</a></p>
+<p><a href="/assets/cpsy1950/Tuckute_Language_network_LLMs_Brown_sh.pdf" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides (PDF)</a> · <a href="https://brown.zoom.us/rec/play/r_ojbjqgWXTDeFOS1zvGUmWn0fThsPEWPdL7AgE2i3WzClLTUVEnrx4AzFtiJjlvC_ZTj_lykYUYS9IJ.MHgF9SlygJX245um" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📺</span> Lecture capture</a></p>
 <p><strong>Reading (complete before class):</strong> <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-neuro-120623-101142" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Tuckute, Kanwisher &amp; Fedorenko (2024). Language in Brains, Minds, and Machines. <em>Annual Review of Neuroscience</em></a></p>
 <p><strong>Reading response due Tue 4/14, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8111203" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
@@ -310,13 +311,22 @@ Target time: ~60 min total.
 
 ### Week 14 — Frontier topics in NeuroAI {#week14}
 <details>
-<summary><strong>Tue 4/21 — The role of feedback for biological and artificial vision</strong></summary>
-<p>How can neuroscience-inspired recurrent neural network models help us better understand human visual processing? We will highlight our recent work developing and testing recurrent architectures motivated by neuroscience, discuss how these models advance beyond standard feedforward DNNs, and share insights from our experiments linking these models to behavioral and neural benchmarks.</p>
+<summary><strong>Tue 4/21 — Lecture: The role of feedback in biological and artificial vision</strong></summary>
+<p>Neuroscience-inspired recurrent models of vision: recurrent architectures motivated by cortical circuitry, how they go beyond feedforward DNNs, and links to behavioral and neural benchmarks (Serre lab).</p>
+<p><strong>Reading (complete before class):</strong> Read Kim et al. (2020) first, then Linsley et al. (2020). Prioritize main claims and Figures 1–2; skim implementation details.</p>
+<ul>
+<li><a href="https://arxiv.org/abs/1906.01558" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Kim, Linsley, Thakkar &amp; Serre (2020). <em>Disentangling neural mechanisms for perceptual grouping.</em> ICLR (arXiv).</a></li>
+<li><a href="https://arxiv.org/abs/2010.15314" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Linsley, Kim, Ashok &amp; Serre (2020). <em>Recurrent neural circuits for contour detection</em> (γ-net). ICLR (arXiv).</a></li>
+</ul>
+<p><strong>Reading response due Tue 4/21, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments" target="_blank" rel="noopener noreferrer" title="Course Assignments — open Week 14 Tuesday reading response"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
 <details>
 <summary><strong>Thu 4/23 — Guest lecture: Victor Boutin (CNRS, France)</strong></summary>
 <p>Generative models, energy-based models, and cognitive science.</p>
+<p><strong>Guest lecturer:</strong> Dr Victor Boutin (CNRS, France) — <a href="https://victorboutin.github.io/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">victorboutin.github.io</a></p>
+<p><em>No new reading for Thursday; come with questions for our guest.</em></p>
+<p><strong>Course-wrapping reflection due Sun 4/26, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments" target="_blank" rel="noopener noreferrer" title="Course Assignments — open Week 14 course reflection"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
 ### Final Exam {#final-exam}
