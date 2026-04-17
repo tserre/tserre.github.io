@@ -19,3 +19,34 @@
 - `sync_from_central.py` keeps lab site aligned with CV's central publication data
 - Avoid adding duplicate publication metadata — use URL resolver for lookups
 - Jekyll builds the site from `src/` to `public/`
+
+---
+## Distilled 2026-04-17 04:30 UTC
+
+### cpsy1950 course site — Week 13 + Week 14 fixes (tserre.github.io)
+
+**Week 14 restructuring** — An earlier LLM edit had broken the consistency of the Week 14 block with prior weeks (Weeks 8/13). Aligned to the canonical template in `cpsy1950/index.md`:
+- Tuesday summary uses `Lecture:` / `Guest lecture:` prefix (not topic-only title).
+- Readings reverted from nested `<ol>` + focus/skim layout to the simpler intro paragraph + `<ul>` of links (matches Week 8).
+- Replaced generic `.../assignments` placeholder URLs (which look like submission links) with per-assignment Canvas URLs once provided.
+- Guest (Victor Boutin) given a homepage line ` — site` at `https://victorboutin.github.io/` to match Tuckute / VanRullen pattern.
+
+**Canvas assignment IDs added (Week 14)**:
+- W14 Reading Response (Tue 4/21): `https://canvas.brown.edu/courses/1101742/assignments/8113914`
+- W14 Reflection (Sun 4/26): `https://canvas.brown.edu/courses/1101742/assignments/8113915`
+- Removed stale `cpsy1950/week14-rubrics.md` file that was sitting in the repo.
+
+**Week 13 — Tuckute guest lecture materials**:
+- Copied slides into site tree: `~/Downloads/Tuckute_Language_network_LLMs_Brown_sh.pdf` → `personal/website/assets/cpsy1950/Tuckute_Language_network_LLMs_Brown_sh.pdf`. ~66 MB; GitHub warned ≥50 MB — consider Git LFS if more large assets come. `cp -f` is the keep-in-sync step when the file is updated in Downloads.
+- Added **Slides (PDF)** + **Lecture capture** line in Tue 4/14 entry using the same `📑 Slides · Lecture capture` pattern as earlier weeks. Zoom play URL uses the short token form (`/rec/play/<token>`), stripping the long query string (works fine; revert to full URL only if browser issues).
+
+**Week 14 — VanRullen guest lecture (Thu 4/16) lecture capture**:
+- Zoom recording URL added to Thu 4/16 entry:
+  `https://brown.zoom.us/rec/share/Dh6myqJFRT-3kYoYJPZ7G4pIGqXtRzTq05KMS84bkJatb7Q4CxEPdIYKDz0SK4EJ.M_w8D7_v23XlZ-c6`
+
+**Repo/push note**: session also did a batched "push to gh" covering 4 repos — tserre.github.io (this one, incl. the 62 MB Tuckute PDF which tripped GitHub's >50 MB warning; 2 high-severity Dependabot alerts pending at https://github.com/tserre/tserre.github.io/security/dependabot), `serre-lab/prj_papers` (fossils paper), `Singapore_GlobalAI` (grant), `prj_cv`. All clean of secrets and no PLOS PDFs.
+
+### Conventions reinforced
+- Per-assignment Canvas URLs preferred over bare `/assignments` page.
+- Guest lecture entries should carry: homepage link · slides (PDF) · lecture capture — all three, matching existing Week 13 pattern.
+- Tuesday vs Thursday sessions keep `Lecture:` / `Guest lecture:` prefixes in the `<details>` summary.

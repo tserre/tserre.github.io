@@ -305,6 +305,7 @@ Target time: ~60 min total.
 <summary><strong>Thu 4/16 — Guest lecture: Rufin VanRullen (CNRS, France)</strong></summary>
 <p>Global workspace theory, consciousness, and deep learning.</p>
 <p><strong>Guest lecturer:</strong> Dr Rufin VanRullen (CNRS, France) — <a href="https://rufinv.github.io/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">rufinv.github.io</a></p>
+<p><a href="https://brown.zoom.us/rec/share/Dh6myqJFRT-3kYoYJPZ7G4pIGqXtRzTq05KMS84bkJatb7Q4CxEPdIYKDz0SK4EJ.M_w8D7_v23XlZ-c6" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📺</span> Lecture capture</a></p>
 <p><strong>Reading (complete before Thu lecture):</strong> <a href="https://www.sciencedirect.com/science/article/pii/S0166223621000771" target="_blank" rel="noopener noreferrer" title="Opens in new tab">VanRullen &amp; Kanai (2021). Deep Learning and the Global Workspace Theory. <em>Trends in Neurosciences</em></a></p>
 <p><strong>Reflection due Sun 4/19, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8111204" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
