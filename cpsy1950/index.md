@@ -318,7 +318,7 @@ Target time: ~60 min total.
 <li><a href="https://arxiv.org/abs/1906.01558" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Kim, Linsley, Thakkar &amp; Serre (2020). <em>Disentangling neural mechanisms for perceptual grouping.</em> ICLR (arXiv).</a></li>
 <li><a href="https://arxiv.org/abs/2010.15314" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Linsley, Kim, Ashok &amp; Serre (2020). <em>Recurrent neural circuits for contour detection</em> (γ-net). ICLR (arXiv).</a></li>
 </ul>
-<p><strong>Reading response due Tue 4/21, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments" target="_blank" rel="noopener noreferrer" title="Course Assignments — open Week 14 Tuesday reading response"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
+<p><strong>Reading response due Tue 4/21, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8113914" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
 <details>
@@ -326,7 +326,7 @@ Target time: ~60 min total.
 <p>Generative models, energy-based models, and cognitive science.</p>
 <p><strong>Guest lecturer:</strong> Dr Victor Boutin (CNRS, France) — <a href="https://victorboutin.github.io/" target="_blank" rel="noopener noreferrer" title="Opens in new tab">victorboutin.github.io</a></p>
 <p><em>No new reading for Thursday; come with questions for our guest.</em></p>
-<p><strong>Course-wrapping reflection due Sun 4/26, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments" target="_blank" rel="noopener noreferrer" title="Course Assignments — open Week 14 course reflection"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
+<p><strong>Course-wrapping reflection due Sun 4/26, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8113915" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
 ### Final Exam {#final-exam}
