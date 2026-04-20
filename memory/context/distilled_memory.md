@@ -50,3 +50,16 @@
 - Per-assignment Canvas URLs preferred over bare `/assignments` page.
 - Guest lecture entries should carry: homepage link · slides (PDF) · lecture capture — all three, matching existing Week 13 pattern.
 - Tuesday vs Thursday sessions keep `Lecture:` / `Guest lecture:` prefixes in the `<details>` summary.
+
+---
+## Distilled 2026-04-18 04:30 UTC
+
+### cpsy1950 sidebar alignment
+
+**File**: `_data/cpsy1950/structure.yml` drives the course site's left-sidebar menu for `layout: course-sidebar` pages.
+
+**Change**: Renamed "W13 - Guest lectures" → "W13 - Frontier topics" and "W14 - Guest lectures" → "W14 - Frontier topics" so the sidebar labels match the schedule headings in `cpsy1950/index.md` (both read "Frontier topics in NeuroAI").
+
+**Rule**: sidebar entries in `_data/cpsy1950/structure.yml` should stay in sync with the `### Week N` headings in `cpsy1950/index.md`. When a schedule heading changes, also update the sidebar label.
+
+Pushed to tserre.github.io in the same session.
