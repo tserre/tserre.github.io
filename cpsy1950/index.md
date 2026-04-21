@@ -120,13 +120,13 @@ Target time: ~60 min total.
 
 #### Bootcamp Checkpoint (all students; due Sun 2/2, 2:00pm)
 
-**Reading:** <a href="https://www-nature-com.revproxy.brown.edu/articles/337129a0" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Crick (1989). The recent excitement about neural networks. <em>Nature</em></a>
+**Reading:** <a href="https://www-nature-com.brown.idm.oclc.org/articles/337129a0" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Crick (1989). The recent excitement about neural networks. <em>Nature</em></a>
 
 **Reading response due Sun 2/2, 2:00pm:** <a href="https://canvas.brown.edu/courses/1101742/assignments/8098936" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a>
 
 #### Optional background papers (only if you want extra framing)
-- <a href="https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661319300348" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Cichy &amp; Kaiser (2019). Deep Neural Networks as Scientific Models. <em>Trends in Cognitive Sciences</em></a>
-- <a href="https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Doerig et al. (2023). The neuroconnectionist research programme. <em>Nature Reviews Neuroscience</em></a>
+- <a href="https://www-sciencedirect-com.brown.idm.oclc.org/science/article/pii/S1364661319300348" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Cichy &amp; Kaiser (2019). Deep Neural Networks as Scientific Models. <em>Trends in Cognitive Sciences</em></a>
+- <a href="https://www-nature-com.brown.idm.oclc.org/articles/s41583-023-00705-w" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Doerig et al. (2023). The neuroconnectionist research programme. <em>Nature Reviews Neuroscience</em></a>
 
 </details>
 
@@ -151,7 +151,7 @@ Target time: ~60 min total.
 <summary><strong>Tue 2/10 — Lecture: Scaling and emerging capabilities</strong></summary>
 <p>Pretraining and fine-tuning/transfer; in-context learning and reasoning; what "emergence" claims mean and how to evaluate them critically.</p>
 <p><a href="https://docs.google.com/presentation/d/1Tl2OR5kqpqh5MJIe1_DsQq20MZSS5G_6gkCzDDPblkc/edit?slide=id.g3c67357f7da_0_38#slide=id.g3c67357f7da_0_38" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a></p>
-<p><strong>Reading (complete before class):</strong> <a href="https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Firestone (2020). Performance vs. competence in human–machine comparisons. <em>PNAS</em></a></p>
+<p><strong>Reading (complete before class):</strong> <a href="https://www-pnas-org.brown.idm.oclc.org/doi/10.1073/pnas.1905334117" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Firestone (2020). Performance vs. competence in human–machine comparisons. <em>PNAS</em></a></p>
 <p><strong>Reading response due Tue 2/10, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8104065" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
@@ -170,7 +170,7 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Thu 2/19 — Background reading and required viewing</strong></summary>
 <p><em>Class on Feb 19 was cancelled (instructor sick).</em></p>
-<p><strong>Background paper (complete before or by Thu):</strong> <a href="https://www-cell-com.revproxy.brown.edu/neuron/fulltext/S0896-6273(25)00752-4" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Serre &amp; Pavlick (2025). From Prediction to Understanding: Will AI Foundation Models Transform Brain Science? <em>Neuron</em></a></p>
+<p><strong>Background paper (complete before or by Thu):</strong> <a href="https://www-cell-com.brown.idm.oclc.org/neuron/fulltext/S0896-6273(25)00752-4" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Serre &amp; Pavlick (2025). From Prediction to Understanding: Will AI Foundation Models Transform Brain Science? <em>Neuron</em></a></p>
 <p><strong>Required viewing (watch both):</strong></p>
 <ul>
 <li>Marcus, G. (2024). <a href="https://www.youtube.com/watch?v=91SK90SahHc" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Keynote at AGI-24</a>. Machine Learning Street Talk. Watch from ~5:00 to ~35:00 (Marcus's talk starts after a brief introduction).</li>
@@ -223,8 +223,8 @@ Target time: ~60 min total.
 <p><a href="https://docs.google.com/presentation/d/1IXPUZAHX5-_MMe7XDRWjqUK7dFp0f43G-1gq7JgsvSk/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a> · <a href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b8625f3f-9ed9-4425-89f8-b4090130e393" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📺</span> Lecture capture</a></p>
 <p><strong>Reading (complete before class):</strong></p>
 <ul>
-<li><a href="https://www-nature-com.revproxy.brown.edu/articles/s41593-018-0210-5" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Kriegeskorte &amp; Douglas (2018). Cognitive computational neuroscience. <em>Nature Neuroscience</em></a></li>
-<li><a href="https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Doerig et al. (2023). The neuroconnectionist research programme. <em>Nature Reviews Neuroscience</em></a></li>
+<li><a href="https://www-nature-com.brown.idm.oclc.org/articles/s41593-018-0210-5" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Kriegeskorte &amp; Douglas (2018). Cognitive computational neuroscience. <em>Nature Neuroscience</em></a></li>
+<li><a href="https://www-nature-com.brown.idm.oclc.org/articles/s41583-023-00705-w" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Doerig et al. (2023). The neuroconnectionist research programme. <em>Nature Reviews Neuroscience</em></a></li>
 </ul>
 <p><strong>Reading response due Tue 3/10, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8106570" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
@@ -233,7 +233,7 @@ Target time: ~60 min total.
 <summary><strong>Thu 3/12 — Lightning talks</strong></summary>
 <p>Student lightning talks on model-to-brain mapping.</p>
 <p><a href="https://docs.google.com/presentation/d/1-ASh-3vqUoqu8Z9Fob1w7R5_qI5OqaGnJ45KHsmbznY/edit?slide=id.p#slide=id.p" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Lightning talk presentations</a> · <a href="https://docs.google.com/spreadsheets/d/1Nv2y51NqKJzXxe488ezqavaG_AAvHLC3HE9NpR6yWWw/edit?gid=820346163#gid=820346163" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📋</span> List of lightning talks (Google Sheet)</a></p>
-<p><strong>Read:</strong> <a href="https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S1364661325003493" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Linsley, Feng &amp; Serre (2025). Better artificial intelligence does not mean better models of biology. <em>Trends in Cognitive Sciences</em></a></p>
+<p><strong>Read:</strong> <a href="https://www-sciencedirect-com.brown.idm.oclc.org/science/article/pii/S1364661325003493" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Linsley, Feng &amp; Serre (2025). Better artificial intelligence does not mean better models of biology. <em>Trends in Cognitive Sciences</em></a></p>
 <p><strong>Reflection due Sun 3/15, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8106572" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 
@@ -243,7 +243,7 @@ Target time: ~60 min total.
 <p>Treating models as participants in cognitive tasks; behavioral signatures beyond accuracy (generalization, planning, decision making, cognitive control); confounds and best practices.</p>
 <p><a href="https://docs.google.com/presentation/d/1tcWlQk5e0-8wIvVTLY1WIvE5mEMOnR2z7-EzGQpx3xA/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a> · <a href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6b7c105d-e388-4fb3-81c9-b41001372eb6" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📺</span> Lecture capture</a></p>
 <p><em>Note:</em> The beginning of the lecture is missing from this recording — the capture was not started until partway through class.</p>
-<p><strong>Reading (complete before class):</strong> <a href="https://www-nature-com.revproxy.brown.edu/articles/s41586-025-09215-4" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Binz et al. (2025). A foundation model to predict and capture human cognition. <em>Nature</em></a></p>
+<p><strong>Reading (complete before class):</strong> <a href="https://www-nature-com.brown.idm.oclc.org/articles/s41586-025-09215-4" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Binz et al. (2025). A foundation model to predict and capture human cognition. <em>Nature</em></a></p>
 <p><strong>Reading response due Tue 3/17, 2:00pm:</strong> <a href="https://canvas.brown.edu/courses/1101742/assignments/8108065" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📝</span> Submit on Canvas</a></p>
 </details>
 

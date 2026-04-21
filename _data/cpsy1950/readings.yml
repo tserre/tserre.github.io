@@ -27,7 +27,7 @@ readings:
     authors: Firestone, C.
     journal: PNAS
     year: 2020
-    url: https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117
+    url: https://www-pnas-org.brown.idm.oclc.org/doi/10.1073/pnas.1905334117
     notes: Required reading before Tue 2/10 lecture. Reading response due Tue 2/10,
       2:00pm on Canvas.
     required: true
@@ -41,7 +41,7 @@ readings:
     authors: T. Serre & E. Pavlick
     journal: Neuron
     year: 2025
-    url: https://www-cell-com.revproxy.brown.edu/neuron/fulltext/S0896-6273(25)00752-4
+    url: https://www-cell-com.brown.idm.oclc.org/neuron/fulltext/S0896-6273(25)00752-4
     notes: Background reading. Paper response due Thu 2/19, 2:00pm on Canvas.
     required: true
 - week: 6

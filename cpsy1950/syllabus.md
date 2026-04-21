@@ -73,10 +73,10 @@ Courses such as CPSY 1291 (Computational Cognitive Science), CSCI 1470 (Deep Lea
 
 To help you decide whether this course is a good match, here are examples of the kinds of primary research papers we will read and discuss (links use Brown Library proxy access when applicable):
 
-- Schrimpf et al. (2020), [Integrative benchmarking to advance neurally mechanistic models of human intelligence](https://www-sciencedirect-com.revproxy.brown.edu/science/article/pii/S089662732030605X) (Neuron)
-- Caucheteux et al. (2022), [Deep language algorithms predict semantic comprehension from brain activity](https://www-nature-com.revproxy.brown.edu/articles/s41598-022-20460-9) (Scientific Reports)
+- Schrimpf et al. (2020), [Integrative benchmarking to advance neurally mechanistic models of human intelligence](https://www-sciencedirect-com.brown.idm.oclc.org/science/article/pii/S089662732030605X) (Neuron)
+- Caucheteux et al. (2022), [Deep language algorithms predict semantic comprehension from brain activity](https://www-nature-com.brown.idm.oclc.org/articles/s41598-022-20460-9) (Scientific Reports)
 - He et al. (2022), [Masked autoencoders are scalable vision learners](https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf) (CVPR)
-- Russin et al. (2025), [Parallel trade-offs in human cognition and neural networks](https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.2510270122) (PNAS)
+- Russin et al. (2025), [Parallel trade-offs in human cognition and neural networks](https://www-pnas-org.brown.idm.oclc.org/doi/10.1073/pnas.2510270122) (PNAS)
 
 ---
 

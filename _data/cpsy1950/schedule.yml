@@ -16,9 +16,9 @@ schedule:
       networks (Nature)'
     notes: Due Sun 2/2, 2:00pm on Canvas
   - title: 'Optional: Cichy & Kaiser (2019) — Deep Neural Networks as Scientific Models'
-    url: https://www-cell-com.revproxy.brown.edu/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8
+    url: https://www-cell-com.brown.idm.oclc.org/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8
   - title: 'Optional: Doerig et al. (2023) — The neuroconnectionist research programme'
-    url: https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w
+    url: https://www-nature-com.brown.idm.oclc.org/articles/s41583-023-00705-w
 - date: '2026-02-03'
   topic: 'Lecture: The three levers of deep learning'
   type: lecture
@@ -44,7 +44,7 @@ schedule:
   readings:
   - title: Firestone (2020) — Performance vs. competence in human–machine comparisons
       (PNAS)
-    url: https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117
+    url: https://www-pnas-org.brown.idm.oclc.org/doi/10.1073/pnas.1905334117
     notes: Reading response due Tue 2/10, 2:00pm on Canvas
 - date: '2026-02-12'
   topic: 'Lightning talks: Scaling & Emergence'
@@ -64,7 +64,7 @@ schedule:
   finalized: true
   readings:
   - title: Serre & Pavlick (2025) — From Prediction to Understanding (Neuron)
-    url: https://www-cell-com.revproxy.brown.edu/neuron/fulltext/S0896-6273(25)00752-4
+    url: https://www-cell-com.brown.idm.oclc.org/neuron/fulltext/S0896-6273(25)00752-4
     notes: Paper response due Thu 2/19, 2:00pm on Canvas
   - title: Marcus (2024) — Keynote at AGI-24 (required viewing, ~5:00–35:00)
     url: https://www.youtube.com/watch?v=91SK90SahHc
