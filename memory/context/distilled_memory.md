@@ -63,3 +63,25 @@
 **Rule**: sidebar entries in `_data/cpsy1950/structure.yml` should stay in sync with the `### Week N` headings in `cpsy1950/index.md`. When a schedule heading changes, also update the sidebar label.
 
 Pushed to tserre.github.io in the same session.
+
+---
+## Distilled 2026-04-20 04:30 UTC
+
+### Safety rule: exam materials NEVER live in this (public) repo
+
+`tserre.github.io` is a **public** GitHub Pages repo. During a `~/Work` backup audit on 2026-04-19, a `cpsy1950/final-exam/` folder was spotted as untracked in this repo with actual exam content (blueprint, questions, answer key, fake-paper PDF). Thomas deleted it on the spot and moved the materials to the private `tserre/cpsy1950` repo under `internal/`.
+
+**Rule**: any file with "exam", "rubric+samples", "answer-key", "final-*" naming must go to `~/Work/teaching/cpsy1950/internal/` (private repo), **never** anywhere under `~/Work/personal/website/`. Grading spreadsheets were already in `.gitignore` for this repo — the same caution applies to any graded-work content.
+
+### CV asset auto-update
+
+When the CV is regenerated, a copy of `latex/serre_cv.pdf` gets pushed into this repo at `assets/serre_cv.pdf` so the public download link stays current. Expect a small commit here every time the CV repo ships a rebuild.
+
+---
+## Distilled 2026-04-21 02:00 UTC
+
+**Brown library proxy URL migration.** Brown moved from their legacy EZproxy host `revproxy.brown.edu` to the OCLC-hosted EZproxy `brown.idm.oclc.org`. Both use the same hyphenated-hostname convention (`www-nature-com.brown.idm.oclc.org`), so a pure string swap of `revproxy.brown.edu` → `brown.idm.oclc.org` is safe — subdomain prefixes transfer unchanged.
+
+Files updated in this repo: `cpsy1950/index.md` (9), `cpsy1950/syllabus.md` (3), `_data/cpsy1950/schedule.yml` (4), `_data/cpsy1950/readings.yml` (2). Committed as `c12686d` on `master` in `tserre/tserre.github.io`.
+
+Action item: spot-check one or two proxied links from the cpsy1950 readings list before next class to confirm OCLC host resolves for Brown credentials. Dependabot flagged 2 high-severity alerts on `tserre.github.io` default branch (unrelated); review at https://github.com/tserre/tserre.github.io/security/dependabot when time allows.
