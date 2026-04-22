@@ -314,7 +314,7 @@ Target time: ~60 min total.
 <details>
 <summary><strong>Tue 4/21 — Lecture: The role of feedback in biological and artificial vision</strong></summary>
 <p>Neuroscience-inspired recurrent models of vision: recurrent architectures motivated by cortical circuitry, how they go beyond feedforward DNNs, and links to behavioral and neural benchmarks (Serre lab).</p>
-<p><a href="https://docs.google.com/presentation/d/13vkYs1nYExpOY4bi03koeweiuxT4GEaE5Cd-3FHZ6u8/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a></p>
+<p><a href="https://docs.google.com/presentation/d/13vkYs1nYExpOY4bi03koeweiuxT4GEaE5Cd-3FHZ6u8/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📑</span> Slides</a> · <a href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b74eb9c-6077-4576-933c-b43301314ef1" target="_blank" rel="noopener noreferrer" title="Opens in new tab"><span aria-hidden="true">📺</span> Lecture capture</a></p>
 <p><strong>Reading (complete before class):</strong> Read Kim et al. (2020) first, then Linsley et al. (2020). Prioritize main claims and Figures 1–2; skim implementation details.</p>
 <ul>
 <li><a href="https://arxiv.org/abs/1906.01558" target="_blank" rel="noopener noreferrer" title="Opens in new tab">Kim, Linsley, Thakkar &amp; Serre (2020). <em>Disentangling neural mechanisms for perceptual grouping.</em> ICLR (arXiv).</a></li>
