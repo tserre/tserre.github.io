@@ -85,3 +85,52 @@ When the CV is regenerated, a copy of `latex/serre_cv.pdf` gets pushed into this
 Files updated in this repo: `cpsy1950/index.md` (9), `cpsy1950/syllabus.md` (3), `_data/cpsy1950/schedule.yml` (4), `_data/cpsy1950/readings.yml` (2). Committed as `c12686d` on `master` in `tserre/tserre.github.io`.
 
 Action item: spot-check one or two proxied links from the cpsy1950 readings list before next class to confirm OCLC host resolves for Brown credentials. Dependabot flagged 2 high-severity alerts on `tserre.github.io` default branch (unrelated); review at https://github.com/tserre/tserre.github.io/security/dependabot when time allows.
+
+---
+## Distilled 2026-04-22 04:30 UTC
+
+### cpsy1950 Week 14 Tue lecture — Slides + Panopto added (2026-04-21)
+
+Two incremental updates to `cpsy1950/index.md`, Week 14 Tuesday 4/21 block ("The role of feedback in biological and artificial vision"):
+- **Slides link** (Google Slides): `https://docs.google.com/presentation/d/13vkYs1nYExpOY4bi03koeweiuxT4GEaE5Cd-3FHZ6u8/edit?usp=sharing` — commit `f6bfad3` on `master` in `tserre/tserre.github.io`.
+- **Panopto lecture capture** (one-link-per-push workflow): `https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b74eb9c-6077-4576-933c-b43301314ef1` — placed next to the Slides link using the canonical `📑 Slides · Lecture capture` pattern, pushed separately.
+
+Notes:
+- Tuesday CPSY1950 sessions are recorded to **Panopto** (Brown-hosted), Thursday guest lectures have previously used **Zoom share** recordings — both are valid, just different hosts. Use whichever URL the instructor/guest provides.
+- Distilled memory file is explicitly included in `git add` when Thomas says "push to gh" — this is the expected behavior (auto-staged like other "reasonable files"), not a stray file.
+
+### Lab-website (serre-lab/Lab-Website, `~/Work/research/lab-website/`) — Selected Publications card swap
+
+Replaced the "Deceptive learning in histopathology" card in the **Selected Recent Publications** grid on the Home page with the newer Calvert et al. 2026 spinal-cord paper:
+
+- **Title**: "Perilesional neuromodulation replaces lost sensorimotor function in persons with spinal cord injury"
+- **Authors**: J.S. Calvert et al.
+- **Venue**: *Nature Biomedical Engineering*, 2026
+- **Source of truth for citation details**: `src/data/publications_by_year.json` (already had the full record + Nature URL). Always pull metadata from this file rather than typing by hand — ensures consistency with the publications page.
+
+Structural notes for future edits on this repo:
+- Home page publication cards live in `src/pages/Home/Home.tsx` as **hard-coded `<div className="highlight-card">` blocks** — they are NOT auto-generated from `publications_by_year.json`. To swap/add/remove a card, edit Home.tsx directly.
+- Journal names on these cards are run through a `shortenJournalName()` helper (also in `Home.tsx`) that maps full names to display abbreviations (e.g. `'Attention, Perception, & Psychophysics' → 'Atten Percept Psychophys'`). To abbreviate a new journal, **add an entry to that map** — don't hand-edit the card text. Added `'Nature Biomedical Engineering': 'Nature BME'` in this session.
+- Commits landed on `main` in `serre-lab/Lab-Website`; most recent: `4327ebb` ("Abbreviate Nature Biomedical Engineering to Nature BME").
+
+### Conventions reinforced
+- Weekly lecture updates pattern for cpsy1950/index.md: (1) pre-class, add Slides link; (2) post-class, add Lecture capture link next to it with ` · ` separator. Two separate commits is fine and is the actual workflow.
+- On the lab website, publication card edits on Home.tsx must be kept consistent with `publications_by_year.json`; the JSON is the source of truth for citation strings, URLs, and year.
+
+---
+## Distilled 2026-04-27 04:30 UTC
+
+### Lab-website (serre-lab/Lab-Website) — SciComm card added for Brown news on LLM "understanding"
+
+Prepended a new entry to `src/data/scicomm.json` (newest-first ordering) for the Brown News piece "Do AI language models 'understand' the real world? On a basic level, they do, a new study finds" (2026-04-22, Kevin Stacey). Lepori / Serre / Pavlick, ICLR 2026 mechanistic-interpretability work classifying events as commonplace / improbable / impossible / nonsense.
+
+- **Link:** `https://www.brown.edu/news/2026-04-22/artificial-intelligence-understanding-real-world`
+- **Image:** Pulled the page's `og:image` (`neuralnets.jpg` on brown.edu) — same pattern as prior Brown news entries.
+- **Commit:** `739ac6c` on `main` in `serre-lab/Lab-Website`. Pushed cleanly.
+
+### Reinforced workflow conventions
+
+- **Media page entries** are sourced from `src/data/scicomm.json` and rendered by `src/pages/SciComm/SciComm.tsx`. Order is **newest first** — always prepend, don't append.
+- For Brown News (and similar) pieces, lift the hero image from `og:image` rather than typing one by hand: `curl -sL <url> | grep og:image` then HTML-decode the URL. Keeps cards consistent with the source page.
+- After editing JSON data files (`scicomm.json`, `publications_by_year.json`), always validate with `node -e "JSON.parse(require('fs').readFileSync('<path>'))"` before committing — silent JSON parse errors break the build.
+- Dependabot still has open high-severity alerts on `tserre.github.io` (unrelated to this commit but still pending — see 2026-04-21 entry).
