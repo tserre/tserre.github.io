@@ -134,3 +134,33 @@ Prepended a new entry to `src/data/scicomm.json` (newest-first ordering) for the
 - For Brown News (and similar) pieces, lift the hero image from `og:image` rather than typing one by hand: `curl -sL <url> | grep og:image` then HTML-decode the URL. Keeps cards consistent with the source page.
 - After editing JSON data files (`scicomm.json`, `publications_by_year.json`), always validate with `node -e "JSON.parse(require('fs').readFileSync('<path>'))"` before committing — silent JSON parse errors break the build.
 - Dependabot still has open high-severity alerts on `tserre.github.io` (unrelated to this commit but still pending — see 2026-04-21 entry).
+
+
+---
+## Distilled 2026-05-08 04:30 UTC
+
+### Dependabot fix on `tserre.github.io` (Jekyll site)
+
+Resolved 2 high-severity Dependabot alerts on `tserre/tserre.github.io` (the personal Jekyll site, not the React lab-website). The alerts surfaced on a previous push and were noted as pending in the 2026-04-21 entry. Fixed in this session.
+
+**What was vulnerable:**
+- `addressable` — needed ≥ 2.9.0 for the template-pattern ReDoS issue.
+- `json` — lockfile had 2.15.2; needed ≥ 2.15.2.1.
+- `kramdown` — already on 2.5.x but bumped to 2.5.2 to stay clearly clear of the advisory range.
+
+**Fix command (idempotent — `Gemfile.lock`-only change, no `Gemfile` edit):**
+
+```bash
+cd ~/Work/personal/website
+bundle update addressable json kramdown rexml webrick
+```
+
+Resulting versions: `addressable 2.9.0`, `json 2.19.5`, `kramdown 2.5.2`, `public_suffix 7.0.5`, `webrick 1.9.2`.
+
+**Validation steps run (and worth keeping as a checklist):**
+- `bundle audit check` → no advisories (install with `gem install bundler-audit` if missing).
+- `bundle exec jekyll build` → succeeds; existing Liquid/Sass deprecation warnings unchanged. No new warnings introduced.
+
+**Commit:** `8859d24` on `master` in `tserre/tserre.github.io`: `fix(deps): address Dependabot alerts (addressable, json, kramdown)`. After ~5s wait, `gh api repos/tserre/tserre.github.io/dependabot/alerts` returns those alerts as `state: fixed`.
+
+**Optional follow-up not done yet:** wire `bundle audit check` (and `jekyll build`) into `.github/workflows/` so this drift is caught at PR time instead of by Dependabot after the fact. Worth doing on the next quiet maintenance pass — the Gemfile.lock churn pattern repeats every few months.
