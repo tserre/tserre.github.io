@@ -17,5 +17,7 @@ Brown requires WCAG 2.1 AA compliance by May 2026. See `.cursor/rules/accessibil
 
 Run `./update_cv.sh` or manually: `cp ~/Work/personal/cv/latex/serre_cv.pdf assets/serre_cv.pdf`
 
+Publication metadata (titles, authors, years) lives in `~/Work/personal/cv/data/publications_structured.json`. Follow `~/Work/personal/cv/memory/procedures/publication-style.md` — sentence case, not arXiv title case — then sync lab website and regenerate CV.
+
 # Session Memory
 If `distilled_memory.md` exists in this directory, read it at the start of each session for recent decisions, context, and procedures from prior sessions.
