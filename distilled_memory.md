@@ -19,3 +19,13 @@
   1. Direct fetching (with browser-like headers)
   2. CrossRef API for DOI-based links
   3. Manual review for access-restricted publishers (403/303 errors)
+
+---
+## Pending / watch (added 2026-07-22)
+- **CVPR 2026 keynote video watch** — Waiting for the public recording of Thomas's CVPR 2026
+  plenary *"Scaling Laws vs. Neural Laws: Toward More Natural Artificial Vision"* (Jun 7, 2026).
+  When it's public, **replace all three blocks in the `<h2>Selected Talks</h2>` section of
+  `index.html`** with a single block for this keynote (Thomas considers it the best summary of
+  his current work), and optionally feature it on the lab website. Full details + where to check:
+  Obsidian `Talks/2026-Jun-cvpr-plenary-video-watch.md`. As of 2026-07-22 it is **not yet public**
+  (only a third-party commentary video exists on YouTube — not the official talk).
