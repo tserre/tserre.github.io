@@ -20,7 +20,7 @@ layout: null
   {% endfor %}
   
   {% for page in site.pages %}
-    {% unless page.url contains '/_posts/' or page.url contains '/_site/' or page.url == '/404.html' or page.url == '/sitemap.xml' or page.url == '/robots.txt' or page.layout == null %}
+    {% unless page.url contains '/_posts/' or page.url contains '/_site/' or page.url == '/' or page.url == '/404.html' or page.url == '/sitemap.xml' or page.url == '/robots.txt' or page.layout == null %}
     <url>
       <loc>{{ site.url }}{{ page.url }}</loc>
       <lastmod>{{ page.date | default: site.time | date: "%Y-%m-%dT%H:%M:%S+00:00" }}</lastmod>

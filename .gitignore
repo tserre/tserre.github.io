@@ -18,3 +18,16 @@ _site/
 **/CPSY*_Grades*
 **/CPSY*_Grading*
 **/CPSY*_Submissions*
+
+# Internal agent notes and ops docs: kept locally, not in the public repo
+CLAUDE.md
+AGENT_TASK.md
+distilled_memory.md
+memory/
+JEKYLL_SETUP_STATUS.md
+CUSTOM_DOMAIN_SETUP.md
+GOOGLE_SEARCH_CONSOLE_REDIRECT_GUIDE.md
+INDEXING_FIX.md
+REDIRECT_FIX.md
+_posts/_site/
+_posts/.jekyll-cache/

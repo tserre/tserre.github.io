@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
-    <link rel="canonical" href="{{ page.url | prepend: site.url }}">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!-- Font Awesome for social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
@@ -214,7 +213,7 @@
             }
           </style>
           <nav class="social-icons" aria-label="Profile and social links">
-          <button onclick="this.innerHTML=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ==')" aria-label="Show email address (click to reveal)"><i class="fas fa-envelope" aria-hidden="true"></i></button>
+          <button onclick="var e=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ=='),a=document.createElement('a');a.href='mailto:'+e;a.textContent=e;this.replaceWith(a);a.focus();" aria-label="Show email address"><i class="fas fa-envelope" aria-hidden="true"></i></button>
           <a href="https://x.com/tserre" aria-label="X (Twitter): @tserre"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
           <a href="https://bsky.app/profile/thomasserre.bsky.social" aria-label="Bluesky: @thomasserre.bsky.social"><i class="fab fa-bluesky" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/in/thomasserre/" aria-label="LinkedIn profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
@@ -252,7 +251,7 @@
 
       </main>
       <footer role="contentinfo" style="clear:both;padding:1rem 20px;font-size:0.9em;color:#6b7280;border-top:1px solid #e5e5e5;text-align:center;">
-        <p style="margin:0;">© {{ site.time | date: "%Y" }} Thomas Serre · Brown University</p>
+        <p style="margin:0;">© {{ site.time | date: "%Y" }} Thomas Serre · Brown University · <a href="https://digital-accessibility.brown.edu/">Accessibility</a> · <a href="https://cm.maxient.com/reportingform.php?BrownUniv=&amp;layout_id=59">Report an accessibility barrier</a></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>

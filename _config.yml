@@ -7,4 +7,26 @@ defaults:
       path: "assets/img"
     values:
       logo: logo.gif
-# Force rebuild - updated 2025-11-15 15:35
+
+# Internal notes, agent files and tooling are not part of the published site.
+exclude:
+  - README.md
+  - CLAUDE.md
+  - AGENT_TASK.md
+  - distilled_memory.md
+  - memory/
+  - ACCESSIBILITY.md
+  - CUSTOM_DOMAIN_SETUP.md
+  - GOOGLE_SEARCH_CONSOLE_REDIRECT_GUIDE.md
+  - INDEXING_FIX.md
+  - JEKYLL_SETUP_STATUS.md
+  - REDIRECT_FIX.md
+  - _posts/_site/
+  - _posts/.jekyll-cache/
+  - scripts/
+  - update_cv.sh
+  - cv_update_functions.sh
+  - start_server.sh
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
