@@ -4,7 +4,7 @@ title: <span class="course-code">CPSY 1950 </span><span class="course-name">Deep
 subtitle: Spring 2026 • Advanced Undergraduate/Graduate
 ---
 
-A seminar-style exploration of cutting-edge research at the intersection of natural and artificial intelligence. Students engage with recent papers and develop critical perspectives on how biological and artificial systems process information.
+A seminar on how biological and artificial systems process information. Students read and discuss recent papers in NeuroAI and evaluate their methods and evidence.
 
 **Format:** Tuesday lectures + Thursday mini-conferences (lightning talks) • Project posters • Guest lectures
 
