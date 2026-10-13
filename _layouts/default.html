@@ -2,261 +2,61 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="theme-color" content="#4E3629">
 {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!-- Font Awesome for social icons -->
+    <link rel="preload" href="{{ '/assets/fonts/poppins/Poppins-600.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/assets/fonts/lora/Lora-400.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
-    <!-- Academicons for academic service icons (Zotero, etc.) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
-    <!-- Goodfire font scheme -->
-    <style>
-      @font-face {
-        font-family: "IBM Plex Mono";
-        src: url("{{ '/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.ttf' | relative_url }}") format("truetype");
-        font-weight: 400;
-        font-style: normal;
-        font-display: swap;
-      }
-      @font-face {
-        font-family: "Suisse Intl";
-        src: url("{{ '/assets/fonts/suisse-intl/SuisseIntl-Book.otf' | relative_url }}") format("opentype");
-        font-weight: 400;
-        font-style: normal;
-        font-display: swap;
-      }
-      @font-face {
-        font-family: "Suisse Intl";
-        src: url("{{ '/assets/fonts/suisse-intl/SuisseIntl-Medium.otf' | relative_url }}") format("opentype");
-        font-weight: 500;
-        font-style: normal;
-        font-display: swap;
-      }
-      @font-face {
-        font-family: "Suisse Intl";
-        src: url("{{ '/assets/fonts/suisse-intl/SuisseIntl-SemiBold.otf' | relative_url }}") format("opentype");
-        font-weight: 600;
-        font-style: normal;
-        font-display: swap;
-      }
-      @font-face {
-        font-family: "Suisse Intl";
-        src: url("{{ '/assets/fonts/suisse-intl/SuisseIntl-Bold.otf' | relative_url }}") format("opentype");
-        font-weight: 700;
-        font-style: normal;
-        font-display: swap;
-      }
-      @font-face {
-        font-family: "Suisse Works";
-        src: url("{{ '/assets/fonts/suisse-works/SuisseWorks-Book.otf' | relative_url }}") format("opentype");
-        font-weight: 400;
-        font-style: normal;
-        font-display: swap;
-      }
-      body, p, span, div, li, ul, ol, section, article, header, footer {
-        font-family: "Suisse Intl", serif !important;
-        color: #475569 !important;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        font-smoothing: antialiased;
-      }
-      /* Exclude icon fonts from font-family override */
-      .fa, .fas, .far, .fab, .fal, .fad, [class^="fa-"], [class*=" fa-"], i[class*="fa-"] {
-        font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands", "Font Awesome 6 Pro" !important;
-      }
-      .ai, [class^="ai-"], [class*=" ai-"] {
-        font-family: "Academicons" !important;
-      }
-      h1, h2, h3, h4, h5, h6, header h1, header h1 a {
-        font-family: "Suisse Intl", serif !important;
-        font-weight: 600 !important;
-        color: #4F46E5 !important;
-      }
-      /* Normalize first letter size in header */
-      header h1::first-letter, header h1 a::first-letter {
-        font-size: 1em !important;
-        line-height: 1em !important;
-        float: none !important;
-        initial-letter: normal !important;
-      }
-      /* Section headers */
-      h2, h3 {
-        letter-spacing: 0.05em;
-      }
-      /* Links: bold for WCAG (distinguishable without color alone); darker on hover */
-      a, a:link, a:visited {
-        color: #3730a3 !important;
-        text-decoration: none !important;
-        font-weight: 600 !important;
-      }
-      a:hover, a:focus, a:focus-visible {
-        text-decoration: none !important;
-        color: #312e81 !important;
-      }
-      /* WCAG 2.1 AA: Visually hidden (screen reader only) */
-      .sr-only {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
-      }
-      .sr-only:focus,
-      .sr-only-focusable:focus {
-        position: static;
-        width: auto;
-        height: auto;
-        padding: 0.5em 1em;
-        margin: 0;
-        overflow: visible;
-        clip: auto;
-        white-space: normal;
-        background: #fff;
-        color: #000;
-        z-index: 9999;
-      }
-      /* WCAG 2.1 AA: Visible focus for keyboard navigation */
-      :focus-visible {
-        outline: 2px solid #2c5282;
-        outline-offset: 2px;
-      }
-      /* main inherits section layout (theme targets section) */
-      main {
-        width: 500px;
-        float: right;
-        padding-bottom: 50px;
-      }
-      @media print, screen and (max-width: 960px) {
-        main {
-          float: none;
-          position: static;
-          width: auto;
-          border: 1px solid #e5e5e5;
-          border-width: 1px 0;
-          padding: 20px 0;
-          margin: 0 0 20px;
-        }
-      }
-      /* Social icons hover */
-      .social-icons a:hover, .social-icons button:hover {
-        color: #4F46E5 !important;
-      }
-      code, pre, kbd, samp {
-        font-family: "IBM Plex Mono", monospace !important;
-      }
-      button, input, select, textarea {
-        font-family: "Suisse Works", sans-serif !important;
-      }
-    </style>
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
   </head>
   <body>
-    <a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
-    <div class="wrapper">
-      <header role="banner">
-        <img src="https://vivo.brown.edu/profile-images/a20/107/457/8fe/466/2b8/4d3/698/9fd/411/55/tserre_photo_.jpeg" alt="Thomas Serre" style="float: left; margin: 0 20px 20px 0; max-width: 200px; border-radius: 8px;">
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
-        <p style="font-style: italic; color: #666; font-size: 14px; line-height: 1.5;">{{ site.description | default: site.github.project_tagline | newline_to_br }}</p>
-        
-        <p style="font-weight: 500; color: #333; font-size: 13px; line-height: 1.6;">
-          Brown University<br>
-          Providence, RI 02912<br>
-          <br>
-          <style>
-            /* Social icons: min 24x24px touch targets (WCAG 2.5.5 AAA) */
-            .social-icons {
-              display: flex;
-              gap: 4px;
-              flex-wrap: wrap;
-            }
-            .social-icons a, .social-icons button {
-              display: inline-flex;
-              align-items: center;
-              justify-content: center;
-              min-width: 24px;
-              min-height: 24px;
-              padding: 2px;
-              text-align: center;
-              color: #333 !important;
-              text-decoration: none;
-              transition: color 0.3s ease;
-            }
-            .social-icons a:hover, .social-icons button:hover {
-              color: #4F46E5 !important;
-            }
-            .social-icons button {
-              border: none;
-              background: none;
-              cursor: pointer;
-            }
-            .social-icons i, .social-icons button i {
-              font-size: 18px;
-              color: inherit;
-            }
-            /* Profile links: min 24px touch target height */
-            .profile-links a {
-              display: inline-block;
-              padding: 4px 0;
-              min-height: 24px;
-            }
-          </style>
+    <header class="site-header" role="banner">
+      <div class="site-header__inner">
+        <img class="portrait" src="https://vivo.brown.edu/profile-images/a20/107/457/8fe/466/2b8/4d3/698/9fd/411/55/tserre_photo_.jpeg" alt="Portrait of Thomas Serre" width="168" height="168">
+        <div>
+          {% if page.url == "/" %}<h1 class="site-title">{{ site.title }}</h1>{% else %}<p class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>{% endif %}
+          <p class="site-role">Thomas J. Watson, Sr. Professor of Science · Brown University</p>
+          <p class="site-tagline">{{ site.description }}</p>
+          <ul class="header-links">
+            <li><a href="https://serre.lab.brown.edu/">Lab website</a></li>
+            <li><a href="https://github.com/serre-lab">Lab GitHub</a></li>
+            <li><a href="https://vivo.brown.edu/display/tserre">Brown profile</a></li>
+            <li><a href="{{ '/assets/serre_cv.pdf' | relative_url }}" aria-label="CV (PDF)">CV</a></li>
+          </ul>
           <nav class="social-icons" aria-label="Profile and social links">
-          <button onclick="var e=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ=='),a=document.createElement('a');a.href='mailto:'+e;a.textContent=e;this.replaceWith(a);a.focus();" aria-label="Show email address"><i class="fas fa-envelope" aria-hidden="true"></i></button>
-          <a href="https://x.com/tserre" aria-label="X (Twitter): @tserre"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
-          <a href="https://bsky.app/profile/thomasserre.bsky.social" aria-label="Bluesky: @thomasserre.bsky.social"><i class="fab fa-bluesky" aria-hidden="true"></i></a>
-          <a href="https://www.linkedin.com/in/thomasserre/" aria-label="LinkedIn profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-          <a href="https://orcid.org/0000-0003-0846-0039" aria-label="ORCID profile"><i class="fab fa-orcid" aria-hidden="true"></i></a>
-          <a href="https://scholar.google.com/citations?user=kZlPW4wAAAAJ&hl=en&oi=ao" aria-label="Google Scholar profile"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a>
-          <a href="https://www.zotero.org/tserre" aria-label="Zotero profile"><i class="ai ai-zotero" aria-hidden="true"></i></a>
-          {% if site.github.is_user_page %}
-          <a href="{{ site.github.owner_url }}" aria-label="GitHub profile (opens in new tab)" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i></a>
-          {% endif %}
-          </nav><br>
-          <br>
-          <span class="profile-links">
-          <a href="https://serre.lab.brown.edu/">Lab website</a><br>
-          <a href="https://github.com/serre-lab">Lab GitHub</a><br>
-          <a href="https://vivo.brown.edu/display/tserre">Brown profile</a><br>
-          <a href="/assets/serre_cv.pdf" aria-label="Download CV (PDF)">CV</a><br>
-          </span>
-        </p>
+            <button type="button" onclick="var e=atob('dGhvbWFzX3NlcnJlQGJyb3duLmVkdQ=='),a=document.createElement('a');a.href='mailto:'+e;a.textContent=e;this.replaceWith(a);a.focus();" aria-label="Show email address"><i class="fas fa-envelope" aria-hidden="true"></i></button>
+            <a href="https://x.com/tserre" aria-label="X (Twitter): @tserre"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
+            <a href="https://bsky.app/profile/thomasserre.bsky.social" aria-label="Bluesky: @thomasserre.bsky.social"><i class="fab fa-bluesky" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/thomasserre/" aria-label="LinkedIn profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://orcid.org/0000-0003-0846-0039" aria-label="ORCID profile"><i class="fab fa-orcid" aria-hidden="true"></i></a>
+            <a href="https://scholar.google.com/citations?user=kZlPW4wAAAAJ&amp;hl=en" aria-label="Google Scholar profile"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a>
+            <a href="https://www.zotero.org/tserre" aria-label="Zotero profile"><i class="ai ai-zotero" aria-hidden="true"></i></a>
+            <a href="https://github.com/tserre" aria-label="GitHub profile"><i class="fab fa-github" aria-hidden="true"></i></a>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
+    {% if page.sections %}
+    <nav class="section-nav" aria-label="Page sections">
+      <ul>
+        {% for s in page.sections %}<li><a href="#{{ s.id }}">{{ s.title }}</a></li>{% endfor %}
+      </ul>
+    </nav>
+    {% endif %}
 
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
-      </header>
-      <main id="main-content" role="main">
+    <main id="main-content" tabindex="-1">
+{{ content }}
+    </main>
 
-      {{ content }}
+    <footer class="site-footer" role="contentinfo">
+      <p>© {{ site.time | date: "%Y" }} Thomas Serre · Brown University · <a href="https://digital-accessibility.brown.edu/">Accessibility</a> · <a href="https://cm.maxient.com/reportingform.php?BrownUniv=&amp;layout_id=59">Report an accessibility barrier</a></p>
+    </footer>
 
-      </main>
-      <footer role="contentinfo" style="clear:both;padding:1rem 20px;font-size:0.9em;color:#6b7280;border-top:1px solid #e5e5e5;text-align:center;">
-        <p style="margin:0;">© {{ site.time | date: "%Y" }} Thomas Serre · Brown University · <a href="https://digital-accessibility.brown.edu/">Accessibility</a> · <a href="https://cm.maxient.com/reportingform.php?BrownUniv=&amp;layout_id=59">Report an accessibility barrier</a></p>
-      </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    <!-- Google Analytics 4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DQBQVVCL0C"></script>
     <script>
       window.dataLayer = window.dataLayer || [];

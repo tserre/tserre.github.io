@@ -1,189 +1,149 @@
 ---
 layout: default
 title: Machine and Biological Vision, Computational Neuroscience & AI Research
+sections:
+  - { id: research, title: Research }
+  - { id: teaching, title: Teaching }
+  - { id: publications, title: Publications }
+  - { id: talks, title: Talks }
+  - { id: grants, title: Grants }
 ---
+<section aria-labelledby="about">
+<h2 id="about" class="sr-only">About</h2>
 
-<!-- Custom styles for CV-inspired formatting -->
-<style>
-/* Style bullet separators to be gray, matching CV style */
-section p, section i {
-    color: inherit;
-}
+<p class="lede">Thomas Serre is a French neuroscientist and computer scientist and the Thomas J. Watson, Sr. Professor of Science and Professor of <a href="https://copsy.brown.edu/">Cognitive &amp; Psychological Sciences</a> and <a href="https://cs.brown.edu/">Computer Science</a> at Brown University. He serves as Faculty Director of the <a href="https://ccv.brown.edu/">Center for Computation &amp; Visualization</a> and Associate Director of the <a href="https://ccbs.carney.brown.edu/">Center for Computational Brain Science</a>, and is also an affiliate of the <a href="https://carney.brown.edu/">Carney Institute for Brain Science</a>, the <a href="https://physics.brown.edu/brown-center-theoretical-physics-and-innovation">Center for Theoretical Physics and Innovation</a>, and the <a href="https://dsi.brown.edu/">Data Science Institute</a>. He holds an International Chair in AI at the <a href="https://aniti.univ-toulouse.fr/">Artificial and Natural Intelligence Toulouse Institute</a> (France) and is a Fellow of the European Laboratory for Learning and Intelligent Systems (ELLIS).</p>
 
-/* Add subtle gray color to bullet delimiters while keeping surrounding text normal */
-section {
-    line-height: 1.6;
-}
+<p>His research investigates the computational principles of biological vision to understand how the brain works—and to build AI systems that see and reason more like humans. He studies how recurrent and feedback processes support visual reasoning, develops cognitive-psychology-inspired benchmarks to reveal gaps between human and machine vision, and designs brain-inspired computational models that help bridge neuroscience and artificial intelligence.</p>
 
-/* Make grant descriptions slightly more compact */
-.grant-description {
-    margin-top: 0.3em;
-    line-height: 1.5;
-}
+<p>Dr. Serre received his Ph.D. in Neuroscience from MIT (2006) and an M.Sc. in Electrical Engineering and Computer Science from Télécom Bretagne, France (2000). His work has been featured by the BBC, The Economist, New Scientist, and Scientific American. He serves as an area chair for premier conferences such as CVPR, ICML, ICLR, and NeurIPS, and as a Senior Editor of <i>Minds, Machines, and Brains</i> (MIT Press).</p>
 
-/* Section header styling matching main title blue */
-h2 {
-    color: #0366d6;
-    border-bottom: 3px solid #0366d6;
-    padding-bottom: 0.3em;
-    margin-top: 1.5em;
-    font-weight: 600;
-    font-family: "Suisse Intl", serif;
-}
+<p>He has received an NSF Early Career Award, a DARPA Young Faculty Award, a DARPA Director's Award, and Brown's Mid-Career Research Achievement Award (2024), and his team's work on human action recognition earned the IEEE PAMI Helmholtz Prize (2021) and the Mark Everingham Prize (2022).</p>
+</section>
 
-h3 {
-    color: #0366d6;
-    font-weight: 600;
-    margin-top: 1.2em;
-    font-family: "Suisse Intl", serif;
-}
+<section aria-labelledby="research">
+<h2 id="research">Research</h2>
 
-/* Bold section headers using Suisse Intl */
-section b {
-    font-family: "Suisse Intl", serif;
-    font-weight: 600;
-    letter-spacing: -0.01em;
-}
-</style>
-Thomas Serre is a French neuroscientist and computer scientist and the Thomas J. Watson, Sr. Professor of Science and Professor of <a href="https://copsy.brown.edu/">Cognitive & Psychological Sciences</a> and <a href="https://cs.brown.edu/">Computer Science</a> at Brown University <span style="color: #6b7280;">•</span> He serves as Faculty Director of the <a href="https://ccv.brown.edu/">Center for Computation & Visualization</a> and Associate Director of the <a href="https://ccbs.carney.brown.edu/">Center for Computational Brain Science</a>, and is also an affiliate of the <a href="https://carney.brown.edu/">Carney Institute for Brain Science</a>, the <a href="https://physics.brown.edu/brown-center-theoretical-physics-and-innovation">Center for Theoretical Physics and Innovation</a>, and the <a href="https://dsi.brown.edu/">Data Science Institute</a>. He holds an International Chair in AI at the <a href="https://aniti.univ-toulouse.fr/">Artificial and Natural Intelligence Toulouse Institute</a> (France) and is a Fellow of the European Laboratory for Learning and Intelligent Systems (ELLIS) <span style="color: #6b7280;">•</span> Dr. Serre received his Ph.D. in Neuroscience from MIT (2006) and an M.Sc. in Electrical Engineering and Computer Science from Télécom Bretagne, France (2000) <span style="color: #6b7280;">•</span> His research investigates the computational principles of biological vision to understand how the brain works—and to build AI systems that see and reason more like humans. He studies how recurrent and feedback processes support visual reasoning, develops cognitive-psychology-inspired benchmarks to reveal gaps between human and machine vision, and designs brain-inspired computational models that help bridge neuroscience and artificial intelligence <span style="color: #6b7280;">•</span> His work has been featured by the BBC, The Economist, New Scientist, and Scientific American <span style="color: #6b7280;">•</span> Dr. Serre serves as an area chair for premier conferences such as CVPR, ICML, ICLR, and NeurIPS, and as a Senior Editor of <i>Minds, Machines, and Brains</i> (MIT Press) <span style="color: #6b7280;">•</span> He has received an NSF Early Career Award, a DARPA Young Faculty Award, a DARPA Director's Award, and Brown's Mid-Career Research Achievement Award (2024), and his team's work on human action recognition earned the IEEE PAMI Helmholtz Prize (2021) and the Mark Everingham Prize (2022).<br><br>
+<p>A model can recognize thousands of object categories yet struggle to trace a contour, judge a relation, or imagine a scene from another viewpoint. We study these discrepancies to identify the computations that support biological vision.</p>
 
-<h2>Research</h2>
+<p>We combine behavioral and neural experiments with computational models of recurrent visual processing and learning from experience. We also develop methods to identify the visual features and representations that AI models use, and we apply computer vision to behavioral and clinical research, where it can quantify behaviors at a scale and level of detail that would be impractical by hand.</p>
 
-A model can recognize thousands of object categories yet struggle to trace a contour, judge a relation, or imagine a scene from another viewpoint. We study these discrepancies to identify the computations that support biological vision.<br><br>
+<h3>Human–AI alignment in vision</h3>
+<p>As recognition accuracy improves, agreement with human behavior and primate neural recordings can plateau or decline. Our <a href="https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(25)00349-3">paper on vision-model alignment</a> reports that better performance does not necessarily produce a better model of vision. In our <a href="https://clickme.clps.brown.edu/tutorial">ClickMe game</a>, people mark the parts of an image that help them recognize an object. We use these human importance maps to train networks to base their decisions on the same image regions that people do, a procedure we call harmonization. This improves agreement with human vision without changing the network architecture.</p>
+<p class="funding">Funded by NSF (IIS-2402875) and <a href="https://www.nsf.gov/news/training-ai-see-more-humans">featured by NSF</a>.</p>
 
-We combine behavioral and neural experiments with computational models of recurrent visual processing and learning from experience. We also develop methods to identify the visual features and representations that AI models use, and we apply computer vision where measurements would be impractical to collect by hand.<br><br>
+<h3>Cognitive benchmarks for visual reasoning</h3>
+<p>We design tasks that isolate specific demands on vision. The <a href="https://proceedings.neurips.cc/paper/2018/hash/ec8956637a99787bd197eacd77acce5e-Abstract.html">Pathfinder task</a> tests whether a model can trace a single contour through clutter — the same challenge as the tangled-line puzzles in children's activity books, where you follow one winding string through a jumble of crossing lines to find where it ends. Our recurrent models succeed on conditions that challenge the tested feedforward networks.</p>
+<p>The <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/c08ee8fe3d19521f3bfa4102898329fd-Abstract-Datasets_and_Benchmarks.html">Compositional Visual Relations benchmark</a> tests whether learned visual concepts can be combined in new ways. The <a href="https://openreview.net/forum?id=UIFAJZ22ZF">3D-PC benchmark</a> tests visual perspective-taking: reasoning about how a scene appears from another person's viewpoint, an ability that underpins theory of mind. The <a href="https://serre-lab.github.io/VPT/">3D-PC project page</a>, <a href="https://github.com/serre-lab/VPT">3D-PC code</a>, and <a href="https://huggingface.co/datasets/3D-PC/3D-PC">3D-PC dataset</a> are available for that benchmark.</p>
+<p>In same–different tasks, a model must judge whether two objects match, then apply that relation to objects it has not encountered during training. Comparing people and models on these tasks helps us distinguish successful recognition from the computations needed for grouping and relational reasoning.</p>
+<p class="funding">Funded by ONR (N00014-24-1-2026).</p>
 
-<h3 style="font-size: 1em; margin-bottom: 0.5em;">Human-AI Alignment in Vision</h3>
-As recognition accuracy improves, agreement with human behavior and primate neural recordings can plateau or decline. Our <a href="https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(25)00349-3">paper on vision-model alignment</a> reports that better performance does not necessarily produce a better model of vision. In our <a href="https://clickme.clps.brown.edu/tutorial">ClickMe game</a>, people mark the parts of an image that help them recognize an object. We use them to train networks to rely on similar visual evidence, a procedure we call harmonization. This improves agreement with human vision without changing the network architecture. It gives us a way to investigate how <a href="https://openreview.net/forum?id=KeiQNpb7sv">visual experience and learning objectives</a> shape a model's behavior.<br><br>
-In work on joint energy-based models of vision, we compare models trained to classify images with models that also learn the distribution of images themselves. We find that <a href="https://openreview.net/forum?id=XYmvp2YQdC">combining these discriminative and generative objectives can produce better agreement with human vision than either objective alone</a>.<br>
-<i>Funded by NSF (IIS-2402875) and <a href="https://www.nsf.gov/news/training-ai-see-more-humans">featured by NSF</a>.</i><br><br>
+<h3>Cortical feedback and recurrent vision</h3>
+<p>Beyond the initial feedforward sweep, visual cortex is richly recurrent: horizontal and feedback connections continually propagate signals within and between areas. We study how these interactions reshape a representation over time and what they contribute to perception.</p>
+<p>We build recurrent network models of these circuits and test them against behavior and neural data. Networks with <a href="https://proceedings.neurips.cc/paper/2018/hash/ec8956637a99787bd197eacd77acce5e-Abstract.html">horizontal recurrent connections</a> learn to trace long-range contours that much larger feedforward networks struggle with, and <a href="https://openreview.net/forum?id=H1gB4RVKvB">related circuit models</a> detect contours in natural images while reproducing contextual illusions such as the tilt illusion. Comparing the two kinds of recurrence shows that <a href="https://openreview.net/forum?id=HJxrVA4FDS">horizontal and top-down connections support different forms of perceptual grouping</a>. Because these models compute over time, they also yield <a href="https://openreview.net/forum?id=1xPsn2gCOe">reaction-time predictions</a> that can be compared with people's, and their <a href="https://arxiv.org/abs/2610.05419">dynamics track the time course of grouping in natural scenes</a>.</p>
+<p>Experiments on same–different judgments reveal <a href="https://www.eneuro.org/content/8/1/ENEURO.0267-20.2020">neural dynamics associated with relational processing</a>.</p>
+<p>In collaboration with David Sheinberg, our <a href="https://www.cell.com/current-biology/fulltext/S0960-9822(24)01380-0">mental-simulation paper</a> asks how monkeys predict where a ball will land after falling through obstacles, before seeing it move. Their behavior and eye movements are consistent with mentally tracing the ball's path. We compare these observations with recurrent networks that learn to solve the same task.</p>
+<p>We also investigate whether <a href="https://openreview.net/forum?id=m2gVfgWYDO">synchronized neural activity helps track objects</a> and solve <a href="https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(25)00232-3">feature binding</a>: keeping the color, shape, and other properties of each object associated with that object rather than mixing them with those of its neighbors. To make these mechanisms practical at larger scales, we develop <a href="https://proceedings.neurips.cc/paper/2020/hash/766d856ef1a6b02f93d894415e6bfa0e-Abstract.html">stable recurrent models</a> and convolutional state space models.</p>
+<p class="funding">Funded by ONR (N00014-24-1-2026) and ANITI (France 2030, ANR-23-IACL-0002).</p>
 
-<h3 style="font-size: 1em; margin-bottom: 0.5em;">Cognitive Benchmarks for Visual Reasoning</h3>
-We design tasks that isolate specific demands on vision. The <a href="https://proceedings.neurips.cc/paper/2018/hash/ec8956637a99787bd197eacd77acce5e-Abstract.html">Pathfinder task</a> tests whether a model can follow a contour through clutter. Our recurrent models succeed on conditions that challenge the tested feedforward networks.<br><br>
-The <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/c08ee8fe3d19521f3bfa4102898329fd-Abstract-Datasets_and_Benchmarks.html">Compositional Visual Relations benchmark</a> tests whether learned visual concepts can be combined in new ways. The <a href="https://openreview.net/forum?id=UIFAJZ22ZF">3D-PC benchmark</a> asks models to reason about how a scene appears from another viewpoint. The <a href="https://serre-lab.github.io/VPT/">3D-PC project page</a>, <a href="https://github.com/serre-lab/VPT">3D-PC code</a>, and <a href="https://huggingface.co/datasets/3D-PC/3D-PC">3D-PC dataset</a> are available for that benchmark.<br><br>
-In same–different tasks, a model must judge whether two objects match, then apply that relation to objects it has not encountered during training. Comparing people and models on these tasks helps us distinguish successful recognition from the computations needed for grouping and relational reasoning.<br>
-<i>Funded by ONR (N00014-24-1-2026).</i><br><br>
+<h3>Development and embodiment</h3>
+<p>Harmonization imposes human-like visual strategies through direct supervision. A complementary question is whether alignment can emerge without that supervision, from the way a system learns. Animals learn to see without labels, through experience that unfolds continuously as they move through the world. We study what models can learn from that temporal structure and from acting, and how <a href="https://openreview.net/forum?id=KeiQNpb7sv">visual experience and learning objectives</a> determine whether a model comes to see the world as we do.</p>
+<p>We collaborate with developmental cognitive scientists to identify the learning principles that support perceptual development, including how intrinsic rewards guide exploration.</p>
+<p>Ongoing work uses a newborn chick's first-person visual experience to test whether predictive learning can support grouping and object recognition without labels. The failures of current models on the 3D-PC perspective-taking benchmark motivate work on agents that learn through exploration. In collaboration with Fulvio Domini, we also study the computational mechanisms of depth perception.</p>
+<p class="funding">Funded by the REPRISM MURI (ONR N00014-24-1-2603), ONR (N00014-24-1-2026), and the NSF AI Research Institute on Interaction for AI Assistants (ARIA; NSF Cooperative Agreement 2433429).</p>
 
-<h3 style="font-size: 1em; margin-bottom: 0.5em;">Cortical Feedback and Recurrent Vision</h3>
-The cortex has a limited number of processing stages. Feedback and horizontal connections add computation over time. We study how these interactions change a representation and what they contribute to perception.<br><br>
-Our <a href="https://arxiv.org/abs/2610.05419">perceptual-grouping paper</a> links recurrent network dynamics to the time course of grouping in natural scenes. Experiments on same–different judgments reveal <a href="https://www.eneuro.org/content/8/1/ENEURO.0267-20.2020">neural dynamics associated with relational processing</a>.<br><br>
-In collaboration with David Sheinberg, our <a href="https://www.cell.com/current-biology/fulltext/S0960-9822(24)01380-0">mental-simulation paper</a> asks how monkeys predict where a ball will land after falling through obstacles, before seeing it move. Their behavior and eye movements are consistent with mentally tracing the ball's path. We compare these observations with recurrent networks that learn to solve the same task.<br><br>
-We also investigate whether <a href="https://openreview.net/forum?id=m2gVfgWYDO">synchronized neural activity helps track objects</a> and solve <a href="https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(25)00232-3">feature binding</a>: keeping the color, shape, and other properties of each object associated with that object rather than mixing them with those of its neighbors. To make these mechanisms practical at larger scales, we develop <a href="https://proceedings.neurips.cc/paper/2020/hash/766d856ef1a6b02f93d894415e6bfa0e-Abstract.html">stable recurrent models</a> and convolutional state space models.<br>
-<i>Funded by ONR (N00014-24-1-2026) and ANITI (France 2030, ANR-23-IACL-0002).</i><br><br>
+<h3>Explainable AI for scientific discovery</h3>
+<p>A model's predictions can be accurate for the wrong reasons. In our <a href="https://onlinelibrary.wiley.com/doi/10.1111/his.15180">histopathology paper</a>, models trained to predict tumor mutations from tissue images relied on correlations with tissue subtype and failed a more demanding test. Accurate predictions alone did not establish that the models measured the intended biology.</p>
+<p>With collaborators at the Artificial and Natural Intelligence Toulouse Institute (ANITI), we develop methods to examine the evidence behind such predictions. <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Fel_CRAFT_Concept_Recursive_Activation_FacTorization_for_Explainability_CVPR_2023_paper.pdf">CRAFT</a> identifies concepts used by a model, and <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/76d2f8e328e1081c22a77ca0fa330ca5-Abstract-Conference.html">MACO</a> visualizes its features. These methods are available through <a href="https://github.com/deel-ai/xplique">Xplique</a> and <a href="https://github.com/serre-lab/Horama">Horama</a> libraries.</p>
+<p>We test explanations with people, finding that <a href="https://arxiv.org/abs/2605.20337">more capable vision models are not necessarily more interpretable</a> and comparing <a href="https://openreview.net/forum?id=vb57jDotru">which representations people can understand</a>. Applications include identifying <a href="https://www.pnas.org/content/113/12/3305">plant families from leaf architecture</a>. <a href="https://serre-lab.github.io/LeafLens/">LeafLENS</a> and <a href="https://serre-lab.github.io/Lens/">ObjectLENS</a> let visitors explore model explanations directly.</p>
+<p class="funding">Funded by ANITI (France 2030, ANR-23-IACL-0002) and the NSF AI Research Institute on Interaction for AI Assistants (ARIA; NSF Cooperative Agreement 2433429).</p>
 
-<h3 style="font-size: 1em; margin-bottom: 0.5em;">Development and Embodiment</h3>
-Animals learn to see through experience that unfolds continuously as they move through the world. We study what models can learn from that temporal structure, and what additional information comes from acting. We collaborate with developmental cognitive scientists to identify the learning principles that support perceptual development, including how intrinsic rewards guide exploration.<br><br>
-Ongoing work uses a newborn chick's first-person visual experience to test whether predictive learning can support grouping and object recognition without labels. Our <a href="https://openreview.net/forum?id=UIFAJZ22ZF">visual perspective-taking experiments</a> expose limitations of the tested models, motivating work on agents that learn through exploration. In collaboration with Fulvio Domini, we also study the computational mechanisms of depth perception.<br>
-<i>Funded by the REPRISM MURI (ONR N00014-24-1-2603), ONR (N00014-24-1-2026), and the NSF AI Research Institute on Interaction for AI Assistants (ARIA; NSF Cooperative Agreement 2433429).</i><br><br>
+<h3>Foundation models and multimodal reasoning</h3>
+<p>Foundation models offer increasingly powerful predictions of behavior and brain activity. Establishing what those predictions explain requires understanding how the models learn and represent information. Our <a href="https://www.cell.com/neuron/abstract/S0896-6273(25)00752-4">perspective on prediction and understanding</a> develops that distinction.</p>
+<p>We ask how the training objective determines which information a model retains. Contrastive learning brings representations of matched inputs closer together while separating mismatched inputs. Predictive learning trains a model to infer one representation from another. Our <a href="https://openreview.net/forum?id=37eNHfTSDD">spectral theory of multimodal losses</a> studies the relationship between these objectives and the representations they produce. We also study shared multimodal workspaces, failures of feature binding in vision–language models, and language-model representations that <a href="https://openreview.net/forum?id=Czul60ELOH">track human judgments of event plausibility</a>.</p>
+<p class="funding">Funded by the NSF AI Research Institute on Interaction for AI Assistants (ARIA; NSF Cooperative Agreement 2433429) and ONR (N00014-24-1-2026).</p>
 
-<h3 style="font-size: 1em; margin-bottom: 0.5em;">Explainable AI for Scientific Discovery</h3>
-A model's predictions can be accurate for the wrong reasons. In our <a href="https://onlinelibrary.wiley.com/doi/10.1111/his.15180">histopathology paper</a>, models trained to predict tumor mutations from tissue images relied on correlations with tissue subtype and failed a more demanding test. Accurate predictions alone did not establish that the models measured the intended biology.<br><br>
-With collaborators at the Artificial and Natural Intelligence Toulouse Institute (ANITI), we develop methods to examine the evidence behind such predictions. <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Fel_CRAFT_Concept_Recursive_Activation_FacTorization_for_Explainability_CVPR_2023_paper.pdf">CRAFT</a> identifies concepts used by a model, and <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/76d2f8e328e1081c22a77ca0fa330ca5-Abstract-Conference.html">MACO</a> visualizes its features. These methods are available through <a href="https://github.com/deel-ai/xplique">Xplique</a> and <a href="https://github.com/serre-lab/Horama">Horama</a> libraries.<br><br>
-We test explanations with people, finding that <a href="https://arxiv.org/abs/2605.20337">more capable vision models are not necessarily more interpretable</a> and comparing <a href="https://openreview.net/forum?id=vb57jDotru">which representations people can understand</a>. Applications include identifying <a href="https://www.pnas.org/content/113/12/3305">plant families from leaf architecture</a>. <a href="https://serre-lab.github.io/LeafLens/">LeafLENS</a> and <a href="https://serre-lab.github.io/Lens/">ObjectLENS</a> let visitors explore model explanations directly.<br>
-<i>Funded by ANITI (France 2030, ANR-23-IACL-0002) and the NSF AI Research Institute on Interaction for AI Assistants (ARIA; NSF Cooperative Agreement 2433429).</i><br><br>
+<h3>AI for behavioral and clinical science</h3>
+<p>Studying behavior often requires researchers to watch and label many hours of video. Our <a href="https://www.nature.com/articles/ncomms1064">automated home-cage phenotyping paper</a> describes a system that learns to recognize mouse behaviors such as eating, grooming, and resting, so researchers can measure when these behaviors occur and how they change over time. We have extended video-based behavioral analysis to worms, zebrafish, and children, and we have used these measurements to characterize mouse models of amyotrophic lateral sclerosis and frontotemporal dementia (ALS-FTD).</p>
+<p class="funding">ALS-FTD phenotyping was supported by NIH/NINDS (R21 NS112743, 2020–2022).</p>
+<p>In a separate collaboration with Taylor Burke at Massachusetts General Hospital, we develop computer-vision methods to analyze photographs of self-inflicted injuries. The models measure visible signs of injury severity. We are testing whether these measurements, combined with clinical assessments, can improve prediction of future suicide attempts. This work, supported by <a href="https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=R01MH140004&amp;arg_ProgOfficeCode=134">NIH award R01 MH140004</a>, investigates a potential source of information for clinicians assessing suicide risk.</p>
+<p class="funding">Suicide-risk research is funded by NIH/NIMH (R01 MH140004 and R01 MH143695).</p>
+<p>With David Borton's group, we develop machine learning methods to personalize electrical stimulation after spinal cord injury. Our models learn how stimulation settings relate to muscle activity, helping the team find settings that produce a desired response without testing every possible combination. This work contributes to a <a href="https://www.nature.com/articles/s41551-026-01627-5">neuroprosthetic interface that restored muscle control and sensory feedback in three participants with spinal cord injuries</a>.</p>
+<p class="funding">Spinal-interface research was supported by DARPA (D19AC00015, 2019–2024; PI: David Borton).</p>
+</section>
 
-<h3 style="font-size: 1em; margin-bottom: 0.5em;">Foundation Models and Multimodal Reasoning</h3>
-Foundation models offer increasingly powerful predictions of behavior and brain activity. Establishing what those predictions explain requires understanding how the models learn and represent information. Our <a href="https://www.cell.com/neuron/abstract/S0896-6273(25)00752-4">perspective on prediction and understanding</a> develops that distinction.<br><br>
-We ask how the training objective determines which information a model retains. Contrastive learning brings representations of matched inputs closer together while separating mismatched inputs. Predictive learning trains a model to infer one representation from another. Our <a href="https://openreview.net/forum?id=37eNHfTSDD">spectral theory of multimodal losses</a> studies the relationship between these objectives and the representations they produce. We also study shared multimodal workspaces, failures of feature binding in vision–language models, and language-model representations that <a href="https://openreview.net/forum?id=Czul60ELOH">track human judgments of event plausibility</a>.<br>
-<i>Funded by the NSF AI Research Institute on Interaction for AI Assistants (ARIA; NSF Cooperative Agreement 2433429) and ONR (N00014-24-1-2026).</i><br><br>
+<section aria-labelledby="teaching">
+<h2 id="teaching">Teaching</h2>
 
-<h3 style="font-size: 1em; margin-bottom: 0.5em;">AI for Behavioral and Clinical Science</h3>
-Studying behavior often requires researchers to watch and label many hours of video. Our <a href="https://www.nature.com/articles/ncomms1064">automated home-cage phenotyping paper</a> describes a system that learns to recognize mouse behaviors such as eating, grooming, and resting, so researchers can measure when these behaviors occur and how they change over time. We have extended video-based behavioral analysis to worms, zebrafish, and children, and we have used these measurements to characterize mouse models of amyotrophic lateral sclerosis and frontotemporal dementia (ALS-FTD).<br>
-<i>ALS-FTD phenotyping was supported by NIH/NINDS (R21 NS112743, 2020–2022).</i><br><br>
-In a separate collaboration with Taylor Burke at Massachusetts General Hospital, we develop computer-vision methods to analyze photographs of self-inflicted injuries. The models measure visible signs of injury severity. We are testing whether these measurements, combined with clinical assessments, can improve prediction of future suicide attempts. This work, supported by <a href="https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=R01MH140004&amp;arg_ProgOfficeCode=134">NIH award R01 MH140004</a>, investigates a potential source of information for clinicians assessing suicide risk.<br>
-<i>Suicide-risk research is funded by NIH/NIMH (R01 MH140004 and R01 MH143695).</i><br><br>
-With David Borton's group, we develop machine learning methods to personalize electrical stimulation after spinal cord injury. Our models learn how stimulation settings relate to muscle activity, helping the team find settings that produce a desired response without testing every possible combination. This work contributes to a <a href="https://www.nature.com/articles/s41551-026-01627-5">neuroprosthetic interface that restored muscle control and sensory feedback in three participants with spinal cord injuries</a>.<br>
-<i>Spinal-interface research was supported by DARPA (D19AC00015, 2019–2024; PI: David Borton).</i><br><br>
+<p>I teach computational courses at the interface between natural and artificial intelligence, bridging neuroscience, cognitive science, and AI.</p>
 
-<h2>Teaching</h2>
+<ul class="entry-list">
+<li class="entry">
+<span class="entry-title">CPSY 1291: Computational Methods for Mind, Brain &amp; Behavior</span>
+<span class="entry-meta">Advanced undergraduate/graduate · Fall semester</span>
+<p class="entry-text">A broad introduction to NeuroAI combining lectures with hands-on programming assignments. Students explore computational models of brain and cognition, classical machine learning algorithms, and modern deep learning architectures.</p>
+</li>
+<li class="entry">
+<a class="entry-title" href="/cpsy1950/">CPSY 1950: Deep Learning in Brains, Minds &amp; Machines</a>
+<span class="entry-meta">Advanced undergraduate/graduate · Spring semester</span>
+<p class="entry-text">A seminar on how biological and artificial systems process information. Students read and discuss recent papers in NeuroAI and evaluate their methods and evidence.</p>
+</li>
+</ul>
+</section>
 
-I teach computational courses at the interface between natural and artificial intelligence, bridging neuroscience, cognitive science, and AI.<br><br>
+<section aria-labelledby="publications">
+<h2 id="publications">Selected recent publications</h2>
 
-<b>CPSY 1291: Computational Methods for Mind, Brain & Behavior</b><br>
-<i>Advanced Undergraduate/Graduate <span style="color: #6b7280;">•</span> Fall Semester</i><br>
-A broad introduction to NeuroAI combining lectures with hands-on programming assignments. Students explore computational models of brain and cognition, classical machine learning algorithms, and modern deep learning architectures.<br><br>
-
-<b><a href="/cpsy1950/">CPSY 1950: Deep Learning in Brains, Minds & Machines</a></b><br>
-<i>Advanced Undergraduate/Graduate <span style="color: #6b7280;">•</span> Spring Semester</i><br>
-A seminar on how biological and artificial systems process information. Students read and discuss recent papers in NeuroAI and evaluate their methods and evidence.<br><br>
-
-<h2>Selected recent publications</h2>
-
-<ul style="list-style-type: disc; padding-left: 1.5em; margin-top: 0.5em;">
-<li style="margin-bottom: 0.5em;">J. Chang et al. <span style="color: #6b7280;">•</span> <a href="https://openreview.net/forum?id=XYmvp2YQdC">Not too generative, not too discriminative: The human alignment sweet spot</a> <span style="color: #6b7280;">•</span> <i>NeurIPS</i> <span style="color: #6b7280;">•</span> 2026</li>
-<li style="margin-bottom: 0.5em;">Y. Cheng et al. <span style="color: #6b7280;">•</span> <a href="https://openreview.net/forum?id=37eNHfTSDD">A unified spectral theory of multimodal losses</a> <span style="color: #6b7280;">•</span> <i>NeurIPS</i> <span style="color: #6b7280;">•</span> 2026</li>
-<li style="margin-bottom: 0.5em;">J.S. Calvert et al. <span style="color: #6b7280;">•</span> <a href="https://www.nature.com/articles/s41551-026-01627-5">Perilesional neuromodulation replaces lost sensorimotor function in persons with spinal cord injury</a> <span style="color: #6b7280;">•</span> <i>Nature Biomedical Engineering</i> <span style="color: #6b7280;">•</span> 2026</li>
-<li style="margin-bottom: 0.5em;">D. Linsley, P. Feng & T. Serre <span style="color: #6b7280;">•</span> <a href="https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(25)00349-3">Better artificial intelligence does not mean better models of biology</a> <span style="color: #6b7280;">•</span> <i>Trends in Cognitive Sciences</i> <span style="color: #6b7280;">•</span> 2026</li>
-<li style="margin-bottom: 0.5em;">P. Roelfsema & T. Serre <span style="color: #6b7280;">•</span> <a href="https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(25)00232-3">Feature binding in biological and artificial vision</a> <span style="color: #6b7280;">•</span> <i>Trends in Cognitive Sciences</i> <span style="color: #6b7280;">•</span> 2026</li>
-<li style="margin-bottom: 0.5em;">M.A. Lepori et al. <span style="color: #6b7280;">•</span> <a href="https://openreview.net/forum?id=Czul60ELOH">Is this just fantasy? Language model representations reflect human judgments of event plausibility</a> <span style="color: #6b7280;">•</span> <i>ICLR</i> <span style="color: #6b7280;">•</span> 2026</li>
-<li style="margin-bottom: 0.5em;">T. Serre & E. Pavlick <span style="color: #6b7280;">•</span> <a href="https://www.cell.com/neuron/abstract/S0896-6273(25)00752-4">From prediction to understanding: Will AI foundation models transform brain science?</a> <span style="color: #6b7280;">•</span> <i>Neuron</i> <span style="color: #6b7280;">•</span> 2025</li>
-<li style="margin-bottom: 0.5em;">D. Linsley et al. <span style="color: #6b7280;">•</span> <a href="https://openreview.net/forum?id=UIFAJZ22ZF">The 3D-PC: A benchmark for visual perspective taking in humans and machines</a> <span style="color: #6b7280;">•</span> <i>ICLR</i> <span style="color: #6b7280;">•</span> 2025</li>
-<li style="margin-bottom: 0.5em;">S. Shahamatdar et al. <span style="color: #6b7280;">•</span> <a href="https://onlinelibrary.wiley.com/doi/10.1111/his.15180">Deceptive learning in histopathology</a> <span style="color: #6b7280;">•</span> <i>Histopathology</i> <span style="color: #6b7280;">•</span> 2024</li>
-<li style="margin-bottom: 0.5em;">A. Ahuja et al. <span style="color: #6b7280;">•</span> <a href="https://www.cell.com/current-biology/fulltext/S0960-9822(24)01380-0">Monkeys engage in visual simulation to solve complex problems</a> <span style="color: #6b7280;">•</span> <i>Current Biology</i> <span style="color: #6b7280;">•</span> 2024</li>
+<ul class="entry-list">
+<li class="entry"><a class="entry-title" href="https://openreview.net/forum?id=XYmvp2YQdC">Not too generative, not too discriminative: The human alignment sweet spot</a><span class="entry-meta">J. Chang et al. · <i>NeurIPS</i> 2026</span></li>
+<li class="entry"><a class="entry-title" href="https://openreview.net/forum?id=37eNHfTSDD">A unified spectral theory of multimodal losses</a><span class="entry-meta">Y. Cheng et al. · <i>NeurIPS</i> 2026</span></li>
+<li class="entry"><a class="entry-title" href="https://www.nature.com/articles/s41551-026-01627-5">Perilesional neuromodulation replaces lost sensorimotor function in persons with spinal cord injury</a><span class="entry-meta">J.S. Calvert et al. · <i>Nature Biomedical Engineering</i> 2026</span></li>
+<li class="entry"><a class="entry-title" href="https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(25)00349-3">Better artificial intelligence does not mean better models of biology</a><span class="entry-meta">D. Linsley, P. Feng &amp; T. Serre · <i>Trends in Cognitive Sciences</i> 2026</span></li>
+<li class="entry"><a class="entry-title" href="https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(25)00232-3">Feature binding in biological and artificial vision</a><span class="entry-meta">P. Roelfsema &amp; T. Serre · <i>Trends in Cognitive Sciences</i> 2026</span></li>
+<li class="entry"><a class="entry-title" href="https://openreview.net/forum?id=Czul60ELOH">Is this just fantasy? Language model representations reflect human judgments of event plausibility</a><span class="entry-meta">M.A. Lepori et al. · <i>ICLR</i> 2026</span></li>
+<li class="entry"><a class="entry-title" href="https://www.cell.com/neuron/abstract/S0896-6273(25)00752-4">From prediction to understanding: Will AI foundation models transform brain science?</a><span class="entry-meta">T. Serre &amp; E. Pavlick · <i>Neuron</i> 2025</span></li>
+<li class="entry"><a class="entry-title" href="https://openreview.net/forum?id=UIFAJZ22ZF">The 3D-PC: A benchmark for visual perspective taking in humans and machines</a><span class="entry-meta">D. Linsley et al. · <i>ICLR</i> 2025</span></li>
+<li class="entry"><a class="entry-title" href="https://onlinelibrary.wiley.com/doi/10.1111/his.15180">Deceptive learning in histopathology</a><span class="entry-meta">S. Shahamatdar et al. · <i>Histopathology</i> 2024</span></li>
+<li class="entry"><a class="entry-title" href="https://www.cell.com/current-biology/fulltext/S0960-9822(24)01380-0">Monkeys engage in visual simulation to solve complex problems</a><span class="entry-meta">A. Ahuja et al. · <i>Current Biology</i> 2024</span></li>
 </ul>
 
-<p>See the <a href="https://serre.lab.brown.edu/#/publications">lab publications page</a> for a complete list of publications.</p><br>
+<p class="note">See the <a href="https://serre.lab.brown.edu/#/publications">lab publications page</a> for a complete list of publications.</p>
+</section>
 
-<h2>Selected talks</h2>
+<section aria-labelledby="talks">
+<h2 id="talks">Selected talks</h2>
 
-<p>A selection of recorded talks. For the full list of invited talks, see my <a href="/assets/serre_cv.pdf">CV (PDF)</a>.</p>
+<p class="note">A selection of recorded talks. For the full list of invited talks, see my <a href="/assets/serre_cv.pdf">CV (PDF)</a>.</p>
 
-<div style="margin-top: 1em;">
-
-<div style="margin-bottom: 2em;">
-<b>Scaling laws vs. neural laws: Toward more natural artificial vision</b><br>
-<i>Keynote, IEEE CVPR 2026, Denver, CO <span style="color: #6b7280;">•</span> June 2026</i><br>
-<p style="margin: 0.5em 0;">Modern computer vision has advanced by scaling models, data and compute, and deep networks now match or exceed human accuracy on benchmarks such as ImageNet. Yet their alignment with human vision is fragile: on simple probes from the cognitive sciences, even the largest models fall to near chance, and models that reach human accuracy do so with very different visual strategies. This keynote argues that more natural artificial vision will come from the neural laws of biological vision: the developmental principles that shape how brains learn to see, and the recurrent architecture of cortex.</p>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-top: 1em;">
-<iframe src="https://www.youtube.com/embed/tjn2MW0d8K8?start=7185" title="Scaling laws vs. neural laws - CVPR 2026 keynote" loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-</div>
-</div>
-
-<div style="margin-bottom: 2em;">
-<b>Cortical feedback mechanisms in visual reasoning: From perceptual grouping to abstract compositional reasoning</b><br>
-<i>DIC-ISC-CRIA Seminar, Montreal <span style="color: #6b7280;">•</span> February 2026</i><br>
-<p style="margin: 0.5em 0;">How does cortical feedback contribute to visual reasoning? This talk examines perceptual grouping and same–different judgments, using computational models to test how recurrent processing helps solve these tasks.</p>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-top: 1em;">
-<iframe src="https://www.youtube.com/embed/xnfidn2lmog" title="Cortical feedback mechanisms in visual reasoning - DIC-ISC-CRIA Seminar" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-</div>
-</div>
-
-</div><br>
-
-<h2>Active grants</h2>
-
-<ul style="list-style-type: none; padding-left: 0; margin-top: 0.5em;">
-<li style="margin-bottom: 0.75em;"><b>High-performance compute cluster for brain science</b><br>
-<i>NIH S10OD036341 <span style="color: #6b7280;">•</span> 2025 – 2030 <span style="color: #6b7280;">•</span> PI</i><br>
-Supporting acquisition of a high-performance computing cluster for large-scale computational neuroscience modeling and deep learning experiments. The Center for Computation and Visualization runs this instrument as the <a href="https://carney.brown.edu/carney-condo">Carney Condo</a> (RRID:SCR_029056).</li>
-<li style="margin-bottom: 0.75em;"><b>One vision: Computational alignment of deep neural networks with humans</b><br>
-<i>NSF IIS-2402875 <span style="color: #6b7280;">•</span> 2024 – 2028 <span style="color: #6b7280;">•</span> co-PI (Serre/Linsley)</i><br>
-Developing methods to quantify and improve alignment between deep neural networks and human visual processing using developmental psychology approaches.</li>
-<li style="margin-bottom: 0.75em;"><b>Brain-inspired deep learning models of visual reasoning</b><br>
-<i>ONR N00014-24-1-2026 <span style="color: #6b7280;">•</span> 2023 – 2028 <span style="color: #6b7280;">•</span> PI</i><br>
-Investigating computational principles underlying visual reasoning to develop more capable AI through cognitive benchmarks and brain-inspired architectures.</li>
-<li style="margin-bottom: 0.75em;"><b>ANITI AI Cluster: C3-PO Synergy Chair (Cobots with Conversation, Cognition and Perception)</b><br>
-<i>France 2030, ANR-23-IACL-0002</i><br>
-Leading the vision and perception track of a Toulouse chair on collaborative robots that combine conversation, cognition and perception.</li>
-<li style="margin-bottom: 0.75em;"><b>NSF AI Research Institute on Interaction for AI Assistants (ARIA)</b><br>
-<i>NSF 2433429 (Cooperative Agreement) <span style="color: #6b7280;">•</span> 2025 – 2030 <span style="color: #6b7280;">•</span> Senior Personnel (Institute PI: Pavlick)</i><br>
-A national AI research institute developing trustworthy, context-aware AI assistants grounded in human and machine cognition, with mental and behavioral health as a central use case.</li>
-<li style="margin-bottom: 0.75em;"><b>REPRISM: Flexible embodied problem-solving by manipulating the representational prism</b><br>
-<i>ONR MURI N00014-24-1-2603 <span style="color: #6b7280;">•</span> 2024 – 2027 <span style="color: #6b7280;">•</span> co-I (PI: Konidaris)</i><br>
-Developing vision systems that adaptively change representations based on task demands for flexible and generalizable problem-solving.</li>
-<li style="margin-bottom: 0.75em;"><b>SEA-CROGS: Scalable, efficient and accelerated causal reasoning operators, graphs and spikes for earth and embedded systems</b><br>
-<i>DOE DE-SC0023191 <span style="color: #6b7280;">•</span> 2022 – 2027 <span style="color: #6b7280;">•</span> co-I (PI: Maxey)</i><br>
-Creating scalable causal reasoning methods combining graph-based representations, spiking neural networks, and causal inference for Earth system science.</li>
-<li style="margin-bottom: 0.75em;"><b>The next generation of operator regression networks: Theory, algorithms, applications</b><br>
-<i>ONR N00014-22-1-2795 <span style="color: #6b7280;">•</span> 2022 – 2027 <span style="color: #6b7280;">•</span> co-I (PI: Karniadakis)</i><br>
-Advancing theoretical foundations and practical applications of operator regression networks for solving partial differential equations and modeling physical systems.</li>
-<li style="margin-bottom: 0.75em;"><b>Enhancing suicide risk detection through computer vision</b><br>
-<i>NIH/NIMH R01 MH140004 <span style="color: #6b7280;">•</span> 2026 – 2030 <span style="color: #6b7280;">•</span> co-I (PI: Burke)</i><br>
-Developing computer-vision measures of visible injury severity in photographs of self-inflicted injuries, and testing whether those measures add to clinical assessments when predicting future suicide attempts.</li>
-<li style="margin-bottom: 0.75em;"><b>A mechanistic analysis of the transition from nonsuicidal to suicidal self-injury in adolescents</b><br>
-<i>NIH/NIMH R01 MH143695 <span style="color: #6b7280;">•</span> 2026 – 2031 <span style="color: #6b7280;">•</span> co-I (MPIs: Ammerman/Burke)</i><br>
-Investigating the mechanistic transition from nonsuicidal to suicidal self-injury in adolescents through combined computational and clinical analysis.</li>
-<li style="margin-bottom: 0.75em;"><b>Brown Postdoctoral Training Program in Computational Psychiatry</b><br>
-<i>NIH/NIMH T32 MH126388 <span style="color: #6b7280;">•</span> 2021 – 2031 <span style="color: #6b7280;">•</span> Contact PI (2026–); MPI (Frank/Jones/Philip/Serre); co-PI (2021–2026)</i><br>
-Training postdoctoral fellows at the intersection of computational neuroscience, machine learning, and psychiatry to develop computational methods for understanding psychiatric disorders.</li>
+<ul class="entry-list">
+<li class="entry">
+<span class="entry-title">Scaling laws vs. neural laws: Toward more natural artificial vision</span>
+<span class="entry-meta">Keynote, IEEE CVPR 2026, Denver, CO · June 2026</span>
+<p class="entry-text">Modern computer vision has advanced by scaling models, data and compute, and deep networks now match or exceed human accuracy on benchmarks such as ImageNet. Yet their alignment with human vision is fragile: on simple probes from the cognitive sciences, even the largest models fall to near chance, and models that reach human accuracy do so with very different visual strategies. This keynote argues that more natural artificial vision will come from the neural laws of biological vision: the developmental principles that shape how brains learn to see, and the recurrent architecture of cortex.</p>
+<iframe class="video" src="https://www.youtube.com/embed/tjn2MW0d8K8?start=7185" title="Scaling laws vs. neural laws - CVPR 2026 keynote" loading="lazy" allowfullscreen allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</li>
+<li class="entry">
+<span class="entry-title">Cortical feedback mechanisms in visual reasoning: From perceptual grouping to abstract compositional reasoning</span>
+<span class="entry-meta">DIC-ISC-CRIA Seminar, Montreal · February 2026</span>
+<p class="entry-text">How does cortical feedback contribute to visual reasoning? This talk examines perceptual grouping and same–different judgments, using computational models to test how recurrent processing helps solve these tasks.</p>
+<iframe class="video" src="https://www.youtube.com/embed/xnfidn2lmog" title="Cortical feedback mechanisms in visual reasoning - DIC-ISC-CRIA Seminar" loading="lazy" allowfullscreen allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</li>
 </ul>
+</section>
+
+<section aria-labelledby="grants">
+<h2 id="grants">Active grants</h2>
+
+<ul class="entry-list">
+<li class="entry"><span class="entry-title">High-performance compute cluster for brain science</span><span class="entry-meta">NIH S10OD036341 · 2025 – 2030 · PI</span><p class="entry-text">Supporting acquisition of a high-performance computing cluster for large-scale computational neuroscience modeling and deep learning experiments. The Center for Computation and Visualization runs this instrument as the <a href="https://carney.brown.edu/carney-condo">Carney Condo</a> (RRID:SCR_029056).</p></li>
+<li class="entry"><span class="entry-title">Brain-inspired deep learning models of visual reasoning</span><span class="entry-meta">ONR N00014-24-1-2026 · 2023 – 2028 · PI</span><p class="entry-text">Investigating computational principles underlying visual reasoning to develop more capable AI through cognitive benchmarks and brain-inspired architectures.</p></li>
+<li class="entry"><span class="entry-title">Brown Postdoctoral Training Program in Computational Psychiatry</span><span class="entry-meta">NIH/NIMH T32 MH126388 · 2021 – 2031 · Contact PI (2026–); MPI (Frank/Jones/Philip/Serre); co-PI (2021–2026)</span><p class="entry-text">Training postdoctoral fellows at the intersection of computational neuroscience, machine learning, and psychiatry to develop computational methods for understanding psychiatric disorders.</p></li>
+<li class="entry"><span class="entry-title">One vision: Computational alignment of deep neural networks with humans</span><span class="entry-meta">NSF IIS-2402875 · 2024 – 2028 · co-PI (Serre/Linsley)</span><p class="entry-text">Developing methods to quantify and improve alignment between deep neural networks and human visual processing using developmental psychology approaches.</p></li>
+<li class="entry"><span class="entry-title">ANITI AI Cluster: C3-PO Synergy Chair (Cobots with Conversation, Cognition and Perception)</span><span class="entry-meta">France 2030, ANR-23-IACL-0002</span><p class="entry-text">Leading the vision and perception track of a Toulouse chair on collaborative robots that combine conversation, cognition and perception.</p></li>
+<li class="entry"><span class="entry-title">NSF AI Research Institute on Interaction for AI Assistants (ARIA)</span><span class="entry-meta">NSF 2433429 (Cooperative Agreement) · 2025 – 2030 · Senior Personnel (Institute PI: Pavlick)</span><p class="entry-text">A national AI research institute developing trustworthy, context-aware AI assistants grounded in human and machine cognition, with mental and behavioral health as a central use case.</p></li>
+<li class="entry"><span class="entry-title">REPRISM: Flexible embodied problem-solving by manipulating the representational prism</span><span class="entry-meta">ONR MURI N00014-24-1-2603 · 2024 – 2027 · co-I (PI: Konidaris)</span><p class="entry-text">Developing vision systems that adaptively change representations based on task demands for flexible and generalizable problem-solving.</p></li>
+<li class="entry"><span class="entry-title">SEA-CROGS: Scalable, efficient and accelerated causal reasoning operators, graphs and spikes for earth and embedded systems</span><span class="entry-meta">DOE DE-SC0023191 · 2022 – 2027 · co-I (PI: Maxey)</span><p class="entry-text">Creating scalable causal reasoning methods combining graph-based representations, spiking neural networks, and causal inference for Earth system science.</p></li>
+<li class="entry"><span class="entry-title">The next generation of operator regression networks: Theory, algorithms, applications</span><span class="entry-meta">ONR N00014-22-1-2795 · 2022 – 2027 · co-I (PI: Karniadakis)</span><p class="entry-text">Advancing theoretical foundations and practical applications of operator regression networks for solving partial differential equations and modeling physical systems.</p></li>
+<li class="entry"><span class="entry-title">Enhancing suicide risk detection through computer vision</span><span class="entry-meta">NIH/NIMH R01 MH140004 · 2026 – 2030 · co-I (PI: Burke)</span><p class="entry-text">Developing computer-vision measures of visible injury severity in photographs of self-inflicted injuries, and testing whether those measures add to clinical assessments when predicting future suicide attempts.</p></li>
+<li class="entry"><span class="entry-title">A mechanistic analysis of the transition from nonsuicidal to suicidal self-injury in adolescents</span><span class="entry-meta">NIH/NIMH R01 MH143695 · 2026 – 2031 · co-I (MPIs: Ammerman/Burke)</span><p class="entry-text">Investigating the mechanistic transition from nonsuicidal to suicidal self-injury in adolescents through combined computational and clinical analysis.</p></li>
+</ul>
+</section>
