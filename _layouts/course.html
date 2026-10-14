@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#4E3629">
+{% seo %}
+    {% if page.keywords %}<meta name="keywords" content="{{ page.keywords | join: ', ' }}">{% endif %}
+    <link rel="preload" href="{{ '/assets/fonts/poppins/Poppins-600.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/assets/fonts/lora/Lora-400.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": {{ page.course_name | jsonify }},
+      "courseCode": {{ page.course_code | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "url": "{{ page.url | absolute_url }}",
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "keywords": {{ page.keywords | join: ', ' | jsonify }},
+      "provider": { "@type": "CollegeOrUniversity", "name": "Brown University", "sameAs": "https://www.brown.edu/" },
+      "instructor": { "@type": "Person", "name": "Thomas Serre", "url": "{{ '/' | absolute_url }}" },
+      "hasCourseInstance": { "@type": "CourseInstance", "name": {{ page.term | jsonify }}, "courseMode": "onsite", "instructor": { "@type": "Person", "name": "Thomas Serre" } }
+    }
+    </script>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="site-header course-header" role="banner">
+      <div class="site-header__inner">
+        <div>
+          <p class="course-kicker">{{ page.course_code }} · {{ page.term }} · Brown University</p>
+          <h1 class="site-title">{{ page.course_name }}</h1>
+          <p class="site-role">Thomas Serre · Cognitive &amp; Psychological Sciences and Computer Science</p>
+          <ul class="header-links">
+            <li><a href="{{ '/' | relative_url }}">Thomas Serre</a></li>
+            <li><a href="https://serre.lab.brown.edu/">Serre lab</a></li>
+            {% for l in page.header_links %}<li><a href="{{ l.url }}">{{ l.title }}</a></li>{% endfor %}
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    {% if page.sections %}
+    <nav class="section-nav" aria-label="Page sections">
+      <ul>
+        {% for s in page.sections %}<li><a href="#{{ s.id }}">{{ s.title }}</a></li>{% endfor %}
+      </ul>
+    </nav>
+    {% endif %}
+
+    <main id="main-content" tabindex="-1" class="course">
+{{ content }}
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      {% if page.copyright %}<p class="copyright">{{ page.copyright }}</p>{% endif %}
+      <p>© {{ site.time | date: "%Y" }} Thomas Serre · Brown University · <a href="https://digital-accessibility.brown.edu/">Accessibility</a> · <a href="https://cm.maxient.com/reportingform.php?BrownUniv=&amp;layout_id=59">Report an accessibility barrier</a></p>
+    </footer>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DQBQVVCL0C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DQBQVVCL0C');
+    </script>
+  </body>
+</html>

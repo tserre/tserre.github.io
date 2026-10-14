@@ -1,0 +1,61 @@
+---
+layout: course
+title: "CPSY 1291: Computational Methods for Mind, Brain & Behavior"
+course_code: CPSY 1291
+course_name: "Computational Methods for Mind, Brain & Behavior"
+term: Fall 2026
+description: "Lecture slides and notes for CPSY 1291, an introduction to NeuroAI at Brown University taught by Thomas Serre: representational geometry, dimensionality reduction, RSA, neural networks and backpropagation, convolutional and recurrent networks, transformers, generative models and explainable AI."
+keywords: [NeuroAI, computational neuroscience, computational cognitive science, machine learning, deep learning, neural networks, representational geometry, PCA, MDS, t-SNE, UMAP, representational similarity analysis, backpropagation, convolutional neural networks, recurrent neural networks, transformers, generative models, explainable AI, lecture slides, Brown University, Thomas Serre]
+sections:
+  - { id: about, title: About }
+  - { id: lectures, title: Lectures }
+  - { id: notes, title: Notes }
+header_links:
+  - { title: "All course materials", url: "https://serre-lab.github.io/CPSY1291-2026/" }
+copyright: "Lecture slides and notes © 2026 Thomas Serre. You may use them for non-commercial teaching with attribution. Figures reproduced from published work are credited on each slide and remain the property of their authors and publishers."
+---
+<section aria-labelledby="about">
+<h2 id="about">About the course</h2>
+
+<p class="lede">An introduction to NeuroAI, the field that brings brain science and artificial intelligence together. Students build a mathematical and computational toolkit for studying brain, mind and behavior, from classical models to hands-on work with modern machine learning in Python.</p>
+
+<p>The course has four parts: representational spaces, and how to read them out and compare them; learning representations, including vision and model–brain comparison; sequence models, from recurrent dynamics to attention and language; and generative models. Explainability runs through all four. For each model we ask what it computes, how it computes it, and whether the same account holds for the brain.</p>
+
+<p>The course is for advanced undergraduates and graduate students in cognitive science, neuroscience, psychology, computer science and applied mathematics. It assumes some programming experience but no particular disciplinary background.</p>
+
+<p class="note">Slides are posted here once a lecture has been given. Each deck also has a text version that works with screen readers.</p>
+</section>
+
+<section aria-labelledby="lectures">
+<h2 id="lectures">Lectures</h2>
+{% assign lectures = site.data.cpsy1291.lectures %}
+{% assign intro = lectures | where: "theme", 0 %}
+{% for lec in intro %}
+<h3 id="l{{ lec.n }}"><span class="when">Lecture {{ lec.n }} · {{ lec.date | date: "%b %-d" }}</span>{{ lec.title }}</h3>
+{% if lec.slides %}<p class="slides"><a href="{{ lec.slides }}">Slides</a>{% if lec.text %} · <a href="{{ lec.text }}">Text version</a>{% endif %}</p>{% endif %}
+{% endfor %}
+{% for theme in site.data.cpsy1291.themes %}
+<p class="part">Part {{ theme.n }}<span>{{ theme.title }}</span></p>
+{% assign in_theme = lectures | where: "theme", theme.n %}
+{% for lec in in_theme %}
+<h3 id="l{{ lec.n }}"><span class="when">Lecture {{ lec.n }} · {{ lec.date | date: "%b %-d" }}</span>{{ lec.title }}</h3>
+{% if lec.topics %}<p>{{ lec.topics }}</p>{% endif %}
+{% if lec.slides %}<p class="slides"><a href="{{ lec.slides }}">Slides</a>{% if lec.text %} · <a href="{{ lec.text }}">Text version</a>{% endif %}</p>{% endif %}
+{% endfor %}
+{% endfor %}
+</section>
+
+<section aria-labelledby="notes">
+<h2 id="notes">Notes</h2>
+
+<p>Short notes that back up the lectures and recitations.</p>
+
+<ul class="refs">
+<li><a href="https://serre-lab.github.io/CPSY1291-2026/recitations/neuroscience-background-notes.pdf">Neuroscience background</a> (PDF)</li>
+<li><a href="https://serre-lab.github.io/CPSY1291-2026/recitations/linear-algebra-notes.pdf">Linear algebra</a> (PDF)</li>
+<li><a href="https://serre-lab.github.io/CPSY1291-2026/recitations/pca-statistics-notes.pdf">PCA and statistics</a> (PDF)</li>
+<li><a href="https://serre-lab.github.io/CPSY1291-2026/recitations/perceptron-notes.pdf">The perceptron</a> (PDF)</li>
+<li><a href="https://serre-lab.github.io/CPSY1291-2026/recitations/backprop-notes.pdf">Backpropagation</a> (PDF)</li>
+<li><a href="https://serre-lab.github.io/CPSY1291-2026/notation-reference.pdf">Notation reference</a> (PDF)</li>
+</ul>
+</section>

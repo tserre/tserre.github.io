@@ -153,6 +153,30 @@ a.entry-title:hover { color: var(--accent-dark); }
   border-radius: 6px; margin-top: 0.9rem; background: var(--rule);
 }
 
+/* ---------- Course pages (CPSY 1291, CPSY 1950) ---------- */
+.course-header .site-header__inner { grid-template-columns: 1fr; padding: 2.75rem 1.5rem 2.25rem; }
+.course-kicker { font-family: var(--sans); font-weight: 500; font-size: 0.9rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--on-fill-dim); margin: 0 0 0.6rem; }
+.course-header .header-links { margin: 0.9rem 0 0; }
+
+.course h3 { scroll-margin-top: 4.5rem; }
+.course h3 .when { display: block; font-family: var(--sans); font-weight: 500; font-size: 0.85rem; color: var(--muted); margin-bottom: 0.15rem; }
+.course h4 {
+  font-size: 0.8rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase;
+  color: var(--muted); margin: 1.25rem 0 0.4rem;
+}
+.course ul.refs { list-style: none; padding: 0; margin: 0 0 0.75rem; }
+.course ul.refs li { padding-left: 1rem; text-indent: -1rem; margin: 0 0 0.45rem; line-height: 1.55; font-size: 1rem; }
+.course ul.refs li i { font-style: italic; }
+.course .slides { font-family: var(--sans); font-size: 0.95rem; margin: 0.25rem 0 0.5rem; }
+.course .part {
+  font-family: var(--sans); font-size: 0.85rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase;
+  color: var(--accent); margin: 3rem 0 0; padding-top: 1rem; border-top: 2px solid var(--fill);
+}
+.course .part span { display: block; text-transform: none; letter-spacing: 0; font-size: 1.4rem; color: var(--ink); margin-top: 0.2rem; }
+.course .part + h3 { margin-top: 1.25rem; }
+.course .theme { font-family: var(--serif); font-style: italic; color: var(--muted); font-weight: 400; font-size: 0.95rem; }
+.site-footer .copyright { max-width: 46rem; margin: 0 auto 0.75rem; }
+
 /* ---------- Footer ---------- */
 .site-footer {
   border-top: 1px solid var(--rule); text-align: center;
