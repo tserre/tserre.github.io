@@ -1,0 +1,535 @@
+# Papers read and presented in CPSY 1950 (Spring 2026). Rendered by cpsy1950/index.html.
+topics:
+  - id: "foundations"
+    title: "Foundations"
+    nav: "Foundations"
+    summary: "Why neural networks became models of the brain, and what that framing assumes."
+    reading:
+      - title: "The recent excitement about neural networks"
+        authors: "Crick"
+        venue: "Nature"
+        year: 1989
+        url: "https://doi.org/10.1038/337129a0"
+      - title: "Deep neural networks as scientific models"
+        authors: "Cichy & Kaiser"
+        venue: "Trends in Cognitive Sciences"
+        year: 2019
+        url: "https://doi.org/10.1016/j.tics.2019.01.009"
+  - id: "w3"
+    title: "The three levers of deep learning"
+    nav: "Three levers"
+    summary: "How architecture, learning objective and training data shape what a network learns and how it generalizes."
+    reading:
+      - title: "Deep learning: the good, the bad, and the ugly"
+        authors: "Serre"
+        venue: "Annual Review of Vision Science"
+        year: 2019
+        url: "https://www.annualreviews.org/content/journals/10.1146/annurev-vision-091718-014951"
+    presented:
+      - theme: "Architectures"
+        papers:
+          - title: "ImageNet classification with deep convolutional neural networks"
+            authors: "Krizhevsky, Sutskever & Hinton"
+            venue: "NeurIPS"
+            year: 2012
+            url: "https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html"
+          - title: "Deep residual learning for image recognition"
+            authors: "He et al."
+            venue: "CVPR"
+            year: 2016
+            url: "https://arxiv.org/abs/1512.03385"
+          - title: "Attention is all you need"
+            authors: "Vaswani et al."
+            venue: "NeurIPS"
+            year: 2017
+            url: "https://arxiv.org/abs/1706.03762"
+          - title: "BERT: Pre-training of deep bidirectional transformers for language understanding"
+            authors: "Devlin et al."
+            venue: "NAACL"
+            year: 2019
+            url: "https://aclanthology.org/N19-1423/"
+          - title: "Language models are unsupervised multitask learners"
+            authors: "Radford et al."
+            venue: "OpenAI"
+            year: 2019
+            url: "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf"
+          - title: "An image is worth 16x16 words: Transformers for image recognition at scale"
+            authors: "Dosovitskiy et al."
+            venue: "ICLR"
+            year: 2021
+            url: "https://arxiv.org/abs/2010.11929"
+      - theme: "Datasets and platforms"
+        papers:
+          - title: "ImageNet large scale visual recognition challenge"
+            authors: "Russakovsky et al."
+            venue: "International Journal of Computer Vision"
+            year: 2015
+            url: "https://arxiv.org/abs/1409.0575"
+          - title: "Habitat: A platform for embodied AI research"
+            authors: "Savva et al."
+            venue: "ICCV"
+            year: 2019
+            url: "https://arxiv.org/abs/1904.01201"
+          - title: "Exploring the limits of transfer learning with a unified text-to-text transformer"
+            authors: "Raffel et al."
+            venue: "JMLR"
+            year: 2020
+            url: "https://arxiv.org/abs/1910.10683"
+          - title: "The Pile: An 800GB dataset of diverse text for language modeling"
+            authors: "Gao et al."
+            venue: "arXiv"
+            year: 2021
+            url: "https://arxiv.org/abs/2101.00027"
+          - title: "LAION-5B: An open large-scale dataset for training next generation image-text models"
+            authors: "Schuhmann et al."
+            venue: "NeurIPS"
+            year: 2022
+            url: "https://arxiv.org/abs/2210.08402"
+      - theme: "Self-supervised learning"
+        papers:
+          - title: "A simple framework for contrastive learning of visual representations"
+            authors: "Chen et al."
+            venue: "ICML"
+            year: 2020
+            url: "https://arxiv.org/abs/2002.05709"
+          - title: "Learning transferable visual models from natural language supervision"
+            authors: "Radford et al."
+            venue: "ICML"
+            year: 2021
+            url: "https://arxiv.org/abs/2103.00020"
+          - title: "Emerging properties in self-supervised vision transformers"
+            authors: "Caron et al."
+            venue: "ICCV"
+            year: 2021
+            url: "https://arxiv.org/abs/2104.14294"
+          - title: "Masked autoencoders are scalable vision learners"
+            authors: "He et al."
+            venue: "CVPR"
+            year: 2022
+            url: "https://arxiv.org/abs/2111.06377"
+  - id: "w4"
+    title: "Scaling and emerging capabilities"
+    nav: "Scaling"
+    summary: "Pretraining, fine-tuning, in-context learning and reasoning, and how to evaluate claims of emergence."
+    reading:
+      - title: "Performance vs. competence in human–machine comparisons"
+        authors: "Firestone"
+        venue: "PNAS"
+        year: 2020
+        url: "https://www.pnas.org/doi/10.1073/pnas.1905334117"
+    presented:
+      - theme: "Pretraining and transfer"
+        papers:
+          - title: "Language models are few-shot learners"
+            authors: "Brown et al."
+            venue: "NeurIPS"
+            year: 2020
+            url: "https://arxiv.org/abs/2005.14165"
+          - title: "Training language models to follow instructions with human feedback"
+            authors: "Ouyang et al."
+            venue: "NeurIPS"
+            year: 2022
+            url: "https://arxiv.org/abs/2203.02155"
+      - theme: "In-context learning and reasoning"
+        papers:
+          - title: "Rethinking the role of demonstrations: What makes in-context learning work?"
+            authors: "Min et al."
+            venue: "EMNLP"
+            year: 2022
+            url: "https://arxiv.org/abs/2202.12837"
+          - title: "Parallel trade-offs in human cognition and neural networks: The dynamic interplay between in-context and in-weight learning"
+            authors: "Russin, Pavlick & Frank"
+            venue: "PNAS"
+            year: 2025
+            url: "https://www.pnas.org/doi/10.1073/pnas.2510270122"
+          - title: "Chain-of-thought prompting elicits reasoning in large language models"
+            authors: "Wei et al."
+            venue: "NeurIPS"
+            year: 2022
+            url: "https://arxiv.org/abs/2201.11903"
+          - title: "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning"
+            authors: "Guo et al."
+            venue: "Nature"
+            year: 2025
+            url: "https://www.nature.com/articles/s41586-025-09422-z"
+      - theme: "Vision and language"
+        papers:
+          - title: "Do vision and language models share concepts? A vector space alignment study"
+            authors: "Li et al."
+            venue: "TACL"
+            year: 2024
+            url: "https://aclanthology.org/2024.tacl-1.68/"
+          - title: "Visual instruction tuning"
+            authors: "Liu et al."
+            venue: "NeurIPS"
+            year: 2023
+            url: "https://arxiv.org/abs/2304.08485"
+      - theme: "Critical perspectives"
+        papers:
+          - title: "Dissociating language and thought in large language models"
+            authors: "Mahowald et al."
+            venue: "Trends in Cognitive Sciences"
+            year: 2024
+            url: "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(24)00027-5"
+          - title: "On the dangers of stochastic parrots: Can language models be too big?"
+            authors: "Bender et al."
+            venue: "FAccT"
+            year: 2021
+            url: "https://dl.acm.org/doi/10.1145/3442188.3445922"
+          - title: "The debate over understanding in AI's large language models"
+            authors: "Mitchell & Krakauer"
+            venue: "PNAS"
+            year: 2023
+            url: "https://www.pnas.org/doi/10.1073/pnas.2215907120"
+  - id: "w5"
+    title: "Prediction vs. understanding"
+    nav: "Prediction vs. understanding"
+    summary: "Whether models that predict behavior and brain activity also explain them."
+    reading:
+      - title: "From prediction to understanding: Will AI foundation models transform brain science?"
+        authors: "Serre & Pavlick"
+        venue: "Neuron"
+        year: 2025
+        url: "https://www.cell.com/neuron/fulltext/S0896-6273(25)00752-4"
+  - id: "w6"
+    title: "Representation-level interpretability"
+    nav: "Representations"
+    summary: "Feature visualization, concept-based methods and sparse dictionary learning. Guest lecture by Thomas Fel (Kempner Institute, Harvard)."
+    reading:
+      - title: "The building blocks of interpretability"
+        authors: "Olah et al."
+        venue: "Distill"
+        year: 2018
+        url: "https://distill.pub/2018/building-blocks/"
+      - title: "Local vs. distributed coding"
+        authors: "Thorpe"
+        venue: "Intellectica"
+        year: 1989
+        url: "https://www.persee.fr/doc/intel_0769-4113_1989_num_8_2_873"
+    presented:
+      - theme: "Feature visualization and circuits"
+        papers:
+          - title: "Feature visualization"
+            authors: "Olah, Mordvintsev & Schubert"
+            venue: "Distill"
+            year: 2017
+            url: "https://distill.pub/2017/feature-visualization/"
+          - title: "Zoom in: An introduction to circuits"
+            authors: "Olah et al."
+            venue: "Distill"
+            year: 2020
+            url: "https://distill.pub/2020/circuits/zoom-in/"
+          - title: "Multimodal neurons in artificial neural networks"
+            authors: "Goh et al."
+            venue: "Distill"
+            year: 2021
+            url: "https://distill.pub/2021/multimodal-neurons/"
+      - theme: "Attribution and concepts"
+        papers:
+          - title: "Grad-CAM: Visual explanations from deep networks via gradient-based localization"
+            authors: "Selvaraju et al."
+            venue: "ICCV"
+            year: 2017
+            url: "https://arxiv.org/abs/1610.02391"
+          - title: "Interpretability beyond feature attribution: Quantitative testing with concept activation vectors (TCAV)"
+            authors: "Kim et al."
+            venue: "ICML"
+            year: 2018
+            url: "https://arxiv.org/abs/1711.11279"
+          - title: "CRAFT: Concept recursive activation factorization for explainability"
+            authors: "Fel et al."
+            venue: "CVPR"
+            year: 2023
+            url: "https://arxiv.org/abs/2211.10154"
+          - title: "Concept bottleneck models"
+            authors: "Koh et al."
+            venue: "ICML"
+            year: 2020
+            url: "https://arxiv.org/abs/2007.04612"
+      - theme: "Sparse representations"
+        papers:
+          - title: "Sparse autoencoders find highly interpretable features in language models"
+            authors: "Cunningham et al."
+            venue: "ICLR"
+            year: 2024
+            url: "https://openreview.net/forum?id=F76bwRSLeK"
+          - title: "Scaling monosemanticity: Extracting interpretable features from Claude 3 Sonnet"
+            authors: "Templeton et al."
+            venue: "Anthropic"
+            year: 2024
+            url: "https://transformer-circuits.pub/2024/scaling-monosemanticity/"
+          - title: "Into the rabbit hull: From task-relevant concepts in DINO to Minkowski geometry"
+            authors: "Fel et al."
+            venue: "arXiv"
+            year: 2025
+            url: "https://arxiv.org/abs/2510.08638"
+  - id: "w7"
+    title: "Mechanistic interpretability"
+    nav: "Mechanisms"
+    summary: "Probing, circuits and causal interventions. Guest lecture by Michael Lepori (Brown)."
+    reading:
+      - title: "Interpreting GPT: The logit lens"
+        authors: "nostalgebraist"
+        venue: "LessWrong"
+        year: 2020
+        url: "https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens"
+      - title: "Tracing the thoughts of a large language model"
+        authors: "Anthropic"
+        venue: "Anthropic"
+        year: 2025
+        url: "https://www.anthropic.com/research/tracing-thoughts-language-model"
+    presented:
+      - theme: "Probing"
+        papers:
+          - title: "A structural probe for finding syntax in word representations"
+            authors: "Hewitt & Manning"
+            venue: "NAACL"
+            year: 2019
+            url: "https://aclanthology.org/N19-1419/"
+          - title: "BERT rediscovers the classical NLP pipeline"
+            authors: "Tenney, Das & Pavlick"
+            venue: "ACL"
+            year: 2019
+            url: "https://aclanthology.org/P19-1452/"
+          - title: "Racing thoughts: Explaining contextualization errors in large language models"
+            authors: "Lepori, Mozer & Ghandeharioun"
+            venue: "NAACL"
+            year: 2025
+            url: "https://aclanthology.org/2025.naacl-long.155/"
+      - theme: "Causal methods and concept erasure"
+        papers:
+          - title: "Causal abstractions of neural networks"
+            authors: "Geiger et al."
+            venue: "NeurIPS"
+            year: 2021
+            url: "https://arxiv.org/abs/2106.02997"
+          - title: "Interpretability in the wild: A circuit for indirect object identification in GPT-2 small"
+            authors: "Wang et al."
+            venue: "ICLR"
+            year: 2023
+            url: "https://arxiv.org/abs/2211.00593"
+          - title: "Null it out: Guarding protected attributes by iterative nullspace projection"
+            authors: "Ravfogel et al."
+            venue: "ACL"
+            year: 2020
+            url: "https://aclanthology.org/2020.acl-main.647/"
+      - theme: "World models and relations"
+        papers:
+          - title: "Emergent world representations: Exploring a sequence model trained on a synthetic task"
+            authors: "Li et al."
+            venue: "ICLR"
+            year: 2023
+            url: "https://arxiv.org/abs/2210.13382"
+          - title: "Can language models encode perceptual structure without grounding? A case study in color"
+            authors: "Abdou et al."
+            venue: "CoNLL"
+            year: 2021
+            url: "https://aclanthology.org/2021.conll-1.9/"
+          - title: "Beyond the doors of perception: Vision transformers represent relations between objects"
+            authors: "Lepori et al."
+            venue: "NeurIPS"
+            year: 2024
+            url: "https://arxiv.org/abs/2406.15955"
+          - title: "On emergent social world models: Evidence for functional integration of theory of mind and pragmatic reasoning in language models"
+            authors: "Tsvilodub et al."
+            venue: "arXiv"
+            year: 2026
+            url: "https://arxiv.org/abs/2602.10298"
+  - id: "w8"
+    title: "Neural alignment"
+    nav: "Neural alignment"
+    summary: "Comparing model representations with neural recordings, and what a good fit does and does not show."
+    reading:
+      - title: "Cognitive computational neuroscience"
+        authors: "Kriegeskorte & Douglas"
+        venue: "Nature Neuroscience"
+        year: 2018
+        url: "https://www.nature.com/articles/s41593-018-0210-5"
+      - title: "The neuroconnectionist research programme"
+        authors: "Doerig et al."
+        venue: "Nature Reviews Neuroscience"
+        year: 2023
+        url: "https://www.nature.com/articles/s41583-023-00705-w"
+      - title: "Better artificial intelligence does not mean better models of biology"
+        authors: "Linsley, Feng & Serre"
+        venue: "Trends in Cognitive Sciences"
+        year: 2026
+        url: "https://doi.org/10.1016/j.tics.2025.11.016"
+    presented:
+      - theme: "Vision"
+        papers:
+          - title: "Performance-optimized hierarchical models predict neural responses in higher visual cortex"
+            authors: "Yamins et al."
+            venue: "PNAS"
+            year: 2014
+            url: "https://www.pnas.org/doi/10.1073/pnas.1403112111"
+          - title: "Brain-Score: Which artificial neural network for object recognition is most brain-like?"
+            authors: "Schrimpf et al."
+            venue: "bioRxiv"
+            year: 2018
+            url: "https://www.biorxiv.org/content/10.1101/407007"
+          - title: "Diverse deep neural networks all predict human inferior temporal cortex well, after training and fitting"
+            authors: "Storrs et al."
+            venue: "Journal of Cognitive Neuroscience"
+            year: 2021
+            url: "https://direct.mit.edu/jocn/article/33/10/2044/97402/Diverse-Deep-Neural-Networks-All-Predict-Human"
+      - theme: "Language and speech"
+        papers:
+          - title: "The neural architecture of language: Integrative modeling converges on predictive processing"
+            authors: "Schrimpf et al."
+            venue: "PNAS"
+            year: 2021
+            url: "https://www.pnas.org/doi/10.1073/pnas.2105646118"
+          - title: "Evidence of a predictive coding hierarchy in the human brain listening to speech"
+            authors: "Caucheteux, Gramfort & King"
+            venue: "Nature Human Behaviour"
+            year: 2023
+            url: "https://www.nature.com/articles/s41562-022-01516-2"
+          - title: "Shared computational principles for language processing in humans and deep language models"
+            authors: "Goldstein et al."
+            venue: "Nature Neuroscience"
+            year: 2022
+            url: "https://www.nature.com/articles/s41593-022-01026-4"
+          - title: "Driving and suppressing the human language network using large language models"
+            authors: "Tuckute et al."
+            venue: "Nature Human Behaviour"
+            year: 2024
+            url: "https://www.nature.com/articles/s41562-023-01783-7"
+          - title: "Dissecting neural computations in the human auditory pathway using deep neural networks for speech"
+            authors: "Li et al."
+            venue: "Nature Neuroscience"
+            year: 2023
+            url: "https://www.nature.com/articles/s41593-023-01468-4"
+          - title: "Decoding speech perception from non-invasive brain recordings"
+            authors: "Défossez et al."
+            venue: "Nature Machine Intelligence"
+            year: 2023
+            url: "https://www.nature.com/articles/s42256-023-00714-5"
+      - theme: "Foundation models for neuroscience"
+        papers:
+          - title: "A unified, scalable framework for neural population decoding"
+            authors: "Azabou et al."
+            venue: "NeurIPS"
+            year: 2024
+            url: "https://arxiv.org/abs/2310.16046"
+          - title: "Foundation model of neural activity predicts response to new stimulus types"
+            authors: "Wang et al."
+            venue: "Nature"
+            year: 2025
+            url: "https://www.nature.com/articles/s41586-025-08829-y"
+  - id: "w9"
+    title: "Behavioral and cognitive alignment"
+    nav: "Behavioral alignment"
+    summary: "Testing models as participants in cognitive experiments."
+    reading:
+      - title: "A foundation model to predict and capture human cognition"
+        authors: "Binz et al."
+        venue: "Nature"
+        year: 2025
+        url: "https://doi.org/10.1038/s41586-025-09215-4"
+      - title: "Dual-process theory and decision-making in large language models"
+        authors: "Brady et al."
+        venue: "Nature Reviews Psychology"
+        year: 2025
+        url: "https://eprints.bbk.ac.uk/id/eprint/56681/"
+    presented:
+      - theme: "Evaluation frameworks"
+        papers:
+          - title: "Large language models pass the Turing test"
+            authors: "Jones & Bergen"
+            venue: "arXiv"
+            year: 2025
+            url: "https://arxiv.org/abs/2503.23674"
+          - title: "Triangulating LLM progress through benchmarks, games, and cognitive tests"
+            authors: "Momentè et al."
+            venue: "Findings of EMNLP"
+            year: 2025
+            url: "https://aclanthology.org/2025.findings-emnlp.1092/"
+          - title: "Levels of analysis for large language models"
+            authors: "Ku et al."
+            venue: "arXiv"
+            year: 2025
+            url: "https://arxiv.org/abs/2503.13401"
+      - theme: "Reasoning, analogy and social cognition"
+        papers:
+          - title: "Emergent analogical reasoning in large language models"
+            authors: "Webb, Holyoak & Lu"
+            venue: "Nature Human Behaviour"
+            year: 2023
+            url: "https://www.nature.com/articles/s41562-023-01659-w"
+          - title: "Using counterfactual tasks to evaluate the generality of analogical reasoning in large language models"
+            authors: "Lewis & Mitchell"
+            venue: "CogSci"
+            year: 2024
+            url: "https://escholarship.org/uc/item/58d9s666"
+          - title: "Position: Theory of mind benchmarks are broken for large language models"
+            authors: "Riemer et al."
+            venue: "ICML"
+            year: 2025
+            url: "https://openreview.net/forum?id=BCP8UU2BcU"
+      - theme: "Decisions and biases"
+        papers:
+          - title: "Cognitive bias in decision-making with LLMs"
+            authors: "Echterhoff et al."
+            venue: "Findings of EMNLP"
+            year: 2024
+            url: "https://aclanthology.org/2024.findings-emnlp.739/"
+          - title: "Embers of autoregression show how large language models are shaped by the problem they are trained to solve"
+            authors: "McCoy et al."
+            venue: "PNAS"
+            year: 2024
+            url: "https://www.pnas.org/doi/10.1073/pnas.2322420121"
+      - theme: "Perception"
+        papers:
+          - title: "Large language models predict human sensory judgments across six modalities"
+            authors: "Marjieh et al."
+            venue: "Scientific Reports"
+            year: 2024
+            url: "https://www.nature.com/articles/s41598-024-72071-1"
+          - title: "Object-centric binding in contrastive language-image pretraining"
+            authors: "Assouel et al."
+            venue: "arXiv"
+            year: 2025
+            url: "https://arxiv.org/abs/2502.14113"
+      - theme: "Responses to Centaur"
+        papers:
+          - title: "\"Captured\" by Centaur: Opaque predictions or process insights?"
+            authors: "Kieval & Buckner"
+            venue: "Journal of Experimental Psychology: Animal Learning and Cognition"
+            year: 2026
+            url: "https://doi.org/10.1037/xan0000410"
+          - title: "Not yet AlphaFold for the mind: Evaluating Centaur as a synthetic participant"
+            authors: "Namazova et al."
+            venue: "arXiv"
+            year: 2025
+            url: "https://arxiv.org/abs/2508.07887"
+  - id: "w13"
+    title: "Language and consciousness"
+    nav: "Language and consciousness"
+    summary: "Guest lectures by Greta Tuckute (Kempner Institute, Harvard) and Rufin VanRullen (CNRS, Toulouse)."
+    reading:
+      - title: "Language in brains, minds, and machines"
+        authors: "Tuckute, Kanwisher & Fedorenko"
+        venue: "Annual Review of Neuroscience"
+        year: 2024
+        url: "https://www.annualreviews.org/content/journals/10.1146/annurev-neuro-120623-101142"
+      - title: "Deep learning and the global workspace theory"
+        authors: "VanRullen & Kanai"
+        venue: "Trends in Neurosciences"
+        year: 2021
+        url: "https://doi.org/10.1016/j.tins.2021.04.005"
+  - id: "w14"
+    title: "Feedback in biological and artificial vision"
+    nav: "Feedback"
+    summary: "Recurrent models of vision motivated by cortical circuits. Guest lecture by Victor Boutin (CNRS, Toulouse) on generative models in cognitive science."
+    reading:
+      - title: "Disentangling neural mechanisms for perceptual grouping"
+        authors: "Kim, Linsley, Thakkar & Serre"
+        venue: "ICLR"
+        year: 2020
+        url: "https://arxiv.org/abs/1906.01558"
+      - title: "Recurrent neural circuits for contour detection"
+        authors: "Linsley, Kim, Ashok & Serre"
+        venue: "ICLR"
+        year: 2020
+        url: "https://arxiv.org/abs/2010.15314"

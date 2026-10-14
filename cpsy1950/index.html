@@ -4,296 +4,46 @@ title: "CPSY 1950: Deep Learning in Brains, Minds & Machines"
 course_code: CPSY 1950
 course_name: "Deep Learning in Brains, Minds & Machines"
 term: Spring 2026
-description: "Reading list, lightning-talk papers and lecture slides for CPSY 1950, a NeuroAI seminar at Brown University taught by Thomas Serre: deep learning, foundation models, interpretability, and neural and behavioral alignment between AI and the brain."
-keywords: [NeuroAI, deep learning, computational neuroscience, cognitive science, foundation models, large language models, interpretability, explainable AI, mechanistic interpretability, neural alignment, behavioral alignment, Brain-Score, Centaur, reading list, lecture slides, Brown University, Thomas Serre]
+description: "Topics and reading list for CPSY 1950, a NeuroAI seminar at Brown University taught by Thomas Serre: deep learning, foundation models, interpretability, and neural and behavioral alignment between AI and the brain."
+keywords: [NeuroAI, deep learning, computational neuroscience, cognitive science, foundation models, large language models, interpretability, explainable AI, mechanistic interpretability, neural alignment, behavioral alignment, reading list, Brown University, Thomas Serre]
 sections:
   - { id: about, title: About }
-  - { id: foundations, title: Foundations }
-  - { id: schedule, title: Lectures and readings }
-  - { id: project, title: Project }
-copyright: "Lecture slides © 2026 Thomas Serre. You may use them for non-commercial teaching with attribution. Figures reproduced from published work are credited on each slide and remain the property of their authors and publishers. Slides from guest lectures are not posted."
+  - { id: topics, title: Topics }
 ---
 <section aria-labelledby="about">
 <h2 id="about">About the course</h2>
 
-<p class="lede">An advanced undergraduate and graduate seminar on NeuroAI, the joint study of artificial and biological intelligence. We look at what modern foundation models learn and how they are trained, how far interpretability methods let us see inside them, and how well their representations and behavior line up with data from brains and people.</p>
+<p class="lede">A seminar on NeuroAI, the joint study of artificial and biological intelligence, for advanced undergraduates and graduate students. The course covers how modern deep networks and foundation models are trained, what interpretability methods reveal about them, and how well they match brains and behavior.</p>
 
-<p>The influence runs in both directions. AI methods suggest new mechanistic hypotheses and experiments for neuroscience and cognitive psychology, and neuroscience and cognitive science suggest architectures, training curricula and evaluations that address the limitations of current AI.</p>
-
-<p>Each week opened with a lecture on Tuesday. On Thursday, small groups of students gave five-minute lightning talks on the papers listed under each week below, followed by a discussion. The semester closed with a poster session on student projects and a series of guest lectures.</p>
-
-<p class="note">This page archives the Spring 2026 offering: background readings, the papers students presented, and my lecture slides.</p>
+<p>Each topic has required reading for everyone. Students then present recent papers on the topic in short talks.</p>
 </section>
 
-<section aria-labelledby="foundations">
-<h2 id="foundations">Foundations</h2>
+<section aria-labelledby="topics">
+<h2 id="topics">Topics</h2>
 
-<p>Students come to this course from neuroscience, psychology, computer science and engineering. In week 2 everyone worked through the same short core, then picked the refreshers that matched the gaps in their background.</p>
+<ol class="topic-index">
+{% for t in site.data.cpsy1950.topics %}<li><a href="#{{ t.id }}">{{ t.title }}</a></li>
+{% endfor %}</ol>
 
-<h4>Core</h4>
-<ul class="refs">
-<li>Nancy Kanwisher. <a href="https://nancysbraintalks.mit.edu/video_page/12-how-can-we-study-human-mind-and-brain-marrs-levels-analysis/">How can we study the human mind and brain? Marr's levels of analysis</a>. Video.</li>
-<li>MIT OpenCourseWare 9.13, The Human Brain (2019). <a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-2-neuroanatomy/">Lecture 2: Neuroanatomy</a>. Video. Watch for the overall layout of the brain, receptive fields, tuning and cortical maps; the anatomical detail can wait.</li>
-<li>Crick (1989). <a href="https://doi.org/10.1038/337129a0">The recent excitement about neural networks</a>. <i>Nature</i>.</li>
-</ul>
+{% for t in site.data.cpsy1950.topics %}
+<div class="topic">
+<h3 id="{{ t.id }}">{{ t.title }}</h3>
+<p class="topic-summary">{{ t.summary }}</p>
 
-<h4>Cognitive neuroscience</h4>
-<ul class="refs">
-<li>BrainFacts. <a href="https://www.brainfacts.org/core-concepts/how-neurons-communicate">How neurons communicate</a>.</li>
-<li>NIH/NINDS. <a href="https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain">Brain basics: know your brain</a>.</li>
-<li>MIT OpenCourseWare 9.13. <a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-4-cognitive-neuroscience-methods-i/">Cognitive neuroscience methods I</a> and <a href="https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/resources/lecture-5-cognitive-neuroscience-methods-ii/">II</a>. Videos.</li>
-<li>BrainFacts. <a href="https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-for-physiology-022723">Measuring neural physiology</a> and <a href="https://www.brainfacts.org/in-the-lab/tools-and-techniques/2023/tools-used-for-human-research-030923">Viewing the human brain through noninvasive tools</a>.</li>
-</ul>
+<h4>Required reading</h4>
+<ul class="papers">
+{% for p in t.reading %}<li><a href="{{ p.url }}">{{ p.title }}</a><span>{{ p.authors }} · <i>{{ p.venue }}</i> {{ p.year }}</span></li>
+{% endfor %}</ul>
 
-<h4>Linear algebra</h4>
-<ul class="refs">
-<li>3Blue1Brown, Essence of linear algebra: <a href="https://www.3blue1brown.com/lessons/vectors">vectors</a>, <a href="https://www.3blue1brown.com/lessons/span">linear combinations, span and basis vectors</a>, <a href="https://www.3blue1brown.com/lessons/linear-transformations">linear transformations and matrices</a>, <a href="https://www.3blue1brown.com/lessons/matrix-multiplication">matrix multiplication as composition</a>.</li>
-</ul>
-
-<h4>Deep learning</h4>
-<ul class="refs">
-<li>3Blue1Brown, Neural networks: <a href="https://www.3blue1brown.com/lessons/neural-networks">what is a neural network?</a>, <a href="https://www.3blue1brown.com/lessons/gradient-descent">gradient descent</a>, <a href="https://www.youtube.com/watch?v=Ilg3gGewQ5U">backpropagation</a>.</li>
-</ul>
-
-<h4>Further background</h4>
-<ul class="refs">
-<li>Cichy &amp; Kaiser (2019). <a href="https://doi.org/10.1016/j.tics.2019.01.009">Deep neural networks as scientific models</a>. <i>Trends in Cognitive Sciences</i>.</li>
-<li>Doerig et al. (2023). <a href="https://www.nature.com/articles/s41583-023-00705-w">The neuroconnectionist research programme</a>. <i>Nature Reviews Neuroscience</i>.</li>
-</ul>
-</section>
-
-<section aria-labelledby="schedule">
-<h2 id="schedule">Lectures and readings</h2>
-
-<h3 id="week1"><span class="when">Week 1</span>Course introduction</h3>
-<p>What NeuroAI is after, and how the course runs as a series of small scientific conferences.</p>
-<p class="slides"><a href="https://docs.google.com/presentation/d/1bozT6ncJ7EDZMnfgyGZo3fP8v8FvGWb5Vni3eXlBpF8/edit?usp=sharing">Slides</a></p>
-
-<h3 id="week3"><span class="when">Week 3</span>The three levers of deep learning</h3>
-<p>How architecture, learning objective and training data each shape what a network represents, how it behaves and how it generalizes.</p>
-<p class="slides"><a href="https://docs.google.com/presentation/d/1HSDrMJosGzpToglMqN_ZYC-qp9_lVgn8lTGoHAkAFKw/edit?usp=sharing">Slides</a></p>
-<h4>Background reading</h4>
-<ul class="refs">
-<li>Serre (2019). <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-vision-091718-014951">Deep learning: the good, the bad, and the ugly</a>. <i>Annual Review of Vision Science</i>.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· architectures</span></h4>
-<ul class="refs">
-<li>Krizhevsky, Sutskever &amp; Hinton (2012). <a href="https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html">ImageNet classification with deep convolutional neural networks</a>. <i>NeurIPS</i>.</li>
-<li>He et al. (2016). <a href="https://arxiv.org/abs/1512.03385">Deep residual learning for image recognition</a>. <i>CVPR</i>.</li>
-<li>Vaswani et al. (2017). <a href="https://arxiv.org/abs/1706.03762">Attention is all you need</a>. <i>NeurIPS</i>.</li>
-<li>Devlin et al. (2019). <a href="https://aclanthology.org/N19-1423/">BERT: Pre-training of deep bidirectional transformers for language understanding</a>. <i>NAACL</i>.</li>
-<li>Radford et al. (2019). <a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">Language models are unsupervised multitask learners</a>. OpenAI technical report.</li>
-<li>Dosovitskiy et al. (2021). <a href="https://arxiv.org/abs/2010.11929">An image is worth 16x16 words: Transformers for image recognition at scale</a>. <i>ICLR</i>.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· datasets and platforms</span></h4>
-<ul class="refs">
-<li>Russakovsky et al. (2015). <a href="https://arxiv.org/abs/1409.0575">ImageNet large scale visual recognition challenge</a>. <i>International Journal of Computer Vision</i>.</li>
-<li>Savva et al. (2019). <a href="https://arxiv.org/abs/1904.01201">Habitat: A platform for embodied AI research</a>. <i>ICCV</i>.</li>
-<li>Raffel et al. (2020). <a href="https://arxiv.org/abs/1910.10683">Exploring the limits of transfer learning with a unified text-to-text transformer</a>. <i>JMLR</i>.</li>
-<li>Gao et al. (2021). <a href="https://arxiv.org/abs/2101.00027">The Pile: An 800GB dataset of diverse text for language modeling</a>. arXiv.</li>
-<li>Schuhmann et al. (2022). <a href="https://arxiv.org/abs/2210.08402">LAION-5B: An open large-scale dataset for training next generation image-text models</a>. <i>NeurIPS</i>.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· self-supervised learning</span></h4>
-<ul class="refs">
-<li>Chen et al. (2020). <a href="https://arxiv.org/abs/2002.05709">A simple framework for contrastive learning of visual representations</a>. <i>ICML</i>.</li>
-<li>Radford et al. (2021). <a href="https://arxiv.org/abs/2103.00020">Learning transferable visual models from natural language supervision</a>. <i>ICML</i>.</li>
-<li>Caron et al. (2021). <a href="https://arxiv.org/abs/2104.14294">Emerging properties in self-supervised vision transformers</a>. <i>ICCV</i>.</li>
-<li>He et al. (2022). <a href="https://arxiv.org/abs/2111.06377">Masked autoencoders are scalable vision learners</a>. <i>CVPR</i>.</li>
-</ul>
-
-<h3 id="week4"><span class="when">Week 4</span>Scaling and emerging capabilities</h3>
-<p>Pretraining, fine-tuning and transfer; in-context learning and reasoning; what claims of "emergence" mean and how to test them.</p>
-<p class="slides"><a href="https://docs.google.com/presentation/d/1Tl2OR5kqpqh5MJIe1_DsQq20MZSS5G_6gkCzDDPblkc/edit?usp=sharing">Slides</a></p>
-<h4>Background reading</h4>
-<ul class="refs">
-<li>Firestone (2020). <a href="https://www.pnas.org/doi/10.1073/pnas.1905334117">Performance vs. competence in human–machine comparisons</a>. <i>PNAS</i>.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· pretraining and transfer</span></h4>
-<ul class="refs">
-<li>Brown et al. (2020). <a href="https://arxiv.org/abs/2005.14165">Language models are few-shot learners</a>. <i>NeurIPS</i>.</li>
-<li>Ouyang et al. (2022). <a href="https://arxiv.org/abs/2203.02155">Training language models to follow instructions with human feedback</a>. <i>NeurIPS</i>.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· in-context learning and reasoning</span></h4>
-<ul class="refs">
-<li>Min et al. (2022). <a href="https://arxiv.org/abs/2202.12837">Rethinking the role of demonstrations: What makes in-context learning work?</a> <i>EMNLP</i>.</li>
-<li>Russin, Pavlick &amp; Frank (2025). <a href="https://www.pnas.org/doi/10.1073/pnas.2510270122">Parallel trade-offs in human cognition and neural networks: The dynamic interplay between in-context and in-weight learning</a>. <i>PNAS</i>.</li>
-<li>Wei et al. (2022). <a href="https://arxiv.org/abs/2201.11903">Chain-of-thought prompting elicits reasoning in large language models</a>. <i>NeurIPS</i>.</li>
-<li>Guo et al. (2025). <a href="https://www.nature.com/articles/s41586-025-09422-z">DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning</a>. <i>Nature</i>.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· vision and language</span></h4>
-<ul class="refs">
-<li>Li et al. (2024). <a href="https://aclanthology.org/2024.tacl-1.68/">Do vision and language models share concepts? A vector space alignment study</a>. <i>TACL</i>.</li>
-<li>Liu et al. (2023). <a href="https://arxiv.org/abs/2304.08485">Visual instruction tuning</a>. <i>NeurIPS</i>.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· critical perspectives</span></h4>
-<ul class="refs">
-<li>Mahowald et al. (2024). <a href="https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(24)00027-5">Dissociating language and thought in large language models</a>. <i>Trends in Cognitive Sciences</i>.</li>
-<li>Bender et al. (2021). <a href="https://dl.acm.org/doi/10.1145/3442188.3445922">On the dangers of stochastic parrots: Can language models be too big?</a> <i>FAccT</i>.</li>
-<li>Mitchell &amp; Krakauer (2023). <a href="https://www.pnas.org/doi/10.1073/pnas.2215907120">The debate over understanding in AI's large language models</a>. <i>PNAS</i>.</li>
-</ul>
-
-<h3 id="week5"><span class="when">Week 5</span>Prediction vs. understanding</h3>
-<p>Can models that predict behavior and brain activity well also explain them? Two talks give opposing views of where current AI falls short.</p>
-<h4>Reading and viewing</h4>
-<ul class="refs">
-<li>Serre &amp; Pavlick (2025). <a href="https://www.cell.com/neuron/fulltext/S0896-6273(25)00752-4">From prediction to understanding: Will AI foundation models transform brain science?</a> <i>Neuron</i>.</li>
-<li>Gary Marcus (2024). <a href="https://www.youtube.com/watch?v=91SK90SahHc">Keynote at AGI-24</a>. Video; the talk runs from about 5:00 to 35:00.</li>
-<li>Yann LeCun (2024). <a href="https://www.youtube.com/watch?v=MiqLoAZFRSE">Objective-driven AI: Towards AI systems that can learn, remember, reason, and plan</a>. Ding Shum Lecture, Harvard CMSA. Video; the first 36 minutes cover what we need.</li>
-</ul>
-
-<h3 id="week6"><span class="when">Week 6</span>Representation-level interpretability</h3>
-<p>Feature visualization, concept-based methods and sparse dictionary learning, including sparse autoencoders, and what we can and cannot reliably name in a network's representations. Guest lecture by <a href="https://thomasfel.fr/">Thomas Fel</a> (Kempner Institute, Harvard).</p>
-<h4>Background reading</h4>
-<ul class="refs">
-<li>Olah et al. (2018). <a href="https://distill.pub/2018/building-blocks/">The building blocks of interpretability</a>. <i>Distill</i>.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· feature visualization and circuits</span></h4>
-<ul class="refs">
-<li>Olah, Mordvintsev &amp; Schubert (2017). <a href="https://distill.pub/2017/feature-visualization/">Feature visualization</a>. <i>Distill</i>.</li>
-<li>Olah et al. (2020). <a href="https://distill.pub/2020/circuits/zoom-in/">Zoom in: An introduction to circuits</a>. <i>Distill</i>.</li>
-<li>Goh et al. (2021). <a href="https://distill.pub/2021/multimodal-neurons/">Multimodal neurons in artificial neural networks</a>. <i>Distill</i>.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· attribution and concepts</span></h4>
-<ul class="refs">
-<li>Selvaraju et al. (2017). <a href="https://arxiv.org/abs/1610.02391">Grad-CAM: Visual explanations from deep networks via gradient-based localization</a>. <i>ICCV</i>.</li>
-<li>Kim et al. (2018). <a href="https://arxiv.org/abs/1711.11279">Interpretability beyond feature attribution: Quantitative testing with concept activation vectors (TCAV)</a>. <i>ICML</i>.</li>
-<li>Fel et al. (2023). <a href="https://arxiv.org/abs/2211.10154">CRAFT: Concept recursive activation factorization for explainability</a>. <i>CVPR</i>.</li>
-<li>Koh et al. (2020). <a href="https://arxiv.org/abs/2007.04612">Concept bottleneck models</a>. <i>ICML</i>.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· sparse representations</span></h4>
-<ul class="refs">
-<li>Cunningham et al. (2024). <a href="https://openreview.net/forum?id=F76bwRSLeK">Sparse autoencoders find highly interpretable features in language models</a>. <i>ICLR</i>.</li>
-<li>Templeton et al. (2024). <a href="https://transformer-circuits.pub/2024/scaling-monosemanticity/">Scaling monosemanticity: Extracting interpretable features from Claude 3 Sonnet</a>. Anthropic.</li>
-<li>Fel et al. (2025). <a href="https://arxiv.org/abs/2510.08638">Into the rabbit hull: From task-relevant concepts in DINO to Minkowski geometry</a>. arXiv.</li>
-</ul>
-<h4>Follow-up reading</h4>
-<ul class="refs">
-<li>Thorpe (1989). <a href="https://www.persee.fr/doc/intel_0769-4113_1989_num_8_2_873">Local vs. distributed coding</a>. <i>Intellectica</i>.</li>
-</ul>
-
-<h3 id="week7"><span class="when">Week 7</span>Mechanistic interpretability</h3>
-<p>Probing, circuits and causal interventions, and what evidence a mechanistic claim needs. Guest lecture by <a href="https://lepori.xyz/">Michael Lepori</a> (Computer Science, Brown).</p>
-<h4>Background reading and viewing</h4>
-<ul class="refs">
-<li>nostalgebraist (2020). <a href="https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens">Interpreting GPT: The logit lens</a>. <i>LessWrong</i>.</li>
-<li>Jensen Huang &amp; Ilya Sutskever (2023). <a href="https://www.youtube.com/watch?v=NT9sP4mAWEg">Discovering the world model through LLMs</a>. Video.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· probing</span></h4>
-<ul class="refs">
-<li>Hewitt &amp; Manning (2019). <a href="https://aclanthology.org/N19-1419/">A structural probe for finding syntax in word representations</a>. <i>NAACL</i>.</li>
-<li>Tenney, Das &amp; Pavlick (2019). <a href="https://aclanthology.org/P19-1452/">BERT rediscovers the classical NLP pipeline</a>. <i>ACL</i>.</li>
-<li>Lepori, Mozer &amp; Ghandeharioun (2025). <a href="https://aclanthology.org/2025.naacl-long.155/">Racing thoughts: Explaining contextualization errors in large language models</a>. <i>NAACL</i>.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· causal methods and concept erasure</span></h4>
-<ul class="refs">
-<li>Geiger et al. (2021). <a href="https://arxiv.org/abs/2106.02997">Causal abstractions of neural networks</a>. <i>NeurIPS</i>.</li>
-<li>Wang et al. (2023). <a href="https://arxiv.org/abs/2211.00593">Interpretability in the wild: A circuit for indirect object identification in GPT-2 small</a>. <i>ICLR</i>.</li>
-<li>Ravfogel et al. (2020). <a href="https://aclanthology.org/2020.acl-main.647/">Null it out: Guarding protected attributes by iterative nullspace projection</a>. <i>ACL</i>.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· world models and relations</span></h4>
-<ul class="refs">
-<li>Li et al. (2023). <a href="https://arxiv.org/abs/2210.13382">Emergent world representations: Exploring a sequence model trained on a synthetic task</a>. <i>ICLR</i>.</li>
-<li>Abdou et al. (2021). <a href="https://aclanthology.org/2021.conll-1.9/">Can language models encode perceptual structure without grounding? A case study in color</a>. <i>CoNLL</i>.</li>
-<li>Lepori et al. (2024). <a href="https://arxiv.org/abs/2406.15955">Beyond the doors of perception: Vision transformers represent relations between objects</a>. <i>NeurIPS</i>.</li>
-<li>Tsvilodub et al. (2026). <a href="https://arxiv.org/abs/2602.10298">On emergent social world models: Evidence for functional integration of theory of mind and pragmatic reasoning in language models</a>. arXiv.</li>
-</ul>
-<h4>Follow-up reading</h4>
-<ul class="refs">
-<li>Anthropic (2025). <a href="https://www.anthropic.com/research/tracing-thoughts-language-model">Tracing the thoughts of a large language model</a>.</li>
-</ul>
-
-<h3 id="week8"><span class="when">Week 8</span>Neural alignment</h3>
-<p>Predicting neural data across recording methods, encoding and decoding models, representational similarity, and what a good fit to the brain does and does not justify.</p>
-<p class="slides"><a href="https://docs.google.com/presentation/d/1IXPUZAHX5-_MMe7XDRWjqUK7dFp0f43G-1gq7JgsvSk/edit?usp=sharing">Slides</a></p>
-<h4>Background reading</h4>
-<ul class="refs">
-<li>Kriegeskorte &amp; Douglas (2018). <a href="https://www.nature.com/articles/s41593-018-0210-5">Cognitive computational neuroscience</a>. <i>Nature Neuroscience</i>.</li>
-<li>Doerig et al. (2023). <a href="https://www.nature.com/articles/s41583-023-00705-w">The neuroconnectionist research programme</a>. <i>Nature Reviews Neuroscience</i>.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· vision</span></h4>
-<ul class="refs">
-<li>Yamins et al. (2014). <a href="https://www.pnas.org/doi/10.1073/pnas.1403112111">Performance-optimized hierarchical models predict neural responses in higher visual cortex</a>. <i>PNAS</i>.</li>
-<li>Schrimpf et al. (2018). <a href="https://www.biorxiv.org/content/10.1101/407007">Brain-Score: Which artificial neural network for object recognition is most brain-like?</a> bioRxiv.</li>
-<li>Storrs et al. (2021). <a href="https://direct.mit.edu/jocn/article/33/10/2044/97402/Diverse-Deep-Neural-Networks-All-Predict-Human">Diverse deep neural networks all predict human inferior temporal cortex well, after training and fitting</a>. <i>Journal of Cognitive Neuroscience</i>.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· language and speech</span></h4>
-<ul class="refs">
-<li>Schrimpf et al. (2021). <a href="https://www.pnas.org/doi/10.1073/pnas.2105646118">The neural architecture of language: Integrative modeling converges on predictive processing</a>. <i>PNAS</i>.</li>
-<li>Caucheteux, Gramfort &amp; King (2023). <a href="https://www.nature.com/articles/s41562-022-01516-2">Evidence of a predictive coding hierarchy in the human brain listening to speech</a>. <i>Nature Human Behaviour</i>.</li>
-<li>Goldstein et al. (2022). <a href="https://www.nature.com/articles/s41593-022-01026-4">Shared computational principles for language processing in humans and deep language models</a>. <i>Nature Neuroscience</i>.</li>
-<li>Tuckute et al. (2024). <a href="https://www.nature.com/articles/s41562-023-01783-7">Driving and suppressing the human language network using large language models</a>. <i>Nature Human Behaviour</i>.</li>
-<li>Li et al. (2023). <a href="https://www.nature.com/articles/s41593-023-01468-4">Dissecting neural computations in the human auditory pathway using deep neural networks for speech</a>. <i>Nature Neuroscience</i>.</li>
-<li>Défossez et al. (2023). <a href="https://www.nature.com/articles/s42256-023-00714-5">Decoding speech perception from non-invasive brain recordings</a>. <i>Nature Machine Intelligence</i>.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· foundation models for neuroscience</span></h4>
-<ul class="refs">
-<li>Azabou et al. (2024). <a href="https://arxiv.org/abs/2310.16046">A unified, scalable framework for neural population decoding</a>. <i>NeurIPS</i>.</li>
-<li>Wang et al. (2025). <a href="https://www.nature.com/articles/s41586-025-08829-y">Foundation model of neural activity predicts response to new stimulus types</a>. <i>Nature</i>.</li>
-</ul>
-<h4>Follow-up reading</h4>
-<ul class="refs">
-<li>Linsley, Feng &amp; Serre (2026). <a href="https://doi.org/10.1016/j.tics.2025.11.016">Better artificial intelligence does not mean better models of biology</a>. <i>Trends in Cognitive Sciences</i>.</li>
-</ul>
-
-<h3 id="week9"><span class="when">Week 9</span>Behavioral and cognitive alignment</h3>
-<p>Running models as participants in cognitive experiments: behavioral signatures beyond accuracy, from generalization and planning to decision making and cognitive control, and the confounds that make these comparisons hard.</p>
-<p class="slides"><a href="https://docs.google.com/presentation/d/1tcWlQk5e0-8wIvVTLY1WIvE5mEMOnR2z7-EzGQpx3xA/edit?usp=sharing">Slides</a></p>
-<h4>Background reading</h4>
-<ul class="refs">
-<li>Binz et al. (2025). <a href="https://doi.org/10.1038/s41586-025-09215-4">A foundation model to predict and capture human cognition</a>. <i>Nature</i>.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· evaluation frameworks</span></h4>
-<ul class="refs">
-<li>Jones &amp; Bergen (2025). <a href="https://arxiv.org/abs/2503.23674">Large language models pass the Turing test</a>. arXiv.</li>
-<li>Momentè et al. (2025). <a href="https://aclanthology.org/2025.findings-emnlp.1092/">Triangulating LLM progress through benchmarks, games, and cognitive tests</a>. <i>Findings of EMNLP</i>.</li>
-<li>Ku et al. (2025). <a href="https://arxiv.org/abs/2503.13401">Levels of analysis for large language models</a>. arXiv.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· reasoning, analogy and social cognition</span></h4>
-<ul class="refs">
-<li>Webb, Holyoak &amp; Lu (2023). <a href="https://www.nature.com/articles/s41562-023-01659-w">Emergent analogical reasoning in large language models</a>. <i>Nature Human Behaviour</i>.</li>
-<li>Lewis &amp; Mitchell (2024). <a href="https://escholarship.org/uc/item/58d9s666">Using counterfactual tasks to evaluate the generality of analogical reasoning in large language models</a>. <i>Proceedings of the Annual Meeting of the Cognitive Science Society</i>.</li>
-<li>Riemer et al. (2025). <a href="https://openreview.net/forum?id=BCP8UU2BcU">Position: Theory of mind benchmarks are broken for large language models</a>. <i>ICML</i>.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· decisions and biases</span></h4>
-<ul class="refs">
-<li>Echterhoff et al. (2024). <a href="https://aclanthology.org/2024.findings-emnlp.739/">Cognitive bias in decision-making with LLMs</a>. <i>Findings of EMNLP</i>.</li>
-<li>McCoy et al. (2024). <a href="https://www.pnas.org/doi/10.1073/pnas.2322420121">Embers of autoregression show how large language models are shaped by the problem they are trained to solve</a>. <i>PNAS</i>.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· perception</span></h4>
-<ul class="refs">
-<li>Marjieh et al. (2024). <a href="https://www.nature.com/articles/s41598-024-72071-1">Large language models predict human sensory judgments across six modalities</a>. <i>Scientific Reports</i>.</li>
-<li>Assouel et al. (2025). <a href="https://arxiv.org/abs/2502.14113">Object-centric binding in contrastive language-image pretraining</a>. arXiv.</li>
-</ul>
-<h4>Lightning talks <span class="theme">· responses to Centaur</span></h4>
-<ul class="refs">
-<li>Kieval &amp; Buckner (2026). <a href="https://doi.org/10.1037/xan0000410">"Captured" by Centaur: Opaque predictions or process insights?</a> <i>Journal of Experimental Psychology: Animal Learning and Cognition</i>.</li>
-<li>Namazova et al. (2025). <a href="https://arxiv.org/abs/2508.07887">Not yet AlphaFold for the mind: Evaluating Centaur as a synthetic participant</a>. arXiv.</li>
-</ul>
-<h4>Follow-up reading</h4>
-<ul class="refs">
-<li>Brady et al. (2025). <a href="https://eprints.bbk.ac.uk/id/eprint/56681/">Dual-process theory and decision-making in large language models</a>. <i>Nature Reviews Psychology</i>.</li>
-</ul>
-
-<h3 id="week13"><span class="when">Week 13</span>Guest lectures: language and consciousness</h3>
-<p><a href="https://www.tuckute.com/">Greta Tuckute</a> (Kempner Institute, Harvard) on how the brain processes language and what comparisons with language models reveal. <a href="https://rufinv.github.io/">Rufin VanRullen</a> (CNRS, Toulouse) on global workspace theory, consciousness and deep learning.</p>
-<h4>Background reading</h4>
-<ul class="refs">
-<li>Tuckute, Kanwisher &amp; Fedorenko (2024). <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-neuro-120623-101142">Language in brains, minds, and machines</a>. <i>Annual Review of Neuroscience</i>.</li>
-<li>VanRullen &amp; Kanai (2021). <a href="https://doi.org/10.1016/j.tins.2021.04.005">Deep learning and the global workspace theory</a>. <i>Trends in Neurosciences</i>.</li>
-</ul>
-
-<h3 id="week14"><span class="when">Week 14</span>Feedback in biological and artificial vision</h3>
-<p>Recurrent models of vision motivated by cortical circuitry, what they can do that feedforward networks cannot, and how they compare with behavioral and neural data. The week closed with a guest lecture by <a href="https://victorboutin.github.io/">Victor Boutin</a> (CNRS, Toulouse) on generative and energy-based models in cognitive science.</p>
-<p class="slides"><a href="https://docs.google.com/presentation/d/13vkYs1nYExpOY4bi03koeweiuxT4GEaE5Cd-3FHZ6u8/edit?usp=sharing">Slides</a></p>
-<h4>Background reading</h4>
-<ul class="refs">
-<li>Kim, Linsley, Thakkar &amp; Serre (2020). <a href="https://arxiv.org/abs/1906.01558">Disentangling neural mechanisms for perceptual grouping</a>. <i>ICLR</i>.</li>
-<li>Linsley, Kim, Ashok &amp; Serre (2020). <a href="https://arxiv.org/abs/2010.15314">Recurrent neural circuits for contour detection</a>. <i>ICLR</i>.</li>
-</ul>
-</section>
-
-<section aria-labelledby="project">
-<h2 id="project">Project</h2>
-
-<p>Students ran behavioral experiments on language and vision–language models, treating the models as participants in the way cognitive psychologists treat people. Most projects started from <a href="https://huggingface.co/datasets/marcelbinz/Psych-101">Psych-101</a>, the trial-by-trial data from 160 psychology experiments used to train Centaur (Binz et al., 2025). Each pair compared at least two models with each other and with human data, asked whether the models showed human-like behavioral signatures, and controlled for the confounds that make such comparisons misleading. They presented the results at a poster session.</p>
+{% if t.presented %}
+<h4>Student presentations</h4>
+{% for g in t.presented %}
+<p class="paper-theme">{{ g.theme }}</p>
+<ul class="papers">
+{% for p in g.papers %}<li><a href="{{ p.url }}">{{ p.title }}</a><span>{{ p.authors }} · <i>{{ p.venue }}</i> {{ p.year }}</span></li>
+{% endfor %}</ul>
+{% endfor %}
+{% endif %}
+</div>
+{% endfor %}
 </section>
