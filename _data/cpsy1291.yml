@@ -77,14 +77,13 @@ lectures:
     date: 2026-10-15
     theme: 2
     title: "Training at scale, characterizing units & generalization"
-    topics: "Training at scale (minibatches, learning-rate schedules, Adam); characterizing neurons (tuning curves, Gabor fits, selectivity, ablation); generalization: overfitting, held-out data, regularization, shortcut learning"
+    topics: "Training at scale (minibatches, learning-rate schedules, Adam); characterizing neurons; generalization: overfitting, held-out data, regularization, shortcut learning"
     slides: "https://serre-lab.github.io/CPSY1291-2026/slides/L10_generalization.html"
     text: "https://serre-lab.github.io/CPSY1291-2026/slides/L10_generalization-reading.html"
   - n: 11
     date: 2026-10-20
     theme: 2
     title: "Learning without labels; the visual system & CNNs"
-    topics: "Learning without labels (autoencoders, sparse coding → V1); the visual system & convolutional networks"
   - n: 12
     date: 2026-10-27
     theme: 2
