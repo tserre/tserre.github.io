@@ -83,8 +83,8 @@ lectures:
   - n: 11
     date: 2026-10-20
     theme: 2
-    title: "Learning without labels; the visual system & CNNs"
-    topics: "Autoencoders & sparse coding; the ventral stream"
+    title: "The visual system & CNNs"
+    topics: "The ventral stream, V1 and sparse coding, convolutional networks, transfer"
   - n: 12
     date: 2026-10-27
     theme: 2
@@ -98,7 +98,8 @@ lectures:
   - n: 14
     date: 2026-11-05
     theme: 2
-    title: "Generative models: VAEs, GANs & diffusion"
+    title: "Autoencoders & generative models"
+    topics: "Autoencoders, VAEs, GANs & diffusion"
   - n: 15
     date: 2026-11-10
     theme: 3
