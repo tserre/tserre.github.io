@@ -76,8 +76,8 @@ lectures:
   - n: 10
     date: 2026-10-15
     theme: 2
-    title: "Training at scale, characterizing units & generalization"
-    topics: "Minibatches, schedules & Adam; overfitting & regularization"
+    title: "Training at scale, generalization & characterizing units"
+    topics: "Minibatches, schedules & Adam; overfitting & regularization; tuning curves & Gabor fits"
     slides: "https://serre-lab.github.io/CPSY1291-2026/slides/L10_generalization.html"
     text: "https://serre-lab.github.io/CPSY1291-2026/slides/L10_generalization-reading.html"
   - n: 11
