@@ -90,8 +90,8 @@ lectures:
   - n: 12
     date: 2026-10-27
     theme: 2
-    title: "Understanding what networks compute"
-    topics: "Attribution, feature visualization, shortcut learning"
+    title: "Models of the ventral stream, and what networks compute"
+    topics: "V1 to ResNet, attribution, feature visualization"
     slides: "https://serre-lab.github.io/CPSY1291-2026/slides/L12_explainability.html"
     text: "https://serre-lab.github.io/CPSY1291-2026/slides/L12_explainability-reading.html"
   - n: 13
