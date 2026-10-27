@@ -92,6 +92,8 @@ lectures:
     theme: 2
     title: "Understanding what networks compute"
     topics: "Attribution, feature visualization, shortcut learning"
+    slides: "https://serre-lab.github.io/CPSY1291-2026/slides/L12_explainability.html"
+    text: "https://serre-lab.github.io/CPSY1291-2026/slides/L12_explainability-reading.html"
   - n: 13
     date: 2026-10-29
     theme: 2
