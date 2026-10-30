@@ -99,6 +99,8 @@ lectures:
     theme: 2
     title: "Comparing networks with the brain"
     topics: "Encoding models, Brain-Score and their limits"
+    slides: "https://serre-lab.github.io/CPSY1291-2026/slides/L13_networks-and-brain.html"
+    text: "https://serre-lab.github.io/CPSY1291-2026/slides/L13_networks-and-brain-reading.html"
   - n: 14
     date: 2026-11-05
     theme: 2
