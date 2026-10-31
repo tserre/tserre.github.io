@@ -10,6 +10,7 @@ defaults:
 
 # Internal notes, agent files and tooling are not part of the published site.
 exclude:
+  - handoffs/
   - README.md
   - CLAUDE.md
   - AGENT_TASK.md

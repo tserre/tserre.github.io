@@ -31,3 +31,6 @@ INDEXING_FIX.md
 REDIRECT_FIX.md
 _posts/_site/
 _posts/.jekyll-cache/
+
+# agent handoffs never ship with the public site (2026-10-31)
+handoffs/
