@@ -104,8 +104,8 @@ lectures:
   - n: 14
     date: 2026-11-05
     theme: 2
-    title: "Autoencoders & generative models"
-    topics: "Autoencoders, VAEs, GANs & diffusion"
+    title: "Learning without labels"
+    topics: "Autoencoders & sparse coding; contrastive & masked self-supervised learning; the brain without labels"
   - n: 15
     date: 2026-11-10
     theme: 3
@@ -124,8 +124,8 @@ lectures:
   - n: 18
     date: 2026-11-19
     theme: 3
-    title: "LLMs, self-supervised learning & predictive coding"
-    topics: "Next-token prediction & scaling; contrastive and masked learning"
+    title: "LLMs & predictive coding"
+    topics: "Next-token prediction & scaling; language models and the brain"
   - n: 19
     date: 2026-11-24
     theme: 3
