@@ -106,6 +106,8 @@ lectures:
     theme: 2
     title: "Learning without labels"
     topics: "Autoencoders & sparse coding; contrastive & masked self-supervised learning; the brain without labels"
+    slides: "https://serre-lab.github.io/CPSY1291-2026/slides/L14_learning-without-labels.html"
+    text: "https://serre-lab.github.io/CPSY1291-2026/slides/L14_learning-without-labels-reading.html"
   - n: 15
     date: 2026-11-10
     theme: 3
